@@ -2,47 +2,65 @@
   {
     "date": "2026-06-28",
     "trends": [
-      "テスラがOptimusヒューマノイドの指先の器用さに関する大幅なアップグレードを実証。",
-      "汎用ヒューマノイドの産業への実配備が、試験段階から実際の生産ラインへと加速しています。",
-      "ロボティクス業界全体において、マルチモーダルな視覚・言語・行動（VLA）基盤モデルへの移行が急速に進んでいます。"
+      "ヒューマノイドの実用化と市場競争の激化: 世界的な大企業がヒューマノイド開発に本格参入し、商業利用に向けた競争が加速している動向。",
+      "実体AIの大規模展開と産業への深い統合: 物理世界で機能するAIロボットが生産実績を伸ばし、自動車製造など基幹産業での変革を牽引している点。",
+      "ロボティクス応用分野の多様化と新たな資金調達手法の台頭: 医療分野での小型ロボット応用や、トークン化を通じた革新的な資金流入が見られ、技術とビジネスモデルの進化が並行して進んでいる。"
     ],
     "categories": {
       "ヒューマノイド": [
         {
-          "title": "テスラ、液状金属触覚センサーを備えた「Optimus Gen 3」を公開",
-          "link": "https://example.com/tesla-optimus-gen3",
-          "source": "IEEE Spectrum",
-          "publishedAt": "2026-06-28T09:15:00Z",
-          "summary": "テスラは人型ロボットの第3世代となる「Optimus Gen 3」を正式発表しました。最大の目玉は、液状金属触覚センサーと22自由度を備えた新設計のハンドです。これにより、ガラス製のバイアル瓶のような壊れやすい物体を扱い、0.1mmの精度で複雑な配線組み立てを行うことが可能になりました。イーロン・マスク氏は来月からテキサスの工場でパイロットテストを開始すると述べています。",
+          "title": "世界の大手10社がヒューマノイドロボット開発競争に参入、韓国も上位目指す",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WZW5XMU1YaHB4YnVCb2ZfQVpiSzFqRmlTS2J1SHB4SlJkQlJpcWFIRnlEQlpnaEVJWTVkV0dUaW9QaUxjU1N5cmV2MTVzSFcxWHlURGR6OHpDTjhoQjJzLTBQbXlLQUtiNVYw?oc=5",
+          "source": "KED Global",
+          "publishedAt": "2026-06-28T12:30:00.000Z",
+          "summary": "世界の大手企業10社がヒューマノイドロボットの開発競争に本格参入し、特に韓国は主要プレイヤーを目指し大規模な投資を行っています。これは、汎用ロボットが工場やサービス分野で広く普及する時代の到来を予見させ、産業構造に大きな変革をもたらす可能性があります。",
           "impactScore": 9
-        },
-        {
-          "title": "人型ロボットFigure 03、BMWの組立工場で監視なしのシフト作業を開始",
-          "link": "https://example.com/figure-03-bmw",
-          "source": "TechCrunch",
-          "publishedAt": "2026-06-28T14:30:00Z",
-          "summary": "昨年のパイロットテストの成功を受け、Figure社はBMWのスパータンバーグ工場において自律運用を行う新型「Figure 03」を実戦配備しました。エッジで動作する物理AIモデルにより、ロボットは99.4%の成功率で板金部品の識別と配置を行います。この配備は、自動車製造業における初のマルチロボットによる完全自律型商業契約の1つです。",
-          "impactScore": 10
         }
       ],
       "研究・AIモデル": [
         {
-          "title": "Google DeepMind、次世代ロボティクストランスフォーマー「RT-3」をリリース",
-          "link": "https://example.com/deepmind-rt3",
-          "source": "DeepMind Blog",
-          "publishedAt": "2026-06-28T10:00:00Z",
-          "summary": "Google DeepMindは、多様なロボットデータセットで学習された視覚・言語・行動（VLA）基盤モデル「RT-3」をオープンソース化しました。RT-3は異なるロボットの形状や環境条件を超えて一般化する高い能力を示します。「柔らかいものを使ってこぼれた液体を拭いて」といった抽象的な自然言語の指示を、個別の事前学習なしで正確な物理モーターコマンドに直接変換します。",
-          "impactScore": 9
+          "title": "AGIBOTが1万5千台目のロボットを生産、実体AI導入のマイルストーンを達成",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSUgxblVZaExXN3pVTnZHUEpnMVJrMXFiZW5vU3ZDdFFINGNscHhoRzZxT3RCR0Zta09YZVliYUlwWnZJUXg5YmRhaURhd3ppR0pWVFBzNVBPNlJVaU9URDF4TVV4NGlPanNfMXlhUVdVaHRDVWtDX2w5R3hfMEZMQjhxQW9la3ZpdkZiSHBmUDJrZUVhcElyNkxKRXQwaU04alpobw?oc=5",
+          "source": "The Robot Report",
+          "publishedAt": "2026-06-28T09:02:29.000Z",
+          "summary": "AGIBOTが実体AI（embodied AI）ロボットの生産台数1万5千台を達成し、商用展開における大きな節目を迎えました。これは、物理世界で自律的に機能するAIロボットの大規模導入が現実のものとなりつつあることを示し、様々な産業での自動化と効率化を加速させるでしょう。",
+          "impactScore": 8
+        },
+        {
+          "title": "驚くべき技術：3本指で這い回るロボットアームが実現",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42MDZmbEVmUnZIWGJGT3gzQmowenJWVFZoeW9fX1dBMFdxbFNEMDZKM0VEV1ZPc2k4eGhFeFRJQ09VZ2s4N0JvT3YzVERLaXdxb0FrUVZWZW43N3FFUlF5OHNGNA?oc=5",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-06-28T08:18:01.000Z",
+          "summary": "3本指のロボットアームが、あたかも生物のように地面を這う新しい移動方法を開発しました。このユニークなメカニズムは、複雑な地形や障害物が多い環境での探索・操作能力を飛躍的に向上させ、将来の災害救助や宇宙探査ロボットの設計に新たな可能性を開くでしょう。",
+          "impactScore": 7
         }
       ],
       "物流・サービス": [
         {
-          "title": "Boston Dynamics、倉庫内重労働向けに電動Atlasをアップグレード",
-          "link": "https://example.com/atlas-warehouse-update",
-          "source": "Robotics World",
-          "publishedAt": "2026-06-28T07:45:00Z",
-          "summary": "Boston Dynamicsは、模擬物流施設で自律的な重作業を行う新型電動Atlasを公開しました。トルク密度の向上と熱管理モデルの改善により、最大25kgの荷物を連続して4時間持ち上げることが可能になりました。また、荷重移動時の動的バランス維持に向けて、新しいニューラルネットワークコントローラーを採用しています。",
+          "title": "AIとロボティクスがいかに自動車製造業を変革するか",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN1lMZDVHRHpsMWt3dTVldk50b0JYRk5QY2ZnVjh6SzhUZmlEZDZlbmZVS3JqNGxCWEozU1hRcFBhSmlHY3ZYaFRqR195R2JsWTJhaHpnS3IyMnE5LVNBRU1RazRGX00td0JWRnptaDhCaFNmU3BUNFhramp0RGkzZw?oc=5",
+          "source": "Automotive News",
+          "publishedAt": "2026-06-28T10:00:00.000Z",
+          "summary": "AIとロボティクスの統合が自動車製造業に根本的な変革をもたらし、生産ラインの効率化、品質向上、そしてカスタマイズ能力の向上を実現します。この進化は、より柔軟でデータ駆動型の製造プロセスを確立し、将来のモビリティ産業のあり方を再定義する可能性を秘めています。",
           "impactScore": 8
+        },
+        {
+          "title": "歯科治療に革命：小型ロボットがクラウン装着を簡素化",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaGxYUENFV2lZQ0lnOEczTHM0UENJMG0xYXhiUFMxVi11eF9WTGpoaHZNbUZuVEw4UmowVi1KN2x0aDF0bzliR19aM09KNUl2SFQtcXpJSlloNERIU0tUWUJCbkoxc1JVZ0dnMXlVUFROek0xM2FEaDNXRjFidXBvSk5ySFpPVUpoNGRPSWNyZklUdDVkeGhPdUhfYU1BbFZn?oc=5",
+          "source": "Today's Medical Developments",
+          "publishedAt": "2026-06-28T06:00:00.000Z",
+          "summary": "歯科分野で小型ロボットが導入され、歯のクラウン装着プロセスが大幅に簡素化される可能性があります。この技術は、精密な作業を自動化することで治療の精度と効率を高め、患者の負担を軽減するとともに、歯科医療の未来を変える画期的な一歩となります。",
+          "impactScore": 6
+        }
+      ],
+      "ビジネス・市場": [
+        {
+          "title": "AI・ロボティクス分野の新たな資金調達層としてトークン化が台頭、Frameworkが4億ドルのファンドを設立",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWXVWWWhjdjVUa3BpeTIzOHVUZXlJMzJOM3lUY2tLcHJOQ0RGeWtxTENsUncwSVNSM1J3T2VYWkxtWWhNZ1RiSWVOVnNpcG4tTE9YdTJZOWFJSTJkaThYMUMwV3RhdUZSMmxKMjhrUy1pSE1MS1JuVzZ3Q0toTlVvTjZVZzJ3eUxNUmhzVms4QndON0w2djJ2LTFfbkxaajJMdnlyaENpNTBtMm91bnU1bTBhb3A2UE9OQmdrV2lGdi1ERmFDaDlSeDRMSVpmTFpXOU5n?oc=5",
+          "source": "CoinDesk",
+          "publishedAt": "2026-06-28T13:01:16.000Z",
+          "summary": "Framework Venturesが4億ドルの新ファンドを設立し、AIおよびロボティクス分野における資金調達の新たなトレンドとしてトークン化に注力しています。これは、先進技術プロジェクトへの投資を分散化・民主化する可能性を秘め、エコシステム全体の成長を加速させる画期的な動きです。",
+          "impactScore": 7
         }
       ]
     }
