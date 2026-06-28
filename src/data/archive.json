@@ -2,323 +2,466 @@
   {
     "date": "2026-06-28",
     "trends": [
-      "ヒューマノイドロボットの開発競争が世界的に激化しており、主要企業が参入し、国家レベルでの覇権争いが進行中。これにより、職場への導入に伴う労働者との摩擦も顕在化しています。",
-      "AIとロボティクスによる産業変革が多岐にわたり進展。自動車製造、農業、ホテルなどのサービス業で自動化が進み、効率性とコスト削減を両立する新たなモデルが構築されつつあります。",
-      "革新的なロボット技術の多様化と、その開発・普及を加速させる大規模な資金流入が見られます。特定の機能に特化したロボットや、新しい飛行技術を搭載したロボットなど、研究開発が活発です。"
+      "物理AIとロボティクス分野への大規模な官民投資が活発化し、自動運転車や空飛ぶクルマなど、多様なロボット技術の社会実装が加速しています。",
+      "ロボットが人間社会に溶け込むため、触覚や感情認識、自然な人間・ロボットインタラクション（HRI）の技術進化が重要視され、より賢いインターフェースの設計が注目されています。",
+      "ヒューマノイドロボットの身体能力は飛躍的に進化し、生産規模の拡大や工場での実用導入への移行が進むなど、商業化に向けた動きが本格化しています。"
     ],
     "categories": {
       "ヒューマノイド": [
         {
-          "title": "世界の主要10社がヒューマノイドロボット開発競争に参入、韓国もトップティア目指す",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WZW5XMU1YaHB4YnVCb2ZfQVpiSzFqRmlTS2J1SHB4SlJkQlJpcWFIRnlEQlpnaEVJWTVkV0dUaW9QaUxjU1N5cmV2MTVzSFcxWHlURGR6OHpDTjhoQjJzLTBQbXlLQUtiNVYw?oc=5",
-          "source": "KED Global",
-          "publishedAt": "2026-06-28T12:30:00.000Z",
-          "summary": "世界の主要企業10社がヒューマノイドロボットの開発競争に本格参入し、韓国もこの分野でトップを目指すと表明しました。これは、人型ロボットが次の大きな技術トレンドとなることを明確に示しており、多様な産業や社会での応用が期待されます。",
+          "title": "リコーが多能工ヒューマノイドを披露、工場で実証段階へ移行",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news056.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-25T21:15:00.000Z",
+          "summary": "リコーがフィジカルAIを搭載した多能工ヒューマノイドを披露し、工場での実証段階へ移行。複数の作業工程を担うことで、人手不足解消や生産性向上に貢献し、ヒューマノイドの実用化を加速させる。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/26/cover_news056.jpg"
+        },
+        {
+          "title": "マラソンで世界記録を破ったヒューマノイドロボットの技術的秘密",
+          "link": "https://spectrum.ieee.org/china-humanoid-robot-marathon",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-06-17T12:19:27.000Z",
+          "summary": "Honor Lightningヒューマノイドロボットがハーフマラソンで人類の世界記録を更新した技術的秘密を分析。毛細血管のような液体冷却システムが、高出力モーターの熱問題を解決し、持続的な高速走行を可能にしたと解説する。",
           "impactScore": 9,
-          "imageUrl": ""
+          "imageUrl": "https://spectrum.ieee.org/media-library/a-red-and-black-humanoid-runs-alone-through-a-marathon-course.jpg?id=66940897&width=1245&height=700&coordinates=0%2C66%2C0%2C66"
         },
         {
-          "title": "配送ロボットの新興企業Robot.com、次なる一手は職場向けヒューマノイド",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMVRkNFlZLXBzTThiNEZFUkFyN2lfVjhnX3FaMWxTTERWNzVPRS1DSDYtSHdwNkhwTTJsbU5rREhDV1hrRlN5WWtYNE5lMXBHeXNQZFBmRUVYdTY0TjlYdzVFSHdtYWtQbWoxTDlFZDJlZldkQ3VOTTlWS0V6c3VaLTFB?oc=5",
-          "source": "AOL.com",
-          "publishedAt": "2026-06-28T09:34:16.000Z",
-          "summary": "配送ロボットを手がける新興企業Robot.comが、職場で利用されるヒューマノイドロボットの開発に焦点を移すと発表しました。この戦略転換は、人型ロボットがオフィスや商業施設など、より広範な環境での作業自動化を担う未来への期待を反映しています。",
-          "impactScore": 7,
-          "imageUrl": ""
-        },
-        {
-          "title": "現代自動車のAtlasヒューマノイドロボット導入計画に対し韓国労働者がストライキを決議",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUjlyQktwaGpFV29NcUQxS0VzbThTRWpPeEhxRlB2LUpEYS1ueDdZejFibEs1UXRUV3R0dTJLMHZXM2FVYU9DaDlHNVhZV0dSbXlvRzA1b2FBWnpwZHVlTXcxWnFFbk5uTlR0MUFDVHM3ZDV6eTFQcnRZVHVGU1pCVmFlM2lkMDlDd1hvRnROcXNpckZ4ZVVjZFc3LWo5RUloT0xISGtNZTZGWDZhalZMbnRDMVd5anc5REUzdnVZQWXSAcYBQVVfeXFMT0VwTmtDYnprRHBEYlJWOWlkWlRnLU03Nkw0OXdkc2UtaFRvT2Vfc3Z1LWFaLXJfdlVQSW5IMmVtS3Z6bG40eUxMVDZGeEdETHNUSE5COHZfeFdleTlsWHY0VzN4Ym5VbVozZXFvR2VsYXYtaE8ydTZnWEpQWUdtVDNSbm1PQ29Jd0NfWERfY0NEc3pRQVZrc2pHazNLcDlfMm5GMnlvVFA5NHpNOWJxY2szNHZhQ3VHNXBpUGtXLU1BSDlFTEhn?oc=5",
-          "source": "Firstpost",
-          "publishedAt": "2026-06-28T12:38:38.000Z",
-          "summary": "現代自動車がBoston DynamicsのAtlasヒューマノイドロボットを工場に導入する計画に対し、韓国の労働組合がストライキを投票で決議しました。これは、人型ロボットの職場導入が労働市場に与える影響と、それに伴う社会的な摩擦が顕在化しつつあることを示しています。",
+          "title": "Video Friday: Atlasが冷蔵庫を持ち上げるデモンストレーションを披露",
+          "link": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-22T16:00:01.000Z",
+          "summary": "Boston DynamicsのAtlasヒューマノイドロボットが冷蔵庫を持ち上げるデモンストレーションを披露し、強化学習と全身制御システムの進歩を強調。これにより、ヒューマノイドが研究室から産業現場へと移行する重要な転換点を示す。",
           "impactScore": 8,
-          "imageUrl": ""
+          "imageUrl": "https://spectrum.ieee.org/media-library/bipedal-humanoid-robot-does-one-legged-spinning-kick-in-a-brightly-lit-industrial-workshop.gif?id=66779183&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
         },
         {
-          "title": "中国の自動車メーカー約20社がヒューマノイドロボット市場の先駆者争いに参入",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oYTJZVFdWdUhvZGo4Z1FOa1g3YlZyY0xia2gxMXVPU1YxczFYU2RRSDVPd3B2N3VsSzg0a0RrXzJvaVktZHhGOVBLSWEzaHBxNF9RbFF0WlZ5UW5UanFHRXBZV0NaRkhCYUdBYVkwSlpDVVFKeWtDcg?oc=5",
-          "source": "Pandaily",
-          "publishedAt": "2026-06-28T05:11:57.000Z",
-          "summary": "中国の約20社の自動車メーカーが、ヒューマノイドロボット市場での先駆者となるべく開発競争に挑んでいます。これは、自動車製造で培われた技術が人型ロボット分野に応用され、中国がこの新興市場で主導権を握ろうとする強い意欲を示しています。",
+          "title": "Video Friday: Figure、1Xがヒューマノイドロボットの生産を加速",
+          "link": "https://spectrum.ieee.org/video-friday-humanoid-robot-production",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-01T16:30:01.000Z",
+          "summary": "Figureと1Xがヒューマノイドロボットの生産を加速し、週55台の生産能力を持つFigureや、NEO工場の本格稼働を発表した。これはヒューマノイドの商業化に向けた重要な一歩であり、将来的な家庭用ロボットの実現に期待が高まる。",
           "impactScore": 8,
-          "imageUrl": ""
+          "imageUrl": "https://spectrum.ieee.org/media-library/rows-of-identical-humanoid-robots-standing-on-platforms-in-a-large-industrial-hall.jpg?id=66666641&width=1245&height=700&coordinates=0%2C62%2C0%2C63"
         }
       ],
       "研究・AIモデル": [
         {
-          "title": "3本指で這い回る斬新なロボットアーム、その魅力とは",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42MDZmbEVmUnZIWGJGT3gzQmowenJWVFZoeW9fX1dBMFdxbFNEMDZKM0VEV1ZPc2k4eGhFeFRJQ09VZ2s4N0JvT3YzVERLaXdxb0FrUVZWZW43N3FFUlF5OHNGNA?oc=5",
+          "title": "視覚言語モデルがロボットに人間の感情認識能力を付与",
+          "link": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
           "source": "IEEE Spectrum",
-          "publishedAt": "2026-06-28T08:18:01.000Z",
-          "summary": "3本の指を使って這うように移動するユニークなロボットアームが発表されました。これは、不均一な地形や狭い空間での移動能力を大幅に向上させる可能性を秘めており、将来の探索ロボットや検査ロボットの設計に新たな方向性を示唆しています。",
-          "impactScore": 7,
-          "imageUrl": ""
-        },
-        {
-          "title": "歯科治療を革新？小型ロボットがクラウン装着を容易に",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaGxYUENFV2lZQ0lnOEczTHM0UENJMG0xYXhiUFMxVi11eF9WTGpoaHZNbUZuVEw4UmowVi1KN2x0aDF0bzliR19aM09KNUl2SFQtcXpJSlloNERIU0tUWUJCbkoxc1JVZ0dnMXlVUFROek0xM2FEaDNXRjFidXBvSk5ySFpPVUpoNGRPSWNyZklUdDVkeGhPdUhfYU1BbFZn?oc=5",
-          "source": "Today's Medical Developments",
-          "publishedAt": "2026-06-28T06:00:00.000Z",
-          "summary": "小型ロボット技術が歯科治療に応用され、歯のクラウン（被せ物）の装着プロセスをより簡単かつ精密にする可能性が示されました。この技術は、歯科医の負担を軽減し、患者にとってより快適な治療体験を提供することで、医療ロボティクスの新たなフロンティアを開拓します。",
-          "impactScore": 6,
-          "imageUrl": ""
-        },
-        {
-          "title": "飛行を永遠に変える可能性を秘めたVTOLロボット「Floaty」が登場",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLXNuN0VJU01GTVdtX1JTUXo5MVB3ZTdTOXNycVR5X0MxY3NaM2lQeEI1RHlEb3AwRjJTc1BEa3pRSG5abnRjSzc4TmZqckFOMXVNVjFkM3VQS2hPVTBuNkY4YVJncjczdW1kaDhJTXd6RUVzTzY2MHZONUJmWXJqbWFROEhTNUs0OTRadDd3OTFyV2J4V080VXRB?oc=5",
-          "source": "t3.com",
-          "publishedAt": "2026-06-28T15:00:00.000Z",
-          "summary": "垂直離着陸（VTOL）が可能な革新的なロボット「Floaty」が発表され、航空技術の未来を大きく変える可能性を秘めています。このロボットは、狭い場所での運用や多様なミッションに対応する柔軟性を持ち、物流、監視、探索など幅広い分野での応用が期待されます。",
+          "publishedAt": "2026-06-13T13:00:01.000Z",
+          "summary": "ロボットが人間の感情を認識するために、顔の表情だけでなく文脈も考慮する視覚言語モデル（VLM）を訓練する研究が発表された。VLMは従来のAIより高精度な感情認識を示し、より自然な人間・ロボット協調の可能性を開く。",
           "impactScore": 8,
-          "imageUrl": ""
+          "imageUrl": "https://spectrum.ieee.org/media-library/illustration-of-a-shoulders-up-human-silhouette-with-facial-attributes-vaguely-outlined-by-recognition-points.jpg?id=66888123&width=1245&height=700&coordinates=0%2C187%2C0%2C188"
+        },
+        {
+          "title": "ロボティクスの次世代を定義する「接触インテリジェンス」",
+          "link": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-06-09T12:51:03.000Z",
+          "summary": "AGILINKが、ロボットマニピュレーションの次世代を定義する「接触インテリジェンス」の重要性を強調し、20自由度を持つ直接駆動型ロボットハンド「OmniHand 3 Ultra-M」を発表。繊細な物体操作における接触力のリアルタイム制御と適応能力を向上させる。",
+          "impactScore": 9,
+          "imageUrl": "https://spectrum.ieee.org/media-library/humanoid-robot-with-four-arms-holding-a-red-balloon-sculpture-at-a-tech-expo.jpg?id=66870200&width=1245&height=700&coordinates=0%2C0%2C0%2C1"
+        },
+        {
+          "title": "ロボットの思考を支援するオープンソースAIソフトウェアの台頭",
+          "link": "https://spectrum.ieee.org/open-source-robot-ai-platforms",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-21T14:00:02.000Z",
+          "summary": "Hugging Face、Nvidia、Alibabaなどの企業が、ロボットの推論、意思決定、行動を支援するオープンソースAIツールとモデルに大きく投資。ロボティクス分野におけるAIの民主化を加速させ、開発の障壁を大幅に引き下げる。",
+          "impactScore": 9,
+          "imageUrl": "https://spectrum.ieee.org/media-library/a-smiling-emoji-with-red-eyes-and-a-grey-face-resembling-a-robot.jpg?id=66750560&width=1245&height=700&coordinates=0%2C187%2C0%2C188"
+        },
+        {
+          "title": "物理AIの未来は賢いロボットではなく、より賢いインターフェース",
+          "link": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-21T10:00:02.000Z",
+          "summary": "Wetour Roboticsは、物理AIの次の進化は、より賢いロボットではなく、より賢い人間・機械インターフェースにあると提唱。空間位置、視覚的文脈、ジェスチャー意図を融合する「Spatial Intent Fusion」により、人間がコンピューティングシステムに自然に参与する道を開く。",
+          "impactScore": 9,
+          "imageUrl": "https://spectrum.ieee.org/media-library/hands-controlling-speaker-light-bulb-and-drone-against-minimalist-white-walls.jpg?id=66718902&width=1245&height=700&coordinates=160%2C0%2C160%2C0"
+        },
+        {
+          "title": "DAIMON Robotics、ロボットハンドに触覚を与える大規模データセット公開",
+          "link": "https://spectrum.ieee.org/daimon-robotics-physical-ai",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-04T11:08:34.000Z",
+          "summary": "DAIMON Roboticsが、高解像度触覚センサーを特徴とする大規模なロボット操作データセット「Daimon-Infinity」を公開。視覚・触覚・言語・行動を統合したVTLAアーキテクチャにより、ロボットハンドの繊細な操作能力を飛躍的に向上させる。",
+          "impactScore": 9,
+          "imageUrl": "https://spectrum.ieee.org/media-library/man-wearing-glasses-and-a-gray-shirt-smiles-at-camera-while-surrounded-by-futuristic-robots-and-tech-devices-in-a-photo-illustra.jpg?id=66444415&width=1245&height=700&coordinates=0%2C83%2C0%2C83"
         }
       ],
       "物流・サービス": [
         {
-          "title": "人員不要：中国が世界初の完全ロボット運営ホテルを開業へ",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjY3VjBLVGZVYVZqbGx2cFFjNUxkWU9XUlVVelVKMUx1LWRBSjJVam43ZE5hQ0wwaWJTOGdTNDJzZ3dNbExCYmlDODljNzNESGlKMi1zMnVjZHFHb3JRbEk4cW5oLTdVZEZnMWZSMXFpU2gzMVdadndUOTM2RGFuV0NhSWRfQlR0WE1VNTBjYjVnSmJXclZybzloVkN0enM?oc=5",
-          "source": "Caliber.Az",
-          "publishedAt": "2026-06-28T12:43:35.000Z",
-          "summary": "中国が世界で初めて、スタッフを完全にロボットに置き換えたホテルを開業する予定です。この試みは、宿泊業界における自動化の究極の形を示し、サービス業全体におけるロボット導入の可能性と課題を提起するとともに、効率性とコスト削減の新たなモデルを提示します。",
+          "title": "安川電機、手首負荷許容値を大幅向上させた大型ワーク搬送用ロボットを発売",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news054.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-26T04:00:00.000Z",
+          "summary": "安川電機が、可搬質量215～700kgの大型ワーク搬送用ロボット3機種を発売。手首負荷許容値が最大110%向上し、自動車や建設機械などの大型部品搬送における自動化を大幅に拡大する。これにより、生産性向上と作業負荷軽減に貢献する。",
           "impactScore": 8,
-          "imageUrl": ""
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/26/l_mn_fanews_26061102.jpg"
         },
         {
-          "title": "コロラド州の農場、ロボット労働力活用でコスト削減と人員維持を両立",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMUxNSHBGNlVzMmQ4RVZDUGYwT2JXOHRpUjZXbmFfVkNsVTdrNTdQVlVRYXotV0JTS2x3YlctOXdEWmp0Z1JFZHhsdXY2WWZBLTNOM1JBeGg0OFFHOEo4VlZUZmpyZXNGX1B6SDE1NWw3ZV93XzlVQWhnNEF6a3ZOaUs5WmlwT2d0SFRaaUdLWGNHWUVhX2hjOV94NmtlRlVVcHJ0cjAyNA?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-06-28T03:26:00.000Z",
-          "summary": "コロラド州のある農場がロボット労働力を導入し、コスト削減と既存スタッフの維持を両立させています。ロボットは反復作業や重労働を担うことで生産性を向上させ、人間はより高度な管理業務や専門的な作業に集中できるようになり、農業における自動化の新しいモデルを示唆しています。",
-          "impactScore": 7,
-          "imageUrl": ""
+          "title": "Waymo、完全自動運転走行3億5000万km達成、重傷・死亡事故を94%削減",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news057.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-25T21:45:00.000Z",
+          "summary": "Waymoの完全自動運転システムが走行距離3億5000万kmを達成し、人間の運転と比較して重傷または死亡事故を94%削減したと発表。この実績は自動運転技術の安全性と実用化の進展を強く示唆する。",
+          "impactScore": 9,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/26/cover_news057.jpg"
+        },
+        {
+          "title": "SkyDriveの空飛ぶクルマ、時速100km前進飛行試験に成功し2028年商用化へ",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news061.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-24T21:45:00.000Z",
+          "summary": "SkyDriveの空飛ぶクルマ「SKYDRIVE」が時速100kmの前進飛行試験に成功し、2028年の商用化に向け大きく前進。これにより、都市交通や物流の新たな選択肢が生まれ、モビリティの未来を大きく変える可能性を秘める。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/25/cover_news061.jpg"
         }
       ],
       "ビジネス・市場": [
         {
-          "title": "AGIBOTが1万5000台目のロボットを生産、実体AIの普及における節目に",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSUgxblVZaExXN3pVTnZHUEpnMVJrMXFiZW5vU3ZDdFFINGNscHhoRzZxT3RCR0Zta09YZVliYUlwWnZJUXg5YmRhaURhd3ppR0pWVFBzNVBPNlJVaU9URDF4TVV4NGlPanNfMXlhUVdVaHRDVWtDX2w5R3hfMEZMQjhxQW9la3ZpdkZiSHBmUDJrZUVhcElyNkxKRXQwaU04alpobw?oc=5",
-          "source": "The Robot Report",
-          "publishedAt": "2026-06-28T09:02:29.000Z",
-          "summary": "AGIBOTが1万5000台目のロボットを製造し、実体AI（Embodied AI）の展開において重要なマイルストーンを達成しました。これは、物理世界で自律的に動作するAIロボットの大規模な商業化が加速していることを示し、様々な産業分野での導入が期待されます。",
-          "impactScore": 7,
-          "imageUrl": ""
-        },
-        {
-          "title": "AIとロボティクスが自動車製造業をどう変革するか",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN1lMZDVHRHpsMWt3dTVldk50b0JYRk5QY2ZnVjh6SzhUZmlEZDZlbmZVS3JqNGxCWEozU1hRcFBhSmlHY3ZYaFRqR195R2JsWTJhaHpnS3IyMnE5LVNBRU1RazRGX00td0JWRnptaDhCaFNmU3BUNFhramp0RGkzZw?oc=5",
-          "source": "Automotive News",
-          "publishedAt": "2026-06-28T10:00:00.000Z",
-          "summary": "AIとロボティクス技術が自動車製造業界に革命をもたらしつつあります。生産ラインの自動化、品質管理の向上、個別カスタマイズへの対応など、効率性と柔軟性を高めることで、自動車産業の未来を大きく変える可能性を秘めています。",
-          "impactScore": 8,
-          "imageUrl": ""
-        },
-        {
-          "title": "トークン化がAI・ロボティクス分野の新たな資金調達基盤に、Frameworkが4億ドルのファンドで投資",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWXVWWWhjdjVUa3BpeTIzOHVUZXlJMzJOM3lUY2tLcHJOQ0RGeWtxTENsUncwSVNSM1J3T2VYWkxtWWhNZ1RiSWVOVnNpcG4tTE9YdTJZOWFJSTJkaThYMUMwV3RhdUZSMmxKMjhrUy1pSE1MS1JuVzZ3Q0toTlVvTjZVZzJ3eUxNUmhzVms4QndON0w2djJ2LTFfbkxaajJMdnlyaENpNTBtMm91bnU1bTBhb3A2UE9OQmdrV2lGdi1ERmFDaDlSeDRMSVpmTFpXOU5n?oc=5",
-          "source": "CoinDesk",
-          "publishedAt": "2026-06-28T13:01:16.000Z",
-          "summary": "トークン化技術がAIおよびロボティクス分野の資金調達の新たな基盤となりつつあり、Framework Venturesは4億ドルのファンドを立ち上げ、このトレンドに賭けています。ブロックチェーンを活用した資金調達は、革新的なロボティクスプロジェクトへの投資を加速させると見られます。",
-          "impactScore": 7,
-          "imageUrl": ""
-        },
-        {
-          "title": "北米最大のロボティクス・AI展示会が今週シカゴで開催",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGVWRhUDRqUnM2cDFMY2dIVkFnTkRnUXJGQnUyay1ZbzBBTWpodkRmY1J0LTBwWU9TQVk2eVFUQzlZdm9PSml6cUpWYk9sT1FTNWHYVGNUUTRJN193MVpEaV9pNW0zMUItLXl5WEExaGtnUlJXeG14azZSTWxndTQ?oc=5",
-          "source": "AOL.com",
-          "publishedAt": "2026-06-28T12:14:29.000Z",
-          "summary": "北米最大規模のロボティクスおよびAIの展示会が今週シカゴで開催され、業界の最新技術やトレンドが集結します。このイベントは、新たなビジネス機会の創出と技術革新の加速を促し、AIとロボティクス分野における市場の活況を反映しています。",
-          "impactScore": 6,
-          "imageUrl": ""
-        },
-        {
-          "title": "AptivがRobust.AIとGen 3 Carterロボットセンサーに関する契約を締結",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcWlUckg1ZmNzQmpsb3FvNktEQWJtRWIxTm9tZEEwcjBfN0RZMHpta0VuVVJudm00NUY1eTJiLVhPQnVjQlFOb01lT0E1cGN2aTRabFRCNmRRUHBrTE12OExvb2ZlTmFpNkZhLWVsOTFoaTF1RUstUzNQaHV3a1ZmNHlpOGFONG5VdXdXWjFnMzMtbjI4?oc=5",
-          "source": "Yahoo Finance",
-          "publishedAt": "2026-06-28T07:06:54.000Z",
-          "summary": "自動車技術企業のAptivが、Robust.AIとの間で次世代Carterロボットセンサーに関する提携契約を結びました。この契約は、自律型ロボットの知覚能力を大幅に向上させるものであり、特に物流や製造現場でのロボット導入の安全と効率を高めることに貢献します。",
-          "impactScore": 7,
-          "imageUrl": ""
-        },
-        {
-          "title": "テスラがAIとロボティクスへ軸足、自動運転と人型ロボット開発を加速",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcmV6eGhqc3RiQ1l6bUdQTTBKNlc1MzlfZVliUjdIYjVEZS1sSWhXMU4wamhyblRYc0daSWVJd25TU3ctNVJSVnJ4UDZIUWdhQ2VTZDEwSVFNSmtMUlR1YnVhdEZkOWtrNVhnTUdrYnoxamRtQk5vQ3BXNmgxVUxFY0NyeGxhR2xNQjVfQy1nX2dxVm4yTDFPTVhDTzZOM05HUklvMjNWSDFYVDJrTnJDS0xjcEZKZ0Fhc0p5Mk5UNE9pekAyVFpn?oc=5",
-          "source": "TradingView",
-          "publishedAt": "2026-06-28T07:13:01.000Z",
-          "summary": "テスラがAIとロボティクス分野への事業軸足の転換を加速しており、自動運転技術と人型ロボット開発に注力しています。これは、同社が単なる自動車メーカーから、AIを核とする先進技術企業へと進化する戦略的意図を示し、業界に大きな影響を与える可能性があります。",
+          "title": "官民連携によるフィジカルAIに10.5兆円投資、社会実装を加速",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/27/news009.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-26T22:00:00.000Z",
+          "summary": "官民合わせて10.5兆円規模のフィジカルAIへの投資が示され、実証段階から社会実装へと大きく動き出している。これにより、製造現場や社会インフラでのAI活用が加速し、経済全体に大きな変革をもたらすことが期待される。",
           "impactScore": 9,
-          "imageUrl": ""
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/27/cover_news009.jpg"
+        },
+        {
+          "title": "ボッシュ、ロボティクス技術開発を推進し数十億ユーロ規模のビジネスを目指す",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/24/news086.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-24T05:00:00.000Z",
+          "summary": "ボッシュが自動化・ロボティクス技術開発を加速し、数十億ユーロ規模のビジネスへと成長させる戦略を発表。これにより、産業およびサービスロボティクス市場での存在感を高め、技術革新を牽引する。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/24/cover_news086.jpg"
+        },
+        {
+          "title": "米国、中国製ロボット禁止案で技術主権を強化",
+          "link": "https://spectrum.ieee.org/chinese-robots-us-ban",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-04-22T12:00:01.000Z",
+          "summary": "米国議会が中国製地上ロボット（ヒューマノイド、犬型など）の政府使用を制限する法案を提出。これは米中間の技術競争がロボティクス分野にも拡大していることを示し、サプライチェーンと国内産業育成に影響を与える可能性がある。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/photo-illustration-shows-a-chinese-made-humanoid-drone-quadruped-robot-on-a-red-background-with-yellow-highlights.jpg?id=65566471&width=1245&height=700&coordinates=0%2C187%2C0%2C188"
+        },
+        {
+          "title": "General Intuitionが3.2億ドルを調達、ビデオゲームデータでロボットを訓練",
+          "link": "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-06-26T18:38:36.000Z",
+          "summary": "General Intuition社が3億2000万ドルを調達し、ビデオゲームのデータを活用してロボットのAIトレーニングを加速する。これにより、ロボットが現実世界での複雑なタスクをより効率的に学習し、広範な応用が可能となる。",
+          "impactScore": 8,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/06/generalintuition-featured.jpg"
+        }
+      ],
+      "家庭用・コンシューマー": [
+        {
+          "title": "家庭用ロボットの安全は人間との関係性から生まれる",
+          "link": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-19T11:00:01.000Z",
+          "summary": "家庭用ロボットの安全性は、単なる衝突回避だけでなく、人間とロボットの相互作用に焦点を当てるべきだと提唱。ISOの安全基準がこの双方向性を完全にカバーしていない現状を指摘し、高齢者など多様なユーザーの視点を取り入れた基準の必要性を訴える。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/close-up-of-an-elderly-persons-fingers-touching-the-silicon-hand-of-a-humanoid-robot.jpg?id=66748937&width=1245&height=700&coordinates=0%2C469%2C0%2C469"
+        },
+        {
+          "title": "iRobot創設者が家庭にロボット「Familiar」の導入を目指す",
+          "link": "https://spectrum.ieee.org/familiar-machines-and-magic",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-04T17:30:02.000Z",
+          "summary": "iRobotの共同創設者コリン・アングル氏が、家庭で健康的な習慣を促すペットのような四足歩行ロボット「Familiar」を発表。人間との自然なインタラクションと感情表現を通じて、ユーザーの生活にポジティブな影響を与えることを目指す。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/a-gif-shows-a-short-clip-of-a-teenager-sitting-with-and-then-hugging-a-torso-sized-animal-like-robot.gif?id=66675837&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
         }
       ]
     },
     "otherArticles": [
       {
-        "title": "The ILIFE V5s Plus Is a Legit Robot Vacuum and Mop for $89.99 (Prime Exclusive)",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUVYwSlZpMXJ5TmRyYjBMbmZNZHJmcHVnN1VqRDdLQlpmUzFhX1BPdUZQWTJsTHYwbTdfSmtORTY3S1dNZmoxbTNtSGN4RDRWZ2FVWUtZb0Y4Q3RTZHNJb1pPSHl5M2tfb01LQ05vQXViYlF3X2w5VGRuVFVQWXJKQmZ1STVOdjkzWmw5SnJmYzBOOFJPVmJFNDNHbUQ1QUxIcHZXdXhlMDBFbS10WEJoYmg1RWs?oc=5",
-        "source": "The Gadgeteer",
-        "publishedAt": "2026-06-28T13:56:43.000Z"
+        "title": "製品への生成AI組み込みを支援する、SLM評価支援プログラムの提供を開始",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news088.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-26T05:00:00.000Z"
       },
       {
-        "title": "Fairfield student with rare disease graduates high school while using telepresence robot",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcDlpenZkbk84WV9YYXJqNjFyeWttOTBOSHJncnNJTFJzXzNkczc1el9KT3VxaXg2Z0hUT01XLTRrUjZtTjhvWjNNaU50cldqZXFubzJfTzRFcFZzOVptdnFVeFRmNnU1SjU4TV9HNGRXdWxELTIzTlpZeGxkcnBlQTNmLU5fcWpPSWFxa05KOFdZYlZ4WGZlOE5IbDk0Z0trOHZRXzVKTzY2WS1CYTZIaFk5UmR3QQ?oc=5",
-        "source": "KCRA",
-        "publishedAt": "2026-06-28T14:04:00.000Z"
+        "title": "有機溶剤ゼロ／常圧短時間でMOFを連続合成できる技術",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news016.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-26T02:00:00.000Z"
       },
       {
-        "title": "AGIBOT’s 15,000th Robot Rolls Off the Production Line, Marking a New Milestone in Embodied AI Deployment",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uSmJJLTNBNUVqSncxenM0Zi1RaGRPX24tcS1iNlk3cjJ0YkJBRVFLUDk4UEJKVU0tZEFOYXp0ZWxtRVREOWRSUm14b0JyUmtXQjdydjN6dENkS1paa2c?oc=5",
-        "source": "AgiBot",
-        "publishedAt": "2026-06-28T08:48:04.000Z"
+        "title": "京セラコミュニケーションシステムが次世代太陽電池の導入および施工を開始",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news026.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-26T01:00:00.000Z"
       },
       {
-        "title": "Best robot vacuum deal: Save $250.99 on EcoVacs Deebot X11 Pro",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyTGZDZFJOSUNZRFpNTEJaaG1oVGdPM0MwUWJ3ZTF6dnBPNHN5VlZwLVNpZzYtQk44c015UTlFYTUyYU5OUXY5b1FsOWwxeDNCR180cW9CM2xOaG95RFdXX1ZheTNydlJTQUEw?oc=5",
-        "source": "Mashable",
-        "publishedAt": "2026-06-28T12:16:15.000Z"
+        "title": "日本の“眠れるデータ”を競争力へ、日本発のプラットフォーム「xIPF」が始動",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/19/news005.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T23:00:00.000Z"
       },
       {
-        "title": "Largest robotics, AI show in North America in Chicago this week",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGVWRhUDRqUnM2cDFMY2dIVkFnTkRnUXJGQnUyay1ZbzBBTWpodkRmY1J0LTBwWU9TQVk2eVFUQzlZdm9PSml6cUpWYk9sT1FTNWhyVGNUUTRJN193MVpEaV9pNW0zMUItLXl5WEExaGtnUlJXeG14azZSTWxndTQ?oc=5",
-        "source": "AOL.com",
-        "publishedAt": "2026-06-28T12:14:29.000Z"
+        "title": "Webブラウザ機能でPCレス化へ、三菱電機は新表示器GOT3000で何をつなげるか",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news049.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T22:00:00.000Z"
       },
       {
-        "title": "From Haddonfield Robotics to Harvard Yard, Abigail Frey Aims to Power Change With Green Energy",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWGRlTTQyLWlzbmVIQ2xGOVdiLVQ1SF9QMHc1NnJLRjVNZGVvSUtqcVBMZGNGQUp5QmtiMlNxMDFsY1Y0TFZKNUpQdzBwa25MOG1QZDRMU2s2Q3hMdk1zejdZOHU0VVpUMzloQVlrMVdBeWJDMVYteVlRaU4zUm13dUgtZWlEeENlQWxhOWxBekpOLXdlTkxnN1BZS25VOWcwQUdoQVlrMHFnUEU1LVoyVDNwTmh3NmZ2QmRTZFdfaFpwUUV2dmE2T2RJbGRVcjlIdWtB?oc=5",
-        "source": "The Retrospect",
-        "publishedAt": "2026-06-28T10:02:14.000Z"
+        "title": "レゾナック、半導体向け高純度HFガスを徳山で製造開始へ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news036.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T21:30:00.000Z"
       },
       {
-        "title": "7 Best Robot Pool Cleaners to Get Your Pool Party-Ready for July 4th",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOakQ5YkRyYnNfMVZFaXpzWUhoU0xXMmg5T0VjMVFJcll6Y21GQVhZXzJBYmJ4TEhCbTZnTTRyTF95RDNNSmVUTWRQaGlod09fanQ4T2dERGFPN3FlcnQyRzZWVWVxOXJNbml5S3B2OU4xVXBVOWxfNzdvUVd5U2ZYUm5VSQ?oc=5",
-        "source": "The Gadgeteer",
-        "publishedAt": "2026-06-28T10:00:04.000Z"
+        "title": "要素技術をつなぐシステム設計と環境改善効果を可視化する環境影響評価",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news005.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T21:00:00.000Z"
       },
       {
-        "title": "Atlas puts Korea’s auto suppliers at center of humanoid supply chain race",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTcnV6c2ZCVXdkemZkaVhPMWh6d1c3N255SWlyZUEtTXJuRUNMeTZrUExTU3NQOGd3NmltNTRwT25JemtUQWx4NDVQbmpaSzZVTUI5U3RLNUVxeV9GMmlqSm14ZEhfLVVqYWFz?oc=5",
-        "source": "KED Global",
-        "publishedAt": "2026-06-28T11:13:00.000Z"
+        "title": "白血病など16疾患の診断をAIが支援、日立がAUC0.9以上の新技術",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news087.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T06:00:00.000Z"
       },
       {
-        "title": "Inside the $17,900 Robot That Could Change the Auto Industry",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE80THlVb3Y2QlZBNDAzbnpwQ0hVZzRuLXR4YU5oR3MxOUdiRW81Q3U1OFV1YTl4REpzeTJKS3BzTHhqUkw4SzBMcktiRExMTk9lVGdmMHJabkdEa1I5cmhsWDlCME5Wa0UzUkdueU9Rd0tQY21vcllJaA?oc=5",
-        "source": "AOL.com",
-        "publishedAt": "2026-06-28T08:22:49.000Z"
+        "title": "高速撮像と低ノイズ化を両立した直接変換積分型X線CMOSイメージセンサー",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news071.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T05:00:00.000Z"
       },
       {
-        "title": "Framework Ventures co-founder highlights AI and robotics funding shift with $400M new fund",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4ydVVwMWFwVmllaFk5eUNXaWlLa0QwY1FmVmtXTUd5T2tOeVBMNnQ5ZXViY1hrdFJtT2l0SkVFYklZVUlSM0VIRWNrcWw5QlYwVWdyLTlid3RzVXlDa3JUYU5UcENRa2cyNXZHeU1NU2w?oc=5",
-        "source": "Crypto Briefing",
-        "publishedAt": "2026-06-28T13:06:33.000Z"
+        "title": "JALが新工場建設へ新会社設立、羽田で2027年に完成予定",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news057.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T04:00:00.000Z"
       },
       {
-        "title": "Micron Just Revealed a Massive Multi-Decade Growth Opportunity. It's Not AI Data Centers. It Might Be Even Bigger.",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQWV0X1VCQmZXWFB6bGNHZ2JFcjUwWGMtXzZnaFlQQ0hxRWg2bzdjQmt0OHZuVXE0MVZFR0tISGEydE1kVlJFQnd3ZEc5TVROUFVMSldZXzhOc29Ob0pBdEM1VkpOaGxwYzZfWEhyazQzWUhGU2pFT2JJRDFXTVZvS2xjTzN5dWFDUEdxcExpN2FyRTRnZUY2Vw?oc=5",
-        "source": "The Motley Fool",
-        "publishedAt": "2026-06-28T10:25:00.000Z"
+        "title": "人類の世界記録も超えた中国ヒューマノイド、日本はこのまま置き去りなのか",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news074.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T03:00:00.000Z"
       },
       {
-        "title": "Should Tuya’s AI-Native Home Energy And Robotics Push Require Action From Tuya (TUYA) Investors?",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMndueWVaOW5jV1BWOHJPa284UFBGWWtXMUtSbHFGUXhEbzZJMHp1OUY2bExLUVNYelhqRWh0QjJZaGVPUFoxUlFOdkV2eWRfclV0SDhramw5U041N0VMWEV5VTlRVHluVHczdUZwXy1xLXpxV1R3eTR6QlVBMTRTSDBDMWlFcGE5bWJnNHdzVEVXbEFHZEU3a2lOQXB6LXdkOUo0cTJ3U2Etakh3ajhLS1FJQzg0NXR0UXhZcTB30gHDAUFVX3lxTE5Ed0VGYnd6YmRpWHhybDNlWVl3dWQ3UDhIbVk2X2RGeGp1YTZJSEwwYzN3M2pzYy1pZ3JxX1VtZmFrQ2VOVS05c3V3d2stYTh6VlJRNy1BeHRtelo5a2lJcFVKcDMxcWZ3UWZsRVgzSEtvRjA0YzFtdTRSaURHekRzNVZ2V0d0UWVpWjhiTUdwMjlvQ1VqOXU0a1Q5VWdzcTF6bUlYcHFwSHBURmc4VWd6RnNodkZnWTJ4aWgyZmQybGw3UQ?oc=5",
-        "source": "simplywall.st",
-        "publishedAt": "2026-06-28T09:18:41.000Z"
+        "title": "CO2を最大45万トン削減！　JFEスチールが最新電気炉を本格稼働",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news001.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T02:00:00.000Z"
       },
       {
-        "title": "Is Richtech Robotics' (RR) New AI Pallet Jack a Glimpse of Its Core Automation Strategy?",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc1RZME5kakxVbnBMVWdOTzdzTm5wWnBnU0FTTXI5dWJiNkVWejItaDVFTHkxbVEtU2Z3S3BUVjN5cDBhSmw3M3RsczFDbkNqNlNPdjhHcV9xWmk4X1RtbHhNZEJLb1cxNktvaVFsT1UxQ0ZfTVpvVzNXRW5qWGlKQnVUMXdQOUZ4Y0JoaTU4bFdXcjl3dmdxQVo5cFRCd3ppLW1BamFnV0V0TERiMGVzbDNmYzhMTmQyMlcta2NYQld3cVRSWVcxTVpWZ2dBQk1OMjJYTNIB2gFBVV95cUxPTnd6OWVwM1lQMXMxQlhlVElleGZYaklrLXQ1WkVQQzZVakhJaDNGMTBJSWVBZUR1UTl6NHZ0b09BTmJ4Q2VLbFFDZG9WNTFwR1czZ3RzZjVDcUQwSWpBUWRxQ2xqMng4NEUxVmJJODNFbmh3bFdVcGtUelRua2luV3YtT2ZmaTA3NnJPY1FocG4zSE1IcUVXakRFTm9JWEdyc0pac2dwTVQ2bWZEak1zNzJINVROUmNOZE9BUGxtQWZFdGJTMVM0WDdVVHZZcDJGeVNLVy1mbC14dw?oc=5",
-        "source": "simplywall.st",
-        "publishedAt": "2026-06-28T03:45:00.000Z"
+        "title": "AI駆動開発による完全内製化で導入工数70％削減、常石造船が調達システム刷新",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news030.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-25T01:00:00.000Z"
       },
       {
-        "title": "The jobs robots should be doing",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1CWVdwRm5CYi1nMEotMjhMSzRQYUFjc09zbHZaMFpVMFE2NWZyeW9WY1VTZ19oa1Frd0VyeTZjNERHM01LZ3B6NFdMVDlJUk5OUVA2Zzc2N25fWE15RXExdUdmTmF2c0dQSTZkVlhpS1FVU3hXd1ltUg?oc=5",
-        "source": "The Boston Globe",
-        "publishedAt": "2026-06-28T02:30:00.000Z"
+        "title": "北極域研究船「みらいII」と“超深海探査母船”に見るJAMSTECの次世代装備",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news023.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T23:00:00.000Z"
       },
       {
-        "title": "The Global X Robotics & AI ETF (BOTZ): A Solid Way to Play Robotics",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TU1ZPbTE3LWJLbXQwNGVuODdEQmg4d3p5aXpyOS1WdVpqOHZFUUNfaURVdjlCYjVsVWVuWUpFdkFfNkFJZEhKTklKQ0tBTFhIcVFRVUVJVlJjVGdaU25iRkVtbjR3ZHlRcU8wMEpOaFE0SHEtVWRr?oc=5",
-        "source": "AOL.com",
-        "publishedAt": "2026-06-28T05:07:56.000Z"
+        "title": "イグスの新工場が栃木県内で稼働、機能集約で供給体制強化",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news050.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T22:30:00.000Z"
       },
       {
-        "title": "Robot Pacman vs rusty robot shredder #Shorts",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYmtSb2RIQnJ0OW5qZDJ4SzlmWlFTRG9EYVZwU3NBbGVNMjRtd25vSmRHUjJGc2lNNEFhcnoxWXJFQm1Ia0hFNUUzSVlWYV8tR2pCTjVLM29HRnQ1SXE0RjQxcDg0RzRIR0cxcnpqQVRzZ0pDOGREQ1lZdUVkSTdjbFYxdWpJaGJvZ29Vb1pyVXN0S0xFVzJrSm1uM1VBQQ?oc=5",
-        "source": "MSN",
-        "publishedAt": "2026-06-28T09:33:37.000Z"
+        "title": "生産管理の要である「資材所要量計画」が、なぜあなたの業務にハマらないのか",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news002.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T22:00:00.000Z"
       },
       {
-        "title": "Serenity: Schaeffler AG is a key beneficiary in the humanoid robot sector",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YeFMtTnBwU0NuUjZ6alhEZk9wMXR4Q1Nsejl6VjNVZE03T0JURTVnWVpwNnJQX1BIekJzMGl1Y1pBem9qV1hJTUFEcGtseTF4UEZVUnNBZm1HdTJ3ODNoRUVXa9IBY0FVX3lxTE5YeFMtTnBwU0NuUjZ6alhEZk9wMXR4Q1Nsejl6VjNVZE03T0JURTVnWVpwNnJQX1BIekJzMGl1Y1pBem9qV1hJTUFEcGtseTF4UEZVUnNBZm1HdTJ3ODNoRUVXaw?oc=5",
-        "source": "Bitget",
-        "publishedAt": "2026-06-28T09:59:44.000Z"
+        "title": "止められない製造現場に最適　ゲーム開発会社が生み出したVR防災訓練システムとは",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news051.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T21:30:00.000Z"
       },
       {
-        "title": "Price to earnings forward of RAON ROBOTICS Inc. – KRX:232680",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObGxMSXgzRHpTMUlCb3ZKem1xc0lFVGttMThkN2lpX1JvbE1wdUY3dkJGMElLU2g4dWx5TTNKSVhuWXRWVkhrbHVscWZYeWhYcnE1RnFHZXo5N0ktWVNwLUtoNll0eEFST2VPNnZlT3RnLWJfTlE4cHdtaF9VdGZVbnJPMTZpZzlXMnBPZ2hVRUstN0xpakVrWGZhZG9FNmVu?oc=5",
-        "source": "TradingView",
-        "publishedAt": "2026-06-28T11:41:18.000Z"
+        "title": "EVのバッテリーに体組成計!?　TIが第6世代バッテリーモニターICに新技術",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news060.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T21:15:00.000Z"
       },
       {
-        "title": "Enterprise value to EBIT forward of Serve Robotics Inc. – NASDAQ:SERV",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTkw4d0ZyWE5lRHRnaEVFd1dOTmdYN0ltSTV2QVhQQVdVN1cyeWRyZVFyVnh0b09aOGl1SG80RmhUY2dNcXY0VkRWQzlGSnVqaWo1ejJEajZhUTFZdGd1Ukt0WHlsdER2bjJFVk0zMHlWMzc5VXlpcUo3UWRoZ09qT2NrZ3JYZkdWY01saGk0c3dWenpVbk1keFBNNV9tMGdkV3FoaEU2dzNOYjA?oc=5",
-        "source": "TradingView",
-        "publishedAt": "2026-06-28T10:41:34.000Z"
+        "title": "PFASがなくなったら私たちの生活はどうなるか？",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news003.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T21:00:00.000Z"
       },
       {
-        "title": "Faraday Future Didn’t Bring One Robot to Chicago. It Brought a Whole Robot Civilization.",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdExxYjg2ODVLUFpxcGVST2JMS2YxOHhOMlhrbkdZRVVjQjFtT3NQclRMckstZnJkRW9ZcUw5WkpPTWFScFZzcXlEY19WQk0wdkJqTEpRcE11MHg2ZW5VWDhLZUYxZUtZeEk4UHB1bFY2MWlPRVl0OEhyUk5FSU9yTEw2UncybUI1dFBtZ0t5QWx5RW5oblc4cHEtRktWY2lyczVrdXN5QWxZOGY0X25vVmUyYjlQYmFn?oc=5",
-        "source": "nerdbot",
-        "publishedAt": "2026-06-28T08:12:14.000Z"
+        "title": "【クイズ】「デジタル技術活用戦略」はどの部門が主導すると成果につながるか？",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news028.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T20:30:00.000Z"
       },
       {
-        "title": "MENA Broadcast, Media Technology & Satellite News",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVmtSTFM3V21JTHlXWGxCWkZaRDA3U19vSDZGSm1EQnBQOUFLaDVtV2hIdUlvdmdkWWV4SVFrb3RhWk93T1RVbHZoUGdDLVRqczFJT25XMk0wZ2NaeXBIZFM0TzNMZ3Q4d1pFZ1Z5eWt2dTFiWmZYRk14OXBDZDRWUzN0SVhwM2g4dS16R0dSS2t2MWFLYlBGc21FSGo?oc=5",
-        "source": "BroadcastPro ME",
-        "publishedAt": "2026-06-28T05:52:34.000Z"
+        "title": "電通総研がSDV時代の自動車企画／開発を支援するフレームワークを開発",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/24/news071.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T07:00:00.000Z"
       },
       {
-        "title": "Key facts: Tesla pivots to AI and robotics; recalls 376,241 U.S. cars",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcmV6eGhqc3RiQ1l6bUdQTTBKNlc1MzlfZVliUjdIYjVEZS1sSWhXMU4wamhyblRYc0daSWVJd25TU3ctNVJSVnJ4UDZIUWdhQ2VTZDEwSVFNSmtMUlR1YnVhdEZkOWtrNVhnTUdrYnoxamRtQk5vQ3BXNmgxVUxFY0NyeGxhR2xNQjVfQy1nX2dxVm4yTDFPTVhDTzZOM05HUklvMjNWSDFYVDJrTnJDS0xjcEZKZ0Fhc0p5Mk5UNE9pekEyVFpn?oc=5",
-        "source": "TradingView",
-        "publishedAt": "2026-06-28T07:13:01.000Z"
+        "title": "特定の酵素の作用で状態変化する糖修飾環状ジペプチド素材",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/24/news087.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T06:00:00.000Z"
       },
       {
-        "title": "Micron Just Revealed a Massive Multi-Decade Growth Opportunity. It's Not AI Data Centers. It Might Be Even Bigger.",
-        "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPX1hwTzBCeGVYOTBlamFzTHhMZ1g1RFlxeEQ5dUlMLUlSVjYxR1BpOTZUUEZFdGd3SFhqaW9sZ3N5a25lX1VERnZMcTFNWlk1Uld6NEY4RU9KVW9acjI3SGVxZVFwNjJpVUo4d2RnMlpBeFpGMmVsNUppOEpuel84d29GR3dkTUhlYlFlb2pETERmZ0RpT245dWNWNGNZRTdwVl9XSmkxMnRYbElMTW9ZaTFYZjJhbFJESXBlMUx4UVFBXzRDelRHaC1VYksyUXJHUWVWTUR4blBUUVltaF93ZzdoQng0a1A0OVc3YkhFNHJGZUJtMXBNblRiMERkdk1IdnlUbThFclNvNzZnTGhidmdPeXRGelBINWc?oc=5",
-        "source": "The Globe and Mail",
-        "publishedAt": "2026-06-28T10:06:11.000Z"
+        "title": "12インチウエハー形状に適合、圧力検査向け測定フィルム発売",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/24/news040.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T04:00:00.000Z"
       },
       {
-        "title": "Meet Floaty, the VTOL robot that could change flight forever",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLXNuN0VJU01GTVdtX1JTUXo5MVB3ZTdTOXNycVR5X0MxY3NaM2lQeEI1RHlEb3AwRjJTc1BEa3pRSG5abnRjSzc4TmZqckFOMXVNVjFkM3VQS2hPVTBuNkY4aVJncjczdW1kaDhJTXd6RUVzTzY2MHZONUJmWXJqbWFROEhTNUs0OTRadDd3OTFyV2J4V080VXRB?oc=5",
-        "source": "t3.com",
-        "publishedAt": "2026-06-28T15:00:00.000Z"
+        "title": "東レが滋賀に新拠点、AI半導体や水素などの技術開発加速",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/24/news005.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-24T02:00:00.000Z"
       },
       {
-        "title": "Fashion Brands Are About to Discover Their Next Growth Market: Dressing Humanoid Robots",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQUNobmt0bkRJNWRDRzJJS1dZbzZaYk04eDA5cGV3cGJObVlmSjJ4aTJyM1o1WldWUGVfallYUXFpS0VMd1ZqSXowNWtqeE9Cb1E4blNaLXZfaXB3X19VOFNNR21kRXZaamlRaFB0X0tBQ1pZc1pheGp4TlBRNWNBZUszSVJIcTY1ekNjMDQ5cGNPMXM3bnhrRzVjU1d5WEdtcGtKdWRKaVBIMmd6dXhrenBPeDdzWUR5aG9lZ2p4WEdEUjAyX0dBM05CR1cxMjg2ckhR?oc=5",
-        "source": "Thought Catalog",
-        "publishedAt": "2026-06-27T18:10:58.000Z"
+        "title": "Video Friday: Give Robots a Hand",
+        "link": "https://spectrum.ieee.org/video-friday-robot-grippers",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-26T16:30:01.000Z"
       },
       {
-        "title": "Serenity: Automotive and Robotics Supply Chains are Converging, Germany's Schaeffler Poised for Pricing Reassessment",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1d0txMHAzNjJ0MHhFT2FsMmg0U2V0VHU3dmphQURPbkdQUVpNUnNvUE5uZlRnS2l3ejlwaHltbHlkQ2hmcmlTRkd2RkdPWi1sNEJXdmhpYm1Rak12MWp2OTgxSdIBY0FVX3lxTFA1d0txMHAzNjJ0MHhFT2FsMmg0U2V0VHU3dmphQURPbkdQUVpNUnNvUE5uZlRnS2l3ejlwaHltbHlkQ2hmcmlTRkd2RkdPWi1sNEJXdmhpYm1Rak12MWp2OTgxSQ?oc=5",
-        "source": "Bitget",
-        "publishedAt": "2026-06-28T10:11:22.000Z"
+        "title": "Video Friday: Do Robots Even Need Legs?",
+        "link": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-19T15:00:02.000Z"
       },
       {
-        "title": "From spoga+gafa to Kickstarter: Yosemite Robotics Prepares Lawnova for Global Outdoor Robotics Push",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRlVCYWhsalJmdHZjTWxIa2dxYUgxWFNtYmdVbmQwZGs0OXpYODM0bzFmb0t1dzAzczFEQkdSOWdNazNZX2R2RDdwY3VKTHdlX095OVZHSlRPN290VktpQUJzQ1FlZ3dHMklndW5PeXRSemM1TVFObVJZUkdJMl9jVE55Y1lKc2l3WTdNSjZJd1RFWk51NlpIV1hrak82bDR6a29tTkhQYkhEeVBBX1dscHd2Z0ZpVU9mNm94SEFpMTNJQQ?oc=5",
-        "source": "Macau Business",
-        "publishedAt": "2026-06-28T08:28:35.000Z"
+        "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+        "link": "https://spectrum.ieee.org/amazon-astro-robot-sound",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-19T10:00:00.000Z"
       },
       {
-        "title": "Adult Swim Announces Heist Brothers, New Robot Chicken Specials, and Expanded Slate at Annecy International Film Festival | Pressroom",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNUlvQzdFVU9TcmUzcDBoY1pBUmtPN1E2ai1jR1R2cU9kdE5yVjZxV3NRN2trV1dxd3RoWF9oa2NUdU52YldPVXBxdWExTkpoV1VXOC1wRUdkNGJYalByeE1uM0NYZ2loUTM1SXBRbERGZVNCQUhFb0NsMUhYbndJTFROTTFYaTJQS041cUxVQm1Ha05WZW1LRk1CMF9NcUZlNkZUR3NTZkluazhOZmpUZXZHV2lKSWVFZnA2VF9PbW1hYi05LVlIVmNnT09Ddw?oc=5",
-        "source": "Warner Bros. Discovery",
-        "publishedAt": "2026-06-28T00:20:26.000Z"
+        "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
+        "link": "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-12T18:00:01.000Z"
+      },
+      {
+        "title": "Video Friday: Robotic Motion Discovery Reveals Unusual Behaviors",
+        "link": "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-12T17:00:02.000Z"
+      },
+      {
+        "title": "Defining Autonomy for Wellness Robots in Senior Care",
+        "link": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-11T10:00:01.000Z"
+      },
+      {
+        "title": "How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science",
+        "link": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-09T12:00:02.000Z"
+      },
+      {
+        "title": "Video Friday: Watch This Running Robot Not Fall Down Stairs",
+        "link": "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-05T15:30:01.000Z"
+      },
+      {
+        "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
+        "link": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-31T13:00:01.000Z"
+      },
+      {
+        "title": "Video Friday: Extreme Omnidirectional Robot",
+        "link": "https://spectrum.ieee.org/video-friday-rabona-soccer",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-29T17:00:01.000Z"
+      },
+      {
+        "title": "Will Robotics Have a ChatGPT Moment?",
+        "link": "https://spectrum.ieee.org/robotics-ai-breakthrough",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-20T11:00:01.000Z"
+      },
+      {
+        "title": "Robots Could Turn E-Waste Into a Source of Legacy Chips",
+        "link": "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-19T17:41:14.000Z"
+      },
+      {
+        "title": "What Makes a Job Dull, Dirty, or Dangerous?",
+        "link": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-18T13:00:00.000Z"
+      },
+      {
+        "title": "Agentic AI for Robot Teams",
+        "link": "https://events.bizzabo.com/867156",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-18T10:00:01.000Z"
+      },
+      {
+        "title": "Video Friday: Heavy Robotic Machinery Operates Itself",
+        "link": "https://spectrum.ieee.org/video-friday-material-handling-robots",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-15T17:00:01.000Z"
+      },
+      {
+        "title": "Hello Robot Sets the Standard for Practical, Safe Home Robots",
+        "link": "https://spectrum.ieee.org/stretch-4-home-robot",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-12T15:00:02.000Z"
+      },
+      {
+        "title": "Video Friday: AI Gives Robot Hands Humanlike Dexterity",
+        "link": "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-09T16:00:02.000Z"
+      },
+      {
+        "title": "Video Friday: Who Wins in Robot vs. Pro Ping-Pong Player?",
+        "link": "https://spectrum.ieee.org/video-friday-ping-pong-robot",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-04-24T16:30:02.000Z"
+      },
+      {
+        "title": "This Roboticist-Turned-Teacher Built a Life-Size Replica of ENIAC",
+        "link": "https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-04-23T13:00:01.000Z"
+      },
+      {
+        "title": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
+        "link": "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-28T09:00:12.000Z"
+      },
+      {
+        "title": "We know how to build smarter robots. Now, we need to learn smarter ways to test them",
+        "link": "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-27T13:00:47.000Z"
+      },
+      {
+        "title": "How compact cobot integration enhances autonomous mobile robot applications",
+        "link": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-27T12:35:55.000Z"
+      },
+      {
+        "title": "Orbbec shows AI-powered vision systems at Automate 2026",
+        "link": "https://www.therobotreport.com/orbbec-shows-ai-powered-vision-systems-automate-2026/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-26T13:54:35.000Z"
       }
     ]
   },
