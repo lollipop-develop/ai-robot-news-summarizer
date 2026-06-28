@@ -352,7 +352,8 @@ async function run() {
     console.log('Fetching Open Graph images for selected articles...');
     for (const catArticles of Object.values(dailySummary.categories)) {
       for (const art of catArticles) {
-        if (!art.imageUrl) {
+        // Skip Google News redirect URLs to avoid fetching Google's logo; they will use category illustrations
+        if (!art.imageUrl && !art.link.includes('news.google.com')) {
           const ogImg = await fetchOgImage(art.link);
           if (ogImg) {
             art.imageUrl = ogImg;
