@@ -59,38 +59,38 @@ export default function App() {
       const newDay: DailySummary = {
         date: todayStr,
         trends: [
-          "Anthropic releases Claude 4.5 Robotics Orchestrator API for multi-agent hardware control.",
-          "NVIDIA introduces Project GR00T upgrades with low-latency tactile sensory integration.",
-          "Open-source robotics operating systems see an 80% spike in developer adoption."
+          "Anthropicがマルチエージェント型ハードウェア制御向けのClaude 4.5 Robotics Orchestrator APIを公開。",
+          "NVIDIAが低遅延な触覚センサー統合を特徴とするProject GR00Tの最新アップデートを発表。",
+          "オープンソースのロボット用オペレーティングシステム（ROS）の開発者導入率が80%急増。"
         ],
         categories: {
-          "Humanoids": [
+          "ヒューマノイド": [
             {
-              "title": "Anthropic Partners with 1X to Deploy Claude 4.5 Orchestrators in Neo Humanoids",
+              "title": "Anthropicが1Xと提携、人型ロボット「Neo」にClaude 4.5 Orchestratorを配備",
               "link": "https://example.com/anthropic-1x-neo",
               "source": "TechCrunch",
               "publishedAt": new Date().toISOString(),
-              "summary": "Anthropic and 1X Technologies have announced a joint partnership to integrate Anthropic's next-generation Claude models directly into the Neo humanoid robot. The integration provides advanced reasoning, enabling Neo to adapt to dynamically changing household chores without manual code updates. Pilot tests begin in Oslo next week.",
+              "summary": "Anthropicと1X Technologiesは、次世代のClaudeモデルをNeo人型ロボットに直接統合する共同提携を発表しました。この統合により、高度な推論が提供され、Neoは手動コードの更新なしに動的に変化する家庭の家事に適応可能になります。来週オスロで実証実験が開始されます。",
               "impactScore": 10
             }
           ],
-          "Research & AI Models": [
+          "研究・AIモデル": [
             {
-              "title": "NVIDIA Upgrades Project GR00T Humanoid Model with Tactile Vision-Language-Action Models",
+              "title": "NVIDIA、触覚・視覚・行動（VLA）を統合したモデルでProject GR00Tを強化",
               "link": "https://example.com/nvidia-gr00t-tactile",
               "source": "NVIDIA Developer Blog",
               "publishedAt": new Date().toISOString(),
-              "summary": "NVIDIA announced major upgrades to Project GR00T, its foundation model for humanoid robots. The update enables robots to process tactile feedback and vision inputs concurrently through a unified transformer architecture. This reduces friction and enhances success rates in delicate manipulations like sorting screws or folding linen.",
+              "summary": "NVIDIAは、人型ロボット向けの基盤モデル「Project GR00T」のメジャーアップデートを発表しました。このアップデートにより、ロボットは触覚フィードバックと視覚入力を単一のトランスフォーマー構造を介して同時に処理できます。これにより摩擦が軽減され、ネジの仕分けやリネンの折り畳みなどの繊細な操作の成功率が向上します。",
               "impactScore": 9
             }
           ],
-          "Business & Market": [
+          "ビジネス・市場": [
             {
-              "title": "Collaborative Robot Shipments Expected to Double by 2027 Amid Labor Pressures",
+              "title": "労働力不足を背景に、協働ロボット（コボット）の出荷数が2027年までに倍増する見通し",
               "link": "https://example.com/cobots-growth-2027",
               "source": "Financial Times",
               "publishedAt": new Date().toISOString(),
-              "summary": "A market report from Interact Analysis indicates that global collaborative robot (cobot) shipments are projected to double over the next 18 months. Rising manufacturing labor costs and improved robotic safety sensors are encouraging mid-sized factories to invest in joint human-machine workspaces.",
+              "summary": "Interact Analysisの市場レポートによると、世界の協働ロボット（コボット）出荷台数は今後18か月で倍増する見込みです。製造業における人件費の高騰と、向上したロボット安全センサーが、中規模工場による人間とロボットの共同作業空間への投資を後押ししています。",
               "impactScore": 8
             }
           ]

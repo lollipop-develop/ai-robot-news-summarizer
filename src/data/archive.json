@@ -2,39 +2,47 @@
   {
     "date": "2026-06-28",
     "trends": [
-      "Low-cost open-source hardware designs are democratizing robotics research.",
-      "Tesla is leveraging its automotive autopilot technology to accelerate humanoid navigation.",
-      "Humanoid fleets are securing larger retail and apparel logistics commercial contracts."
+      "テスラがOptimusヒューマノイドの指先の器用さに関する大幅なアップグレードを実証。",
+      "汎用ヒューマノイドの産業への実配備が、試験段階から実際の生産ラインへと加速しています。",
+      "ロボティクス業界全体において、マルチモーダルな視覚・言語・行動（VLA）基盤モデルへの移行が急速に進んでいます。"
     ],
     "categories": {
-      "Logistics & Service": [
+      "ヒューマノイド": [
         {
-          "title": "Agility Robotics Deploys Digit to Spanx Distribution Centers",
-          "link": "https://example.com/agility-digit-spanx",
-          "source": "Retail Wire",
-          "publishedAt": "2026-06-28T12:49:36.601Z",
-          "summary": "Agility Robotics has signed a multi-year fleet agreement to deploy its Digit humanoid robot to Spanx distribution warehouses. Digit will carry out bin-toting and inventory-sorting tasks, integrating directly with existing warehouse management software. This marks one of the first major commercial expansions of humanoid fleets in the apparel logistics sector.",
+          "title": "テスラ、液状金属触覚センサーを備えた「Optimus Gen 3」を公開",
+          "link": "https://example.com/tesla-optimus-gen3",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-06-28T09:15:00Z",
+          "summary": "テスラは人型ロボットの第3世代となる「Optimus Gen 3」を正式発表しました。最大の目玉は、液状金属触覚センサーと22自由度を備えた新設計のハンドです。これにより、ガラス製のバイアル瓶のような壊れやすい物体を扱い、0.1mmの精度で複雑な配線組み立てを行うことが可能になりました。イーロン・マスク氏は来月からテキサスの工場でパイロットテストを開始すると述べています。",
+          "impactScore": 9
+        },
+        {
+          "title": "人型ロボットFigure 03、BMWの組立工場で監視なしのシフト作業を開始",
+          "link": "https://example.com/figure-03-bmw",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-28T14:30:00Z",
+          "summary": "昨年のパイロットテストの成功を受け、Figure社はBMWのスパータンバーグ工場において自律運用を行う新型「Figure 03」を実戦配備しました。エッジで動作する物理AIモデルにより、ロボットは99.4%の成功率で板金部品の識別と配置を行います。この配備は、自動車製造業における初のマルチロボットによる完全自律型商業契約の1つです。",
+          "impactScore": 10
+        }
+      ],
+      "研究・AIモデル": [
+        {
+          "title": "Google DeepMind、次世代ロボティクストランスフォーマー「RT-3」をリリース",
+          "link": "https://example.com/deepmind-rt3",
+          "source": "DeepMind Blog",
+          "publishedAt": "2026-06-28T10:00:00Z",
+          "summary": "Google DeepMindは、多様なロボットデータセットで学習された視覚・言語・行動（VLA）基盤モデル「RT-3」をオープンソース化しました。RT-3は異なるロボットの形状や環境条件を超えて一般化する高い能力を示します。「柔らかいものを使ってこぼれた液体を拭いて」といった抽象的な自然言語の指示を、個別の事前学習なしで正確な物理モーターコマンドに直接変換します。",
+          "impactScore": 9
+        }
+      ],
+      "物流・サービス": [
+        {
+          "title": "Boston Dynamics、倉庫内重労働向けに電動Atlasをアップグレード",
+          "link": "https://example.com/atlas-warehouse-update",
+          "source": "Robotics World",
+          "publishedAt": "2026-06-28T07:45:00Z",
+          "summary": "Boston Dynamicsは、模擬物流施設で自律的な重作業を行う新型電動Atlasを公開しました。トルク密度の向上と熱管理モデルの改善により、最大25kgの荷物を連続して4時間持ち上げることが可能になりました。また、荷重移動時の動的バランス維持に向けて、新しいニューラルネットワークコントローラーを採用しています。",
           "impactScore": 8
-        }
-      ],
-      "Research & AI Models": [
-        {
-          "title": "Stanford Researchers Build 'Low-Cost' Dexterous Robotic Hand for $500",
-          "link": "https://example.com/stanford-dexterous-hand",
-          "source": "Stanford News",
-          "publishedAt": "2026-06-28T12:49:36.601Z",
-          "summary": "Engineering students at Stanford University have published open-source designs for a highly dexterous, 3D-printable robotic hand that costs under $500 in parts. Powered by standard hobby servos and custom compliant joint mechanisms, the hand can pinch, grip, and type. The project aims to democratize physical AI hardware research in resource-constrained labs.",
-          "impactScore": 9
-        }
-      ],
-      "Humanoids": [
-        {
-          "title": "Tesla Rolls Out 'FSD-Beta' equivalent for Optimus in selected factories",
-          "link": "https://example.com/tesla-optimus-fsd",
-          "source": "Electrek",
-          "publishedAt": "2026-06-28T12:49:36.601Z",
-          "summary": "Tesla is deploying a major software update to its internal Optimus robot fleet. The update introduces autonomous path-planning, allowing the robots to navigate busy factory floors without pre-mapped routes, utilizing the same occupant occupancy network models as Tesla's electric vehicles. Trial operations are expanding in Nevada and Fremont.",
-          "impactScore": 9
         }
       ]
     }
@@ -42,38 +50,38 @@
   {
     "date": "2026-06-27",
     "trends": [
-      "Humanoid robot pricing is falling rapidly, approaching consumer-level accessibility.",
-      "Retail and logistics firms are scaling up humanoid robot fleets to tackle labor shortages.",
-      "Advancements in diffusion policies are enabling rapid training of complex robotic tasks like cooking."
+      "人型ロボットの価格が急速に低下し、研究用や一般教育向けの導入の障壁が下がりつつあります。",
+      "物流業界大手において、労働力不足と怪我のリスク低減を目指した自律仕分けロボットの稼働規模が拡大しています。",
+      "画像生成AIと同様の数理モデルである「拡散ポリシー（Diffusion Policy）」を応用した、短時間でのロボット行動訓練が成果を上げています。"
     ],
     "categories": {
-      "Humanoids": [
+      "ヒューマノイド": [
         {
-          "title": "Unitree G1 Humanoid Robot Mass Production Begins; Priced at $16,000",
+          "title": "Unitree、人型ロボット「G1」を1万6000ドルで量産開始を発表",
           "link": "https://example.com/unitree-g1-production",
           "source": "The Robot Report",
           "publishedAt": "2026-06-27T08:00:00Z",
-          "summary": "Chinese robotics firm Unitree has announced the start of mass production for its G1 humanoid robot. Priced at a disruptive $16,000, the G1 is aimed at research labs and secondary education. Despite its low price, it boasts 3D LiDAR, depth cameras, and 23 joints. The low entry barrier is expected to exponentially accelerate physical AI research globally.",
+          "summary": "中国のロボット企業Unitreeは、新型人型ロボット「G1」の量産体制が整ったことを発表しました。1万6000ドルという破壊的な価格設定であり、大学や研究所をターゲットにしています。低価格ながら3D LiDARや深度カメラ、23個の関節を備えており、世界中でのロボティクス物理AI研究を劇的に加速させることが期待されています。",
           "impactScore": 9
         }
       ],
-      "Research & AI Models": [
+      "研究・AIモデル": [
         {
-          "title": "Toyota Research Institute Trains Robots to Cook Meals in Hours Using Diffusion Policy",
+          "title": "トヨタ・リサーチ・インスティテュート、拡散ポリシーを用いた調理の3時間高速学習に成功",
           "link": "https://example.com/tri-cooking-diffusion",
           "source": "MIT Technology Review",
           "publishedAt": "2026-06-27T11:20:00Z",
-          "summary": "Researchers at the Toyota Research Institute (TRI) have successfully applied diffusion policies—the same mathematical framework behind AI image generators—to teach dual-arm robots complex culinary tasks. By observing a human chef for just 3 hours, the robot learned to chop vegetables, stir soup, and plate dishes, adjusting dynamically to moving ingredients and changing lighting conditions.",
+          "summary": "トヨタ・リサーチ・インスティテュート（TRI）の研究者らは、拡散ポリシー（Diffusion Policy）を応用し、双腕ロボットに複雑な調理技術を学習させることに成功しました。人間のシェフによる実演をわずか3時間観察するだけで、ロボットは野菜のカット、スープの撹拌、盛り付けを自律的に行い、周辺の照明変化や材料の動きに臨機応変に対応できます。",
           "impactScore": 8
         }
       ],
-      "Logistics & Service": [
+      "物流・サービス": [
         {
-          "title": "Amazon Expands Sequoia Robot Deployment to 10 New Fulfillment Centers",
+          "title": "Amazon、自律在庫仕分けロボット「Sequoia」を新たに10箇所の物流拠点に配備拡大",
           "link": "https://example.com/amazon-sequoia-expansion",
           "source": "Bloomberg",
           "publishedAt": "2026-06-27T16:00:00Z",
-          "summary": "Amazon announced the expansion of its 'Sequoia' containerized inventory sorting robot system to ten additional fulfillment centers. The system, which works alongside human workers to catalog and stow goods, has reportedly reduced employee injuries by 30% and increased shipping speeds by 25%. Amazon aims to have Sequoia fully integrated into half of its US logistics network by 2028.",
+          "summary": "Amazonは、コンテナ型在庫整理ロボットシステム「Sequoia」を新たに10か所のフルフィルメントセンターへ展開したと発表しました。このシステムは人間の作業員と協調して在庫 stowing を行うもので、従業員の労働災害を30%減少させ、配送効率を25%向上させたとのことです。2028年までに米国全物流網の半数へ導入することを目指しています。",
           "impactScore": 7
         }
       ]
@@ -82,28 +90,28 @@
   {
     "date": "2026-06-26",
     "trends": [
-      "Venture capital is shifting heavy resources toward 'Physical AI' startups.",
-      "Urban regulatory frameworks are opening up to sidewalk autonomous logistics.",
-      "Robot safety and fail-safe protocols are becoming a central focus for regulators."
+      "実世界の課題を解く「フィジカルAI（Physical AI）」スタートアップに巨額のベンチャー資金が流入しています。",
+      "都市部における自動配送ロボットの歩道走行許可が進み、規制の緩和傾向が見られます。",
+      "規制当局にとって、自律走行ロボットの歩行者安全対策や衝突回避プロトコルの策定が優先課題となっています。"
     ],
     "categories": {
-      "Business & Market": [
+      "ビジネス・市場": [
         {
-          "title": "Physical Intelligence Raises $400M to Build Universal Robot Brain",
+          "title": "Physical Intelligence、汎用ロボット脳の開発に向けて4億ドルを調達",
           "link": "https://example.com/pi-funding-400m",
           "source": "Wall Street Journal",
           "publishedAt": "2026-06-26T13:45:00Z",
-          "summary": "Physical Intelligence (PI), a stealth-mode startup focusing on foundational software for robots, has raised $400M in a Series A round co-led by OpenAI, Thrive Capital, and Sequoia Capital. The company plans to build a single, universal software platform that can control any robot, from robotic arms to humanoid systems, similar to how operating systems serve PCs.",
+          "summary": "ロボット用基盤ソフトウェアの開発を手がける新興企業Physical Intelligence（PI）は、OpenAIやThrive Capital、Sequoia CapitalなどからシリーズAで4億ドルの資金調達を実施しました。同社は、特定の機体に依存せず、アームからヒューマノイドまで汎用的に制御可能な単一のソフトウェアプラットフォーム構築を目指しています。",
           "impactScore": 9
         }
       ],
-      "Logistics & Service": [
+      "物流・サービス": [
         {
-          "title": "San Francisco Approves Expanded Sidewalk Delivery Robot Permits",
+          "title": "サンフランシスコ市、自動デリバリーロボットの歩道走行走行認可枠を拡大",
           "link": "https://example.com/sf-delivery-robots",
           "source": "San Francisco Chronicle",
           "publishedAt": "2026-06-26T10:10:00Z",
-          "summary": "The San Francisco Board of Supervisors has approved a new pilot program allowing three autonomous delivery startups to operate sidewalk robots in selected commercial zones. The robots are speed-limited to 3 mph and must yield to all pedestrians and service animals. The move signals easing regulatory stances on micro-logistics in major metropolitan areas.",
+          "summary": "サンフランシスコ市監督理事会は、自動配送ロボットを展開するスタートアップ3社に対し、商業地域での歩道走行許可枠を拡大する試験プログラムを承認しました。ロボットは時速3マイルに制限され、歩行者や盲導犬に優先して道を譲る義務があります。都市部におけるマイクロロジスティクス実装へ向けた前進と見られています。",
           "impactScore": 7
         }
       ]

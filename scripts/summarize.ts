@@ -49,12 +49,28 @@ interface DailySummary {
 // Feeds to aggregate
 const FEEDS = [
   {
-    name: 'Google News AI & Robotics',
+    name: 'Google News AI & Robotics (Global)',
     url: 'https://news.google.com/rss/search?q=robot+OR+robotics+OR+humanoid+when:24h&hl=en-US&gl=US&ceid=US:en'
+  },
+  {
+    name: 'Google News (Target Sites)',
+    url: 'https://news.google.com/rss/search?q=(robot+OR+robotics+OR+humanoid)+(site:ifr.org+OR+site:science.org/journal/scirobotics+OR+site:rsj.or.jp+OR+site:robot-digest.com+OR+site:bostondynamics.com)+when:7d&hl=ja&gl=JP&ceid=JP:ja'
   },
   {
     name: 'IEEE Spectrum Robotics',
     url: 'https://spectrum.ieee.org/feeds/robotics.rss'
+  },
+  {
+    name: 'ScienceDaily Robotics',
+    url: 'https://www.sciencedaily.com/rss/computers_math/robotics.xml'
+  },
+  {
+    name: 'Robohub',
+    url: 'https://robohub.org/feed/'
+  },
+  {
+    name: 'NVIDIA Autonomous Machines',
+    url: 'https://blogs.nvidia.com/blog/category/autonomous-machines/feed/'
   }
 ];
 
@@ -109,7 +125,7 @@ async function fetchNews(): Promise<RawArticle[]> {
   });
 
   console.log(`Fetched ${uniqueArticles.length} unique articles.`);
-  return uniqueArticles.slice(0, 15); // Limit to top 15 articles to avoid token blowup
+  return uniqueArticles.slice(0, 20); // Limit to top 20 articles
 }
 
 async function generateAISummaries(articles: RawArticle[]): Promise<DailySummary> {
@@ -132,15 +148,16 @@ async function generateAISummaries(articles: RawArticle[]): Promise<DailySummary
 
   const prompt = `
 You are an expert tech curator specializing in Artificial Intelligence and Robotics.
-Your task is to analyze the following list of raw news articles fetched today (${todayStr}), filter out irrelevant news (ensure they are strictly about robotics, humanoids, physical AI, or automation), and produce a structured daily digest.
+Your task is to analyze the following list of raw news articles fetched today (${todayStr}), filter out irrelevant news (ensure they are strictly about robotics, humanoids, physical AI, or automation), and produce a structured daily digest in Japanese.
 
 Rules for output:
-1. Summarize each selected article in 2-3 sentences, highlighting the core technical breakthrough or commercial impact.
-2. Group the articles into meaningful categories, choosing from: "Humanoids", "Research & AI Models", "Logistics & Service", "Business & Market", "Consumer Robots". Do not create categories with no articles.
-3. Keep the most impactful 4-6 articles overall. Filter out duplicate topics or lower-priority press releases.
-4. Assign an "impactScore" (integer 1-10) reflecting how much this news shapes the future of robotics.
-5. Create a list of 3 "trends" representing key takeaways or patterns observed in today's news.
-6. Provide the output in the JSON format matching the schema below.
+1. Translate the title into natural and professional Japanese.
+2. Translate and summarize each selected article in Japanese in 2-3 concise sentences (80-150 Japanese characters), highlighting the core technical breakthrough or commercial impact.
+3. Group the articles into Japanese categories: choose from "ヒューマノイド", "研究・AIモデル", "物流・サービス", "ビジネス・市場", "家庭用・コンシューマー". Do not create categories with no articles.
+4. Keep the most impactful 4-6 articles overall. Filter out duplicate topics or lower-priority press releases.
+5. Assign an "impactScore" (integer 1-10) reflecting how much this news shapes the future of robotics.
+6. Create a list of 3 key "trends" (summary points) observed in today's news, written in natural Japanese.
+7. Provide the output in the JSON format matching the schema below.
 
 Input Articles:
 ${JSON.stringify(articles, null, 2)}
@@ -148,15 +165,15 @@ ${JSON.stringify(articles, null, 2)}
 Expected JSON Output Schema:
 {
   "date": "${todayStr}",
-  "trends": ["trend bullet 1", "trend bullet 2", "trend bullet 3"],
+  "trends": ["日本語のトレンド動向1", "日本語のトレンド動向2", "日本語のトレンド動向3"],
   "categories": {
-    "CategoryName": [
+    "日本語のカテゴリ名": [
       {
-        "title": "Article Title",
+        "title": "日本語に翻訳された記事タイトル",
         "link": "Article URL",
         "source": "Source Name",
         "publishedAt": "ISO date",
-        "summary": "2-3 sentences summary",
+        "summary": "日本語で2〜3文で書かれた要約",
         "impactScore": 9
       }
     ]
@@ -184,31 +201,31 @@ function generateMockSummary(dateStr: string): DailySummary {
   // Select some realistic items for mock generation
   const mockStories = [
     {
-      title: "Agility Robotics Deploys Digit to Spanx Distribution Centers",
+      title: "Agility Robotics、Digit人型ロボットをSpanx物流センターに配備開始",
       link: "https://example.com/agility-digit-spanx",
       source: "Retail Wire",
       publishedAt: new Date().toISOString(),
-      summary: "Agility Robotics has signed a multi-year fleet agreement to deploy its Digit humanoid robot to Spanx distribution warehouses. Digit will carry out bin-toting and inventory-sorting tasks, integrating directly with existing warehouse management software. This marks one of the first major commercial expansions of humanoid fleets in the apparel logistics sector.",
+      summary: "Agility Roboticsは、Spanxの配送倉庫に人型ロボット「Digit」を導入する複数年契約を締結しました。Digitはトートバッグの運搬や在庫の仕分け作業を行い、既存の倉庫管理ソフトウェアと直接連携します。これは、アパレル物流部門における人型ロボットフリートの大規模な商用導入事例の1つとなります。",
       impactScore: 8,
-      category: "Logistics & Service"
+      category: "物流・サービス"
     },
     {
-      title: "Stanford Researchers Build 'Low-Cost' Dexterous Robotic Hand for $500",
+      title: "スタンフォード大学、500ドル未満で製作できるオープンソースの多指ロボットハンドを開発",
       link: "https://example.com/stanford-dexterous-hand",
       source: "Stanford News",
       publishedAt: new Date().toISOString(),
-      summary: "Engineering students at Stanford University have published open-source designs for a highly dexterous, 3D-printable robotic hand that costs under $500 in parts. Powered by standard hobby servos and custom compliant joint mechanisms, the hand can pinch, grip, and type. The project aims to democratize physical AI hardware research in resource-constrained labs.",
+      summary: "スタンフォード大学の研究チームは、部品代が500ドル未満で済む高精度な3Dプリント製ロボットハンドの設計図をオープンソースとして公開しました。標準的なホビー用サーボと compliant 構造によって駆動し、物をつまむ、掴む、キーボードを入力するなどの作業が可能です。資金の限られた研究室でのロボティクス研究の民主化を目指します。",
       impactScore: 9,
-      category: "Research & AI Models"
+      category: "研究・AIモデル"
     },
     {
-      title: "Tesla Rolls Out 'FSD-Beta' equivalent for Optimus in selected factories",
+      title: "テスラ、一部の工場で人型ロボットOptimus向けに『FSDベータ』相当の歩行システムを導入",
       link: "https://example.com/tesla-optimus-fsd",
       source: "Electrek",
       publishedAt: new Date().toISOString(),
-      summary: "Tesla is deploying a major software update to its internal Optimus robot fleet. The update introduces autonomous path-planning, allowing the robots to navigate busy factory floors without pre-mapped routes, utilizing the same occupant occupancy network models as Tesla's electric vehicles. Trial operations are expanding in Nevada and Fremont.",
+      summary: "テスラは、自社工場内のOptimusロボットに対して大規模なソフトウェアアップデートの配信を開始しました。この更新により、ロボットは事前に定義された経路なしで混雑した工場内を自律走行できるようになり、テスラ車と同一の占有グリッドネットワークモデルを使用しています。テキサス等の工場で検証中です。",
       impactScore: 9,
-      category: "Humanoids"
+      category: "ヒューマノイド"
     }
   ];
 
@@ -230,9 +247,9 @@ function generateMockSummary(dateStr: string): DailySummary {
   return {
     date: dateStr,
     trends: [
-      "Low-cost open-source hardware designs are democratizing robotics research.",
-      "Tesla is leveraging its automotive autopilot technology to accelerate humanoid navigation.",
-      "Humanoid fleets are securing larger retail and apparel logistics commercial contracts."
+      "低コストでオープンソースな多指ロボットハンド設計が研究現場でのロボット導入を民主化しています。",
+      "テスラは自動運転技術（FSD）の知見をそのまま人型ロボットの自律歩行技術に転用し、進化を加速させています。",
+      "物流やアパレル企業の倉庫において、人型ロボットフリートの商用配備契約が実証段階から本配備へと拡大しつつあります。"
     ],
     categories
   };
