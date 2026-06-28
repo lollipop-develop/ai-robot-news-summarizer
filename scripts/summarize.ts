@@ -125,7 +125,7 @@ async function fetchNews(): Promise<RawArticle[]> {
   });
 
   console.log(`Fetched ${uniqueArticles.length} unique articles.`);
-  return uniqueArticles.slice(0, 20); // Limit to top 20 articles
+  return uniqueArticles.slice(0, 40); // Limit to top 40 articles to give Gemini more choice
 }
 
 async function generateAISummaries(articles: RawArticle[]): Promise<DailySummary> {
@@ -154,7 +154,7 @@ Rules for output:
 1. Translate the title into natural and professional Japanese.
 2. Translate and summarize each selected article in Japanese in 2-3 concise sentences (80-150 Japanese characters), highlighting the core technical breakthrough or commercial impact.
 3. Group the articles into Japanese categories: choose from "ヒューマノイド", "研究・AIモデル", "物流・サービス", "ビジネス・市場", "家庭用・コンシューマー". Do not create categories with no articles.
-4. Keep the most impactful 4-6 articles overall. Filter out duplicate topics or lower-priority press releases.
+4. Keep the most impactful 10-15 articles overall. Filter out duplicate topics or lower-priority press releases.
 5. Assign an "impactScore" (integer 1-10) reflecting how much this news shapes the future of robotics.
 6. Create a list of 3 key "trends" (summary points) observed in today's news, written in natural Japanese.
 7. Provide the output in the JSON format matching the schema below.
