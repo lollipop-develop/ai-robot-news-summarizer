@@ -6,8 +6,7 @@ import {
   Search, 
   ExternalLink, 
   Clock, 
-  RefreshCw, 
-  AlertCircle, 
+  AlertCircle,
   BookOpen, 
   Filter, 
   Sparkles,
@@ -16,9 +15,43 @@ import {
 import type { DailySummary } from './types';
 import archiveData from './data/archive.json';
 
+// Helper to get a curated premium image based on category and index
+const getCategoryImage = (category: string, index: number) => {
+  const images: { [key: string]: string[] } = {
+    "ヒューマノイド": [
+      "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=600&q=80"
+    ],
+    "研究・AIモデル": [
+      "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "物流・サービス": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80"
+    ],
+    "ビジネス・市場": [
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80"
+    ]
+  };
+
+  const defaultImages = [
+    "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80",
+    "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=600&q=80"
+  ];
+
+  const list = images[category] || defaultImages;
+  return list[index % list.length];
+};
+
 export default function App() {
   // Load archive data, cast to proper typing
-  const [summaries, setSummaries] = useState<DailySummary[]>(archiveData as unknown as DailySummary[]);
+  const [summaries] = useState<DailySummary[]>(archiveData as unknown as DailySummary[]);
   
   // Default to the most recent date available in archive, or fall back
   const [selectedDate, setSelectedDate] = useState<string>(
@@ -27,9 +60,6 @@ export default function App() {
   
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
-  const [isAggregating, setIsAggregating] = useState(false);
-  const [apiNoticeClosed, setApiNoticeClosed] = useState(false);
-
   // Find the active daily summary
   const activeSummary = summaries.find(s => s.date === selectedDate);
 
@@ -37,71 +67,6 @@ export default function App() {
   const categoriesList = activeSummary 
     ? ['All', ...Object.keys(activeSummary.categories)]
     : ['All'];
-
-  // Handle mock live updates (Aggregator simulator)
-  const triggerMockAggregation = () => {
-    setIsAggregating(true);
-    
-    // Simulate API fetch delay
-    setTimeout(() => {
-      setIsAggregating(false);
-      
-      const todayStr = new Date().toISOString().split('T')[0];
-      
-      // Check if we already have today's date in summaries
-      const exists = summaries.some(s => s.date === todayStr);
-      if (exists) {
-        alert("Today's news digest has already been generated and saved! Check the list for " + todayStr);
-        return;
-      }
-
-      // Prepend a new simulated day
-      const newDay: DailySummary = {
-        date: todayStr,
-        trends: [
-          "Anthropicがマルチエージェント型ハードウェア制御向けのClaude 4.5 Robotics Orchestrator APIを公開。",
-          "NVIDIAが低遅延な触覚センサー統合を特徴とするProject GR00Tの最新アップデートを発表。",
-          "オープンソースのロボット用オペレーティングシステム（ROS）の開発者導入率が80%急増。"
-        ],
-        categories: {
-          "ヒューマノイド": [
-            {
-              "title": "Anthropicが1Xと提携、人型ロボット「Neo」にClaude 4.5 Orchestratorを配備",
-              "link": "https://example.com/anthropic-1x-neo",
-              "source": "TechCrunch",
-              "publishedAt": new Date().toISOString(),
-              "summary": "Anthropicと1X Technologiesは、次世代のClaudeモデルをNeo人型ロボットに直接統合する共同提携を発表しました。この統合により、高度な推論が提供され、Neoは手動コードの更新なしに動的に変化する家庭の家事に適応可能になります。来週オスロで実証実験が開始されます。",
-              "impactScore": 10
-            }
-          ],
-          "研究・AIモデル": [
-            {
-              "title": "NVIDIA、触覚・視覚・行動（VLA）を統合したモデルでProject GR00Tを強化",
-              "link": "https://example.com/nvidia-gr00t-tactile",
-              "source": "NVIDIA Developer Blog",
-              "publishedAt": new Date().toISOString(),
-              "summary": "NVIDIAは、人型ロボット向けの基盤モデル「Project GR00T」のメジャーアップデートを発表しました。このアップデートにより、ロボットは触覚フィードバックと視覚入力を単一のトランスフォーマー構造を介して同時に処理できます。これにより摩擦が軽減され、ネジの仕分けやリネンの折り畳みなどの繊細な操作の成功率が向上します。",
-              "impactScore": 9
-            }
-          ],
-          "ビジネス・市場": [
-            {
-              "title": "労働力不足を背景に、協働ロボット（コボット）の出荷数が2027年までに倍増する見通し",
-              "link": "https://example.com/cobots-growth-2027",
-              "source": "Financial Times",
-              "publishedAt": new Date().toISOString(),
-              "summary": "Interact Analysisの市場レポートによると、世界の協働ロボット（コボット）出荷台数は今後18か月で倍増する見込みです。製造業における人件費の高騰と、向上したロボット安全センサーが、中規模工場による人間とロボットの共同作業空間への投資を後押ししています。",
-              "impactScore": 8
-            }
-          ]
-        }
-      };
-
-      setSummaries(prev => [newDay, ...prev]);
-      setSelectedDate(todayStr);
-      setActiveCategory('All');
-    }, 1800);
-  };
 
   // Helper for impact score styling class
   const getImpactClass = (score: number) => {
@@ -118,25 +83,6 @@ export default function App() {
 
   return (
     <div className="app-container">
-      {/* Top Banner Notice */}
-      {!apiNoticeClosed && (
-        <div className="overlay-banner">
-          <div className="banner-text">
-            <AlertCircle size={16} className="logo-icon" />
-            <span>
-              <strong>Note:</strong> Currently running in demo mode. The backend script aggregates feeds from Google News & IEEE Spectrum. To enable autonomous daily updates, configure <code>GEMINI_API_KEY</code> and set up the GitHub Actions daily workflow.
-            </span>
-          </div>
-          <button 
-            className="banner-action" 
-            style={{ background: 'none', border: 'none', cursor: 'pointer' }}
-            onClick={() => setApiNoticeClosed(true)}
-          >
-            Dismiss
-          </button>
-        </div>
-      )}
-
       {/* Main Header */}
       <header className="header glass-panel">
         <div className="logo-section">
@@ -145,23 +91,6 @@ export default function App() {
             <h1 className="logo-title">ROBO-FEED</h1>
             <p className="logo-subtitle">Daily AI & Robotics Curator</p>
           </div>
-        </div>
-        
-        <div className="header-actions">
-          <button 
-            className="btn btn-secondary"
-            onClick={() => window.open('https://github.com', '_blank')}
-          >
-            GitHub Repo
-          </button>
-          <button 
-            className="btn btn-primary"
-            onClick={triggerMockAggregation}
-            disabled={isAggregating}
-          >
-            <RefreshCw size={16} className={isAggregating ? 'animate-spin' : ''} />
-            {isAggregating ? 'Processing Feeds...' : 'Fetch & Summarize Now'}
-          </button>
         </div>
       </header>
 
@@ -280,48 +209,57 @@ export default function App() {
                     <div className="news-grid">
                       {filteredArticles.map((art, idx) => (
                         <article key={idx} className="news-card glass-panel">
-                          <div className="news-header">
-                            <a 
-                              href={art.link} 
-                              target="_blank" 
-                              rel="noopener noreferrer" 
-                              className="news-title"
-                            >
-                              {art.title}
-                            </a>
-                            <span className={`impact-badge ${getImpactClass(art.impactScore)}`}>
-                              <Award size={12} style={{ marginRight: '0.15rem' }} />
-                              Impact: {art.impactScore}
-                            </span>
-                          </div>
+                          <div className="news-card-inner">
+                            <img 
+                              src={getCategoryImage(categoryName, idx)} 
+                              alt={art.title} 
+                              className="news-card-image"
+                            />
+                            <div className="news-card-content">
+                              <div className="news-header">
+                                <a 
+                                  href={art.link} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer" 
+                                  className="news-title"
+                                >
+                                  {art.title}
+                                </a>
+                                <span className={`impact-badge ${getImpactClass(art.impactScore)}`}>
+                                  <Award size={12} style={{ marginRight: '0.15rem' }} />
+                                  Impact: {art.impactScore}
+                                </span>
+                              </div>
 
-                          <div className="news-meta">
-                            <div className="meta-item">
-                              <span style={{ fontWeight: 600, color: 'var(--accent-cyan)' }}>{art.source}</span>
+                              <div className="news-meta">
+                                <div className="meta-item">
+                                  <span style={{ fontWeight: 600, color: 'var(--accent-crimson)' }}>{art.source}</span>
+                                </div>
+                                <div className="meta-item">
+                                  <Clock size={12} />
+                                  <span>{new Date(art.publishedAt).toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })}</span>
+                                </div>
+                              </div>
+
+                              <p className="news-summary">
+                                {art.summary}
+                              </p>
+
+                              <div className="news-footer">
+                                <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                                  Aggregated via Robotics Feeds
+                                </span>
+                                <a 
+                                  href={art.link} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer" 
+                                  className="read-more"
+                                >
+                                  Read Original Source
+                                  <ExternalLink size={12} />
+                                </a>
+                              </div>
                             </div>
-                            <div className="meta-item">
-                              <Clock size={12} />
-                              <span>{new Date(art.publishedAt).toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })}</span>
-                            </div>
-                          </div>
-
-                          <p className="news-summary">
-                            {art.summary}
-                          </p>
-
-                          <div className="news-footer">
-                            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                              Aggregated via Robotics Feeds
-                            </span>
-                            <a 
-                              href={art.link} 
-                              target="_blank" 
-                              rel="noopener noreferrer" 
-                              className="read-more"
-                            >
-                              Read Original Source
-                              <ExternalLink size={12} />
-                            </a>
                           </div>
                         </article>
                       ))}
