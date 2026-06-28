@@ -58,17 +58,26 @@ interface DailySummary {
 
 // Feeds to aggregate
 const FEEDS = [
+  // 1. Direct High-Quality RSS Feeds (Direct links = easy og:image scraping and clean links)
   {
-    name: 'Google News AI & Robotics (Global)',
-    url: 'https://news.google.com/rss/search?q=robot+OR+robotics+OR+humanoid+when:24h&hl=en-US&gl=US&ceid=US:en'
+    name: 'ロボスタ (Robostart)',
+    url: 'https://robotstart.info/feed'
   },
   {
-    name: 'Google News (Target Sites)',
-    url: 'https://news.google.com/rss/search?q=(robot+OR+robotics+OR+humanoid)+(site:ifr.org+OR+site:science.org/journal/scirobotics+OR+site:rsj.or.jp+OR+site:robot-digest.com+OR+site:bostondynamics.com)+when:7d&hl=ja&gl=JP&ceid=JP:ja'
+    name: 'MONOist',
+    url: 'https://rss.itmedia.co.jp/rss/2.0/monoist.xml'
   },
   {
     name: 'IEEE Spectrum Robotics',
     url: 'https://spectrum.ieee.org/feeds/robotics.rss'
+  },
+  {
+    name: 'The Robot Report',
+    url: 'https://www.therobotreport.com/feed/'
+  },
+  {
+    name: 'NVIDIA Autonomous Machines',
+    url: 'https://blogs.nvidia.com/blog/category/autonomous-machines/feed/'
   },
   {
     name: 'ScienceDaily Robotics',
@@ -78,21 +87,14 @@ const FEEDS = [
     name: 'Robohub',
     url: 'https://robohub.org/feed/'
   },
+  // 2. Google News Feeds (General fallback - redirects mean fallback category images)
   {
-    name: 'NVIDIA Autonomous Machines',
-    url: 'https://blogs.nvidia.com/blog/category/autonomous-machines/feed/'
+    name: 'Google News AI & Robotics (Global)',
+    url: 'https://news.google.com/rss/search?q=robot+OR+robotics+OR+humanoid+when:24h&hl=en-US&gl=US&ceid=US:en'
   },
   {
-    name: 'The Robot Report',
-    url: 'https://www.therobotreport.com/feed/'
-  },
-  {
-    name: 'ロボスタ (Robostart)',
-    url: 'https://robotstart.info/feed'
-  },
-  {
-    name: 'MONOist',
-    url: 'https://rss.itmedia.co.jp/rss/2.0/monoist.xml'
+    name: 'Google News (Target Sites)',
+    url: 'https://news.google.com/rss/search?q=(robot+OR+robotics+OR+humanoid)+(site:ifr.org+OR+site:science.org/journal/scirobotics+OR+site:rsj.or.jp+OR+site:robot-digest.com+OR+site:bostondynamics.com)+when:7d&hl=ja&gl=JP&ceid=JP:ja'
   }
 ];
 
@@ -160,7 +162,7 @@ async function fetchNews(): Promise<RawArticle[]> {
   });
 
   console.log(`Fetched ${uniqueArticles.length} unique articles.`);
-  return uniqueArticles.slice(0, 40); // Limit to top 40 articles to give Gemini more choice
+  return uniqueArticles.slice(0, 65); // Limit to top 65 articles to give Gemini more choice
 }
 
 async function generateAISummaries(articles: RawArticle[]): Promise<DailySummary> {
