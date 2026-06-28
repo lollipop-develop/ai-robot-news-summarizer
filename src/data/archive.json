@@ -2,65 +2,139 @@
   {
     "date": "2026-06-28",
     "trends": [
-      "ヒューマノイドの実用化と市場競争の激化: 世界的な大企業がヒューマノイド開発に本格参入し、商業利用に向けた競争が加速している動向。",
-      "実体AIの大規模展開と産業への深い統合: 物理世界で機能するAIロボットが生産実績を伸ばし、自動車製造など基幹産業での変革を牽引している点。",
-      "ロボティクス応用分野の多様化と新たな資金調達手法の台頭: 医療分野での小型ロボット応用や、トークン化を通じた革新的な資金流入が見られ、技術とビジネスモデルの進化が並行して進んでいる。"
+      "ヒューマノイドロボット開発競争の激化と社会への影響：世界の大手企業や中国勢がヒューマノイド開発に本格参入し、先行者優位を競っています。一方で、労働市場への影響に対する社会的な反発も顕在化しており、今後の社会受容が大きな課題となるでしょう。",
+      "AIとロボティクスによる産業の広範な変革と大規模展開：自動車製造、農業、ホスピタリティなど、多岐にわたる産業でAIとロボティクスが導入され、効率化やコスト削減を実現しています。具現化されたAIの大規模展開が加速していることを示すニュースが多数報じられました。",
+      "ロボティクス分野への資金流入とサプライチェーンの再編：Framework社による巨額の投資ファンド設立や、テスラの大胆な事業転換は、ロボティクス分野への期待と資金流入が活発であることを示しています。自動車とロボティクスのサプライチェーン融合など、産業構造の変化も進んでいます。"
     ],
     "categories": {
       "ヒューマノイド": [
         {
-          "title": "世界の大手10社がヒューマノイドロボット開発競争に参入、韓国も上位目指す",
+          "title": "世界の大手10社がヒューマノイドロボット開発競争に参入、韓国はトップ層目指す",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WZW5XMU1YaHB4YnVCb2ZfQVpiSzFqRmlTS2J1SHB4SlJkQlJpcWFIRnlEQlpnaEVJWTVkV0dUaW9QaUxjU1N5cmV2MTVzSFcxWHlURGR6OHpDTjhoQjJzLTBQbXlLQUtiNVYw?oc=5",
           "source": "KED Global",
           "publishedAt": "2026-06-28T12:30:00.000Z",
-          "summary": "世界の大手企業10社がヒューマノイドロボットの開発競争に本格参入し、特に韓国は主要プレイヤーを目指し大規模な投資を行っています。これは、汎用ロボットが工場やサービス分野で広く普及する時代の到来を予見させ、産業構造に大きな変革をもたらす可能性があります。",
+          "summary": "世界の大手企業10社がヒューマノイドロボット開発競争に本格参入し、特に韓国は関連技術のサプライチェーン強化を通じてトップ層を目指しています。これにより、ヒューマノイド市場の競争激化と技術革新が加速する見込みです。",
           "impactScore": 9
+        },
+        {
+          "title": "配送ロボットスタートアップRobot.comが職場向けヒューマノイドに注力",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMVRkNFlZLXBzTThiNEZFUkFyN2lfVjhnX3FaMWxTTERWNzVPRS1DSDYtSHdwNkhwTTJsbU5rREhDV1hrRlN5WWtYNE5lMXBHeXNQZFBmRUVYdTY0TjlYdzVFSHdtYWtQbWoxTDlFZDJlZldkQ3VOTTlWS0V6c3VaLTFB?oc=5",
+          "source": "AOL.com",
+          "publishedAt": "2026-06-28T09:34:16.000Z",
+          "summary": "配送ロボットを手がけるスタートアップRobot.comが、次なる事業として職場向けのヒューマノイドロボット開発に重点を置いています。これにより、労働力不足の解消や業務効率化に貢献する新しいロボットの導入が加速する可能性があります。",
+          "impactScore": 7
+        },
+        {
+          "title": "現代自動車のAtlasヒューマノイドロボット導入計画に対し韓国労働者がストライキ投票",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUjlyQktwaGpFV29NcUQxS0VzbThTRWpPeEhxRlB2LUpEYS1ueDdZejFibEs1UXRUV3R0dTJLMHZXM2FVYU9DaDlHNVhZV0dSbXlvRzA1b2FBWnpwZHVlTXcxWnFFbk5uTlR0MUFDVHM3ZDV6eTFQcnRZVHVGU1pCVmFlM2lkMDlDd1hvRnROcXNpckZ4ZVVjZFc3LWo5RUloT0xISGtNZTZGWDZhalZMbnRDMVd5anc5REUzdnVZQWXSAcYBQVVfeXFMT0VwTmtDYnprRHBEYlJWOWlkWlRnLU03Nkw0OXdkc2UtaFRvT2Vfc3Z1LWFaLXJfdlVQSW5IMmVtS3Z6bG40eUxMVDZGeEdETHNUSE5COHZfeFdleTlsWHY0VzN4Ym5VbVozZXFvR2VsYXYtaE8ydTZnWEpQYUdtVDNSbm1PQ29Jd0NfWERfY0NEc3pRQVZrc2pHazNLcDlfMm5GMnlvVFA5NHpNOWJxY2szNHZhQ3VHNXBpUGtXLU1BSDlFTEhn?oc=5",
+          "source": "Firstpost",
+          "publishedAt": "2026-06-28T12:38:38.000Z",
+          "summary": "現代自動車がBoston Dynamics社のAtlasヒューマノイドロボットの導入を計画していることに対し、韓国の労働組合がストライキに踏み切る投票を行いました。これは、ロボットによる労働代替が社会に与える影響と、雇用問題に関する議論を浮き彫りにしています。",
+          "impactScore": 9
+        },
+        {
+          "title": "中国の自動車メーカー約20社がヒューマノイドロボットの先行者優位を競う",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oYTJZVFdWdUhvZGo4Z1FOa1g3YlZyY0xia2gxMXVPU1YxczFYU2RRSDVPd3B2N3VsSzg0a0RrXzJvaVktZHhGOVBLSWEzaHBxNF9RbFF0WlZ5UW5UanFHRXBZV0NaRkhCYUdBYVkwSlpDVVFKeWtDcg?oc=5",
+          "source": "Pandaily",
+          "publishedAt": "2026-06-28T05:11:57.000Z",
+          "summary": "中国の自動車メーカー約20社が、ヒューマノイドロボット市場での先行者優位を狙い、開発競争を繰り広げています。これにより、中国国内のロボット技術革新が加速し、国際市場での競争力強化を目指す動きが顕著になっています。",
+          "impactScore": 8
         }
       ],
       "研究・AIモデル": [
         {
-          "title": "AGIBOTが1万5千台目のロボットを生産、実体AI導入のマイルストーンを達成",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSUgxblVZaExXN3pVTnZHUEpnMVJrMXFiZW5vU3ZDdFFINGNscHhoRzZxT3RCR0Zta09YZVliYUlwWnZJUXg5YmRhaURhd3ppR0pWVFBzNVBPNlJVaU9URDF4TVV4NGlPanNfMXlhUVdVaHRDVWtDX2w5R3hfMEZMQjhxQW9la3ZpdkZiSHBmUDJrZUVhcElyNkxKRXQwaU04alpobw?oc=5",
-          "source": "The Robot Report",
-          "publishedAt": "2026-06-28T09:02:29.000Z",
-          "summary": "AGIBOTが実体AI（embodied AI）ロボットの生産台数1万5千台を達成し、商用展開における大きな節目を迎えました。これは、物理世界で自律的に機能するAIロボットの大規模導入が現実のものとなりつつあることを示し、様々な産業での自動化と効率化を加速させるでしょう。",
-          "impactScore": 8
-        },
-        {
-          "title": "驚くべき技術：3本指で這い回るロボットアームが実現",
+          "title": "奇妙だが魅力的：3本指で這うロボットアームが発表",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42MDZmbEVmUnZIWGJGT3gzQmowenJWVFZoeW9fX1dBMFdxbFNEMDZKM0VEV1ZPc2k4eGhFeFRJQ09VZ2s4N0JvT3YzVERLaXdxb0FrUVZWZW43N3FFUlF5OHNGNA?oc=5",
           "source": "IEEE Spectrum",
           "publishedAt": "2026-06-28T08:18:01.000Z",
-          "summary": "3本指のロボットアームが、あたかも生物のように地面を這う新しい移動方法を開発しました。このユニークなメカニズムは、複雑な地形や障害物が多い環境での探索・操作能力を飛躍的に向上させ、将来の災害救助や宇宙探査ロボットの設計に新たな可能性を開くでしょう。",
+          "summary": "3本の指を使って地面を這う、これまでにない移動能力を持つロボットアームが開発されました。この革新的なデザインは、不規則な地形での移動や精密な作業が必要な分野で、新たな応用可能性を切り開くでしょう。",
           "impactScore": 7
         }
       ],
       "物流・サービス": [
         {
-          "title": "AIとロボティクスがいかに自動車製造業を変革するか",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN1lMZDVHRHpsMWt3dTVldk50b0JYRk5QY2ZnVjh6SzhUZmlEZDZlbmZVS3JqNGxCWEozU1hRcFBhSmlHY3ZYaFRqR195R2JsWTJhaHpnS3IyMnE5LVNBRU1RazRGX00td0JWRnptaDhCaFNmU3BUNFhramp0RGkzZw?oc=5",
-          "source": "Automotive News",
-          "publishedAt": "2026-06-28T10:00:00.000Z",
-          "summary": "AIとロボティクスの統合が自動車製造業に根本的な変革をもたらし、生産ラインの効率化、品質向上、そしてカスタマイズ能力の向上を実現します。この進化は、より柔軟でデータ駆動型の製造プロセスを確立し、将来のモビリティ産業のあり方を再定義する可能性を秘めています。",
+          "title": "AGIBOTが15,000台目のロボットを生産、具現化されたAI展開でマイルストーン達成",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSUgxblVZaExXN3pVTnZHUEpnMVJrMXFiZW5vU3ZDdFFINGNscHhoRzZxT3RCR0Zta09YZVliYUlwWnZJUXg5YmRhaURhd3ppR0pWVFBzNVBPNlJVaU9URDF4TVV4NGlPanNfMXlhUVdVaHRDVWtDX2w5R3hf0FaeS3ZpdkZiSHBmUDJrZUVhcElyNkxKRXQwaU04alpobw?oc=5",
+          "source": "The Robot Report",
+          "publishedAt": "2026-06-28T09:02:29.000Z",
+          "summary": "AGIBOT社が15,000台目のロボットを生産し、具現化されたAIの商業展開における重要なマイルストーンを達成しました。これは、AIを搭載したロボットが産業やサービス分野で大規模に普及しつつあることを示しています。",
           "impactScore": 8
         },
         {
-          "title": "歯科治療に革命：小型ロボットがクラウン装着を簡素化",
+          "title": "AIとロボティクスが自動車製造をどのように変革するか",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN1lMZDVHRHpsMWt3dTVldk50b0JYRk5QY2ZnVjh6SThUZmlEZDZlbmZVS3JqNGxCWEozU1hRcFBhSmlHY3ZYaFRqR195R2JsWTJhaHpnS3IyMnE5LVNBRU1RazRGX00td0JWRnptaDhCaFNmU3BUNFhramp0RGkzZw?oc=5",
+          "source": "Automotive News",
+          "publishedAt": "2026-06-28T10:00:00.000Z",
+          "summary": "AIとロボティクスの統合が、自動車製造プロセスに劇的な変革をもたらしています。これにより、生産効率の向上、コスト削減、品質管理の強化が期待され、業界全体の競争力が高まるでしょう。",
+          "impactScore": 8
+        },
+        {
+          "title": "歯科用クラウン治療を容易にする小型ロボットが登場",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaGxYUENFV2lZQ0lnOEczTHM0UENJMG0xYXhiUFMxVi11eF9WTGpoaHZNbUZuVEw4UmowVi1KN2x0aDF0bzliR19aM09KNUl2SFQtcXpJSlloNERIU0tUWUJCbkoxc1JVZ0dnMXlVUFROek0xM2FEaDNXRjFidXBvSk5ySFpPVUpoNGRPSWNyZklUdDVkeGhPdUhfYU1BbFZn?oc=5",
           "source": "Today's Medical Developments",
           "publishedAt": "2026-06-28T06:00:00.000Z",
-          "summary": "歯科分野で小型ロボットが導入され、歯のクラウン装着プロセスが大幅に簡素化される可能性があります。この技術は、精密な作業を自動化することで治療の精度と効率を高め、患者の負担を軽減するとともに、歯科医療の未来を変える画期的な一歩となります。",
-          "impactScore": 6
+          "summary": "歯科治療において、特にクラウン製作プロセスを簡素化する小型ロボットが開発されました。この技術は、患者の負担を軽減し、歯科医の作業精度を高めることで、医療ロボティクスの新たな応用分野を切り開きます。",
+          "impactScore": 7
+        },
+        {
+          "title": "コロラド州の農場がロボット労働を導入しコスト削減と人員維持を両立",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMUxNSHBGNlVzMmQ4RVZDUGYwT2JXOHRpUjZXbmFfVkNsVTdrNTdQVlVRYXotV0JTS2x3YlctOXdEWmp0Z1JFZHhsdXY2WWZBLTNOM1JBeGg0OFFHOEo4VlZUZmpyZXNGX1B6SDE1NWw3ZV93XzlVQWhnNEF6a3ZOaUs5WmlwT2d0SFRaaUdLWGNHWUVhX2hjOV94NmtlRlVVcHJ0cjAyNA?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-06-28T03:26:00.000Z",
+          "summary": "コロラド州のある農場がロボット労働を導入することで、人件費を削減しつつ既存スタッフの雇用を維持するモデルを構築しました。この事例は、農業における自動化が労働力不足の解決と持続可能な経営に貢献する可能性を示しています。",
+          "impactScore": 7
+        },
+        {
+          "title": "スタッフ不要：中国が世界初の完全ロボット運営ホテルを開業へ",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjY3VjBLVGZVYVZqbGx2cFFjNUxkWU9XUlVVelVKMUx1LWRBSjJVam43ZE5hQ0wwaWJTOGdTNDJzZ3dNbExCYmlDODljNzNESGlKMi1zMnVjZHFHb3JRbEk4cW5oLTdVZEZnMWZSMXFpU2gzMVdadndUOTM2RGFuV0NhSWRfQlR0WE1VNTBjYjVnSmJXclZybzloVkN0enM?oc=5",
+          "source": "Caliber.Az",
+          "publishedAt": "2026-06-28T12:43:35.000Z",
+          "summary": "中国が、従業員を完全にロボットで置き換えた世界初のホテルを開業する予定です。この取り組みは、サービス産業における完全自動化の実現可能性を実証し、未来のホスピタリティ産業のあり方に大きな影響を与えるでしょう。",
+          "impactScore": 9
         }
       ],
       "ビジネス・市場": [
         {
-          "title": "AI・ロボティクス分野の新たな資金調達層としてトークン化が台頭、Frameworkが4億ドルのファンドを設立",
+          "title": "トークン化がAI・ロボティクス分野の新たな資金調達層に、Frameworkが4億ドルファンドで投資",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWXVWWWhjdjVUa3BpeTIzOHVUZXlJMzJOM3lUY2tLcHJOQ0RGeWtxTENsUncwSVNSM1J3T2VYWkxtWWhNZ1RiSWVOVnNpcG4tTE9YdTJZOWFJSTJkaThYMUMwV3RhdUZSMmxKMjhrUy1pSE1MS1JuVzZ3Q0toTlVvTjZVZzJ3eUxNUmhzVms4QndON0w2djJ2LTFfbkxaajJMdnlyaENpNTBtMm91bnU1bTBhb3A2UE9OQmdrV2lGdi1ERmFDaDlSeDRMSVpmTFpXOU5n?oc=5",
           "source": "CoinDesk",
           "publishedAt": "2026-06-28T13:01:16.000Z",
-          "summary": "Framework Venturesが4億ドルの新ファンドを設立し、AIおよびロボティクス分野における資金調達の新たなトレンドとしてトークン化に注力しています。これは、先進技術プロジェクトへの投資を分散化・民主化する可能性を秘め、エコシステム全体の成長を加速させる画期的な動きです。",
+          "summary": "Framework社が4億ドルのファンドを立ち上げ、AIおよびロボティクス分野における資金調達の新たな手法としてトークン化に注目しています。これにより、スタートアップや研究開発プロジェクトへの投資が活性化し、業界の成長を加速させる可能性があります。",
+          "impactScore": 8
+        },
+        {
+          "title": "Aptiv (APTV) がRobust.AIと第3世代Carterロボットセンサーで契約締結",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcWlUckg1ZmNzQmpsb3FvNktEQWJtRWIxTm9tZEEwcjBfN0RZMHpta0VuVVJudm00NUY1eTJiLVhPQnVjQlFOb01lT0E1cGN2aTRabFRCNmRRUHBrTE12OExvb2ZlTmFpNkZhLWVsOTFoaTF1RUstUzNQaHV3a1ZmNHlpOGFONG5VdXdXWjFnMzMtbjI4?oc=5",
+          "source": "Yahoo Finance",
+          "publishedAt": "2026-06-28T07:06:54.000Z",
+          "summary": "自動車技術企業Aptivが、Robust.AIと第3世代Carterロボット向けセンサーの契約を締結しました。これは、自動運転車やロボットの知覚能力向上に不可欠なセンサー技術の進化と、主要プレイヤー間の提携を示しています。",
           "impactScore": 7
+        },
+        {
+          "title": "テスラがAIとロボティクスへの事業軸を転換",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcmV6eGhqc3RiQ1l6bUdQTTBKNlY1MzlfZVliUjdIYjVEZS1sSWhXMU4wamhyblRYc0daSWVJd25TU3ctNVJSVnJ4UDZIUWdhQ2VTZDEwSVFNSmtMUlR1YnVhdEZkOWtrNVhnTUdrYnoxamRtQk5vQ3BXNmgxVUxFY0NyeGxhR2xNQjVfQy1nX2dxVm4yTDFPTVhDTzZOM05HUklvMjNWSDFYVDJrTnJDS0xjcEZKZ0Fhc0p5Mk5UNE9pekEyVFpn?oc=5",
+          "source": "TradingView",
+          "publishedAt": "2026-06-28T07:13:01.000Z",
+          "summary": "テスラが自動車製造からAIとロボティクスへと事業戦略の軸足を大きく転換しています。これは、同社が未来の成長機会をEVだけでなく、汎用AIとヒューマノイドロボット市場に見出していることを示唆し、業界に大きな影響を与えるでしょう。",
+          "impactScore": 9
+        },
+        {
+          "title": "自動車とロボティクスのサプライチェーンが融合、ドイツのシェフラーが再評価の機運",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1d0txMHAzNjJ0MHhFT2FsMmg0U2V0VHU3dmphQURPbkdQUVpNUnNvUE5uZlRnS2l3ejlwaHltbHlkQ2hmcmlTRkd2RkdPWi1sNEJXdmhpYm1Rak12MWp2OTgxSdIBY0FVX3lxTFA1d0txMHAzNjJ0MHhFT2FsMmg0U2V0VHU3dmphQURPbkdQUVpNUnNvUE5uZlRnS2l3ejlwaHltbHlkQ2hmcmlTRkd2RkdPWi1sNEJXdmhpYm1Rak12MWp2OTgxSQ?oc=5",
+          "source": "Bitget",
+          "publishedAt": "2026-06-28T10:11:22.000Z",
+          "summary": "自動車産業とロボティクス産業のサプライチェーンが融合しつつあり、ドイツのシェフラー社がその恩恵を受けると予測されています。これは、両産業間の技術共有と市場拡大を示唆し、部品メーカーにとって新たなビジネスチャンスを生み出します。",
+          "impactScore": 8
+        }
+      ],
+      "家庭用・コンシューマー": [
+        {
+          "title": "Yosemite RoboticsがLawnovaを世界のアウトドアロボティクス市場へ投入準備",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRlVCYWhsalJmdHZjTWxIa2dxYUgxWFNtYmdVbmQwZGs0OXpYODM0bzFmb0t1dzAzczFEQkdSOWdNazNZX2R2RDdwY3VKTHdlX095OVZHSlRPN290VktpQUJzQ1FlZ3dHMklndW5PeXRSemM1TVFObVJZUkdJMl9jVE55Y1lKc2l3WTdNSjZJd1RFWk51NlpIV1hrak82bDR6a29tTkhQYkhEeVBBX1dscHd2Z0ZpVU9mNm94SEFpMTNJQQ?oc=5",
+          "source": "Macau Business",
+          "publishedAt": "2026-06-28T08:28:35.000Z",
+          "summary": "Yosemite Robotics社が、芝刈りロボット「Lawnova」をKickstarterキャンペーンを通じて世界のアウトドアロボティクス市場に本格展開する準備を進めています。これは、家庭用屋外ロボット市場の成長と多様化を加速させる動きです。",
+          "impactScore": 6
         }
       ]
     }
