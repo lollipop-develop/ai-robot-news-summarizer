@@ -27,6 +27,7 @@ interface RawArticle {
   source: string;
   publishedAt: string;
   snippet: string;
+  imageUrl?: string;
 }
 
 interface Article {
@@ -36,6 +37,7 @@ interface Article {
   publishedAt: string;
   summary: string;
   impactScore: number;
+  imageUrl?: string;
 }
 
 interface DailySummary {
@@ -71,6 +73,18 @@ const FEEDS = [
   {
     name: 'NVIDIA Autonomous Machines',
     url: 'https://blogs.nvidia.com/blog/category/autonomous-machines/feed/'
+  },
+  {
+    name: 'The Robot Report',
+    url: 'https://www.therobotreport.com/feed/'
+  },
+  {
+    name: 'ロボスタ (Robostart)',
+    url: 'https://robotstart.info/feed'
+  },
+  {
+    name: 'MONOist',
+    url: 'https://rss.itmedia.co.jp/rss/2.0/monoist.xml'
   }
 ];
 
@@ -103,12 +117,25 @@ async function fetchNews(): Promise<RawArticle[]> {
           source = 'IEEE Spectrum';
         }
 
+        // Try to extract image URL from enclosures or description html
+        let imageUrl = '';
+        if (item.enclosure && item.enclosure.url) {
+          imageUrl = item.enclosure.url;
+        } else {
+          const htmlContent = item.content || item.contentSnippet || '';
+          const imgMatch = htmlContent.match(/<img[^>]+src=["']([^"']+)["']/i);
+          if (imgMatch) {
+            imageUrl = imgMatch[1];
+          }
+        }
+
         allArticles.push({
           title,
           link: item.link,
           source,
           publishedAt: item.isoDate || item.pubDate || new Date().toISOString(),
-          snippet: item.contentSnippet || item.content || ''
+          snippet: item.contentSnippet || item.content || '',
+          imageUrl: imageUrl || undefined
         });
       }
     } catch (error) {
@@ -157,7 +184,8 @@ Rules for output:
 4. Keep the most impactful 10-15 articles overall. Filter out duplicate topics or lower-priority press releases.
 5. Assign an "impactScore" (integer 1-10) reflecting how much this news shapes the future of robotics.
 6. Create a list of 3 key "trends" (summary points) observed in today's news, written in natural Japanese.
-7. Provide the output in the JSON format matching the schema below.
+7. Include the "imageUrl" property in the output JSON for each article, setting it to the exact imageUrl string passed in the input (or an empty string if none was provided). Do not modify or invent image URLs.
+8. Provide the output in the JSON format matching the schema below.
 
 Input Articles:
 ${JSON.stringify(articles, null, 2)}
@@ -174,7 +202,8 @@ Expected JSON Output Schema:
         "source": "Source Name",
         "publishedAt": "ISO date",
         "summary": "日本語で2〜3文で書かれた要約",
-        "impactScore": 9
+        "impactScore": 9,
+        "imageUrl": "The exact imageUrl passed in input, or empty string"
       }
     ]
   }
@@ -207,7 +236,8 @@ function generateMockSummary(dateStr: string): DailySummary {
       publishedAt: new Date().toISOString(),
       summary: "Agility Roboticsは、Spanxの配送倉庫に人型ロボット「Digit」を導入する複数年契約を締結しました。Digitはトートバッグの運搬や在庫の仕分け作業を行い、既存の倉庫管理ソフトウェアと直接連携します。これは、アパレル物流部門における人型ロボットフリートの大規模な商用導入事例の1つとなります。",
       impactScore: 8,
-      category: "物流・サービス"
+      category: "物流・サービス",
+      imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80"
     },
     {
       title: "スタンフォード大学、500ドル未満で製作できるオープンソースの多指ロボットハンドを開発",
@@ -216,7 +246,8 @@ function generateMockSummary(dateStr: string): DailySummary {
       publishedAt: new Date().toISOString(),
       summary: "スタンフォード大学の研究チームは、部品代が500ドル未満で済む高精度な3Dプリント製ロボットハンドの設計図をオープンソースとして公開しました。標準的なホビー用サーボと compliant 構造によって駆動し、物をつまむ、掴む、キーボードを入力するなどの作業が可能です。資金の限られた研究室でのロボティクス研究の民主化を目指します。",
       impactScore: 9,
-      category: "研究・AIモデル"
+      category: "研究・AIモデル",
+      imageUrl: "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=600&q=80"
     },
     {
       title: "テスラ、一部の工場で人型ロボットOptimus向けに『FSDベータ』相当の歩行システムを導入",
@@ -225,7 +256,8 @@ function generateMockSummary(dateStr: string): DailySummary {
       publishedAt: new Date().toISOString(),
       summary: "テスラは、自社工場内のOptimusロボットに対して大規模なソフトウェアアップデートの配信を開始しました。この更新により、ロボットは事前に定義された経路なしで混雑した工場内を自律走行できるようになり、テスラ車と同一の占有グリッドネットワークモデルを使用しています。テキサス等の工場で検証中です。",
       impactScore: 9,
-      category: "ヒューマノイド"
+      category: "ヒューマノイド",
+      imageUrl: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80"
     }
   ];
 
@@ -240,7 +272,8 @@ function generateMockSummary(dateStr: string): DailySummary {
       source: story.source,
       publishedAt: story.publishedAt,
       summary: story.summary,
-      impactScore: story.impactScore
+      impactScore: story.impactScore,
+      imageUrl: story.imageUrl
     });
   }
 

@@ -5,6 +5,7 @@ export interface Article {
   publishedAt: string;
   summary: string;
   impactScore: number; // 1 to 10 scale
+  imageUrl?: string; // Optional URL to the article's actual thumbnail
 }
 
 export interface DailySummary {

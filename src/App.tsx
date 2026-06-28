@@ -211,9 +211,12 @@ export default function App() {
                         <article key={idx} className="news-card glass-panel">
                           <div className="news-card-inner">
                             <img 
-                              src={getCategoryImage(categoryName, idx)} 
+                              src={art.imageUrl || getCategoryImage(categoryName, idx)} 
                               alt={art.title} 
                               className="news-card-image"
+                              onError={(e) => {
+                                e.currentTarget.src = getCategoryImage(categoryName, idx);
+                              }}
                             />
                             <div className="news-card-content">
                               <div className="news-header">
