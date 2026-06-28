@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { 
   Cpu, 
   TrendingUp, 
@@ -60,8 +60,30 @@ export default function App() {
   
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
+  const [activeTab, setActiveTab] = useState<'daily' | 'highlights'>('daily');
+
   // Find the active daily summary
   const activeSummary = summaries.find(s => s.date === selectedDate);
+
+  // Curate monthly highlights: articles with impact score >= 9 from the entire archive
+  const highlightArticles = useMemo(() => {
+    const list: (any & { date: string })[] = [];
+    const seenLinks = new Set<string>();
+
+    for (const summary of summaries) {
+      if (!summary.categories) continue;
+      for (const [, articles] of Object.entries(summary.categories)) {
+        for (const art of articles) {
+          if (art.impactScore >= 9 && !seenLinks.has(art.link)) {
+            seenLinks.add(art.link);
+            list.push({ ...art, date: summary.date });
+          }
+        }
+      }
+    }
+    // Sort by date descending
+    return list.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  }, [summaries]);
 
   // Extract all categories for the active summary
   const categoriesList = activeSummary 
@@ -150,8 +172,28 @@ export default function App() {
 
         {/* News Feed Content */}
         <main className="main-content">
-          {/* Controls Bar */}
-          <div className="filter-bar glass-panel">
+          {/* View Selection Tabs */}
+          <div className="view-tabs">
+            <button 
+              className={`tab-btn ${activeTab === 'daily' ? 'active' : ''}`}
+              onClick={() => setActiveTab('daily')}
+            >
+              <Calendar size={16} />
+              本日の要約ダイジェスト
+            </button>
+            <button 
+              className={`tab-btn ${activeTab === 'highlights' ? 'active' : ''}`}
+              onClick={() => setActiveTab('highlights')}
+            >
+              <Sparkles size={16} />
+              月間重要ハイライト (Impact: 9+)
+            </button>
+          </div>
+
+          {activeTab === 'daily' ? (
+            <>
+              {/* Controls Bar */}
+              <div className="filter-bar glass-panel">
             <div className="filter-group">
               <span style={{ display: 'flex', alignItems: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginRight: '0.5rem' }}>
                 <Filter size={14} style={{ marginRight: '0.25rem' }} /> Filter:
@@ -323,13 +365,99 @@ export default function App() {
           ) : (
             <div className="empty-state glass-panel">
               <AlertCircle size={48} className="empty-icon" />
-              <p style={{ fontSize: '1.1rem', fontWeight: 600 }}>No digest found</p>
+              <p style={{ fontSize: '1.1rem', fontWeight: 600 }}>要約が見つかりません</p>
               <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-                Please select a date from the archive.
+                アーカイブから日付を選択してください。
               </p>
             </div>
           )}
-        </main>
+        </>
+      ) : (
+        <div className="highlights-container">
+          <div className="highlights-intro glass-panel">
+            <Sparkles size={20} style={{ color: 'var(--accent-crimson)', marginBottom: '0.25rem' }} />
+            <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.4rem', fontWeight: 800, color: 'var(--text-primary)' }}>
+              月間重要ハイライト (Impact: 9+)
+            </h2>
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+              過去30日間の要約アーカイブから、インパクトスコアが9〜10点に選定された最重要ニュースを一覧表示しています。
+            </p>
+          </div>
+
+          <div className="news-grid">
+            {highlightArticles.map((art, idx) => (
+              <article key={idx} className="news-card glass-panel">
+                <div className="news-card-inner">
+                  <img 
+                    src={art.imageUrl || getCategoryImage("ヒューマノイド", idx)} 
+                    alt={art.title} 
+                    className="news-card-image"
+                    onError={(e) => {
+                      e.currentTarget.src = getCategoryImage("ヒューマノイド", idx);
+                    }}
+                  />
+                  <div className="news-card-content">
+                    <div className="news-header">
+                      <a 
+                        href={art.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="news-title"
+                      >
+                        {art.title}
+                      </a>
+                      <span className="impact-badge high">
+                        <Award size={12} style={{ marginRight: '0.15rem' }} />
+                        Impact: {art.impactScore}
+                      </span>
+                    </div>
+
+                    <div className="news-meta">
+                      <div className="meta-item">
+                        <span style={{ fontWeight: 600, color: 'var(--accent-crimson)' }}>{art.source}</span>
+                      </div>
+                      <div className="meta-item">
+                        <Calendar size={12} />
+                        <span>{new Date(art.publishedAt).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                      </div>
+                    </div>
+
+                    <p className="news-summary">
+                      {art.summary}
+                    </p>
+
+                    <div className="news-footer">
+                      <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                        Published on {art.date}
+                      </span>
+                      <a 
+                        href={art.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="read-more"
+                      >
+                        Read Original Source
+                        <ExternalLink size={12} />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            ))}
+
+            {highlightArticles.length === 0 && (
+              <div className="empty-state glass-panel">
+                <Sparkles size={48} className="empty-icon" />
+                <p style={{ fontSize: '1.1rem', fontWeight: 600 }}>ハイライトが見つかりません</p>
+                <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>
+                  現在、アーカイブ内にインパクトスコア9以上のニュースはありません。
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </main>
       </div>
 
       {/* Footer */}

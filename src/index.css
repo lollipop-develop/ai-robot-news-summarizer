@@ -661,6 +661,57 @@ body {
   flex-shrink: 0;
 }
 
+/* View Tabs */
+.view-tabs {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.15s ease;
+  position: relative;
+}
+
+.tab-btn:hover {
+  color: var(--text-primary);
+}
+
+.tab-btn.active {
+  color: var(--accent-crimson);
+}
+
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -0.85rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent-crimson);
+}
+
+.highlights-intro {
+  padding: 1.5rem;
+  background: var(--bg-tertiary);
+  border-left: 4px solid var(--accent-crimson);
+  border-radius: 2px;
+  margin-bottom: 2rem;
+}
+
 /* Animations */
 @keyframes fade-in {
   from {
