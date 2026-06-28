@@ -296,6 +296,27 @@ function generateMockSummary(dateStr: string): DailySummary {
   };
 }
 
+async function fetchOgImage(url: string): Promise<string> {
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+      },
+      signal: AbortSignal.timeout(4000)
+    });
+    if (!res.ok) return '';
+    const html = await res.text();
+    const ogImageMatch = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) || 
+                         html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+    if (ogImageMatch && ogImageMatch[1]) {
+      return ogImageMatch[1];
+    }
+  } catch (e) {
+    // Fail silently to keep logs clean
+  }
+  return '';
+}
+
 async function run() {
   const isDryRun = process.argv.includes('--dry-run');
   
@@ -326,6 +347,20 @@ async function run() {
       }));
 
     dailySummary.otherArticles = otherArticles;
+
+    // Fetch actual featured Open Graph images for selected articles to display real-world thumbnails
+    console.log('Fetching Open Graph images for selected articles...');
+    for (const catArticles of Object.values(dailySummary.categories)) {
+      for (const art of catArticles) {
+        if (!art.imageUrl) {
+          const ogImg = await fetchOgImage(art.link);
+          if (ogImg) {
+            art.imageUrl = ogImg;
+            console.log(`Successfully fetched image for: ${art.title}`);
+          }
+        }
+      }
+    }
 
     console.log('\n--- Generated Summary Overview ---');
     console.log(`Date: ${dailySummary.date}`);
