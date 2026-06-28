@@ -60,10 +60,37 @@ export default function App() {
   
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
-  const [activeTab, setActiveTab] = useState<'daily' | 'highlights'>('daily');
+  const [activeTab, setActiveTab] = useState<'daily' | 'weekly' | 'monthly'>('daily');
 
   // Find the active daily summary
   const activeSummary = summaries.find(s => s.date === selectedDate);
+
+  // Curate weekly highlights: articles with impact score >= 8 from the past 7 days
+  const weeklyArticles = useMemo(() => {
+    const list: (any & { date: string })[] = [];
+    const seenLinks = new Set<string>();
+
+    const latestDateStr = summaries.length > 0 ? summaries[0].date : new Date().toISOString().split('T')[0];
+    const latestDate = new Date(latestDateStr);
+    const oneWeekAgo = new Date(latestDate.getTime() - 7 * 24 * 60 * 60 * 1000);
+
+    for (const summary of summaries) {
+      const summaryDate = new Date(summary.date);
+      if (summaryDate < oneWeekAgo) continue;
+
+      if (!summary.categories) continue;
+      for (const [, articles] of Object.entries(summary.categories)) {
+        for (const art of articles) {
+          if (art.impactScore >= 8 && !seenLinks.has(art.link)) {
+            seenLinks.add(art.link);
+            list.push({ ...art, date: summary.date });
+          }
+        }
+      }
+    }
+    // Sort by date descending
+    return list.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  }, [summaries]);
 
   // Curate monthly highlights: articles with impact score >= 9 from the entire archive
   const highlightArticles = useMemo(() => {
@@ -182,15 +209,22 @@ export default function App() {
               本日の要約ダイジェスト
             </button>
             <button 
-              className={`tab-btn ${activeTab === 'highlights' ? 'active' : ''}`}
-              onClick={() => setActiveTab('highlights')}
+              className={`tab-btn ${activeTab === 'weekly' ? 'active' : ''}`}
+              onClick={() => setActiveTab('weekly')}
+            >
+              <TrendingUp size={16} />
+              週間重要ハイライト (Impact: 8+)
+            </button>
+            <button 
+              className={`tab-btn ${activeTab === 'monthly' ? 'active' : ''}`}
+              onClick={() => setActiveTab('monthly')}
             >
               <Sparkles size={16} />
               月間重要ハイライト (Impact: 9+)
             </button>
           </div>
 
-          {activeTab === 'daily' ? (
+          {activeTab === 'daily' && (
             <>
               {/* Controls Bar */}
               <div className="filter-bar glass-panel">
@@ -372,7 +406,95 @@ export default function App() {
             </div>
           )}
         </>
-      ) : (
+      )}
+
+      {activeTab === 'weekly' && (
+        <div className="highlights-container">
+          <div className="highlights-intro glass-panel" style={{ borderLeftColor: 'var(--accent-cyan)' }}>
+            <TrendingUp size={20} style={{ color: 'var(--accent-cyan)', marginBottom: '0.25rem' }} />
+            <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.4rem', fontWeight: 800, color: 'var(--text-primary)' }}>
+              週間重要ハイライト (Impact: 8+)
+            </h2>
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+              過去7日間の要約アーカイブから、インパクトスコアが8〜10点に選定された注目ニュースを一覧表示しています。
+            </p>
+          </div>
+
+          <div className="news-grid">
+            {weeklyArticles.map((art, idx) => (
+              <article key={idx} className="news-card glass-panel">
+                <div className="news-card-inner">
+                  <img 
+                    src={art.imageUrl || getCategoryImage("ヒューマノイド", idx)} 
+                    alt={art.title} 
+                    className="news-card-image"
+                    onError={(e) => {
+                      e.currentTarget.src = getCategoryImage("ヒューマノイド", idx);
+                    }}
+                  />
+                  <div className="news-card-content">
+                    <div className="news-header">
+                      <a 
+                        href={art.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="news-title"
+                      >
+                        {art.title}
+                      </a>
+                      <span className={`impact-badge ${getImpactClass(art.impactScore)}`}>
+                        <Award size={12} style={{ marginRight: '0.15rem' }} />
+                        Impact: {art.impactScore}
+                      </span>
+                    </div>
+
+                    <div className="news-meta">
+                      <div className="meta-item">
+                        <span style={{ fontWeight: 600, color: 'var(--accent-crimson)' }}>{art.source}</span>
+                      </div>
+                      <div className="meta-item">
+                        <Clock size={12} />
+                        <span>{new Date(art.publishedAt).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                      </div>
+                    </div>
+
+                    <p className="news-summary">
+                      {art.summary}
+                    </p>
+
+                    <div className="news-footer">
+                      <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                        Published on {art.date}
+                      </span>
+                      <a 
+                        href={art.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="read-more"
+                      >
+                        Read Original Source
+                        <ExternalLink size={12} />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            ))}
+
+            {weeklyArticles.length === 0 && (
+              <div className="empty-state glass-panel">
+                <TrendingUp size={48} className="empty-icon" />
+                <p style={{ fontSize: '1.1rem', fontWeight: 600 }}>ハイライトが見つかりません</p>
+                <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>
+                  過去7日間のアーカイブ内にインパクトスコア8以上のニュースはありません。
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {activeTab === 'monthly' && (
         <div className="highlights-container">
           <div className="highlights-intro glass-panel">
             <Sparkles size={20} style={{ color: 'var(--accent-crimson)', marginBottom: '0.25rem' }} />
@@ -417,7 +539,7 @@ export default function App() {
                         <span style={{ fontWeight: 600, color: 'var(--accent-crimson)' }}>{art.source}</span>
                       </div>
                       <div className="meta-item">
-                        <Calendar size={12} />
+                        <Clock size={12} />
                         <span>{new Date(art.publishedAt).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
                       </div>
                     </div>
