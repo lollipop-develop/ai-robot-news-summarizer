@@ -3,10 +3,10 @@ import path from 'path';
 import Parser from 'rss-parser';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// Try to load GEMINI_API_KEY from local .env file if it exists
+// Try to load GEMINI_API_KEY from local .env file if it exists and is not already set
 try {
   const envPath = path.join(process.cwd(), '.env');
-  if (fs.existsSync(envPath)) {
+  if (!process.env.GEMINI_API_KEY && fs.existsSync(envPath)) {
     const envContent = fs.readFileSync(envPath, 'utf-8');
     for (const line of envContent.split('\n')) {
       const parts = line.split('=');
