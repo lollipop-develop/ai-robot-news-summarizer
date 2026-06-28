@@ -605,6 +605,62 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Other Articles Section (Academic Index Style) */
+.other-articles-section {
+  margin-top: 3.5rem;
+  animation: fade-in 0.35s ease;
+}
+
+.other-articles-header {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--border-dark);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.other-articles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.other-article-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px dashed var(--border-light);
+}
+
+.other-article-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-decoration: none;
+  line-height: 1.4;
+  transition: color 0.15s ease;
+}
+
+.other-article-link:hover {
+  color: var(--accent-crimson);
+  text-decoration: underline;
+}
+
+.other-article-meta {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+
 /* Animations */
 @keyframes fade-in {
   from {

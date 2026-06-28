@@ -40,12 +40,20 @@ interface Article {
   imageUrl?: string;
 }
 
+interface OtherArticle {
+  title: string;
+  link: string;
+  source: string;
+  publishedAt: string;
+}
+
 interface DailySummary {
   date: string;
   trends: string[];
   categories: {
     [category: string]: Article[];
   };
+  otherArticles?: OtherArticle[];
 }
 
 // Feeds to aggregate
@@ -299,6 +307,25 @@ async function run() {
     }
 
     const dailySummary = await generateAISummaries(rawArticles);
+
+    // Compute other unsummarized articles programmatically to save tokens and ensure accuracy
+    const selectedLinks = new Set<string>();
+    for (const catArticles of Object.values(dailySummary.categories)) {
+      for (const art of catArticles) {
+        selectedLinks.add(art.link);
+      }
+    }
+
+    const otherArticles: OtherArticle[] = rawArticles
+      .filter(art => !selectedLinks.has(art.link))
+      .map(art => ({
+        title: art.title,
+        link: art.link,
+        source: art.source,
+        publishedAt: art.publishedAt
+      }));
+
+    dailySummary.otherArticles = otherArticles;
 
     console.log('\n--- Generated Summary Overview ---');
     console.log(`Date: ${dailySummary.date}`);

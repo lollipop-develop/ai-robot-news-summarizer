@@ -271,6 +271,31 @@ export default function App() {
                 );
               })}
 
+              {/* Other news section (unsummarized) */}
+              {activeCategory === 'All' && activeSummary.otherArticles && activeSummary.otherArticles.length > 0 && (
+                <div className="other-articles-section">
+                  <h3 className="other-articles-header">
+                    <BookOpen size={18} style={{ marginRight: '0.35rem', color: 'var(--accent-crimson)' }} />
+                    その他の関連ニュース（要約なし）
+                  </h3>
+                  <div className="other-articles-list">
+                    {activeSummary.otherArticles.map((art, idx) => (
+                      <div key={idx} className="other-article-item">
+                        <a 
+                          href={art.link} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="other-article-link"
+                        >
+                          {art.title}
+                        </a>
+                        <span className="other-article-meta">{art.source}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Check if anything matched filters overall */}
               {(() => {
                 const totalVisible = Object.entries(activeSummary.categories)
