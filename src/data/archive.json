@@ -7,7 +7,7 @@
       "ヒューマノイドロボットの身体能力は飛躍的に進化し、生産規模の拡大や工場での実用導入への移行が進むなど、商業化に向けた動きが本格化しています。"
     ],
     "categories": {
-      "ヒューマノイド": [
+      "実用・社会実装": [
         {
           "title": "リコーが多能工ヒューマノイドを披露、工場で実証段階へ移行",
           "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news056.html",
@@ -43,9 +43,54 @@
           "summary": "Figureと1Xがヒューマノイドロボットの生産を加速し、週55台の生産能力を持つFigureや、NEO工場の本格稼働を発表した。これはヒューマノイドの商業化に向けた重要な一歩であり、将来的な家庭用ロボットの実現に期待が高まる。",
           "impactScore": 8,
           "imageUrl": "https://spectrum.ieee.org/media-library/rows-of-identical-humanoid-robots-standing-on-platforms-in-a-large-industrial-hall.jpg?id=66666641&width=1245&height=700&coordinates=0%2C62%2C0%2C63"
+        },
+        {
+          "title": "安川電機、手首負荷許容値を大幅向上させた大型ワーク搬送用ロボットを発売",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news054.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-26T04:00:00.000Z",
+          "summary": "安川電機が、可搬質量215～700kgの大型ワーク搬送用ロボット3機種を発売。手首負荷許容値が最大110%向上し、自動車や建設機械などの大型部品搬送における自動化を大幅に拡大する。これにより、生産性向上と作業負荷軽減に貢献する。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/26/l_mn_fanews_26061102.jpg"
+        },
+        {
+          "title": "Waymo、完全自動運転走行3億5000万km達成、重傷・死亡事故を94%削減",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news057.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-25T21:45:00.000Z",
+          "summary": "Waymoの完全自動運転システムが走行距離3億5000万kmを達成し、人間の運転と比較して重傷または死亡事故を94%削減したと発表。この実績は自動運転技術の安全性と実用化の進展を強く示唆する。",
+          "impactScore": 9,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/26/cover_news057.jpg"
+        },
+        {
+          "title": "SkyDriveの空飛ぶクルマ、時速100km前進飛行試験に成功し2028年商用化へ",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news061.html",
+          "source": "MONOist",
+          "publishedAt": "2026-06-24T21:45:00.000Z",
+          "summary": "SkyDriveの空飛ぶクルマ「SKYDRIVE」が時速100kmの前進飛行試験に成功し、2028年の商用化に向け大きく前進。これにより、都市交通や物流の新たな選択肢が生まれ、モビリティの未来を大きく変える可能性を秘める。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/25/cover_news061.jpg"
+        },
+        {
+          "title": "家庭用ロボットの安全は人間との関係性から生まれる",
+          "link": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-19T11:00:01.000Z",
+          "summary": "家庭用ロボットの安全性は、単なる衝突回避だけでなく、人間とロボットの相互作用に焦点を当てるべきだと提唱。ISOの安全基準がこの双方向性を完全にカバーしていない現状を指摘し、高齢者など多様なユーザーの視点を取り入れた基準の必要性を訴える。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/close-up-of-an-elderly-persons-fingers-touching-the-silicon-hand-of-a-humanoid-robot.jpg?id=66748937&width=1245&height=700&coordinates=0%2C469%2C0%2C469"
+        },
+        {
+          "title": "iRobot創設者が家庭にロボット「Familiar」の導入を目指す",
+          "link": "https://spectrum.ieee.org/familiar-machines-and-magic",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-04T17:30:02.000Z",
+          "summary": "iRobotの共同創設者コリン・アングル氏が、家庭で健康的な習慣を促すペットのような四足歩行ロボット「Familiar」を発表。人間との自然なインタラクションと感情表現を通じて、ユーザーの生活にポジティブな影響を与えることを目指す。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/a-gif-shows-a-short-clip-of-a-teenager-sitting-with-and-then-hugging-a-torso-sized-animal-like-robot.gif?id=66675837&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
         }
       ],
-      "研究・AIモデル": [
+      "論文・技術研究": [
         {
           "title": "視覚言語モデルがロボットに人間の感情認識能力を付与",
           "link": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
@@ -92,36 +137,7 @@
           "imageUrl": "https://spectrum.ieee.org/media-library/man-wearing-glasses-and-a-gray-shirt-smiles-at-camera-while-surrounded-by-futuristic-robots-and-tech-devices-in-a-photo-illustra.jpg?id=66444415&width=1245&height=700&coordinates=0%2C83%2C0%2C83"
         }
       ],
-      "物流・サービス": [
-        {
-          "title": "安川電機、手首負荷許容値を大幅向上させた大型ワーク搬送用ロボットを発売",
-          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news054.html",
-          "source": "MONOist",
-          "publishedAt": "2026-06-26T04:00:00.000Z",
-          "summary": "安川電機が、可搬質量215～700kgの大型ワーク搬送用ロボット3機種を発売。手首負荷許容値が最大110%向上し、自動車や建設機械などの大型部品搬送における自動化を大幅に拡大する。これにより、生産性向上と作業負荷軽減に貢献する。",
-          "impactScore": 8,
-          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/26/l_mn_fanews_26061102.jpg"
-        },
-        {
-          "title": "Waymo、完全自動運転走行3億5000万km達成、重傷・死亡事故を94%削減",
-          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/26/news057.html",
-          "source": "MONOist",
-          "publishedAt": "2026-06-25T21:45:00.000Z",
-          "summary": "Waymoの完全自動運転システムが走行距離3億5000万kmを達成し、人間の運転と比較して重傷または死亡事故を94%削減したと発表。この実績は自動運転技術の安全性と実用化の進展を強く示唆する。",
-          "impactScore": 9,
-          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/26/cover_news057.jpg"
-        },
-        {
-          "title": "SkyDriveの空飛ぶクルマ、時速100km前進飛行試験に成功し2028年商用化へ",
-          "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news061.html",
-          "source": "MONOist",
-          "publishedAt": "2026-06-24T21:45:00.000Z",
-          "summary": "SkyDriveの空飛ぶクルマ「SKYDRIVE」が時速100kmの前進飛行試験に成功し、2028年の商用化に向け大きく前進。これにより、都市交通や物流の新たな選択肢が生まれ、モビリティの未来を大きく変える可能性を秘める。",
-          "impactScore": 8,
-          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2606/25/cover_news061.jpg"
-        }
-      ],
-      "ビジネス・市場": [
+      "ビジネス・投資・経済": [
         {
           "title": "官民連携によるフィジカルAIに10.5兆円投資、社会実装を加速",
           "link": "https://monoist.itmedia.co.jp/mn/articles/2606/27/news009.html",
@@ -157,26 +173,6 @@
           "summary": "General Intuition社が3億2000万ドルを調達し、ビデオゲームのデータを活用してロボットのAIトレーニングを加速する。これにより、ロボットが現実世界での複雑なタスクをより効率的に学習し、広範な応用が可能となる。",
           "impactScore": 8,
           "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/06/generalintuition-featured.jpg"
-        }
-      ],
-      "家庭用・コンシューマー": [
-        {
-          "title": "家庭用ロボットの安全は人間との関係性から生まれる",
-          "link": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
-          "source": "IEEE Spectrum",
-          "publishedAt": "2026-05-19T11:00:01.000Z",
-          "summary": "家庭用ロボットの安全性は、単なる衝突回避だけでなく、人間とロボットの相互作用に焦点を当てるべきだと提唱。ISOの安全基準がこの双方向性を完全にカバーしていない現状を指摘し、高齢者など多様なユーザーの視点を取り入れた基準の必要性を訴える。",
-          "impactScore": 8,
-          "imageUrl": "https://spectrum.ieee.org/media-library/close-up-of-an-elderly-persons-fingers-touching-the-silicon-hand-of-a-humanoid-robot.jpg?id=66748937&width=1245&height=700&coordinates=0%2C469%2C0%2C469"
-        },
-        {
-          "title": "iRobot創設者が家庭にロボット「Familiar」の導入を目指す",
-          "link": "https://spectrum.ieee.org/familiar-machines-and-magic",
-          "source": "IEEE Spectrum",
-          "publishedAt": "2026-05-04T17:30:02.000Z",
-          "summary": "iRobotの共同創設者コリン・アングル氏が、家庭で健康的な習慣を促すペットのような四足歩行ロボット「Familiar」を発表。人間との自然なインタラクションと感情表現を通じて、ユーザーの生活にポジティブな影響を与えることを目指す。",
-          "impactScore": 8,
-          "imageUrl": "https://spectrum.ieee.org/media-library/a-gif-shows-a-short-clip-of-a-teenager-sitting-with-and-then-hugging-a-torso-sized-animal-like-robot.gif?id=66675837&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
         }
       ]
     },
@@ -473,7 +469,7 @@
       "画像生成AIと同様の数理モデルである「拡散ポリシー（Diffusion Policy）」を応用した、短時間でのロボット行動訓練が成果を上げています。"
     ],
     "categories": {
-      "ヒューマノイド": [
+      "実用・社会実装": [
         {
           "title": "Unitree、人型ロボット「G1」を1万6000ドルで量産開始を発表",
           "link": "https://example.com/unitree-g1-production",
@@ -481,19 +477,7 @@
           "publishedAt": "2026-06-27T08:00:00Z",
           "summary": "中国のロボット企業Unitreeは、新型人型ロボット「G1」の量産体制が整ったことを発表しました。1万6000ドルという破壊的な価格設定であり、大学や研究所をターゲットにしています。低価格ながら3D LiDARや深度カメラ、23個の関節を備えており、世界中でのロボティクス物理AI研究を劇的に加速させることが期待されています。",
           "impactScore": 9
-        }
-      ],
-      "研究・AIモデル": [
-        {
-          "title": "トヨタ・リサーチ・インスティテュート、拡散ポリシーを用いた調理の3時間高速学習に成功",
-          "link": "https://example.com/tri-cooking-diffusion",
-          "source": "MIT Technology Review",
-          "publishedAt": "2026-06-27T11:20:00Z",
-          "summary": "トヨタ・リサーチ・インスティテュート（TRI）の研究者らは、拡散ポリシー（Diffusion Policy）を応用し、双腕ロボットに複雑な調理技術を学習させることに成功しました。人間のシェフによる実演をわずか3時間観察するだけで、ロボットは野菜のカット、スープの撹拌、盛り付けを自律的に行い、周辺の照明変化や材料の動きに臨機応変に対応できます。",
-          "impactScore": 8
-        }
-      ],
-      "物流・サービス": [
+        },
         {
           "title": "Amazon、自律在庫仕分けロボット「Sequoia」を新たに10箇所の物流拠点に配備拡大",
           "link": "https://example.com/amazon-sequoia-expansion",
@@ -501,6 +485,16 @@
           "publishedAt": "2026-06-27T16:00:00Z",
           "summary": "Amazonは、コンテナ型在庫整理ロボットシステム「Sequoia」を新たに10か所のフルフィルメントセンターへ展開したと発表しました。このシステムは人間の作業員と協調して在庫 stowing を行うもので、従業員の労働災害を30%減少させ、配送効率を25%向上させたとのことです。2028年までに米国全物流網の半数へ導入することを目指しています。",
           "impactScore": 7
+        }
+      ],
+      "論文・技術研究": [
+        {
+          "title": "トヨタ・リサーチ・インスティテュート、拡散ポリシーを用いた調理の3時間高速学習に成功",
+          "link": "https://example.com/tri-cooking-diffusion",
+          "source": "MIT Technology Review",
+          "publishedAt": "2026-06-27T11:20:00Z",
+          "summary": "トヨタ・リサーチ・インスティテュート（TRI）の研究者らは、拡散ポリシー（Diffusion Policy）を応用し、双腕ロボットに複雑な調理技術を学習させることに成功しました。人間のシェフによる実演をわずか3時間観察するだけで、ロボットは野菜のカット、スープの撹拌、盛り付けを自律的に行い、周辺の照明変化や材料の動きに臨機応変に対応できます。",
+          "impactScore": 8
         }
       ]
     }
@@ -513,7 +507,7 @@
       "規制当局にとって、自律走行ロボットの歩行者安全対策や衝突回避プロトコルの策定が優先課題となっています。"
     ],
     "categories": {
-      "ビジネス・市場": [
+      "ビジネス・投資・経済": [
         {
           "title": "Physical Intelligence、汎用ロボット脳の開発に向けて4億ドルを調達",
           "link": "https://example.com/pi-funding-400m",
@@ -523,7 +517,7 @@
           "impactScore": 9
         }
       ],
-      "物流・サービス": [
+      "実用・社会実装": [
         {
           "title": "サンフランシスコ市、自動デリバリーロボットの歩道走行走行認可枠を拡大",
           "link": "https://example.com/sf-delivery-robots",

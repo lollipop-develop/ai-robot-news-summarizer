@@ -76,18 +76,6 @@ const FEEDS = [
     url: 'https://www.therobotreport.com/feed/'
   },
   {
-    name: 'TechCrunch Robotics',
-    url: 'https://techcrunch.com/category/robotics/feed/'
-  },
-  {
-    name: 'TechCrunch AI',
-    url: 'https://techcrunch.com/category/artificial-intelligence/feed/'
-  },
-  {
-    name: 'VentureBeat AI',
-    url: 'https://feeds.venturebeat.com/venturebeat'
-  },
-  {
     name: 'NVIDIA Autonomous Machines',
     url: 'https://blogs.nvidia.com/blog/category/autonomous-machines/feed/'
   },
@@ -99,18 +87,50 @@ const FEEDS = [
     name: 'Robohub',
     url: 'https://robohub.org/feed/'
   },
-  // 2. Custom Google News Search Feeds covering user requested sites and cutting-edge topics
   {
-    name: 'Google News (Target Journals & Sites)',
-    url: 'https://news.google.com/rss/search?q=(robot+OR+robotics+OR+humanoid+OR+"Embodied+AI"+OR+ROS)+(site:news.mit.edu+OR+site:ledge.ai+OR+site:iotnews.jp+OR+site:roboticsbusinessreview.com+OR+site:roboticsandautomationnews.com+OR+site:www.ieee-ras.org+OR+site:technologyreview.com+OR+site:roboticstoday.com+OR+site:robotics247.com+OR+site:automationworld.com+OR+site:xtech.nikkei.com+OR+site:itmedia.co.jp+OR+site:arxiv.org+OR+site:ifr.org+OR+site:science.org/journal/scirobotics+OR+site:rsj.or.jp+OR+site:robot-digest.com+OR+site:bostondynamics.com)+when:7d&hl=ja&gl=JP&ceid=JP:ja'
+    name: 'MIT News (Robotics)',
+    url: 'https://news.mit.edu/topic/robotics-rss'
   },
   {
-    name: 'Google News (Advanced Robotics Topics)',
-    url: 'https://news.google.com/rss/search?q=("ROS+Discourse"+OR+"Figure+AI"+OR+"Agility+Robotics"+OR+"OpenAI+Robotics"+OR+"DeepMind+Robotics"+OR+"Vision+Language+Action"+OR+"Embodied+AI"+OR+"Foundation+Model"+OR+"Sim2Real"+OR+"Reinforcement+Learning+Robotics")+when:7d&hl=en-US&gl=US&ceid=US:en'
+    name: 'VentureBeat AI',
+    url: 'https://venturebeat.com/feed/'
   },
   {
-    name: 'Google News AI & Robotics (Global Fallback)',
-    url: 'https://news.google.com/rss/search?q=(robot+OR+robotics+OR+humanoid)+when:24h&hl=en-US&gl=US&ceid=US:en'
+    name: 'The Decoder AI',
+    url: 'https://the-decoder.com/feed/'
+  },
+  {
+    name: 'ROS Discourse (Latest)',
+    url: 'https://discourse.ros.org/latest.rss'
+  },
+  {
+    name: 'arXiv Robotics (cs.RO)',
+    url: 'https://rss.arxiv.org/rss/cs.RO'
+  },
+  {
+    name: 'Robotics & Automation News',
+    url: 'https://roboticsandautomationnews.com/feed/'
+  },
+  {
+    name: 'Automation World',
+    url: 'https://www.automationworld.com/rss'
+  },
+  // 2. Google News Feeds (General fallback & targeted site scraper feeds)
+  {
+    name: 'Google News - JP AI & Robotics',
+    url: 'https://news.google.com/rss/search?q=(site:ledge.ai+OR+site:iotnews.jp+OR+site:xtech.nikkei.com+OR+site:itmedia.co.jp/aiplus)+when:7d&hl=ja&gl=JP&ceid=JP:ja'
+  },
+  {
+    name: 'Google News - Global AI & Robotics Companies',
+    url: 'https://news.google.com/rss/search?q=(site:techcrunch.com/category/robotics+OR+site:techcrunch.com/category/artificial-intelligence+OR+site:openai.com/blog+OR+site:deepmind.google/blog+OR+site:figure.ai+OR+site:agilityrobotics.com+OR+site:humanoid-apac.com+OR+site:robotics247.com+OR+site:roboticstoday.com)+when:7d&hl=en-US&gl=US&ceid=US:en'
+  },
+  {
+    name: 'Google News - Advanced Robotics Topics',
+    url: 'https://news.google.com/rss/search?q=(%22Vision+Language+Action+model%22+OR+%22VLA+model%22+OR+%22Embodied+AI%22+OR+%22Robot+Foundation+Model%22+OR+%22Humanoid+Robot%22+OR+%22Sim2Real%22+OR+%22Reinforcement+Learning+Robotics%22)+when:3d&hl=en-US&gl=US&ceid=US:en'
+  },
+  {
+    name: 'Google News AI & Robotics (Global)',
+    url: 'https://news.google.com/rss/search?q=robot+OR+robotics+OR+humanoid+when:24h&hl=en-US&gl=US&ceid=US:en'
   }
 ];
 
@@ -139,8 +159,20 @@ async function fetchNews(): Promise<RawArticle[]> {
             source = parts.pop() || source;
             title = parts.join(' - ');
           }
-        } else if (feed.name.includes('IEEE Spectrum')) {
-          source = 'IEEE Spectrum';
+        } else {
+          // Map clean names for direct feeds
+          const cleanNames: { [key: string]: string } = {
+            'ロボスタ (Robostart)': 'ロボスタ',
+            'IEEE Spectrum Robotics': 'IEEE Spectrum',
+            'MIT News (Robotics)': 'MIT News',
+            'VentureBeat AI': 'VentureBeat',
+            'The Decoder AI': 'The Decoder',
+            'arXiv Robotics (cs.RO)': 'arXiv',
+            'ROS Discourse (Latest)': 'ROS Discourse',
+            'Robotics & Automation News': 'Robotics & Automation News',
+            'Automation World': 'Automation World'
+          };
+          source = cleanNames[feed.name] || feed.name;
         }
 
         // Try to extract image URL from enclosures or description html
@@ -178,7 +210,7 @@ async function fetchNews(): Promise<RawArticle[]> {
   });
 
   console.log(`Fetched ${uniqueArticles.length} unique articles.`);
-  return uniqueArticles.slice(0, 65); // Limit to top 65 articles to give Gemini more choice
+  return uniqueArticles.slice(0, 80); // Limit to top 80 articles to give Gemini more choice
 }
 
 async function generateAISummaries(articles: RawArticle[]): Promise<DailySummary> {
@@ -206,7 +238,7 @@ Your task is to analyze the following list of raw news articles fetched today ($
 Rules for output:
 1. Translate the title into natural and professional Japanese.
 2. Translate and summarize each selected article in Japanese in 2-3 concise sentences (80-150 Japanese characters), highlighting the core technical breakthrough or commercial impact.
-3. Group the articles into Japanese categories: choose from "論文・技術研究" (strictly for academic papers, AI foundation models, ROS development, hardware specs, new algorithms, Sim2Real), "応用・社会実装" (for real-world deployment, logistics automation, service industry implementations, agriculture/construction robots, social usage), and "経済・ビジネス・投資" (for investments, funding rounds, market trends, M&A, startups business, joint ventures). Do not create categories with no articles.
+3. Group the articles into Japanese categories: choose strictly from "論文・技術研究", "実用・社会実装", "ビジネス・投資・経済". Do not create categories with no articles.
 4. Keep the most impactful 10-15 articles overall. Filter out duplicate topics or lower-priority press releases.
 5. Assign an "impactScore" (integer 1-10) reflecting how much this news shapes the future of robotics.
 6. Create a list of 3 key "trends" (summary points) observed in today's news, written in natural Japanese.
@@ -262,7 +294,7 @@ function generateMockSummary(dateStr: string): DailySummary {
       publishedAt: new Date().toISOString(),
       summary: "Agility Roboticsは、Spanxの配送倉庫に人型ロボット「Digit」を導入する複数年契約を締結しました。Digitはトートバッグの運搬や在庫の仕分け作業を行い、既存の倉庫管理ソフトウェアと直接連携します。これは、アパレル物流部門における人型ロボットフリートの大規模な商用導入事例の1つとなります。",
       impactScore: 8,
-      category: "応用・社会実装",
+      category: "物流・サービス",
       imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -272,7 +304,7 @@ function generateMockSummary(dateStr: string): DailySummary {
       publishedAt: new Date().toISOString(),
       summary: "スタンフォード大学の研究チームは、部品代が500ドル未満で済む高精度な3Dプリント製ロボットハンドの設計図をオープンソースとして公開しました。標準的なホビー用サーボと compliant 構造によって駆動し、物をつまむ、掴む、キーボードを入力するなどの作業が可能です。資金の限られた研究室でのロボティクス研究の民主化を目指します。",
       impactScore: 9,
-      category: "論文・技術研究",
+      category: "研究・AIモデル",
       imageUrl: "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -282,7 +314,7 @@ function generateMockSummary(dateStr: string): DailySummary {
       publishedAt: new Date().toISOString(),
       summary: "テスラは、自社工場内のOptimusロボットに対して大規模なソフトウェアアップデートの配信を開始しました。この更新により、ロボットは事前に定義された経路なしで混雑した工場内を自律走行できるようになり、テスラ車と同一の占有グリッドネットワークモデルを使用しています。テキサス等の工場で検証中です。",
       impactScore: 9,
-      category: "論文・技術研究",
+      category: "ヒューマノイド",
       imageUrl: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80"
     }
   ];
