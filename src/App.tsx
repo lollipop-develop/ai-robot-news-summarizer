@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import type { DailySummary } from './types';
 import archiveData from './data/archive.json';
+import { Analytics } from '@vercel/analytics/react';
 
 // Helper to get a curated premium image based on category and index
 const getCategoryImage = (category: string, index: number) => {
@@ -584,6 +585,7 @@ export default function App() {
           Design utilizing React, TypeScript, Glassmorphism, and responsive CSS grids.
         </p>
       </footer>
+      <Analytics />
     </div>
   );
 }
