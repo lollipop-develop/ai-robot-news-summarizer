@@ -38,7 +38,7 @@ jobs:
           # Only commit if archive.json changed
           if git diff --name-only | grep -q "src/data/archive.json"; then
             git add src/data/archive.json
-            git commit -m "chore: auto-update news summary for $(date +'%Y-%m-%d') [skip ci]"
+            git commit -m "chore: auto-update news summary for $(TZ='Asia/Tokyo' date +'%Y-%m-%d') [skip ci]"
             git pull --rebase origin main
             git push
           else

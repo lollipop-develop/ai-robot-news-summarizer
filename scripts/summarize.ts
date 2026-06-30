@@ -215,7 +215,7 @@ async function fetchNews(): Promise<RawArticle[]> {
 
 async function generateAISummaries(articles: RawArticle[]): Promise<DailySummary> {
   const apiKey = process.env.GEMINI_API_KEY;
-  const todayStr = new Date().toISOString().split('T')[0];
+  const todayStr = new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' });
 
   if (!apiKey) {
     console.warn('\n⚠️ GEMINI_API_KEY environment variable not set. Generating high-quality mock data for testing...');
