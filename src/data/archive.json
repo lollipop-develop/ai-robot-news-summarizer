@@ -1,5 +1,557 @@
 [
   {
+    "date": "2026-07-02",
+    "trends": [
+      "ヒューマノイドロボットの実用化と量産化が加速し、産業界や家庭での導入が具体化しています。",
+      "触覚センシングやスマートインターフェースなど、ロボットが物理世界や人間とより自然に相互作用するための身体性AI技術が大きく進化しています。",
+      "オープンソースプラットフォームの普及や、ビデオゲームデータ活用といった新たなAIトレーニング手法により、ロボットAI開発のエコシステムが変革期を迎えています。"
+    ],
+    "categories": {
+      "論文・技術研究": [
+        {
+          "title": "マラソンで世界記録を更新したヒューマノイドロボットの秘密",
+          "link": "https://spectrum.ieee.org/the-secret-to-marathon-winning-humanoid-robots",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-06-17T12:19:27.000Z",
+          "summary": "Honor Lightningヒューマノイドロボットがハーフマラソンで人間記録を7分更新しました。この驚異的な性能は、毛細血管のようにモーター深部に浸透する液冷システムと、タスクに最適化されたギア比による効率的な熱管理が鍵とされています。",
+          "impactScore": 9,
+          "imageUrl": "https://spectrum.ieee.org/media-library/a-red-and-black-humanoid-runs-alone-through-a-marathon-course.jpg?id=66940897&width=1245&height=700&coordinates=0%2C66%2C0%2C66"
+        },
+        {
+          "title": "器用さを超えて：ロボティクス新時代を拓く「接触知能」",
+          "link": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-06-09T12:51:03.000Z",
+          "summary": "AGILINKはICRA 2026で、高度な接触知能を持つロボットハンド「OmniHand 3 Ultra-M」を披露しました。これは、軽量で変形しやすい物体を繊細に操作する能力を示し、今後のロボットマニピュレーションにおいて、単なる器用さだけでなく、物体との物理的接触の維持・適応能力が重要となることを示唆しています。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/humanoid-robot-with-four-arms-holding-a-red-balloon-sculpture-at-a-tech-expo.jpg?id=66870200&width=1245&height=700&coordinates=0%2C0%2C0%2C1"
+        },
+        {
+          "title": "オープンソースソフトウェアがロボットの「思考」を支援し始める",
+          "link": "https://spectrum.ieee.org/open-source-robot-ai-platforms",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-21T14:00:02.000Z",
+          "summary": "Hugging Face、Nvidia、Alibabaなどの主要企業が、ロボットAI向けのオープンソースツールやモデルをリリースし、ロボティクスAI開発の敷居を下げています。これにより、ロボットが推論、意思決定、行動を行うための高レベルな開発が加速し、より多くの開発者が参入できるようになります。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/a-smiling-emoji-with-red-eyes-and-a-grey-face-resembling-a-robot.jpg?id=66750560&width=1245&height=700&coordinates=0%2C187%2C0%2C188"
+        },
+        {
+          "title": "フィジカルAIの未来は「賢いロボット」ではなく「賢いインターフェース」にある",
+          "link": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-21T10:00:02.000Z",
+          "summary": "Wetour Roboticsは、人間と物理デバイス間のインターフェース革新に注力し、空間位置、視覚コンテキスト、ジェスチャー意図を同時に処理する「空間意図融合」を提唱しています。これにより、ロボットが人間の意図を自然かつ低遅延で理解し、行動する新たな人間中心のAIコンピューティングモデルを目指します。",
+          "impactScore": 7,
+          "imageUrl": "https://spectrum.ieee.org/media-library/hands-controlling-speaker-light-bulb-and-drone-against-minimalist-white-walls.jpg?id=66718902&width=1245&height=700&coordinates=160%2C0%2C160%2C0"
+        },
+        {
+          "title": "DAIMON Roboticsがロボットハンドに「触覚」を与える新技術を発表",
+          "link": "https://spectrum.ieee.org/daimon-robotics-physical-ai",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-04T11:08:34.000Z",
+          "summary": "DAIMON Roboticsは、高解像度触覚センサーを搭載した世界最大のロボット操作データセット「Daimon-Infinity」を公開しました。これは、視覚・言語・行動モデルに触覚情報を取り入れるVTLAモデルを提唱し、ロボットの精密な操作能力を向上させ、実用化を加速させる画期的な技術です。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/man-wearing-glasses-and-a-gray-shirt-smiles-at-camera-while-surrounded-by-futuristic-robots-and-tech-devices-in-a-photo-illustra.jpg?id=66444415&width=1245&height=700&coordinates=0%2C83%2C0%2C83"
+        },
+        {
+          "title": "morphが物理AIをハードウェアに組み込んだソフトロボットセルを発表",
+          "link": "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-06-30T12:30:35.000Z",
+          "summary": "morph社は、物理AIをハードウェア自体に埋め込んだソフトロボティクスプラットフォームを発表しました。自己設計・製造される「ソフトロボットセル」は、硬さや形状を自在に変える能力を持ち、より安全で適応性の高いロボットシステム構築に貢献する革新的なアプローチです。",
+          "impactScore": 7,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/06/morph_launch_film_v04.mp4"
+        }
+      ],
+      "実用・社会実装": [
+        {
+          "title": "ファナックとフィジカルAIが語る「現場主義」の開発思想",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news043.html",
+          "source": "MONOist",
+          "publishedAt": "2026-07-01T21:00:00.000Z",
+          "summary": "ロボット大手ファナックがAWS SummitでフィジカルAIへの取り組みを強調しました。人との協調、ロボット制御、ソフトウェアPLCなど多岐にわたるテーマで、製造現場の課題解決を最前線とする開発哲学を披露し、実用化に向けた戦略を示しました。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/02/mn0702_fanuc_001_w290.jpg"
+        },
+        {
+          "title": "ロボットがE-Wasteからレガシーチップを再生する可能性",
+          "link": "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-19T17:41:14.000Z",
+          "summary": "Tuurny社は、ロボットシステム「Nantul」を開発し、電子廃棄物からRAM ICsなどの再利用可能なチップを識別・回収します。従来の大量処理とは異なり、個々の部品を損傷なく取り出すことで、新たなサプライチェーンを構築し、リサイクル価値を最大化する画期的な取り組みです。",
+          "impactScore": 7,
+          "imageUrl": "https://spectrum.ieee.org/media-library/a-robotic-arm-holding-a-circuit-board.jpg?id=66763729&width=1245&height=700&coordinates=0%2C187%2C0%2C188"
+        },
+        {
+          "title": "家庭用ロボットの安全性：技術だけでなく人間関係が鍵",
+          "link": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-19T11:00:01.000Z",
+          "summary": "ISO 13482規格の改訂を巡り、家庭用ロボットの安全性は衝突回避だけでなく、人間とロボットの双方向的な関係性から生じるハザードも考慮すべきと指摘されています。高齢者などの多様なユーザー視点を基準策定に含めることの重要性が強調され、社会受容性向上の鍵となります。",
+          "impactScore": 6,
+          "imageUrl": "https://spectrum.ieee.org/media-library/close-up-of-an-elderly-persons-fingers-touching-the-silicon-hand-of-a-humanoid-robot.jpg?id=66748937&width=1245&height=700&coordinates=0%2C469%2C0%2C469"
+        },
+        {
+          "title": "Apptronikが次世代ヒューマノイド「Apollo 2」とデータ収集施設を発表",
+          "link": "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-07-01T12:30:31.000Z",
+          "summary": "Apptronikは、データ収集とトレーニングに特化した次世代ヒューマノイドロボット「Apollo 2」を発表しました。このプラットフォームは、継続的な学習を通じてロボットの現場展開を加速させることを目指し、最先端のデータ収集・トレーニング施設で能力向上を図ります。",
+          "impactScore": 8,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/06/apollo2-featured.jpg"
+        },
+        {
+          "title": "BMWグループ、Figure 03ヒューマノイドロボットを実運用に導入",
+          "link": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-06-29T17:45:53.000Z",
+          "summary": "BMWグループが製造工場にFigure 03ヒューマノイドロボットを導入しました。旧モデルFigure 02が11ヶ月間で3万台以上のBMW X3製造をサポートした実績に基づき、ヒューマノイドロボットが工場環境で本格的に実用化される段階に入ったことを示します。",
+          "impactScore": 9,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/06/figureBMW-featured.jpg"
+        },
+        {
+          "title": "Hello Robot、実用的で安全な家庭用ロボットの標準を確立",
+          "link": "https://spectrum.ieee.org/stretch-4-home-robot",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-12T15:00:02.000Z",
+          "summary": "Hello Robotは、脚や腕を持たない車輪型モバイルマニピュレーター「Stretch 4」を発表し、実用的で安全な家庭用ロボットの標準を確立しています。汎用性と安全性を重視し、既存の家庭環境に適応することで、高価なヒューマノイドに代わる、より手頃な家庭用アシストロボットの普及を目指します。",
+          "impactScore": 7,
+          "imageUrl": "https://spectrum.ieee.org/media-library/tall-wheeled-home-robot-with-an-extended-arm-in-a-modern-living-room-near-a-potted-cactus.jpg?id=66719760&width=1245&height=700&coordinates=0%2C187%2C0%2C187"
+        }
+      ],
+      "ビジネス・投資・経済": [
+        {
+          "title": "ロボティクスは「ChatGPT」の瞬間を迎えるのか？",
+          "link": "https://spectrum.ieee.org/robotics-ai-breakthrough",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-20T11:00:01.000Z",
+          "summary": "AIを搭載したロボットが工場や家庭で普及する未来が描かれる一方、YouTubeのデモと現実のギャップ、データの課題、単一AIモデルの限界などが指摘されています。実用化への道のりは長く、複数のAIツールを組み合わせた「エージェントAI」が鍵となるとされています。",
+          "impactScore": 7,
+          "imageUrl": "https://spectrum.ieee.org/media-library/a-collection-of-5-robots-against-colored-backgrounds.jpg?id=66734221&width=1245&height=700&coordinates=0%2C88%2C0%2C88"
+        },
+        {
+          "title": "ヒューマノイドロボット企業Figureと1Xが生産を本格化",
+          "link": "https://spectrum.ieee.org/video-friday-humanoid-robot-production",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-05-01T16:30:01.000Z",
+          "summary": "Figureは週55体のロボット生産能力を獲得し、1Xも新工場でNEOの本格生産を開始しました。商用ユースケース開発やデータ収集を目的とした両社の大量生産の拡大は、ヒューマノイドロボット市場の転換点であり、市場投入の加速を示唆しています。",
+          "impactScore": 9,
+          "imageUrl": "https://spectrum.ieee.org/media-library/rows-of-identical-humanoid-robots-standing-on-platforms-in-a-large-industrial-hall.jpg?id=66666641&width=1245&height=700&coordinates=0%2C62%2C0%2C63"
+        },
+        {
+          "title": "General Intuitionがビデオゲームデータでロボット訓練、3億2000万ドル調達",
+          "link": "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-06-26T18:38:36.000Z",
+          "summary": "General Intuition社は、ビデオゲームの映像とアクションラベルを活用し、ロボットのAIトレーニングを加速させる技術開発で3億2000万ドルを調達しました。この多様なシミュレーションデータは効率的な学習を可能にし、ロボット開発の速度向上に大きく貢献すると期待されます。",
+          "impactScore": 8,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/06/generalintuition-featured.jpg"
+        },
+        {
+          "title": "米国、中国製ロボット禁止法案で技術主権確保へ",
+          "link": "https://spectrum.ieee.org/chinese-robots-us-ban",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-04-22T12:00:01.000Z",
+          "summary": "米国議会で、中国製地上ロボット（ヒューマノイド、犬型、クローラー含む）の使用を制限する法案が提出されました。これは、半導体や通信機器に続き、ロボティクス分野においても米中間の技術競争とサプライチェーン分離の動きが加速していることを示し、業界に大きな影響を与える可能性があります。",
+          "impactScore": 6,
+          "imageUrl": "https://spectrum.ieee.org/media-library/photo-illustration-shows-a-chinese-made-humanoid-drone-quadruped-robot-on-a-red-background-with-yellow-highlights.jpg?id=65566471&width=1245&height=700&coordinates=0%2C187%2C0%2C188"
+        }
+      ]
+    },
+    "otherArticles": [
+      {
+        "title": "「AIによる業務効率化」だけで満足する企業が、サプライチェーン競争で負ける理由",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news023.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T23:00:00.000Z"
+      },
+      {
+        "title": "NIMSとIBMが協業、材料科学で役立つAI活用基盤構築を推進",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news032.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T22:30:00.000Z"
+      },
+      {
+        "title": "ストレッチ素材と三元系混紡への挑戦、そして循環の未来へ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/29/news007.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T22:00:00.000Z"
+      },
+      {
+        "title": "商船三井と日本IBM、船舶運航の意思決定を高度化するAIプラットフォームを開発",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news031.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T21:30:00.000Z"
+      },
+      {
+        "title": "【クイズ】G-SHOCKで64チタンベゼルを初めて採用した製品とは？",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news013.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T20:30:00.000Z"
+      },
+      {
+        "title": "バッテリー状態をAIで確認するイートロンのソフトウェア導入を支援",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news065.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T07:00:00.000Z"
+      },
+      {
+        "title": "医学生の臨床能力試験を首掛けカメラで評価、将来的な評価補助ツールへ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news090.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T06:00:00.000Z"
+      },
+      {
+        "title": "消費電流0μAの多機能ロードスイッチICを発売",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news055.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T05:30:00.000Z"
+      },
+      {
+        "title": "シャッター遠隔管理の基盤にIIJの産業向けIoTソリューションを採用",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news054.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T05:00:00.000Z"
+      },
+      {
+        "title": "設備データと人の暑さストレスデータを一元管理、作業効率化と安全対策強化",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news058.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T04:00:00.000Z"
+      },
+      {
+        "title": "中国自動車メーカーのNOA開発に見る“チャイナスピード”の驚異",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news056.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T03:00:00.000Z"
+      },
+      {
+        "title": "次世代ウエハーの量産準備が最終段階、生産技術を確立",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news011.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T02:00:00.000Z"
+      },
+      {
+        "title": "富士通と日本IBM、COBOLなどレガシーシステムの近代化で協業",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news021.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T01:00:00.000Z"
+      },
+      {
+        "title": "CAD連携AIで設計レビュー工数を最大40％削減、検図や見積作成も自動化",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news016.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-01T00:00:00.000Z"
+      },
+      {
+        "title": "10年間で売上高が18倍に！　1990年代のAlteraはCPLDからFPGAのベンダーへ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news037.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T23:00:00.000Z"
+      },
+      {
+        "title": "日産「AIで再び世界トップの開発力へ」、独自の統合型次世代AIDV基盤描く",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news029.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T22:30:00.000Z"
+      },
+      {
+        "title": "キヤノン、超小型の次世代MRデバイスやリアルタイムでVR映像が見れる新技術を披露",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news043.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T22:15:00.000Z"
+      },
+      {
+        "title": "固体表面で分子を捕まえる吸着の考え方",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news009.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T22:00:00.000Z"
+      },
+      {
+        "title": "中村留が省スペース設計のATC型複合加工機、対向2スピンドル構成で柔軟に加工",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news044.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T21:45:00.000Z"
+      },
+      {
+        "title": "東レが次世代素材の研究拠点「MIC」を名古屋に新設",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news024.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T21:30:00.000Z"
+      },
+      {
+        "title": "最高造形速度700mm/sでPEEK造形が可能　国産3Dプリンタ「G-ZERO MP1」の強みとは",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news036.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T21:15:00.000Z"
+      },
+      {
+        "title": "攻撃者がOT環境に侵入する方法――公開状態が生む攻撃の実態",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/01/news007.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T21:10:00.000Z"
+      },
+      {
+        "title": "デンソーテン、RAGを車載エッジで省メモリ稼働する生成AI技術を開発",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/30/news098.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T07:00:00.000Z"
+      },
+      {
+        "title": "血液中の「ごみ掃除屋」、指定難病の原因タンパク質を分解する新機構",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/30/news121.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T06:00:00.000Z"
+      },
+      {
+        "title": "3次元構造半導体の精密加工に対応、成膜装置と選択エッチング装置を発表",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/30/news057.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T04:00:00.000Z"
+      },
+      {
+        "title": "われわれがAIに「No」と言えるように",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/30/news055.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T03:00:00.000Z"
+      },
+      {
+        "title": "下着からクルマへ、独自技術で自動車アームレスト開発",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/30/news068.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T02:00:00.000Z"
+      },
+      {
+        "title": "「シャドーAI」の管理不十分が73％に、セキュリティや法令違反のリスクが増大",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/30/news079.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-30T01:00:00.000Z"
+      },
+      {
+        "title": "世界最高の織機「無停止杼換式豊田自動織機（G型）」はいかにして完成したのか",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2606/30/news031.html",
+        "source": "MONOist",
+        "publishedAt": "2026-06-29T23:00:00.000Z"
+      },
+      {
+        "title": "Video Friday: Give Robots a Hand",
+        "link": "https://spectrum.ieee.org/video-friday-robot-grippers",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-26T16:30:01.000Z"
+      },
+      {
+        "title": "Video Friday: Do Robots Even Need Legs?",
+        "link": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-19T15:00:02.000Z"
+      },
+      {
+        "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+        "link": "https://spectrum.ieee.org/amazon-astro-robot-sound",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-19T10:00:00.000Z"
+      },
+      {
+        "title": "The Secret to Marathon-Winning Humanoid Robots",
+        "link": "https://spectrum.ieee.org/china-humanoid-robot-marathon",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-17T12:19:27.000Z"
+      },
+      {
+        "title": "Visual Language Models Train Robots to Read Human Emotions",
+        "link": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-13T13:00:01.000Z"
+      },
+      {
+        "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
+        "link": "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-12T18:00:01.000Z"
+      },
+      {
+        "title": "Video Friday: Robotic Motion Discovery Reveals Unusual Behaviors",
+        "link": "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-12T17:00:02.000Z"
+      },
+      {
+        "title": "Defining Autonomy for Wellness Robots in Senior Care",
+        "link": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-11T10:00:01.000Z"
+      },
+      {
+        "title": "How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science",
+        "link": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-09T12:00:02.000Z"
+      },
+      {
+        "title": "Video Friday: Watch This Running Robot Not Fall Down Stairs",
+        "link": "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-06-05T15:30:01.000Z"
+      },
+      {
+        "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
+        "link": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-31T13:00:01.000Z"
+      },
+      {
+        "title": "Video Friday: Extreme Omnidirectional Robot",
+        "link": "https://spectrum.ieee.org/video-friday-rabona-soccer",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-29T17:00:01.000Z"
+      },
+      {
+        "title": "Video Friday: Atlas Versus a Fridge",
+        "link": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-22T16:00:01.000Z"
+      },
+      {
+        "title": "What Makes a Job Dull, Dirty, or Dangerous?",
+        "link": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-18T13:00:00.000Z"
+      },
+      {
+        "title": "Agentic AI for Robot Teams",
+        "link": "https://events.bizzabo.com/867156",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-18T10:00:01.000Z"
+      },
+      {
+        "title": "Video Friday: Heavy Robotic Machinery Operates Itself",
+        "link": "https://spectrum.ieee.org/video-friday-material-handling-robots",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-15T17:00:01.000Z"
+      },
+      {
+        "title": "Video Friday: AI Gives Robot Hands Humanlike Dexterity",
+        "link": "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-09T16:00:02.000Z"
+      },
+      {
+        "title": "iRobot Founder Wants to Put a Robotic Familiar Into Your Home",
+        "link": "https://spectrum.ieee.org/familiar-machines-and-magic",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-05-04T17:30:02.000Z"
+      },
+      {
+        "title": "Video Friday: Who Wins in Robot vs. Pro Ping-Pong Player?",
+        "link": "https://spectrum.ieee.org/video-friday-ping-pong-robot",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-04-24T16:30:02.000Z"
+      },
+      {
+        "title": "This Roboticist-Turned-Teacher Built a Life-Size Replica of ENIAC",
+        "link": "https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica",
+        "source": "IEEE Spectrum",
+        "publishedAt": "2026-04-23T13:00:01.000Z"
+      },
+      {
+        "title": "In Robotics, Ruggedization Is No Longer Optional",
+        "link": "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-07-01T18:44:05.000Z"
+      },
+      {
+        "title": "Top 10 robotics developments of June 2026",
+        "link": "https://www.therobotreport.com/top-10-robotic-stories-june-2026/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-07-01T16:10:57.000Z"
+      },
+      {
+        "title": "X Square Robot brings its valuation to $2.8B with four consecutive funding rounds",
+        "link": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-30T19:49:05.000Z"
+      },
+      {
+        "title": "Queue raises funding to build fully autonomous pharmacy",
+        "link": "https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-30T13:00:33.000Z"
+      },
+      {
+        "title": "Sonair ADAR One 3D ultrasonic sensor is now safety-certified",
+        "link": "https://www.therobotreport.com/sonair-3d-ultrasonic-sensor-is-now-safety-certified/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-30T09:55:46.000Z"
+      },
+      {
+        "title": "Insights behind Kinisi’s acquisition by Bear Robotics",
+        "link": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-29T22:29:11.000Z"
+      },
+      {
+        "title": "MBody AI expands service robotics operations to eleven states and Canada",
+        "link": "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-29T15:41:42.000Z"
+      },
+      {
+        "title": "Advantages of hypoid gearing over worm, bevel and bevel-planetary",
+        "link": "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-29T15:36:18.000Z"
+      },
+      {
+        "title": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
+        "link": "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-28T09:00:12.000Z"
+      },
+      {
+        "title": "We know how to build smarter robots. Now, we need to learn smarter ways to test them",
+        "link": "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-27T13:00:47.000Z"
+      },
+      {
+        "title": "How compact cobot integration enhances autonomous mobile robot applications",
+        "link": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-06-27T12:35:55.000Z"
+      },
+      {
+        "title": "Millions of exploding stars could soon reveal dark energy's secrets",
+        "link": "https://www.sciencedaily.com/releases/2026/06/260621060315.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-06-29T21:57:17.000Z"
+      },
+      {
+        "title": "SpaceX wants to build AI data centers in space. Will it work?",
+        "link": "https://www.sciencedaily.com/releases/2026/06/260618041501.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-06-19T03:43:09.000Z"
+      },
+      {
+        "title": "Scientists discover a strange property in rice and turn it into a smart material",
+        "link": "https://www.sciencedaily.com/releases/2026/06/260611024621.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-06-11T12:29:52.000Z"
+      },
+      {
+        "title": "AI could uncover new physics faster but there’s a surprising catch",
+        "link": "https://www.sciencedaily.com/releases/2026/06/260611024557.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-06-11T09:16:15.000Z"
+      },
+      {
+        "title": "A classic brain test exposed AI's biggest weakness",
+        "link": "https://www.sciencedaily.com/releases/2026/06/260610003049.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-06-10T10:52:17.000Z"
+      }
+    ]
+  },
+  {
     "date": "2026-07-01",
     "trends": [
       "ロボットの高度な身体知能と人間との協調性に関する技術研究が加速しており、触覚センサー、全身制御、感情認識などが進化しています。",
