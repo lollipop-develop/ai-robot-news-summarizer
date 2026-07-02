@@ -137,9 +137,61 @@ const FEEDS = [
 const parser = new Parser();
 const ARCHIVE_PATH = path.join(process.cwd(), 'src/data/archive.json');
 
+function normalizeUrl(urlStr: string): string {
+  try {
+    const parsed = new URL(urlStr);
+    parsed.searchParams.delete('utm_source');
+    parsed.searchParams.delete('utm_medium');
+    parsed.searchParams.delete('utm_campaign');
+    parsed.searchParams.delete('utm_content');
+    parsed.searchParams.delete('utm_term');
+    parsed.searchParams.delete('ref');
+    parsed.searchParams.delete('hl');
+    parsed.searchParams.delete('gl');
+    parsed.searchParams.delete('ceid');
+    return parsed.toString().toLowerCase();
+  } catch (e) {
+    return urlStr.toLowerCase();
+  }
+}
+
+function normalizeTitle(title: string): string {
+  return title.toLowerCase().replace(/[^a-z0-9\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\xffef\u4e00-\u9faf]/g, '');
+}
+
 async function fetchNews(): Promise<RawArticle[]> {
   console.log('Fetching news from RSS feeds...');
   const allArticles: RawArticle[] = [];
+
+  // Load existing archive to identify already summarized/featured articles
+  const archivedLinks = new Set<string>();
+  const archivedTitles = new Set<string>();
+
+  if (fs.existsSync(ARCHIVE_PATH)) {
+    try {
+      const fileContent = fs.readFileSync(ARCHIVE_PATH, 'utf-8');
+      const archive = JSON.parse(fileContent) as DailySummary[];
+      for (const entry of archive) {
+        if (entry.categories) {
+          for (const articles of Object.values(entry.categories)) {
+            for (const art of articles) {
+              archivedLinks.add(normalizeUrl(art.link));
+              archivedTitles.add(normalizeTitle(art.title));
+            }
+          }
+        }
+        if (entry.otherArticles) {
+          for (const art of entry.otherArticles) {
+            archivedLinks.add(normalizeUrl(art.link));
+            archivedTitles.add(normalizeTitle(art.title));
+          }
+        }
+      }
+      console.log(`Loaded ${archivedLinks.size} historically archived article URLs/titles to prevent duplicates.`);
+    } catch (err) {
+      console.error('Failed to parse existing archive when building seen links cache:', err);
+    }
+  }
 
   for (const feed of FEEDS) {
     try {
@@ -201,11 +253,25 @@ async function fetchNews(): Promise<RawArticle[]> {
     }
   }
 
-  // Deduplicate by title similarity or exact links
+  // Deduplicate by title similarity or exact links, AND filter out historically summarized ones
   const seenLinks = new Set<string>();
+  const seenTitles = new Set<string>();
   const uniqueArticles = allArticles.filter(art => {
-    if (seenLinks.has(art.link)) return false;
-    seenLinks.add(art.link);
+    const normUrl = normalizeUrl(art.link);
+    const normTitle = normalizeTitle(art.title);
+    
+    // Check history (prevents duplicates across different days)
+    if (archivedLinks.has(normUrl) || archivedTitles.has(normTitle)) {
+      return false;
+    }
+    
+    // Check current run (prevents duplicates within today's fetch)
+    if (seenLinks.has(normUrl) || seenTitles.has(normTitle)) {
+      return false;
+    }
+    
+    seenLinks.add(normUrl);
+    seenTitles.add(normTitle);
     return true;
   });
 
