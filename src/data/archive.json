@@ -1,5 +1,545 @@
 [
   {
+    "date": "2026-07-03",
+    "trends": [
+      "フィジカルAIとエッジデバイスの進化：AIを物理世界で機能させるための知覚レイヤーへの投資や、脳型チップによる省エネ、極小ロボットの自律性など、ハードウェアとAIの融合が加速しています。",
+      "高度な自律移動・群制御技術の進展：火星探査機のAIによる自律走行や、群ロボットの効率的な衝突回避技術など、複雑な環境下でのロボットの自律性と協調動作が大きく進歩しています。",
+      "製造業におけるAI活用と自動化の深化：シミュレーションの精度向上、検査工程の自動化、ロボットの精密な組立作業など、AIが製造プロセスの効率と品質を革新し、産業オートメーションが一段と高度化しています。"
+    ],
+    "categories": {
+      "ビジネス・投資・経済": [
+        {
+          "title": "Luxonis、フィジカルAI知覚レイヤー拡張のためシリーズAラウンドを完了",
+          "link": "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-07-02T12:00:32.000Z",
+          "summary": "フィジカルAI向け知覚レイヤーを手掛けるLuxonisはシリーズAラウンドを完了し、OAKカメラの生産拡大とプラットフォームの強化を目指します。この資金調達は、ロボティクスおよび産業オートメーション分野におけるエッジAIの普及を加速させる重要な一歩となるでしょう。",
+          "impactScore": 7,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/07/Luxonis-Series-A-cover.jpg"
+        },
+        {
+          "title": "安川電機、欧州ロボット生産拠点を拡充し物流施設を新設",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news035.html",
+          "source": "MONOist",
+          "publishedAt": "2026-07-02T22:30:00.000Z",
+          "summary": "安川電機はスロベニアの生産拠点に新たな物流施設を整備し、欧州におけるロボット事業の物流体制と生産能力を強化します。これにより、欧州市場でのロボット需要増に対応し、供給能力と効率の向上を図る戦略です。",
+          "impactScore": 6,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/03/mn0703_yaskawa_001.jpg"
+        },
+        {
+          "title": "アドバンテック、フィジカルAIに対応し日本に第3の製造拠点を構築",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news065.html",
+          "source": "MONOist",
+          "publishedAt": "2026-07-02T22:00:00.000Z",
+          "summary": "産業用PC大手のアドバンテックは、エッジAI市場の拡大に対応するため組み込み機器事業に注力し、日本に新たな製造拠点を設立します。これは、フィジカルAIを含むエッジAIの需要に応える生産体制を強化する重要な戦略です。",
+          "impactScore": 7,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/03/cover_news065.jpg"
+        }
+      ],
+      "実用・社会実装": [
+        {
+          "title": "AIが実機データから学習し、プレス成形シミュレーション精度を向上",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news006.html",
+          "source": "MONOist",
+          "publishedAt": "2026-07-03T00:00:00.000Z",
+          "summary": "JSOLがAI機能を搭載したプレス成形シミュレーションソフトウェア「JSTAMP」を発表しました。実機トライとシミュレーションの形状差をAIが学習・補正することで、高強度鋼板のスプリングバック予測精度を大幅に高め、製造業における試作工数削減と品質向上に貢献します。",
+          "impactScore": 7,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/03/cover_news006.jpg"
+        },
+        {
+          "title": "パナソニック、AIと3Dセンサー融合の溶接外観検査自動化システムを発表",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news056.html",
+          "source": "MONOist",
+          "publishedAt": "2026-07-02T04:00:00.000Z",
+          "summary": "パナソニックコネクトグループは、3DセンサーとAI技術を組み合わせた溶接外観検査システム「Bead Eye M edition」を発売しました。AIが難しい設定作業を自動化することで、立ち上げ工数を約9割削減し、検査工程の劇的な効率化を実現します。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/02/l_mn_fanews_26061802a.jpg"
+        }
+      ],
+      "論文・技術研究": [
+        {
+          "title": "ロボット工学国際会議ICRA 2026レビュー：最新技術と動向",
+          "link": "https://robohub.org/reflections-from-icra-2026/",
+          "source": "Robohub",
+          "publishedAt": "2026-07-02T15:20:41.000Z",
+          "summary": "ロボット工学の主要国際会議ICRA 2026が開催され、最新の技術展示や研究成果、新しい連携が発表されました。このイベントは、ロボティクス分野における最先端の研究動向と将来の技術革新の方向性を示すものとなっています。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/06/Booster-teddy-bear-hat_compressed.mp4"
+        },
+        {
+          "title": "ロボカップ2026、ヒューマノイドリーグ初日レポート",
+          "link": "https://robohub.org/robocup2026-humanoid-league-day-1/",
+          "source": "Robohub",
+          "publishedAt": "2026-07-02T14:14:34.000Z",
+          "summary": "RoboCup 2026が韓国仁川で開幕し、特にヒューマノイドロボットサッカーに焦点が当てられています。リーグの更新や競技形式の変更があり、自律型ヒューマノイドの技術進化と競技能力の向上が期待される重要な大会です。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/07/soccer_Celebration-1024x1024.jpeg"
+        },
+        {
+          "title": "複雑な組立作業におけるロボットの器用さと機械的位置決めの組み合わせの重要性",
+          "link": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-07-02T12:36:09.000Z",
+          "summary": "複雑な組立作業では、ロボットの器用さと機械的な位置決めを組み合わせることで、機械の可動性、範囲、速度を向上させることが重要と専門家が指摘しています。このアプローチは、ロボットによる精密な組立作業の効率と信頼性を高める上で不可欠です。",
+          "impactScore": 7,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/07/Untitled-design-1.jpg"
+        },
+        {
+          "title": "平面アンテナが47%軽量化、ドローンや車両への搭載を促進",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news064.html",
+          "source": "MONOist",
+          "publishedAt": "2026-07-02T05:00:00.000Z",
+          "summary": "情報通信研究機構らがNTN向け平面アンテナの重量を47％削減することに成功し、ドローンや車両への搭載が可能になりました。新設計の排熱デバイス統合により、衛星通信端末の小型軽量化が進み、移動体通信や自動運転技術への応用が期待されます。",
+          "impactScore": 7,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/02/cover_news064.jpg"
+        },
+        {
+          "title": "NASAのパーサヴィアランス探査機、AI計画による初の火星走行を完了",
+          "link": "https://www.sciencedaily.com/releases/2026/01/260131084555.htm",
+          "source": "ScienceDaily Robotics",
+          "publishedAt": "2026-01-31T13:45:55.000Z",
+          "summary": "NASAのパーサヴィアランス探査機が、AIが経路を計画した初の火星走行を成功させました。AIが地形データを分析し危険を回避しながら安全なルートを自律的に決定したこの技術は、深宇宙探査における宇宙船の自律性向上と科学的発見の加速に貢献します。",
+          "impactScore": 9,
+          "imageUrl": "https://www.sciencedaily.com/images/1920/nasa-perseverance-mars-rover-exploring-planet.webp"
+        },
+        {
+          "title": "塩粒よりも小さな、自律思考型マイクロロボットが誕生",
+          "link": "https://www.sciencedaily.com/releases/2026/01/260105165815.htm",
+          "source": "ScienceDaily Robotics",
+          "publishedAt": "2026-01-06T12:33:12.000Z",
+          "summary": "研究者らが、塩粒よりも小さく、自ら感知・判断・移動するマイクロロボットを開発しました。光で駆動し、電気場を操作して泳ぐこのロボットは、温度変化の検知やプログラムされた経路追従、協調動作も可能で、真に自律的な微小ロボットの実現を意味します。",
+          "impactScore": 10,
+          "imageUrl": "https://www.sciencedaily.com/images/1920/worlds-smallest-autonomous-robot.webp"
+        },
+        {
+          "title": "新しい脳型チップがAIのエネルギー消費を70%削減する可能性",
+          "link": "https://www.sciencedaily.com/releases/2026/04/260422044633.htm",
+          "source": "ScienceDaily Robotics",
+          "publishedAt": "2026-04-23T06:01:42.000Z",
+          "summary": "脳にヒントを得たコンピューティング分野で、ニューロンの処理と情報貯蔵を同時に模倣するナノ電子デバイスが開発されました。この超低電力デバイスは、従来のチップがデータ移動で消費するエネルギーを大幅に削減し、エネルギー集約型AIシステムの効率を最大70%向上させます。",
+          "impactScore": 9,
+          "imageUrl": "https://www.sciencedaily.com/images/1920/babak-bakhit.webp"
+        },
+        {
+          "title": "人工ニューロンが生きた脳細胞との通信に成功",
+          "link": "https://www.sciencedaily.com/releases/2026/04/260417225020.htm",
+          "source": "ScienceDaily Robotics",
+          "publishedAt": "2026-04-18T07:32:36.000Z",
+          "summary": "ノースウェスタン大学のエンジニアが、生きた脳細胞と実際に通信できる人工ニューロンの印刷に成功しました。柔軟で低コストなこのデバイスは、マウスの脳組織で生体のような電気信号を生成し、脳細胞を活性化させることに成功。機械と人間の脳の融合に向けた大きな進展です。",
+          "impactScore": 10,
+          "imageUrl": "https://www.sciencedaily.com/images/1920/aerosol-jet-printing.webp"
+        },
+        {
+          "title": "ロボット群の衝突回避を簡素化：動きにランダム性を加える新手法",
+          "link": "https://www.sciencedaily.com/releases/2026/04/260414075639.htm",
+          "source": "ScienceDaily Robotics",
+          "publishedAt": "2026-04-15T07:45:51.000Z",
+          "summary": "ハーバード大学の研究者が、混雑した環境でロボット群が立ち往生するのを防ぐ簡単な解決策を発見しました。ロボットの動きにわずかなランダム性を加えることで、互いにすり抜けやすくなり、グリッドロックを回避して効率を向上させることが示されました。",
+          "impactScore": 8,
+          "imageUrl": "https://www.sciencedaily.com/images/1920/wheeled-robots-used-in-crowd-density-experiment.webp"
+        }
+      ]
+    },
+    "otherArticles": [
+      {
+        "title": "「星のカービィ」食玩を自主回収、ボタン電池膨張で",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news085.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-03T03:30:00.000Z"
+      },
+      {
+        "title": "LCNOがLFPやNCMより高くても競争力があるワケ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news015.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-03T03:00:00.000Z"
+      },
+      {
+        "title": "神戸製鋼の技術、USスチールの脱炭素プラントに採用！",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news009.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-03T02:00:00.000Z"
+      },
+      {
+        "title": "日本精機がAI搭載サプライチェーン基盤を採用、部品供給の計画業務を1000時間削減",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news025.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-03T01:00:00.000Z"
+      },
+      {
+        "title": "AMは試作から製造現場へ、北米トヨタや信越化学が示した活用最前線",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news011.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T23:00:00.000Z"
+      },
+      {
+        "title": "三菱電機は保全担当や装置メーカーの負担をデジタルで軽減、FA議事録アプリも",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news048.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T22:45:00.000Z"
+      },
+      {
+        "title": "狐のお面もカブトムシも金属化!?　金型なしで何でも作れる、新しい鋳造の形",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news046.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T21:30:00.000Z"
+      },
+      {
+        "title": "フィルム型ペロブスカイト太陽電池が宇宙で発電、次のステップは……",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news047.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T21:15:00.000Z"
+      },
+      {
+        "title": "技能継承は3社に2社が苦戦　ものづくり白書が示す製造業の人材危機",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news055.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T21:00:00.000Z"
+      },
+      {
+        "title": "シャープが2週間充電不要で100m防水の新型スマートリングを発売",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news082.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T06:00:00.000Z"
+      },
+      {
+        "title": "パナソニックグループのソリューション領域が引き出すコングロマリットの底力",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news063.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T03:00:00.000Z"
+      },
+      {
+        "title": "セブンが「100％リサイクル素材容器」実用化に前進",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news012.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T02:00:00.000Z"
+      },
+      {
+        "title": "車載開発の解析工数を最大約70％削減する時系列データ統合モニタリングツール",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news020.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T01:00:00.000Z"
+      },
+      {
+        "title": "AIアシスタントで設計検証を迅速化、3D CAD「Creo」最新版を提供開始",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news006.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-02T00:00:00.000Z"
+      },
+      {
+        "title": "Automate 2026 show recap",
+        "link": "https://www.therobotreport.com/automate-2026-show-recap/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-07-02T16:35:58.000Z"
+      },
+      {
+        "title": "Scientists are seriously asking if bees and ChatGPT are conscious",
+        "link": "https://www.sciencedaily.com/releases/2026/06/260604044258.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-06-05T05:27:32.000Z"
+      },
+      {
+        "title": "The forgotten organ that could predict how long you live",
+        "link": "https://www.sciencedaily.com/releases/2026/06/260601025352.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-06-01T10:17:04.000Z"
+      },
+      {
+        "title": "New 3D silicon chip breakthrough could extend Moore’s Law for years",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260530053412.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-30T10:26:24.000Z"
+      },
+      {
+        "title": "Stanford quantum computing breakthrough uses twisted light to work without extreme cooling",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-30T05:08:07.000Z"
+      },
+      {
+        "title": "AI-powered spectrometer chip shrinks lab technology to the size of a grain of sand",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260525000501.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-26T13:09:27.000Z"
+      },
+      {
+        "title": "AI won’t replace you but someone using AI might",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260525000448.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-25T11:21:14.000Z"
+      },
+      {
+        "title": "AI scans 400,000 Reddit posts and finds hidden Ozempic side effects",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260523103914.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-24T11:30:31.000Z"
+      },
+      {
+        "title": "New AI body map reveals obesity’s hidden attack on facial nerves",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260522023308.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-23T12:34:45.000Z"
+      },
+      {
+        "title": "Ordinary WiFi can now identify people with near perfect accuracy",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260522023127.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-23T03:03:54.000Z"
+      },
+      {
+        "title": "Forget electrons, this breakthrough uses light-matter particles to power AI",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260518041341.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-19T00:23:26.000Z"
+      },
+      {
+        "title": "AI reveals the invisible magnetic chaos wasting energy inside electric motors",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260517211433.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-18T04:02:36.000Z"
+      },
+      {
+        "title": "NASA’s new AI space chip could let spacecraft think for themselves",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260515002134.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-15T08:13:15.000Z"
+      },
+      {
+        "title": "Your “um” and pauses could reveal early dementia risk",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260512202333.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-13T04:18:33.000Z"
+      },
+      {
+        "title": "JUPITER supercomputer breaks world record with 50-qubit quantum simulation",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260510234715.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-11T03:47:15.000Z"
+      },
+      {
+        "title": "New AI method tackles one of science’s hardest math problems",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260505234605.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-06T08:24:46.000Z"
+      },
+      {
+        "title": "Powerful AI finds 100+ hidden planets in NASA data including rare and extreme worlds",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260502233926.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-03T04:56:52.000Z"
+      },
+      {
+        "title": "Scientists built a memory chip that breaks the rules of miniaturization",
+        "link": "https://www.sciencedaily.com/releases/2026/05/260502233908.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-05-03T07:08:59.000Z"
+      },
+      {
+        "title": "This AI knew the answers but didn’t understand the questions",
+        "link": "https://www.sciencedaily.com/releases/2026/04/260429102035.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-04-30T06:44:03.000Z"
+      },
+      {
+        "title": "AI just discovered new physics in the fourth state of matter",
+        "link": "https://www.sciencedaily.com/releases/2026/04/260422044635.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-04-23T13:38:47.000Z"
+      },
+      {
+        "title": "Think AI \"knows\" what it’s doing? Scientists say think again",
+        "link": "https://www.sciencedaily.com/releases/2026/04/260417224505.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-04-19T08:02:23.000Z"
+      },
+      {
+        "title": "Quantum AI just got shockingly good at predicting chaos",
+        "link": "https://www.sciencedaily.com/releases/2026/04/260417224455.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-04-18T03:51:09.000Z"
+      },
+      {
+        "title": "AI identifies early risk patterns for skin cancer",
+        "link": "https://www.sciencedaily.com/releases/2026/04/260415043612.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-04-15T08:36:12.000Z"
+      },
+      {
+        "title": "This new chip survives 1300°F (700°C) and could change AI forever",
+        "link": "https://www.sciencedaily.com/releases/2026/04/260406192904.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-04-07T05:32:38.000Z"
+      },
+      {
+        "title": "AI breakthrough cuts energy use by 100x while boosting accuracy",
+        "link": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-04-06T01:23:54.000Z"
+      },
+      {
+        "title": "DNA robots could deliver drugs and hunt viruses inside your body",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260331001104.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-31T11:16:58.000Z"
+      },
+      {
+        "title": "Deepfake X-rays are so real even doctors can’t tell the difference",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260326011452.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-26T10:42:12.000Z"
+      },
+      {
+        "title": "AI uses as much energy as Iceland but scientists aren’t worried",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260318033103.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-18T09:52:23.000Z"
+      },
+      {
+        "title": "AI-powered robot learns how to harvest tomatoes more efficiently",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260317064512.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-18T04:26:44.000Z"
+      },
+      {
+        "title": "Study finds ChatGPT gets science wrong more often than you think",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260317064452.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-18T02:39:38.000Z"
+      },
+      {
+        "title": "Scientists discover AI can make humans more creative",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260315004355.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-16T00:59:26.000Z"
+      },
+      {
+        "title": "Scientists built the hardest AI test ever and the results are surprising",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260313002650.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-13T06:08:43.000Z"
+      },
+      {
+        "title": "A simple hand photo may be the key to detecting a serious disease",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260303201807.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-04T16:59:51.000Z"
+      },
+      {
+        "title": "Scientists build a “periodic table” for AI",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260303145714.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-03T19:57:14.000Z"
+      },
+      {
+        "title": "ChatGPT as a therapist? New study reveals serious ethical risks",
+        "link": "https://www.sciencedaily.com/releases/2026/03/260302030642.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-03-02T15:04:35.000Z"
+      },
+      {
+        "title": "Generative AI analyzes medical data faster than human research teams",
+        "link": "https://www.sciencedaily.com/releases/2026/02/260221060942.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-02-21T11:17:29.000Z"
+      },
+      {
+        "title": "AI breakthrough could replace rare earth magnets in electric vehicles",
+        "link": "https://www.sciencedaily.com/releases/2026/02/260218031611.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-02-19T05:52:28.000Z"
+      },
+      {
+        "title": "Brain inspired machines are better at math than expected",
+        "link": "https://www.sciencedaily.com/releases/2026/02/260213223923.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-02-14T15:19:40.000Z"
+      },
+      {
+        "title": "AI reads brain MRIs in seconds and flags emergencies",
+        "link": "https://www.sciencedaily.com/releases/2026/02/260210005419.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-02-10T06:04:12.000Z"
+      },
+      {
+        "title": "This AI app can tell which dinosaur made a footprint",
+        "link": "https://www.sciencedaily.com/releases/2026/02/260201062455.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-02-01T13:37:50.000Z"
+      },
+      {
+        "title": "“Existential risk” – Why scientists are racing to define consciousness",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260131084626.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-02-01T13:49:46.000Z"
+      },
+      {
+        "title": "Scientists found a way to cool quantum computers using noise",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260129080418.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-29T13:42:30.000Z"
+      },
+      {
+        "title": "AI that talks to itself learns faster and smarter",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260127112130.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-28T08:47:06.000Z"
+      },
+      {
+        "title": "Researchers tested AI against 100,000 humans on creativity",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260125083356.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-25T14:50:27.000Z"
+      },
+      {
+        "title": "The human brain may work more like AI than anyone expected",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260120000308.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-21T06:49:52.000Z"
+      },
+      {
+        "title": "AI maps the hidden forces shaping cancer survival worldwide",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260117053526.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-17T14:26:53.000Z"
+      },
+      {
+        "title": "The breakthrough that makes robot faces feel less creepy",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260116035308.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-16T15:28:30.000Z"
+      },
+      {
+        "title": "How everyday foam reveals the secret logic of artificial intelligence",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260114084109.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-15T05:20:26.000Z"
+      },
+      {
+        "title": "This AI spots dangerous blood cells doctors often miss",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260112214317.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-13T13:50:24.000Z"
+      },
+      {
+        "title": "Stanford’s AI spots hidden disease warnings that show up while you sleep",
+        "link": "https://www.sciencedaily.com/releases/2026/01/260109023114.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-01-09T07:39:02.000Z"
+      },
+      {
+        "title": "What’s coming up at #RoboCup2026?",
+        "link": "https://robohub.org/whats-coming-up-at-robocup2026/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-29T08:03:25.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 162 – The robot doctor will see you now",
+        "link": "https://robohub.org/robot-talk-episode-162-the-robot-doctor-will-see-you-now/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-26T11:22:25.000Z"
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "trends": [
       "ヒューマノイドロボットの実用化と量産化が加速し、産業界や家庭での導入が具体化しています。",
