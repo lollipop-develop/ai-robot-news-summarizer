@@ -156,7 +156,7 @@ function normalizeUrl(urlStr: string): string {
 }
 
 function normalizeTitle(title: string): string {
-  return title.toLowerCase().replace(/[^a-z0-9\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\xffef\u4e00-\u9faf]/g, '');
+  return title.toLowerCase().replace(/[\s\p{P}\p{S}]/gu, '');
 }
 
 async function fetchNews(): Promise<RawArticle[]> {
