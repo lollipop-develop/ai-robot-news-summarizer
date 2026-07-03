@@ -487,7 +487,7 @@ async function run() {
 
     if (isDryRun) {
       console.log('Dry run complete. No files written.');
-      return;
+      process.exit(0);
     }
 
     // Load existing archive
