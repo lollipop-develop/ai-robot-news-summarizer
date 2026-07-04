@@ -2,561 +2,543 @@
   {
     "date": "2026-07-05",
     "trends": [
-      "ヒューマノイドロボットの開発が学習・操作・実用化の面で加速しています。",
-      "AIとの融合により、ロボットの精密な知覚・操作・計画能力が飛躍的に向上しています。",
-      "防衛、農業、ラボ自動化など多岐にわたる産業分野でロボットの実装が深化しています。"
+      "身体性AIおよび人型ロボットの商用展開と、LLM統合による自律行動の標準化が進んでいる。",
+      "ROS開発エコシステムにおいて、ロボット設計、制御、監視を効率化する新たな開発ツールやライブラリが多数登場している。",
+      "ドローンや双腕ロボットといった専門分野で、安全性や協調性を高める高度な制御・シミュレーション技術の進化が見られる。"
     ],
     "categories": {
       "論文・技術研究": [
         {
-          "title": "ロボット指に直接組込み可能な超小型オールインワンモーションモジュールが登場",
-          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news070.html",
-          "source": "MONOist",
-          "publishedAt": "2026-07-03T04:00:00.000Z",
-          "summary": "ダブル技研が、ヒューマノイドロボットや多指ロボットハンド向けに、指内部へ直接組み込める超小型オールインワン型モーションモジュール「D-Drive Module」を発売しました。この技術は、ロボットハンドの小型化と高性能化を促進し、より複雑で器用な作業の実現に貢献します。",
+          "title": "RustからROS 2メッセージを容易に利用できる新クレート「ros-env」が発表",
+          "link": "https://discourse.openrobotics.org/t/announcing-ros-env-access-ros-2-messages-from-rust-with-just-cargo/56141",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-07-04T17:32:04.000Z",
+          "summary": "ROS 2メッセージをRust言語で簡単に利用するための新クレート「ros-env」がリリースされた。Cargo依存関係として追加するだけで、ROS 2環境内のパッケージからメッセージタイプにアクセスでき、Rustを用いたロボット開発の効率が向上する。",
           "impactScore": 7,
-          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/03/l_mn_fanews_26061803b.jpg"
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/e/2/e2580bc2d1e3398c20399c8735572f973453b1a4.png"
         },
         {
-          "title": "月面探査を目指す核動力火星ローバーの試験機",
-          "link": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
-          "source": "IEEE Spectrum",
-          "publishedAt": "2026-07-03T15:00:01.000Z",
-          "summary": "NASAは月面基地計画に向け、火星ローバーの技術を応用した核動力月面ローバー「PROMISE」のミッション構想を検討しています。このプロトタイプは、月南極の過酷な環境下での長期探査を可能にし、次世代の宇宙開発を加速させる重要な一歩となります。",
+          "title": "ロボティクス向け時系列可視化ツールPlotJuggler 4（ベータ版）が登場、マルチモーダルデータに対応",
+          "link": "https://discourse.openrobotics.org/t/plotjuggler-4-beta-is-here-unleashing-mulit-modal-data/56047",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-07-02T11:44:41.000Z",
+          "summary": "ロボティクス分野で広く使われる時系列データ可視化ツールPlotJugglerのバージョン4ベータ版がリリースされた。圧縮MCAPの高速読み込み、3Dシーンやビデオのレンダリング、WebRTCによるリアルタイムストリーミングなど、大幅な性能向上と多機能化を実現し、デバッグ・解析能力を高める。",
+          "impactScore": 8,
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/d/6/d6abc8d411d4fb4f3e090a4ee86fee1e5538c71c_2_690x444.jpeg"
+        },
+        {
+          "title": "AgileX NERO 7自由度双腕ロボットのCANリーダー・フォロワー連携設定ガイド公開",
+          "link": "https://discourse.openrobotics.org/t/mastering-nero-how-to-configure-can-leader-follower-linkage-for-dual-7-dof-robotic-arms/56028",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-07-02T03:02:30.000Z",
+          "summary": "AgileX NERO 7自由度ロボットアーム2台をCANバスでリーダー・フォロワー構成にする設定ガイドが公開された。これにより、一方のアームの動きを他方がリアルタイムで模倣でき、身体性AIやテレオペレーション、模倣学習などの研究開発における双腕ロボットの活用を促進する。",
+          "impactScore": 8,
+          "imageUrl": "https://emoji.discourse-cdn.com/noto/white_check_mark.png?v=15"
+        },
+        {
+          "title": "物理認識型のURDF検証ツール「urdf_validator v1.0」がオープンソースでリリース",
+          "link": "https://discourse.openrobotics.org/t/urdf-validator-v1-0-physics-aware-urdf-validation-open-source/55977",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-07-01T00:27:13.000Z",
+          "summary": "オープンソースのURDF検証ツール「urdf_validator v1.0」が登場し、URDFファイルの物理的な妥当性（質量、慣性テンソル、関節トルク限界など）を検証できるようになった。AIエージェントが利用する信頼性の高い検証メカニズムとして、ロボット設計の堅牢性向上に貢献する。",
+          "impactScore": 8,
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/e/2/e2580bc2d1e3398c20399c8735572f973453b1a4.png"
+        },
+        {
+          "title": "PX4とROS 2を活用したドローンのオフボード制御アーキテクチャが公開",
+          "link": "https://discourse.openrobotics.org/t/offboard-control-with-px4-ros-2-micro-xrce-dds/55936",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-06-30T04:08:28.000Z",
+          "summary": "PX4 AutopilotとROS 2 Jazzyを用いた自律型ドローンのオフボード制御における、信頼性の高いフェイルセーフ対応アーキテクチャが紹介された。非同期ステートマシンとExecutor駆動のタイマーにより、スレッドをブロックせずに安定した制御を実現し、ドローン開発の安全性と効率性を高める。",
+          "impactScore": 8,
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/e/2/e2580bc2d1e3398c20399c8735572f973453b1a4.png"
+        },
+        {
+          "title": "LLMからロボットアクションへの標準インターフェース「ClawsJoy Robotics」が提案",
+          "link": "https://discourse.openrobotics.org/t/a-standard-interface-from-llm-to-robot-actions/55894",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-06-29T14:28:10.000Z",
+          "summary": "大規模言語モデル（LLM）とROS/2ロボット間の標準インターフェース「ClawsJoy Robotics」が提唱された。「navigate_to」や「move_arm」など12の共通動作プリミティブを定義することで、身体性AIにおけるロボットアクションの統合と相互運用性を飛躍的に向上させる可能性を秘めている。",
           "impactScore": 9,
-          "imageUrl": "https://spectrum.ieee.org/media-library/mars-style-rover-prototype-on-rugged-ground-under-a-clear-sky-with-the-moon-visible.png?id=67083121&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
+          "imageUrl": "https://emoji.discourse-cdn.com/noto/white_check_mark.png?v=15"
         },
         {
-          "title": "Apptronikがヒューマノイドロボット「Apollo 2」の訓練施設「Robot Park」を開設",
-          "link": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
-          "source": "IEEE Spectrum",
-          "publishedAt": "2026-07-03T15:00:01.000Z",
-          "summary": "Apptronikは、約8,300平方メートルの「Robot Park」施設を開設し、ヒューマノイドロボット「Apollo 2」のリアルワールド訓練データ収集を開始しました。この大規模な訓練インフラは、自律型ヒューマノイドロボットの進化を加速させ、実際の環境での性能向上に不可欠なデータを提供します。",
+          "title": "Nav2ビヘイビアツリーを編集・プレビューできるVS Code拡張機能「Nav2 BT Editor」がリリース",
+          "link": "https://discourse.openrobotics.org/t/nav2-bt-editor-a-vs-code-extension-for-editing-and-previewing-nav2-behavior-trees/55893",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-06-29T14:27:34.000Z",
+          "summary": "ROS 2 Nav2のXMLビヘイビアツリーをVS Code内で視覚的に編集およびプレビューできる拡張機能「Nav2 BT Editor」が公開された。これにより、Nav2のビヘイビアツリー開発ワークフローが大幅に効率化され、XMLファイルを直接編集する際の複雑さを軽減し、開発者の生産性を向上させる。",
+          "impactScore": 7,
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/d/f/dfdd2b791a3d0178a778785e5694c535e63e1223.gif"
+        },
+        {
+          "title": "CADファイルを数分でURDFに変換するツール「Jointly」が開発され、ロボット設計を効率化",
+          "link": "https://discourse.openrobotics.org/t/cad-to-urdf-conversion/55892",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-06-29T14:27:21.000Z",
+          "summary": "CADファイルをROSで用いられるURDF形式に変換するツール「Jointly」が登場した。これにより、従来数時間かかっていた手作業によるURDF生成プロセスを数分に短縮でき、ロボティクスエンジニアの設計ワークフローにおけるボトルネックを解消し、生産性を大幅に向上させる。",
+          "impactScore": 7,
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/e/2/e2580bc2d1e3398c20399c8735572f973453b1a4.png"
+        },
+        {
+          "title": "ROS 2開発を統合する包括的なVS Code拡張機能「Ros2-dev-suite」がリリース",
+          "link": "https://discourse.openrobotics.org/t/ros2-dev-suite-a-studiocode-extension/55886",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-06-29T11:23:40.000Z",
+          "summary": "ROS 2開発向けの包括的なVS Code拡張機能「Ros2-dev-suite」が公開された。リアルタイムでのROSパラメータ調整、サービス/トピック/アクションの呼び出し、ログビューアなど多彩な機能を提供し、開発者がIDE内で効率的に作業できるようになり、ROS 2開発体験を向上させる。",
+          "impactScore": 7,
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/c/6/c6b0a7f1bba4ef30d5c0c40f9bfb5cc05b93246f_2_690x261.png"
+        },
+        {
+          "title": "ROS 2向け統合ロボットユーティリティボードインターフェース「RUBI v2」がリリース",
+          "link": "https://discourse.openrobotics.org/t/rubi-robot-utility-board-interface-v2/55844",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-06-28T15:11:44.000Z",
+          "summary": "ROS 2の統合制御ボードインターフェース「RUBI v2」が公開された。ライブのトピックレート、帯域幅、QoSミスマッチ検出、ノードメトリクスなどを単一ウィンドウで提供し、パラメータ編集やライフサイクルノード制御も可能。組み込みシステムでも高速に動作し、ロボットの監視と運用を効率化する。",
           "impactScore": 8,
-          "imageUrl": "https://spectrum.ieee.org/media-library/image.png?id=67083121&width=1200&height=600&coordinates=0%2C60%2C0%2C60"
-        },
-        {
-          "title": "Humanoid社、操作信頼性99.9%を達成する強化学習アプローチ「KinetIQ Ascend」を導入",
-          "link": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
-          "source": "IEEE Spectrum",
-          "publishedAt": "2026-07-03T15:00:01.000Z",
-          "summary": "Humanoid社は、人間の速度で99.9%の操作信頼性を実現する強化学習アプローチ「KinetIQ Ascend」を発表しました。この技術は、ロボットによる精密なマニピュレーション能力を劇的に向上させ、産業応用における実用性と安全性を高める画期的な進歩です。",
-          "impactScore": 8,
-          "imageUrl": "https://spectrum.ieee.org/media-library/image.png?id=67083121&width=1200&height=600&coordinates=0%2C60%2C0%2C60"
-        },
-        {
-          "title": "凝集運動する絡み合ったロボット物質",
-          "link": "https://robohub.org/entangled-robotic-matter-with-cohesive-motion/",
-          "source": "Robohub",
-          "publishedAt": "2026-06-15T10:06:23.000Z",
-          "summary": "コーネル大学のエンジニアが、集中制御なしで流動、再形成、環境適応するロボット集団「Cross-Link Collective」を開発しました。個々のロボットは限られた移動性ながら、全体として協調的な運動を示し、モジュラーロボティクスや自己組織化システムの研究に新たな方向性を提示します。",
-          "impactScore": 8,
-          "imageUrl": "https://robohub.org/wp-content/uploads/2026/06/WithControl_Rep1_100X-HD_1080-WEB-H264_4000.mp4"
-        },
-        {
-          "title": "優しく扱う：ソフトロボットグリッパーが熟した果物を傷つけずに収穫",
-          "link": "https://robohub.org/handle-with-care-soft-robot-gripper-picks-ripe-fruit-without-bruising/",
-          "source": "Robohub",
-          "publishedAt": "2026-05-27T15:44:34.000Z",
-          "summary": "コーネル大学の研究者らが、伸縮性のある光ファイバーセンサーを搭載したソフトロボットグリッパーを開発し、触覚でイチゴの熟度を予測し傷つけずに収穫できることを示しました。この技術は、デリケートな農産物の自動収穫において精度と効率を大幅に向上させます。",
-          "impactScore": 8,
-          "imageUrl": "https://robohub.org/wp-content/uploads/2026/05/1_pb6g2a5s.mp4"
-        },
-        {
-          "title": "より長期間の予測を可能にするワールドモデル向け勾配ベースプランニング",
-          "link": "https://robohub.org/gradient-based-planning-for-world-models-at-longer-horizons/",
-          "source": "Robohub",
-          "publishedAt": "2026-04-28T07:00:44.000Z",
-          "summary": "GRASPは、学習されたワールドモデルを用いた長期間のロボット計画を実用化する新しい勾配ベースプランナーです。最適化を並列化し、探索に確率性を導入し、勾配を再形成することで、ロボットが複雑なタスクをより信頼性高く、迅速に実行できるよう支援します。",
-          "impactScore": 9,
-          "imageUrl": "https://bair.berkeley.edu/static/blog/grasp/ballnav_demo.gif"
-        },
-        {
-          "title": "ソニーAIの卓球ロボット、トップレベルの人間プレイヤーを凌駕",
-          "link": "https://robohub.org/sony-ai-table-tennis-robot-outplays-elite-human-players/",
-          "source": "Robohub",
-          "publishedAt": "2026-04-22T15:09:41.000Z",
-          "summary": "ソニーAIが開発した卓球ロボット「Ace」が、エリート級の人間プレイヤーを打ち負かしました。これは、競争の激しい物理スポーツにおいてAIが人間を超える性能を発揮した初のロボットであり、ロボティクスとAIの融合における画期的な進歩を示します。",
-          "impactScore": 9,
-          "imageUrl": "https://robohub.org/wp-content/uploads/2026/04/Video-4_Sony-AI_Ace-Net-Bounce-Trajectory.mp4"
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/1/7/17003d85c00d05839e8377b89ef9936d9618dbe4_2_690x387.jpeg"
         }
       ],
       "実用・社会実装": [
         {
-          "title": "フィジカルAIに挑む日本の企業連合「Noetra」とは",
-          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/04/news016.html",
-          "source": "MONOist",
-          "publishedAt": "2026-07-03T22:00:00.000Z",
-          "summary": "日本の企業連合「Noetra」がフィジカルAI分野への本格参入を発表しました。これは、現実世界で動作するAIシステムの開発を加速させ、産業界における次世代ロボティクスや自動化技術の実現に向けた、国家レベルでの重要な取り組みです。",
-          "impactScore": 7,
-          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/04/cover_news016.jpg"
+          "title": "海洋ロボティクス向け「Open Ocean Software Community Day UK」開催発表",
+          "link": "https://discourse.openrobotics.org/t/announcement-open-ocean-software-community-day-uk-4-september-2026/56020",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-07-01T18:27:08.000Z",
+          "summary": "2026年9月4日に英国サウサンプトンで「Open Ocean Software Community Day UK」が開催される。AUV、ASV、ROVなどの海洋プラットフォーム向けオープンソースソフトウェア開発者や利用者が集まり、技術交流を通じて海洋ロボティクス分野の発展を促進する。",
+          "impactScore": 6,
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/e/2/e2580bc2d1e3398c20399c8735572f973453b1a4.png"
         },
         {
-          "title": "陸上自衛隊、四足歩行型警備ロボットシステムの導入検証業務を受託",
-          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news066.html",
-          "source": "MONOist",
-          "publishedAt": "2026-07-03T05:00:00.000Z",
-          "summary": "GMOインターネットグループは、陸上自衛隊から四足歩行型警備ロボットシステムの導入検証業務を受託しました。複数の企業が連携し、駐屯地警備の省人化と24時間体制の実現を目指すことで、防衛分野におけるロボット技術の実用化を大きく推進します。",
-          "impactScore": 8,
-          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/03/cover_news066.jpg"
-        },
-        {
-          "title": "Avride、クラウドVLMを活用し配送ロボットの状況認識を強化",
-          "link": "https://www.therobotreport.com/how-avride-uses-cloud-vlms-safety-net-delivery-robots/",
-          "source": "The Robot Report",
-          "publishedAt": "2026-07-04T12:30:37.000Z",
-          "summary": "Avrideは、クラウドベースのビジョン言語モデル（VLM）を利用して、配送ロボットの環境認識能力を向上させています。この技術は、複雑な都市環境での安全なナビゲーションと信頼性の高い配送を実現し、自律型配送サービスの普及を加速させる重要な要素となります。",
+          "title": "ROSプロジェクトにおけるAI支援貢献に関するガイドラインが策定",
+          "link": "https://discourse.openrobotics.org/t/guidelines-for-ai-assisted-contributions-in-the-ros-project/55903",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-06-29T19:41:14.000Z",
+          "summary": "ROSプロジェクトにおいて、大規模言語モデル（LLM）を用いた開発貢献に関するガイドラインが発表された。AIツールの活用は推奨される一方、未検証のLLM出力の提出や、人間による検証を怠る行為は禁止され、オープンソースコミュニティにおける協力と品質維持の重要性を強調している。",
           "impactScore": 7,
-          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/07/Avride_robot_Arlington.png"
-        },
-        {
-          "title": "AURA Foresight、XPRIZE Wildfire決勝に進出",
-          "link": "https://robohub.org/aura-foresight-reaches-global-xprize-wildfire-finals-in-alaska/",
-          "source": "Robohub",
-          "publishedAt": "2026-06-19T16:42:23.000Z",
-          "summary": "AURA Foresightチームが、XPRIZE Wildfire自律型山火事対応コンペティションの決勝に進出しました。彼らは山火事を大規模化する前に食い止める自律技術を開発しており、災害対応ロボティクスの分野における実用化と社会実装に大きな期待が寄せられています。",
-          "impactScore": 7,
-          "imageUrl": "https://robohub.org/wp-content/uploads/2026/06/IMG_4466-1024x768.jpg"
-        },
-        {
-          "title": "ロボットトーク第160回：ロボット鍛冶師とEdward Mehr氏",
-          "link": "https://robohub.org/robot-talk-episode-160-robotic-blacksmiths-with-edward-mehr/",
-          "source": "Robohub",
-          "publishedAt": "2026-06-12T11:58:22.000Z",
-          "summary": "Machina LabsのEdward Mehr氏は、航空宇宙および自動車産業向けに複雑な金属部品を成形するAI搭載ロボット「RoboCraftsman」について語りました。この先進的なロボット鍛冶技術は、AIとロボティクスを統合した柔軟な製造業の可能性を示し、高精度な金属加工を自動化します。",
-          "impactScore": 7,
-          "imageUrl": "https://robohub.org/wp-content/uploads/2026/06/160_Edward-Mehr-1024x446.jpg"
-        },
-        {
-          "title": "RoboChem Flex：自律合成ロボットの民主化",
-          "link": "https://robohub.org/robochem-flex-democratisation-of-the-autonomous-synthe sis-robot/",
-          "source": "Robohub",
-          "publishedAt": "2026-06-02T10:51:48.000Z",
-          "summary": "アムステルダム大学の研究者らが、合成最適化のための自律型ラボシステム「RoboChem Flex」を発表しました。この多用途でモジュラー設計のロボットは、「ヒューマン・イン・ザ・ループ」分析オプションを提供し、化学合成プロセスの自動化と効率化を加速させ、研究開発に革命をもたらします。",
-          "impactScore": 7,
-          "imageUrl": ""
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/e/2/e2580bc2d1e3398c20399c8735572f973453b1a4.png"
         }
       ],
       "ビジネス・投資・経済": [
         {
-          "title": "グローバルロボティクス技術ロードマップ",
-          "link": "https://robohub.org/global-robotics-technology-roadmap/",
-          "source": "Robohub",
-          "publishedAt": "2026-06-03T09:13:54.000Z",
-          "summary": "カリフォルニア大学サンディエゴ校のHenrik I Christensen教授が、アジア、ヨーロッパ、アメリカにおけるロボティクスの現状と主要な機会を概説したグローバル技術ロードマップを発表しました。これは、将来のロボティクス開発戦略と投資の方向性を示す重要な指針となります。",
+          "title": "外科用ロボット/物理AIハードウェアのプレシードスタートアップがテクニカル共同創業者を募集",
+          "link": "https://discourse.openrobotics.org/t/technical-co-founder-pre-seed-surgical-robotics-physical-ai-hardware-startup-equity/55979",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-07-01T00:27:48.000Z",
+          "summary": "ある外科医が、手術AIのボトルネックを解決する新しいアプローチを持つ外科用ロボット/物理AIハードウェアスタートアップ（プレシード段階）のテクニカル共同創業者を募集している。この募集は、高成長分野におけるイノベーションへの投資機会と、高度な技術者への需要を示唆している。",
+          "impactScore": 7,
+          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/e/2/e2580bc2d1e3398c20399c8735572f973453b1a4.png"
+        },
+        {
+          "title": "X Square Robot、身体性AIと汎用ロボティクスへのフルスタックアプローチで注目を集める",
+          "link": "https://roboticsandautomationnews.com/2026/07/03/x-square-robot-builds-a-full-stack-approach-to-embodied-ai-and-general-purpose-robotics/102954/",
+          "source": "Robotics & Automation News",
+          "publishedAt": "2026-07-03T06:38:48.000Z",
+          "summary": "中国深圳拠点のX Square Robotが、身体性AIと汎用ロボティクスに対するフルスタックアプローチを展開し、急速に成長している。既に4回の連続資金調達を完了しており、多岐にわたる実世界タスクをこなすロボット開発競争において重要な役割を果たす企業として期待されている。",
           "impactScore": 8,
-          "imageUrl": "https://robohub.org/wp-content/uploads/2026/06/DeborahLupton-PopChips-1280x678-1-1024x542.jpg"
+          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/07/x-square-robot-1-1.png"
+        },
+        {
+          "title": "AGIBOTが欧州で人型ロボット「A3」を発表、英国でRaaSモデルを開始",
+          "link": "https://roboticsandautomationnews.com/2026/07/02/agibot-debuts-a3-humanoid-robot-in-europe-and-launches-uk-robot-as-a-service-model/103018/",
+          "source": "Robotics & Automation News",
+          "publishedAt": "2026-07-02T12:58:24.000Z",
+          "summary": "身体性AIとロボティクス開発企業AGIBOTが、ヨーロッパ市場で新型人型ロボット「A3」を発表し、英国でRaaS（Robot-as-a-Service）モデルを導入した。これは、人型ロボットの技術革新と実世界での展開を通じて、長期的な商業的価値を構築する同社の重要な戦略である。",
+          "impactScore": 9,
+          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/07/agibot-conference-1.jpg"
         }
       ]
     },
     "otherArticles": [
       {
-        "title": "Quarterhill discusses transport modernization as U.S. marks 70 years of federal highways",
-        "link": "https://www.therobotreport.com/quarterhill-discusses-transport-modernization-u-s-marks-70-years-federal-highways/",
-        "source": "The Robot Report",
-        "publishedAt": "2026-07-03T13:01:26.000Z"
-      },
-      {
-        "title": "#RoboCup2026 – humanoid league day 2",
-        "link": "https://robohub.org/robocup2026-humanoid-league-day-2/",
-        "source": "Robohub",
-        "publishedAt": "2026-07-03T18:36:55.000Z"
-      },
-      {
-        "title": "AI brings object-level vision prosthetics closer to reality",
-        "link": "https://robohub.org/ai-brings-object-level-vision-prosthetics-closer-to-reality/",
-        "source": "Robohub",
-        "publishedAt": "2026-06-23T10:09:29.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 161 – Collaborative haptic systems, with Allison Okamura",
-        "link": "https://robohub.org/robot-talk-episode-161-collaborative-haptic-systems-with-allison-okamura/",
-        "source": "Robohub",
-        "publishedAt": "2026-06-19T12:07:34.000Z"
-      },
-      {
-        "title": "New research enables a robot to chart a better course",
-        "link": "https://robohub.org/new-research-enables-a-robot-to-chart-a-better-course/",
-        "source": "Robohub",
-        "publishedAt": "2026-06-17T10:06:45.000Z"
-      },
-      {
-        "title": "Congratulations to the #AAMAS2026 best paper award winners",
-        "link": "https://robohub.org/congratulations-to-the-aamas2026-best-paper-award-winners/",
-        "source": "Robohub",
-        "publishedAt": "2026-06-08T10:02:11.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 159 – Robot sensing and manipulation, with Maria Koskinopoulou",
-        "link": "https://robohub.org/robot-talk-episode-159-robot-sensing-and-manipulation-with-maria-koskinopoulou/",
-        "source": "Robohub",
-        "publishedAt": "2026-06-05T11:57:36.000Z"
-      },
-      {
-        "title": "RoboChem Flex: democratisation of the autonomous synthesis robot",
-        "link": "https://robohub.org/robochem-flex-democratisation-of-the-autonomous-synthesis-robot/",
-        "source": "Robohub",
-        "publishedAt": "2026-06-02T10:51:48.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 158 – Autonomous robot deliveries, with Ahti Heinla",
-        "link": "https://robohub.org/robot-talk-episode-158-autonomous-robot-deliveries-with-ahti-heinla/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-29T11:55:34.000Z"
-      },
-      {
-        "title": "Light-activated gel could impact wearables, soft robotics, and more",
-        "link": "https://robohub.org/light-activated-gel-could-impact-wearables-soft-robotics-and-more/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-28T06:25:25.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 157 – Generating new robot designs, with Josie Hughes",
-        "link": "https://robohub.org/robot-talk-episode-157-generating-new-robot-designs-with-josie-hughes/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-22T12:13:39.000Z"
-      },
-      {
-        "title": "Robotics Café brings together autonomous robot practitioners",
-        "link": "https://robohub.org/robotics-cafe-brings-together-autonomous-robot-practitioners/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-20T13:03:38.000Z"
-      },
-      {
-        "title": "Table tennis robot defeats some of world’s best players – why this has major implications for robotics",
-        "link": "https://robohub.org/table-tennis-robot-defeats-some-of-worlds-best-players-why-this-has-major-implications-for-robotics/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-18T10:38:59.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 156 – Rugged robots for dangerous missions, with Gavin Kenneally",
-        "link": "https://robohub.org/robot-talk-episode-156-rugged-robots-for-dangerous-missions-with-gavin-kenneally/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-15T11:32:19.000Z"
-      },
-      {
-        "title": "Developing active and flexible microrobots",
-        "link": "https://robohub.org/developing-active-and-flexible-microrobots/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-13T09:21:04.000Z"
-      },
-      {
-        "title": "How to teach the same skill to different robots",
-        "link": "https://robohub.org/how-to-teach-the-same-skill-to-different-robots/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-11T14:18:23.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 155 – Making aerial robots smarter, with Melissa Greeff",
-        "link": "https://robohub.org/robot-talk-episode-155-making-aerial-robots-smarter-with-melissa-greeff/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-08T11:33:25.000Z"
-      },
-      {
-        "title": "New understanding of insect flight points way to stable flapping-wing robots",
-        "link": "https://robohub.org/new-understanding-of-insect-flight-points-way-to-stable-flapping-wing-robots/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-07T08:41:53.000Z"
-      },
-      {
-        "title": "Robotically assembled building blocks could make construction more efficient and sustainable",
-        "link": "https://robohub.org/robotically-assembled-building-blocks-could-make-construction-more-efficient-and-sustainable/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-05T09:31:39.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 154 – Visual navigation in insects and robots, with Andrew Philippides",
-        "link": "https://robohub.org/robot-talk-episode-154-visual-navigation-in-insects-and-robots-with-andrew-philippides/",
-        "source": "Robohub",
-        "publishedAt": "2026-05-01T12:41:40.000Z"
-      },
-      {
-        "title": "Ultralightweight sonar plus AI lets tiny drones navigate like bats",
-        "link": "https://robohub.org/ultralightweight-sonar-plus-ai-lets-tiny-drones-navigate-like-bats/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-29T15:05:39.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 153 – Origami-inspired robots, with Chenying Liu",
-        "link": "https://robohub.org/robot-talk-episode-153-origami-inspired-robots-with-chenying-liu/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-24T12:35:06.000Z"
-      },
-      {
-        "title": "AI system learns to keep warehouse robot traffic running smoothly",
-        "link": "https://robohub.org/ai-system-learns-to-keep-warehouse-robot-traffic-running-smoothly/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-20T10:10:31.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 152 – Dexterous robot hands, with Rich Walker",
-        "link": "https://robohub.org/robot-talk-episode-152-dexterous-robot-hands-with-rich-walker/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-17T12:53:01.000Z"
-      },
-      {
-        "title": "What I’ve learned from 25 years of automated science, and what the future holds: an interview with Ross King",
-        "link": "https://robohub.org/what-ive-learned-from-25-years-of-automated-science-and-what-the-future-holds-an-interview-with-ross-king/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-14T14:37:55.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 151 – Robots to study the ocean, with Simona Aracri",
-        "link": "https://robohub.org/robot-talk-episode-151-robots-to-study-the-ocean-with-simona-aracri/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-10T12:16:36.000Z"
-      },
-      {
-        "title": "Generative AI improves a wireless vision system that sees through obstructions",
-        "link": "https://robohub.org/generative-ai-improves-a-wireless-vision-system-that-sees-through-obstructions/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-08T04:32:10.000Z"
-      },
-      {
-        "title": "Resource-constrained image generation and visual understanding: an interview with Aniket Roy",
-        "link": "https://robohub.org/resource-constrained-image-generation-and-visual-understanding-an-interview-with-aniket-roy/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-07T08:51:55.000Z"
-      },
-      {
-        "title": "Back to school: robots learn from factory workers",
-        "link": "https://robohub.org/back-to-school-robots-learn-from-factory-workers/",
-        "source": "Robohub",
-        "publishedAt": "2026-04-02T10:20:35.000Z"
-      },
-      {
-        "title": "Resource-sharing boosts robotic resilience",
-        "link": "https://robohub.org/resource-sharing-boosts-robotic-resilience/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-31T07:01:32.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 150 – House building robots, with Vikas Enti",
-        "link": "https://robohub.org/robot-talk-episode-150-house-building-robots-with-vikas-enti/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-27T13:18:26.000Z"
-      },
-      {
-        "title": "A history of RoboCup with Manuela Veloso",
-        "link": "https://robohub.org/a-history-of-robocup-with-manuela-veloso/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-24T12:43:44.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 149 – Robot safety and security, with Krystal Mattich",
-        "link": "https://robohub.org/robot-talk-episode-149-robot-safety-and-security-with-krystal-mattich/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-20T13:16:50.000Z"
-      },
-      {
-        "title": "A multi-armed robot for assisting with agricultural tasks",
-        "link": "https://robohub.org/a-multi-armed-robot-for-assisting-with-agricultural-tasks/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-18T12:47:01.000Z"
-      },
-      {
-        "title": "Graphene-based sensor to improve robot touch",
-        "link": "https://robohub.org/graphene-based-sensor-to-improve-robot-touch/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-16T16:10:11.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 148 – Ethical robot behaviour, with Alan Winfield",
-        "link": "https://robohub.org/robot-talk-episode-148-ethical-robot-behaviour-with-alan-winfield/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-13T13:17:33.000Z"
-      },
-      {
-        "title": "Coding for underwater robotics",
-        "link": "https://robohub.org/coding-for-underwater-robotics/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-12T13:05:24.000Z"
-      },
-      {
-        "title": "Restoring surgeons’ sense of touch with robotic fingertips",
-        "link": "https://robohub.org/restoring-surgeons-sense-of-touch-with-robotic-fingertips/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-10T15:41:04.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 147 – Miniature living robots, with Maria Guix",
-        "link": "https://robohub.org/robot-talk-episode-147-miniature-living-robots-with-maria-guix/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-06T13:37:45.000Z"
-      },
-      {
-        "title": "Developing an optical tactile sensor for tracking head motion during radiotherapy: an interview with Bhoomika Gandhi",
-        "link": "https://robohub.org/developing-an-optical-tactile-sensor-for-tracking-head-motion-during-radiotherapy-an-interview-with-bhoomika-gandhi/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-05T11:35:06.000Z"
-      },
-      {
-        "title": "Humanoid home robots are on the market – but do we really want them?",
-        "link": "https://robohub.org/humanoid-home-robots-are-on-the-market-but-do-we-really-want-them/",
-        "source": "Robohub",
-        "publishedAt": "2026-03-03T14:29:00.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 146 – Embodied AI on the ISS, with Jamie Palmer",
-        "link": "https://robohub.org/robot-talk-episode-146-embodied-ai-on-the-iss-with-jamie-palmer/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-27T13:48:57.000Z"
-      },
-      {
-        "title": "I developed an app that uses drone footage to track plastic litter on beaches",
-        "link": "https://robohub.org/i-developed-an-app-that-uses-drone-footage-to-track-plastic-litter-on-beaches/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-26T14:35:31.000Z"
-      },
-      {
-        "title": "Translating music into light and motion with robots",
-        "link": "https://robohub.org/translating-music-into-light-and-motion-with-robots/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-25T16:32:02.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 145 – Robotics and automation in manufacturing, with Agata Suwala",
-        "link": "https://robohub.org/robot-talk-episode-145-robotics-and-automation-in-manufacturing-with-agata-suwala/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-20T13:05:38.000Z"
-      },
-      {
-        "title": "Reversible, detachable robotic hand redefines dexterity",
-        "link": "https://robohub.org/reversible-detachable-robotic-hand-redefines-dexterity/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-19T16:14:02.000Z"
-      },
-      {
-        "title": "“Robot, make me a chair”",
-        "link": "https://robohub.org/robot-make-me-a-chair/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-17T11:37:20.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 144 – Robot trust in humans, with Samuele Vinanzi",
-        "link": "https://robohub.org/robot-talk-episode-144-robot-trust-in-humans-with-samuele-vinanzi/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-13T13:11:31.000Z"
-      },
-      {
-        "title": "How can robots acquire skills through interactions with the physical world? An interview with Jiaheng Hu",
-        "link": "https://robohub.org/how-can-robots-acquire-skills-through-interactions-with-the-physical-world-an-interview-with-jiaheng-hu/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-12T13:54:12.000Z"
-      },
-      {
-        "title": "Sven Koenig wins the 2026 ACM/SIGAI Autonomous Agents Research Award",
-        "link": "https://robohub.org/sven-koenig-wins-the-2026-acm-sigai-autonomous-agents-research-award/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-10T10:59:41.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 143 – Robots for children, with Elmira Yadollahi",
-        "link": "https://robohub.org/robot-talk-episode-143-robots-for-children-with-elmira-yadollahi/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-06T13:31:22.000Z"
-      },
-      {
-        "title": "New frontiers in robotics at CES 2026",
-        "link": "https://robohub.org/new-frontiers-in-robotics-at-ces-2026/",
-        "source": "Robohub",
-        "publishedAt": "2026-02-03T12:34:16.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 142 – Collaborative robot arms, with Mark Gray",
-        "link": "https://robohub.org/robot-talk-episode-142-collaborative-robot-arms-with-mark-gray/",
-        "source": "Robohub",
-        "publishedAt": "2026-01-30T13:30:12.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 141 – Our relationship with robot swarms, with Razanne Abu-Aisheh",
-        "link": "https://robohub.org/robot-talk-episode-141-our-relationship-with-robot-swarms-with-razanne-abu-aisheh/",
-        "source": "Robohub",
-        "publishedAt": "2026-01-23T13:48:54.000Z"
-      },
-      {
-        "title": "Vine-inspired robotic gripper gently lifts heavy and fragile objects",
-        "link": "https://robohub.org/vine-inspired-robotic-gripper-gently-lifts-heavy-and-fragile-objects/",
-        "source": "Robohub",
-        "publishedAt": "2026-01-23T03:08:38.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 140 – Robot balance and agility, with Amir Patel",
-        "link": "https://robohub.org/robot-talk-episode-140-robot-balance-and-agility-with-amir-patel/",
-        "source": "Robohub",
-        "publishedAt": "2026-01-16T12:55:31.000Z"
-      },
-      {
-        "title": "Taking humanoid soccer to the next level: An interview with RoboCup trustee Alessandra Rossi",
-        "link": "https://robohub.org/taking-humanoid-soccer-to-the-next-level-an-interview-with-robocup-trustee-alessandra-rossi/",
-        "source": "Robohub",
-        "publishedAt": "2026-01-14T09:07:58.000Z"
-      },
-      {
-        "title": "Robots to navigate hiking trails",
-        "link": "https://robohub.org/robots-to-navigate-hiking-trails/",
-        "source": "Robohub",
-        "publishedAt": "2026-01-12T11:12:16.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 139 – Advanced robot hearing, with Christine Evers",
-        "link": "https://robohub.org/robot-talk-episode-139-advanced-robot-hearing-with-christine-evers/",
-        "source": "Robohub",
-        "publishedAt": "2026-01-09T13:12:04.000Z"
-      },
-      {
-        "title": "Meet the AI-powered robotic dog ready to help with emergency response",
-        "link": "https://robohub.org/meet-the-ai-powered-robotic-dog-ready-to-help-with-emergency-response/",
-        "source": "Robohub",
-        "publishedAt": "2026-01-07T11:34:43.000Z"
-      },
-      {
-        "title": "MIT engineers design an aerial microrobot that can fly as fast as a bumblebee",
-        "link": "https://robohub.org/mit-engineers-design-an-aerial-microrobot-that-can-fly-as-fast-as-a-bumblebee/",
-        "source": "Robohub",
-        "publishedAt": "2025-12-31T10:00:00.000Z"
-      },
-      {
-        "title": "Robohub highlights 2025",
-        "link": "https://robohub.org/robohub-highlights-2025/",
-        "source": "Robohub",
-        "publishedAt": "2025-12-29T11:19:26.000Z"
-      },
-      {
-        "title": "The science of human touch – and why it’s so hard to replicate in robots",
-        "link": "https://robohub.org/the-science-of-human-touch-and-why-its-so-hard-to-replicate-in-robots/",
-        "source": "Robohub",
-        "publishedAt": "2025-12-24T11:15:36.000Z"
-      },
-      {
-        "title": "Bio-hybrid robots turn food waste into functional machines",
-        "link": "https://robohub.org/bio-hybrid-robots-turn-food-waste-into-functional-machines/",
-        "source": "Robohub",
-        "publishedAt": "2025-12-22T10:41:53.000Z"
-      },
-      {
-        "title": "Robot Talk Episode 138 – Robots in the environment, with Stefano Mintchev",
-        "link": "https://robohub.org/robot-talk-episode-138-robots-in-the-environment-with-stefano-mintchev/",
-        "source": "Robohub",
-        "publishedAt": "2025-12-19T13:40:57.000Z"
-      },
-      {
-        "title": "Trunk Tools' stack cut document review from 60 days to 10 by ditching general-purpose models",
-        "link": "https://venturebeat.com/orchestration/trunk-tools-stack-cut-document-review-from-60-days-to-10-by-ditching-general-purpose-models",
+        "title": "How America's 250th birthday became a test of AI-powered collective intelligence",
+        "link": "https://venturebeat.com/technology/how-americas-250th-birthday-became-a-test-of-ai-powered-collective-intelligence",
         "source": "VentureBeat",
-        "publishedAt": "2026-07-04T14:34:50.000Z"
+        "publishedAt": "2026-07-04T19:00:12.000Z"
       },
       {
-        "title": "Enterprises lost Claude Fable 5 for a few weeks. New data shows two-thirds had already built their hedge",
-        "link": "https://venturebeat.com/orchestration/enterprises-lost-claude-fable-5-for-a-few-weeks-new-data-shows-two-thirds-had-already-built-their-hedge",
+        "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+        "link": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
         "source": "VentureBeat",
-        "publishedAt": "2026-07-03T00:33:00.000Z"
+        "publishedAt": "2026-07-02T10:00:00.000Z"
       },
       {
-        "title": "New Alibaba AI framework skips loading every tool, cutting agent token use 99%",
-        "link": "https://venturebeat.com/orchestration/new-alibaba-ai-framework-skips-loading-every-tool-cutting-agent-token-use-99",
+        "title": "The Control Gap: Enterprise AI organizations have an ownership problem, not a technology problem — and most are governing it by hand",
+        "link": "https://venturebeat.com/resources/the-control-gap-enterprise-ai-organizations-have-an-ownership-problem-not-a-technology-problem-and-most-are-governing-it-by-hand",
         "source": "VentureBeat",
-        "publishedAt": "2026-07-02T20:54:12.000Z"
+        "publishedAt": "2026-07-01T21:50:00.000Z"
+      },
+      {
+        "title": "Anthropic is bringing back Claude Fable 5 globally after US lifts export control order — where can enterprises access it?",
+        "link": "https://venturebeat.com/technology/anthropic-is-bringing-back-claude-fable-5-globally-after-us-lifts-export-control-order-where-can-enterprises-access-it",
+        "source": "VentureBeat",
+        "publishedAt": "2026-07-01T15:51:00.000Z"
+      },
+      {
+        "title": "Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%",
+        "link": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-04T18:11:33.000Z"
+      },
+      {
+        "title": "Anthropic developer shares prompting tips for Fable 5 that focus on finding your own blind spots first",
+        "link": "https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-04T12:37:51.000Z"
+      },
+      {
+        "title": "OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
+        "link": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-04T09:53:21.000Z"
+      },
+      {
+        "title": "A 26,000-student study shows AI's hidden learning cost takes two full years to surface",
+        "link": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-04T09:08:41.000Z"
+      },
+      {
+        "title": "Anthropic launches its own drug discovery programs to tackle diseases Big Pharma considers unprofitable",
+        "link": "https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-04T08:11:18.000Z"
+      },
+      {
+        "title": "Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
+        "link": "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-04T07:12:47.000Z"
+      },
+      {
+        "title": "Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents",
+        "link": "https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-03T19:24:40.000Z"
+      },
+      {
+        "title": "Claude Code's complicated China problem involves bans on both sides of the Pacific",
+        "link": "https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-03T17:11:33.000Z"
+      },
+      {
+        "title": "Security vulnerability reports have exploded since AI models started hunting for bugs",
+        "link": "https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-03T16:49:47.000Z"
+      },
+      {
+        "title": "UK's AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do",
+        "link": "https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-03T16:14:44.000Z"
+      },
+      {
+        "title": "Real-time robot dashboards in React without a separate visualization server",
+        "link": "https://discourse.openrobotics.org/t/real-time-robot-dashboards-in-react-without-a-separate-visualization-server/56132",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-07-04T13:04:43.000Z"
+      },
+      {
+        "title": "Anyone from Adelaide?",
+        "link": "https://discourse.openrobotics.org/t/anyone-from-adelaide/56056",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-07-03T00:12:55.000Z"
+      },
+      {
+        "title": "New packages for Humble Hawksbill 2026-07-02",
+        "link": "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-07-02/56051",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-07-02T18:07:57.000Z"
+      },
+      {
+        "title": "kc_vision — Autonomous ground robot with SLAM, Nav2 + GPS boustrophedon coverage planner (ROS 2 Jazzy + Gazebo Harmonic)",
+        "link": "https://discourse.openrobotics.org/t/kc-vision-autonomous-ground-robot-with-slam-nav2-gps-boustrophedon-coverage-planner-ros-2-jazzy-gazebo-harmonic/56024",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-07-02T00:27:07.000Z"
+      },
+      {
+        "title": "Audio Features in Gazebo",
+        "link": "https://discourse.openrobotics.org/t/audio-features-in-gazebo/56023",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-07-02T00:27:01.000Z"
+      },
+      {
+        "title": "Aerial Robotics Meeting - 2nd July 2026",
+        "link": "https://discourse.openrobotics.org/t/aerial-robotics-meeting-2nd-july-2026/56017",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-07-01T16:55:23.000Z"
+      },
+      {
+        "title": "Xbox controller teleop for TurtleBot3, with a brake and haptic feedback (sim + real robot)",
+        "link": "https://discourse.openrobotics.org/t/xbox-controller-teleop-for-turtlebot3-with-a-brake-and-haptic-feedback-sim-real-robot/55978",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-07-01T00:27:30.000Z"
+      },
+      {
+        "title": "[CANCELED] ROS Deliberation Community Group Meeting - July 6, 2026",
+        "link": "https://discourse.openrobotics.org/t/canceled-ros-deliberation-community-group-meeting-july-6-2026/55970",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-30T22:01:11.000Z"
+      },
+      {
+        "title": "Community Meeting #59 - July 13, 2026 @ 3pm UTC",
+        "link": "https://discourse.openrobotics.org/t/community-meeting-59-july-13-2026-3pm-utc/55966",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-30T21:18:49.000Z"
+      },
+      {
+        "title": "Gazebo PMC Meeting Minutes 2026-06-29",
+        "link": "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-06-29/55963",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-30T16:25:52.000Z"
+      },
+      {
+        "title": "Maritime CWG Meeting June 2026: WHOI-ROS",
+        "link": "https://discourse.openrobotics.org/t/maritime-cwg-meeting-june-2026-whoi-ros/55962",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-30T15:09:18.000Z"
+      },
+      {
+        "title": "Developing an autonomous ocean monitoring device",
+        "link": "https://discourse.openrobotics.org/t/developing-an-autonomous-ocean-monitoring-device/55932",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-30T03:49:23.000Z"
+      },
+      {
+        "title": "New Rolling sync?",
+        "link": "https://discourse.openrobotics.org/t/new-rolling-sync/55917",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-29T22:17:47.000Z"
+      },
+      {
+        "title": "Pyspacemouse axis conventions",
+        "link": "https://discourse.openrobotics.org/t/pyspacemouse-axis-conventions/55908",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-29T20:04:06.000Z"
+      },
+      {
+        "title": "Logging and Observability Guide Review | Cloud Robotics WG Meeting 2026-07-13",
+        "link": "https://discourse.openrobotics.org/t/logging-and-observability-guide-review-cloud-robotics-wg-meeting-2026-07-13/55898",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-29T15:56:26.000Z"
+      },
+      {
+        "title": "Preparing for Humble sync 2026-07-02",
+        "link": "https://discourse.openrobotics.org/t/preparing-for-humble-sync-2026-07-02/55867",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-28T20:29:07.000Z"
+      },
+      {
+        "title": "ROS Japan Developer Kaigi @ 筑波大学 — 2026年8月3日（ROSCon JP前日）",
+        "link": "https://discourse.openrobotics.org/t/ros-japan-developer-kaigi-2026-8-3-roscon-jp/55842",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-06-28T13:44:27.000Z"
+      },
+      {
+        "title": "The Hardware Powering the Hybrid Industrial Workforce",
+        "link": "https://roboticsandautomationnews.com/2026/07/04/the-hardware-powering-the-hybrid-industrial-workforce/103051/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-04T10:25:11.000Z"
+      },
+      {
+        "title": "How to Choose a Robot Vacuum and Mop That Actually Fits Your Home",
+        "link": "https://roboticsandautomationnews.com/2026/07/04/how-to-choose-a-robot-vacuum-and-mop-that-actually-fits-your-home/103048/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-04T10:14:51.000Z"
+      },
+      {
+        "title": "How Modern Software Helps Construction Companies in Qatar Work Smarter and Safer",
+        "link": "https://roboticsandautomationnews.com/2026/07/03/how-modern-software-helps-construction-companies-in-qatar-work-smarter-and-safer/103044/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-03T16:49:54.000Z"
+      },
+      {
+        "title": "Antivirus vs malware: Why antivirus alone is no longer enough",
+        "link": "https://roboticsandautomationnews.com/2026/07/03/antivirus-vs-malware-why-antivirus-alone-is-no-longer-enough/103026/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-03T08:13:41.000Z"
+      },
+      {
+        "title": "What Are the Biggest Challenges in Modern Electronics Manufacturing?",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/what-are-the-biggest-challenges-in-modern-electronics-manufacturing/103012/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T10:31:27.000Z"
+      },
+      {
+        "title": "What Are the Best AI Tools for Creating Content Faster in 2026?",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/what-are-the-best-ai-tools-for-creating-content-faster-in-2026/103007/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T10:24:22.000Z"
+      },
+      {
+        "title": "Why Does Quality Wiring Matter More Than Ever in Modern Electronic Devices?",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/why-does-quality-wiring-matter-more-than-ever-in-modern-electronic-devices/103001/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T10:15:40.000Z"
+      },
+      {
+        "title": "Why Are Custom Harness Solutions Essential for Next Generation Technology?",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/why-are-custom-harness-solutions-essential-for-next-generation-technology/102996/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T10:03:25.000Z"
+      },
+      {
+        "title": "What Makes Asian Electronics Manufacturing a Smart Choice for Global Companies?",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/what-makes-asian-electronics-manufacturing-a-smart-choice-for-global-companies/102991/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T09:54:50.000Z"
+      },
+      {
+        "title": "How Can Better Cable Management Improve Electronic Performance?",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/how-can-better-cable-management-improve-electronic-performance/102986/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T09:47:50.000Z"
+      },
+      {
+        "title": "Can AI Really Recommend the Perfect Hairstyle for Your Face Shape?",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/can-ai-really-recommend-the-perfect-hairstyle-for-your-face-shape/102982/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T09:40:18.000Z"
+      },
+      {
+        "title": "The Role of Risk Calculations in Building More Reliable Automated Trading Systems",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/the-role-of-risk-calculations-in-building-more-reliable-automated-trading-systems/102979/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T08:59:19.000Z"
+      },
+      {
+        "title": "What to Look for When Buying an Oceanfront Condo in Myrtle Beach",
+        "link": "https://roboticsandautomationnews.com/2026/07/02/what-to-look-for-when-buying-an-oceanfront-condo-in-myrtle-beach/102976/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-02T08:14:14.000Z"
+      },
+      {
+        "title": "ソフトバンク傘下のSB Intuitions、国産LLM「Sarashina3シリーズ」を提供開始 RAG・安全運用まで見据えた5モデル構成",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oZGtxaUExVksxMFpJa2JhVkRJeHVWcXk2RW05Nmk0S1hzeVRtRW53TmZzczFpNVZCaEV3ZTZmVEREWExmRjJlallYZ290dGg5X0lwZmlPRlFQNmxESWtYXzZ0eDdoZkUzQ2Zmb2NiQXM2NUhX?oc=5",
+        "source": "Ledge.ai",
+        "publishedAt": "2026-07-02T01:09:21.000Z"
+      },
+      {
+        "title": "Google、最速・低コストの画像生成モデル「Nano Banana 2 Lite」発表 Gemini Omni Flashは動画編集に対応",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RdW9wRHRxUzFBQVZtMWY4WHBJVC1ZalFWanUxc1hua1RVczdMR19FT3Vtemd4MktXX3J6UDh1aWl3Nm0wVlhFS2ViWnBxM0NCR2NDSTdad2FCOGpoUzFYeG9KTjhXR1JwdG5PZVJEWXBDTk50bUM3dA?oc=5",
+        "source": "Ledge.ai",
+        "publishedAt": "2026-06-30T07:00:00.000Z"
+      },
+      {
+        "title": "BIPROGYがメインフレームの販売・保守を終了へ、国内継続は日本IBMとNECの2社に",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1VVRiTGNKRi16NjFsX05vbXl4cXpDRlFScExxbjNwc2Y4VU0wbXRocHIxanFYZnRja3JSSnpsRTBpaWhxNGg5TWx1RkJVX3Fjajlqc0ZvQVI5STBO?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-03T01:25:00.000Z"
+      },
+      {
+        "title": "庁舎が暑い原因は設計ミス、窓を壁と間違い計算 梓設計が1800万円負担",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9taW43M0JEUUxSYjM3Q1IwT2ZOLTBYR2Y1aFdMb0RiT2QwU2c0UnB0RFVveVhWdWZzdU9la3NOa3hnbDdMVWQ0Z2hJY0JEQ0ZVWnBtc3ZQanNkOGN1ZEF4ZXpSTE9xVEk?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-01T20:00:00.000Z"
+      },
+      {
+        "title": "地下水流入の大深度たて坑、排水中に流入箇所拡大 地盤凍結による止水検討",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5Qi1PeGpMTWhMOGdrVlNOS0lzMzZUTEVXLWxZUUVZbU1MMUN0enBmWmtHQkhxRjVjYkJJbnRtRFRqY2EzYXZfZlVYbTh3TUFfLVdvT1lyTHFsT1dsSGg5UUNSTzFhSVU?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-01T20:00:00.000Z"
+      },
+      {
+        "title": "部分最適に取り組んでベテランを楽にして、浮いた時間で全体最適の姿を創造してもらおう（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIemYwbktCN1NMX0JNRThSUUs5X2NWNUdKeFdyWS1GOTl2OW1IWkZ3SjRvbDU1OERWTVhsLU5MRnhKcDAwQmxOYzAxMEZtM3NVWGNJaDV3S3BLdTNZVVRJUTBtNXdWY3lXU3lQUWxYRGNpZw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-01T20:00:00.000Z"
+      },
+      {
+        "title": "基礎から理解、ゼロトラストネットワーク",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQa0FaSHhRaGtHV0REc1MzNmY2cDhuZTZXS09KdzQxdFI5NDNURGJOQ3Y1M0x4STFOU1paQ285Mi01Z0RZNFQ0a2RoSVhmNlFfTDlMUXg2VVZaWXZlLW9NbVhFQUVDRlp5VGI2aGdHNEN2U2V5NFRiOG9kTUNuTmxBRUhlMWcwamE3SEF1TnpfeHplWFVfcDU1SVdKMDVTNDhKREZoYlNBLUZCcXFTYkNCMlpqNjlSOEIteTJEUzRPVzU3NklSM0RjZTNQa012RTFIMm5hbFpHZ1ZsLURld2Ewc0ZzRXpodw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-03T16:08:30.000Z"
+      },
+      {
+        "title": "法人携帯電話◆料金ガイド 2007年秋版",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObzQ3dUlQd2JaV05kUXpZbVAzNTBkQWh1a3lNS25LNHhtcXcxLUpxeWowMUZqWnBnZEhuNEJxdzlON2dRRmMxU1VzY1A3ejE1NG5QNjdybVlOb0l2WDM3QTZ5RlFtdG5Ka2xHQmd3RkhzYzcwMFF5eDlWSjVhUjY5RThPQ3V5QW5WMDY4STNjWGVBMG1RaUNIX0x4MU5lZ1R1NWFzU01LV0FMZVpiSVh3ZURPdEE1MTFMck1aaWd5U0d3RVZIOERMZERUZXk?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-03T11:50:06.000Z"
+      },
+      {
+        "title": "身体の悩みをデジタルで解決",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb3Q4T2Vnd3R3eWVyV1VNMndFTG1RcXhRNWIya0pjdzUySzI4TGJPakEyeFBibzV4NDhVbl8yZ3JHLXBLRHlDMFB0ZU5RQTRtMGdQNnJaMzZaekp2ZEpydU80SWtEaURDd3JSWG5OYzFLcU1rVURvcnhMM09UOGFYSDlIWnpQNmVtb1M3SWRUb3VDV3BYWU1UQkxGRnc3SmNfNTZrNDVoTmVVbHljUW9EMlRLbmJHODExQ3lfaVZwYw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T23:59:38.000Z"
+      },
+      {
+        "title": "どこでもお仕事スタイルブック",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZmR0SFNmQkZjaTFRbmtURjRqZGZjMEE3U2VlTlZ3Qi00bDYtUTVHVDlNbHFKelZZVGRaMnhiUVlFUkE5dDFTa203MGhJU0doRlVTWkNBelpJN1lnbzVnMHg4YVBiT1RJZll3Z1BYZGJzSkV6WVZoTGF2WHlTNWNpMlFsUWlvYVNESzhGZ0dXSjk4M29LYjBFckxvSVpsWml4TGJNOHAtRWxfVENkNldpbGh0VGRDVGNvQm5PN2N4ODhlcGJTRTBoQUZseExBaUMtanNUTEtFdGNxYmtUX1pDR3Y0a0JqNktwcXFB?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T15:50:34.000Z"
+      },
+      {
+        "title": "感情より証拠、今こそEBPM",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR0JoS3A5YTFOTzUxU1kzM3FzY0FlWFpYa1ZhMGthQ29vMUhNZGxPaTZrWUhBcHYyVTc5U2loR1NCVG1RTGxQVjY3ZkRGaWdZaWY5OTFyN09pQWZkTGZxYmF0VWFGc0R3b2gwaFdKZUhOYU5DTjAtZkV6ZWU2WENXYV9HaWFrOVMxMEc4X25IWFlhSUl4Z3JTMnBOWG03aXA0X3NHVHJKWTdOZ2NwTmJpN192SVVteFQ0VVlzWTRvTHI?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-03T10:16:03.000Z"
+      },
+      {
+        "title": "KANSAI 2025 詳細版",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORmtyX2RkcFJnSUE0Vlh4OV9jaDEzcDh0SHdYYlR6UFY5c21wTXdxNTF5dHVuWWxZWFJjUmFEMVJuZzB2OHgwYVk5V2RsRjVHYnBNUkYtYktmVkpaT2VrOWo1OFE1cXlJVl9FTDJORnF4T2xvRmF0ZVVHT051UDNWUjZ2cnJlZDZjN3hrNElFT29OenFLMk9WWS01SXp6dHY4WkxWdURpVXBRT3NyanA4WWRRMHhOaUt1blBvNi1hMl8yU054SW5lelpWNHNnVFlHNnR0SXFR?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-03T16:42:19.000Z"
+      },
+      {
+        "title": "緊急連載 竹中懇談会の成果を問う",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeTJqeGd4SnNDUkF6ZmlpU0RfOUhhV0lLakV3bTdSQzVMTmhoelF0TnNnNGRQTE5VRGtoWlZCNGs1LXh2VHQ3MGtuck5zSl8xLW0xYS1CYmtRWDFqYVNkOV9CZTJ5MnpWY3Exd2Z3LU5sN3g5bDBLMzJ4MWdabGUzY0FBWGgyVzlsaTQyZXprUHlkb05zSHpmbVJLR1h1c19rU3d0LWxlVHp3UTZIU215aHl5ekMwaFFFOVZGSVlwYU5lNnJwNk9R?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T15:40:57.000Z"
+      },
+      {
+        "title": "マイクロソフトの無料ソフト＆ネットサービス",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNmhBaWlfcHQxUndRVDg2bDNQemlVcm9MdkNQazd2dDBVdlNNaW03WU8yUjNVSzA5eVQyakFSbEFCRE1ZOVl4Q1BrVGQ0bWpMRkVEQ1kyOUNUZFNzb1NUOF9NYVQycTEzSThlT28tanZ5bXVpOFcxUnNnT0x1eXk4d0lLUUxITEo0eHhXYU5RQm85OHZfcjJIMG5SUEY2S2d1NWI0Y0R1T3hGZVlGc3JRU29XWm1xbzRMeS1yRnRibGx6S1ZRLWZPdWZGMUxUQmQ2?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T23:40:39.000Z"
+      },
+      {
+        "title": "日経クロステック（xTECH）（6589ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUd1REV3R4LTR1eld1VTB0aDRRV2JJcHVzYjBoQ3Ryd3h5TnJnOXZ6TEFlMlBuRGFiLVd4ZFVvLTl2dHNhYkUwTnMwSmVrS3hNbXF1NGNmaE0?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-03T15:53:50.000Z"
+      },
+      {
+        "title": "徹底考察、ブロックチェーンは人類を幸せにするのか",
+        "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQSlV3VHROd1dPcXAxX3hNRWNORERpRmJzMzhPeklvbFZZSXZNTndBcmswU3B3clpyVFZwRkdRSHZLRWJ1a1VzZVNaLV9hQUJYTGNWQWZOMmxIMnJxTG1mbXVfbFdVaEtuUk1pMklCTGVLek9nZ2ZuMWZhWHFTRFRmcHNrdUluRTZYb2VxYmlSVU5uc0prWHVZUk5VRFRQbWdJMmloRkRlX2lSd1dkdWFCM2FxZktPckVXbHUwMUI3eHJUZW5tMnc3enB4a2FTQVI3QjhPZmo4LXpIN0I2QjNKZEZWVWxpQlZmcEJPWTV1ZlZzVjJRd0N3ZzJnQl9xaS1NS1JCM2oxUnpFR0pycFVFaE1mZw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T21:41:07.000Z"
+      },
+      {
+        "title": "「ホッピング」回避しながら優良顧客を獲得、KDDIとNTTドコモの新戦略（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oTXFvdjc3aGVRMVdyaEFSUUFDdjFNVFBmdXBXUS10R05mQzdMSjRZYmkzdVZhNmhGREpvZkdYZVJlbkpyOFpaV2EwTFVMWmdGdVdGbnE5TFJEaWNvV01pSElpend4bERZODZsSXBENUJfUQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T20:00:00.000Z"
+      },
+      {
+        "title": "開発進む「GW級データセンター」 8兆円投資でリターンは45兆円？",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE93eDNsRUphTmpNQ2RIaWhBN1BRbWpfMFdOOHR5elZNRTc1b2VIZEZuTG96VlpHRzBndHFyeXFWc21sSk9jNVZpdXBHeFJHaTMybmRDeHo4Y1I5TmI0a21TNmVVS0Q0QVEwWFJvcE41TTc5dw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T22:00:00.000Z"
+      },
+      {
+        "title": "「超知能」を開発してはいけないのか",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5vaXVISVJFcjN4SHdzT2RGN2h2TWlJQk9jUzZha2JJQVd4eG56b25aWm1CYmsxVkhKb3BEV3poN2dSVDdhTlN2cTliWl9OVlNjQlVKTXVzbWlvZlhzR1FXbGphS05YUzAyVGZ2NjBCdWVSa0U?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T22:00:00.000Z"
+      },
+      {
+        "title": "「なんてことをしてくれるんだ」、Windows Updateの不具合でトラブル勃発",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LZ2JoQUpDdEZNU3Y1ZU5SS1lJN1p4blJySlNmQUNOcXRsN1RjWDBvdXpKS1JMSTNUd2ljeGI0d2dmMVE2UkFwN0VCZG1Id1YwUDlyNkliUVQzbzdhNjFyVWV1UmpxS1JWNmRfUQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "NTTドコモがJALとタッグ 収益分配で異例の譲歩",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yWmdDaENDLVg5VVJ4bGx4MnRHMXRTMHI3X01rWEpyNk5RSEM4SEs1Sm5DeV9oWHVfZzllMmtQaVBkYTlzODBYQUxESFV2UnZwNGVLZ1MtQ2luUEh2ZmF2eWlNSGVhaGpzck5rNjdsZE96Zw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-02T22:00:00.000Z"
       }
     ]
   },
