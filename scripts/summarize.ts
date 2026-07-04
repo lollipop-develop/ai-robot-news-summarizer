@@ -335,7 +335,21 @@ Expected JSON Output Schema:
 `;
 
   console.log('Sending prompt to Gemini...');
-  const response = await model.generateContent(prompt);
+  let response;
+  const retries = 3;
+  let delay = 3000;
+  for (let i = 0; i < retries; i++) {
+    try {
+      response = await model.generateContent(prompt);
+      break;
+    } catch (err: any) {
+      console.warn(`Gemini API call failed on attempt ${i + 1}/${retries}:`, err.message || err);
+      if (i === retries - 1) throw err;
+      console.log(`Waiting ${delay}ms before retrying...`);
+      await new Promise(resolve => setTimeout(resolve, delay));
+      delay *= 2;
+    }
+  }
   const text = response.response.text();
   console.log('Gemini responded successfully.');
 
