@@ -1,5 +1,558 @@
 [
   {
+    "date": "2026-07-06",
+    "trends": [
+      "ロボットのマニピュレーションと知覚能力が大幅に向上し、デリケートな作業や不確実な環境下での適応性が進化している。",
+      "ヒューマノイドロボットや自律移動ロボットが、宇宙、防衛、家庭、物流、農業など多様な分野で実用化・社会実装に向けた動きを加速させている。",
+      "物理世界と深く相互作用するAI（フィジカルAI）の研究が進展し、新素材や分散制御、生体融合による革新的なロボット設計が模索されている。"
+    ],
+    "categories": {
+      "論文・技術研究": [
+        {
+          "title": "Humanoid社、強化学習「KinetIQ Ascend」で人並み以上の高精度マニピュレーションを実現",
+          "link": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-07-05T12:30:20.000Z",
+          "summary": "Humanoid社は、強化学習アプローチ「KinetIQ Ascend」により、産業タスクにおいて人間と同等かそれ以上の速度で99.9%の操作信頼性を達成したと発表。これはロボットマニピュレーション技術における画期的な進歩である。",
+          "impactScore": 9,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/07/Humanoid_testing.jpg"
+        },
+        {
+          "title": "日本連合がフィジカルAIに挑戦、「Noetra」プロジェクトの全貌",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/04/news016.html",
+          "source": "MONOist",
+          "publishedAt": "2026-07-03T22:00:00.000Z",
+          "summary": "日本企業連合が「Noetra」プロジェクトを立ち上げ、フィジカルAIの分野で最先端技術開発に挑む。これはAIが物理世界と相互作用し、学習する能力を持つことで、ロボットや自動化システムの新たな可能性を開拓する。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/04/cover_news016.jpg"
+        },
+        {
+          "title": "月面探査に向けた火星探査機の技術活用、NASAの「PROMISE」ミッション構想",
+          "link": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-07-03T15:00:01.000Z",
+          "summary": "NASAが月面南極基地計画の一環として、火星探査機キュリオシティの技術を応用した新型月面探査車PROMISEのミッション構想を検討。これは、将来の月面基地建設に向けた探査能力向上に大きく貢献する。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/mars-style-rover-prototype-on-rugged-ground-under-a-clear-sky-with-the-moon-visible.png?id=67083121&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
+        },
+        {
+          "title": "絡み合うロボット物質が統一された動きを実現、分散制御不要の集合体",
+          "link": "https://robohub.org/entangled-robotic-matter-with-cohesive-motion/",
+          "source": "Robohub",
+          "publishedAt": "2026-06-15T10:06:23.000Z",
+          "summary": "コーネル大学の研究者が、中央制御なしで流れ、再形成、適応するロボット集合体「Cross-Link Collective」を開発。個々のロボットの限定的な移動能力を組み合わせ、物質のような協調的で持続的な動きを実現する。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/06/WithControl_Rep1_100X-HD_1080-WEB-H264_4000.mp4"
+        },
+        {
+          "title": "熟した果物を傷つけずに収穫するソフトロボットグリッパーを開発",
+          "link": "https://robohub.org/handle-with-care-soft-robot-gripper-picks-ripe-fruit-without-bruising/",
+          "source": "Robohub",
+          "publishedAt": "2026-05-27T15:44:34.000Z",
+          "summary": "コーネル大学の研究者が、伸縮性光ファイバーセンサーを用いたソフトロボットグリッパーを開発。触覚でイチゴの熟度を予測し、デリケートな果物を傷つけずに摘み取ることが可能になり、農業ロボットに革新をもたらす。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/05/1_pb6g2a5s.mp4"
+        },
+        {
+          "title": "Sony AIの卓球ロボット「Ace」、エリート選手を打ち破る快挙",
+          "link": "https://robohub.org/sony-ai-table-tennis-robot-outplays-elite-human-players/",
+          "source": "Robohub",
+          "publishedAt": "2026-04-22T15:09:41.000Z",
+          "summary": "Sony AIが開発した卓球ロボット「Ace」が、世界のエリート選手に勝利を収めたと発表。これは競技スポーツにおけるAIシステムの能力を示す重要な一歩であり、人間とロボットの協調・対戦における新たな可能性を開く。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/04/Video-4_Sony-AI_Ace-Net-Bounce-Trajectory.mp4"
+        },
+        {
+          "title": "生成AIが障害物を透視するワイヤレスビジョンシステムを強化",
+          "link": "https://robohub.org/generative-ai-improves-a-wireless-vision-system-that-sees-through-obstructions/",
+          "source": "Robohub",
+          "publishedAt": "2026-04-08T04:32:10.000Z",
+          "summary": "新しい技術により、生成AIがワイヤレスビジョンシステムを改善し、障害物を透過して物体をより正確に検出したり、室内環境を理解したりすることが可能になった。Wi-Fi信号の反射を利用するこの技術は、ロボットの知覚能力を大きく向上させる。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/03/MIT-Scene-Understanding-01-press_0.jpg"
+        },
+        {
+          "title": "着脱可能で反転可能なロボットハンドが器用さを再定義",
+          "link": "https://robohub.org/reversible-detachable-robotic-hand-redefines-dexterity/",
+          "source": "Robohub",
+          "publishedAt": "2026-02-19T16:14:02.000Z",
+          "summary": "EPFLの研究者が、着脱可能で反転可能な新しいロボットハンドを開発。これにより、人間の手では不可能な作業への適応性を高め、ロボットの器用さと多様なタスクへの対応能力を飛躍的に向上させる。",
+          "impactScore": 8,
+          "imageUrl": ""
+        },
+        {
+          "title": "グラフェンベースのセンサーがロボットの触覚を大幅に向上",
+          "link": "https://robohub.org/graphene-based-sensor-to-improve-robot-touch/",
+          "source": "Robohub",
+          "publishedAt": "2026-03-16T16:10:11.000Z",
+          "summary": "研究者たちが、ロボットの指先に組み込める小型のグラフェンベース触覚センサーを開発。これにより、ロボットの触覚が飛躍的に向上し、物体の形状や硬さをより正確に感知できるようになり、複雑な操作が可能になる。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-10.12.42-1024x454.png"
+        },
+        {
+          "title": "ロボット指先が外科医に触覚を取り戻す、精密手術を支援",
+          "link": "https://robohub.org/restoring-surgeons-sense-of-touch-with-robotic-fingertips/",
+          "source": "Robohub",
+          "publishedAt": "2026-03-10T15:41:04.000Z",
+          "summary": "ヨーロッパの外科医とエンジニアのグループが、ロボット支援手術で失われた外科医の触覚を取り戻す技術を開発。これにより、組織の異常をより正確に検出し、手術の安全性と精度が向上する。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/03/sasint-operation-1807543_1280-1024x738.jpg"
+        },
+        {
+          "title": "バルセロナ大学のMaria Guix氏、電子工学と生物学を融合した超小型生体ハイブリッドロボットを開発",
+          "link": "https://robohub.org/robot-talk-episode-147-miniature-living-robots-with-maria-guix/",
+          "source": "Robohub",
+          "publishedAt": "2026-03-06T13:37:45.000Z",
+          "summary": "バルセロナ大学のMaria Guix氏が、電子工学と生物学を融合させた超小型生体ハイブリッドロボットの開発について語る。自己組織化や自律的な動きといった創発的な特性を持ち、新たな医療・環境応用が期待される。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/03/147_Maria-Guix-1024x446.jpg"
+        },
+        {
+          "title": "つる植物にヒントを得たロボットグリッパー、重くて脆い物体を優しく把持",
+          "link": "https://robohub.org/vine-inspired-robotic-gripper-gently-lifts-heavy-and-fragile-objects/",
+          "source": "Robohub",
+          "publishedAt": "2026-01-23T03:08:38.000Z",
+          "summary": "つる植物から着想を得たロボットグリッパーが開発され、スイカのように重くて脆い物体を安全かつ安定して持ち上げることが可能になった。これにより、デリケートな物を扱うロボット操作の新たな可能性が拓かれる。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/01/MIT-VineRobot-01-press_0.jpg"
+        }
+      ],
+      "実用・社会実装": [
+        {
+          "title": "GMO、陸上自衛隊の警備に四足歩行ロボットシステムを導入検証",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news066.html",
+          "source": "MONOist",
+          "publishedAt": "2026-07-03T05:00:00.000Z",
+          "summary": "GMOインターネットグループが陸上自衛隊から四足歩行型警備ロボットシステムの導入検証業務を受託。駐屯地の警備を省人化し、24時間体制を実現することで、防衛分野におけるロボット活用の新たな一歩となる。",
+          "impactScore": 7,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2607/03/cover_news066.jpg"
+        },
+        {
+          "title": "Avride、クラウドVLMを活用し配送ロボットの環境認識と安全性を向上",
+          "link": "https://www.therobotreport.com/how-avride-uses-cloud-vlms-safety-net-delivery-robots/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-07-04T12:30:37.000Z",
+          "summary": "Avrideは、クラウドベースのビジョン言語モデル（VLM）を活用して配送ロボットの環境認識能力を強化している。これにより、複雑な状況でのロボットの安全性を高め、より信頼性の高い自律移動を実現する。",
+          "impactScore": 7,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/07/Avride_robot_Arlington.png"
+        },
+        {
+          "title": "AIシステムが倉庫ロボットの交通流を最適化し、渋滞を解消",
+          "link": "https://robohub.org/ai-system-learns-to-keep-warehouse-robot-traffic-running- smoothly/",
+          "source": "Robohub",
+          "publishedAt": "2026-04-20T10:10:31.000Z",
+          "summary": "新しいAIシステムが、倉庫内で複数のロボットの通行権をリアルタイムで決定し、交通渋滞を回避してスループットを向上させる。これにより、自動化された倉庫の効率と生産性が大幅に改善される。",
+          "impactScore": 7,
+          "imageUrl": ""
+        },
+        {
+          "title": "RoboTwinが工場労働者からロボットへのスキル学習を支援、デモンストレーションでプログラミング",
+          "link": "https://robohub.org/back-to-school-robots-learn-from-factory-workers/",
+          "source": "Robohub",
+          "publishedAt": "2026-04-02T10:20:35.000Z",
+          "summary": "チェコのスタートアップRoboTwinは、工場労働者がロボットにスキルを教えるための「デモンストレーション学習」技術を提供。複雑なコードなしで作業を一度実行するだけで、ロボットが新しいタスクを習得できる。",
+          "impactScore": 7,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/03/jarmoluk-robot-2791671-1024x683.jpg"
+        },
+        {
+          "title": "ヒューマノイド家庭用ロボットが市場に登場、その需要と社会的受容性を問う",
+          "link": "https://robohub.org/humanoid-home-robots-are-on-the-market-but-do-we-really-want-them/",
+          "source": "Robohub",
+          "publishedAt": "2026-03-03T14:29:00.000Z",
+          "summary": "ノルウェー・米国のテクノロジー企業1Xが、家庭用ヒューマノイドロボット「Neo」を発売。家事の自動化を約束する一方、2万ドルの価格と社会における人間型ロボットの役割や受容性について議論が巻き起こる。",
+          "impactScore": 7,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/03/1X_NEO-Home-Duster-1024x576.jpg"
+        }
+      ]
+    },
+    "otherArticles": [
+      {
+        "title": "紙離れに挑む！　合成紙の王者がモノづくりから共創へ大転換",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/06/news034.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-05T23:00:00.000Z"
+      },
+      {
+        "title": "スマホ撮影で工場内を3Dモデル化、画面上を歩いて「通れるか」検証機能も",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/06/news039.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-05T22:45:00.000Z"
+      },
+      {
+        "title": "AI需要拡大を受け台湾に半導体DFR新工場、生産能力1.4倍へ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/06/news021.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-05T22:30:00.000Z"
+      },
+      {
+        "title": "AIを活用してデータ連携を自動化するkintone向け新サービスが提供開始",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/06/news035.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-05T22:15:00.000Z"
+      },
+      {
+        "title": "要素設計とは何か　機械を成立させる部品の知識",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/06/news007.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-05T22:00:00.000Z"
+      },
+      {
+        "title": "ベテラン生技が画面の中に、THKがデータ利活用促進へAIエージェント提案",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/06/news037.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-05T21:30:00.000Z"
+      },
+      {
+        "title": "Scene、3D CADからM-BOMや組立手順書をAIが自動作成する「3D Docs AI」を披露",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/06/news026.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-05T21:15:00.000Z"
+      },
+      {
+        "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/09/news005.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-05T21:00:00.000Z"
+      },
+      {
+        "title": "ロボットの指へ直接組み込める超小型オールインワン型モーションモジュール",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news070.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-03T04:00:00.000Z"
+      },
+      {
+        "title": "Quarterhill discusses transport modernization as U.S. marks 70 years of federal highways",
+        "link": "https://www.therobotreport.com/quarterhill-discusses-transport-modernization-u-s-marks-70-years-federal-highways/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-07-03T13:01:26.000Z"
+      },
+      {
+        "title": "#RoboCup2026 – humanoid league day 2",
+        "link": "https://robohub.org/robocup2026-humanoid-league-day-2/",
+        "source": "Robohub",
+        "publishedAt": "2026-07-03T18:36:55.000Z"
+      },
+      {
+        "title": "AI brings object-level vision prosthetics closer to reality",
+        "link": "https://robohub.org/ai-brings-object-level-vision-prosthetics-closer-to-reality/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-23T10:09:29.000Z"
+      },
+      {
+        "title": "AURA Foresight Reaches Global XPRIZE Wildfire Finals in Alaska",
+        "link": "https://robohub.org/aura-foresight-reaches-global-xprize-wildfire-finals-in-alaska/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-19T16:42:23.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 161 – Collaborative haptic systems, with Allison Okamura",
+        "link": "https://robohub.org/robot-talk-episode-161-collaborative-haptic-systems-with-allison-okamura/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-19T12:07:34.000Z"
+      },
+      {
+        "title": "New research enables a robot to chart a better course",
+        "link": "https://robohub.org/new-research-enables-a-robot-to-chart-a-better-course/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-17T10:06:45.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 160 – Robotic blacksmiths, with Edward Mehr",
+        "link": "https://robohub.org/robot-talk-episode-160-robotic-blacksmiths-with-edward-mehr/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-12T11:58:22.000Z"
+      },
+      {
+        "title": "Congratulations to the #AAMAS2026 best paper award winners",
+        "link": "https://robohub.org/congratulations-to-the-aamas2026-best-paper-award-winners/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-08T10:02:11.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 159 – Robot sensing and manipulation, with Maria Koskinopoulou",
+        "link": "https://robohub.org/robot-talk-episode-159-robot-sensing-and-manipulation-with-maria-koskinopoulou/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-05T11:57:36.000Z"
+      },
+      {
+        "title": "Global robotics technology roadmap",
+        "link": "https://robohub.org/global-robotics-technology-roadmap/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-03T09:13:54.000Z"
+      },
+      {
+        "title": "RoboChem Flex: democratisation of the autonomous synthesis robot",
+        "link": "https://robohub.org/robochem-flex-democratisation-of-the-autonomous-synthesis-robot/",
+        "source": "Robohub",
+        "publishedAt": "2026-06-02T10:51:48.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 158 – Autonomous robot deliveries, with Ahti Heinla",
+        "link": "https://robohub.org/robot-talk-episode-158-autonomous-robot-deliveries-with-ahti-heinla/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-29T11:55:34.000Z"
+      },
+      {
+        "title": "Light-activated gel could impact wearables, soft robotics, and more",
+        "link": "https://robohub.org/light-activated-gel-could-impact-wearables-soft-robotics-and-more/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-28T06:25:25.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 157 – Generating new robot designs, with Josie Hughes",
+        "link": "https://robohub.org/robot-talk-episode-157-generating-new-robot-designs-with-josie-hughes/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-22T12:13:39.000Z"
+      },
+      {
+        "title": "Robotics Café brings together autonomous robot practitioners",
+        "link": "https://robohub.org/robotics-cafe-brings-together-autonomous-robot-practitioners/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-20T13:03:38.000Z"
+      },
+      {
+        "title": "Table tennis robot defeats some of world’s best players – why this has major implications for robotics",
+        "link": "https://robohub.org/table-tennis-robot-defeats-some-of-worlds-best-players-why-this-has-major-implications-for-robotics/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-18T10:38:59.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 156 – Rugged robots for dangerous missions, with Gavin Kenneally",
+        "link": "https://robohub.org/robot-talk-episode-156-rugged-robots-for-dangerous-missions-with-gavin-kenneally/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-15T11:32:19.000Z"
+      },
+      {
+        "title": "Developing active and flexible microrobots",
+        "link": "https://robohub.org/developing-active-and-flexible-microrobots/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-13T09:21:04.000Z"
+      },
+      {
+        "title": "How to teach the same skill to different robots",
+        "link": "https://robohub.org/how-to-teach-the-same-skill-to-different-robots/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-11T14:18:23.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 155 – Making aerial robots smarter, with Melissa Greeff",
+        "link": "https://robohub.org/robot-talk-episode-155-making-aerial-robots-smarter-with-melissa-greeff/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-08T11:33:25.000Z"
+      },
+      {
+        "title": "New understanding of insect flight points way to stable flapping-wing robots",
+        "link": "https://robohub.org/new-understanding-of-insect-flight-points-way-to-stable-flapping-wing-robots/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-07T08:41:53.000Z"
+      },
+      {
+        "title": "Robotically assembled building blocks could make construction more efficient and sustainable",
+        "link": "https://robohub.org/robotically-assembled-building-blocks-could-make-construction-more-efficient-and-sustainable/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-05T09:31:39.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 154 – Visual navigation in insects and robots, with Andrew Philippides",
+        "link": "https://robohub.org/robot-talk-episode-154-visual-navigation-in-insects-and-robots-with-andrew-philippides/",
+        "source": "Robohub",
+        "publishedAt": "2026-05-01T12:41:40.000Z"
+      },
+      {
+        "title": "Ultralightweight sonar plus AI lets tiny drones navigate like bats",
+        "link": "https://robohub.org/ultralightweight-sonar-plus-ai-lets-tiny-drones-navigate-like-bats/",
+        "source": "Robohub",
+        "publishedAt": "2026-04-29T15:05:39.000Z"
+      },
+      {
+        "title": "Gradient-based planning for world models at longer horizons",
+        "link": "https://robohub.org/gradient-based-planning-for-world-models-at-longer-horizons/",
+        "source": "Robohub",
+        "publishedAt": "2026-04-28T07:00:44.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 153 – Origami-inspired robots, with Chenying Liu",
+        "link": "https://robohub.org/robot-talk-episode-153-origami-inspired-robots-with-chenying-liu/",
+        "source": "Robohub",
+        "publishedAt": "2026-04-24T12:35:06.000Z"
+      },
+      {
+        "title": "AI system learns to keep warehouse robot traffic running smoothly",
+        "link": "https://robohub.org/ai-system-learns-to-keep-warehouse-robot-traffic-running-smoothly/",
+        "source": "Robohub",
+        "publishedAt": "2026-04-20T10:10:31.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 152 – Dexterous robot hands, with Rich Walker",
+        "link": "https://robohub.org/robot-talk-episode-152-dexterous-robot-hands-with-rich-walker/",
+        "source": "Robohub",
+        "publishedAt": "2026-04-17T12:53:01.000Z"
+      },
+      {
+        "title": "What I’ve learned from 25 years of automated science, and what the future holds: an interview with Ross King",
+        "link": "https://robohub.org/what-ive-learned-from-25-years-of-automated-science-and-what-the-future-holds-an-interview-with-ross-king/",
+        "source": "Robohub",
+        "publishedAt": "2026-04-14T14:37:55.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 151 – Robots to study the ocean, with Simona Aracri",
+        "link": "https://robohub.org/robot-talk-episode-151-robots-to-study-the-ocean-with-simona-aracri/",
+        "source": "Robohub",
+        "publishedAt": "2026-04-10T12:16:36.000Z"
+      },
+      {
+        "title": "Resource-constrained image generation and visual understanding: an interview with Aniket Roy",
+        "link": "https://robohub.org/resource-constrained-image-generation-and-visual-understanding-an-interview-with-aniket-roy/",
+        "source": "Robohub",
+        "publishedAt": "2026-04-07T08:51:55.000Z"
+      },
+      {
+        "title": "Resource-sharing boosts robotic resilience",
+        "link": "https://robohub.org/resource-sharing-boosts-robotic-resilience/",
+        "source": "Robohub",
+        "publishedAt": "2026-03-31T07:01:32.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 150 – House building robots, with Vikas Enti",
+        "link": "https://robohub.org/robot-talk-episode-150-house-building-robots-with-vikas-enti/",
+        "source": "Robohub",
+        "publishedAt": "2026-03-27T13:18:26.000Z"
+      },
+      {
+        "title": "A history of RoboCup with Manuela Veloso",
+        "link": "https://robohub.org/a-history-of-robocup-with-manuela-veloso/",
+        "source": "Robohub",
+        "publishedAt": "2026-03-24T12:43:44.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 149 – Robot safety and security, with Krystal Mattich",
+        "link": "https://robohub.org/robot-talk-episode-149-robot-safety-and-security-with-krystal-mattich/",
+        "source": "Robohub",
+        "publishedAt": "2026-03-20T13:16:50.000Z"
+      },
+      {
+        "title": "A multi-armed robot for assisting with agricultural tasks",
+        "link": "https://robohub.org/a-multi-armed-robot-for-assisting-with-agricultural-tasks/",
+        "source": "Robohub",
+        "publishedAt": "2026-03-18T12:47:01.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 148 – Ethical robot behaviour, with Alan Winfield",
+        "link": "https://robohub.org/robot-talk-episode-148-ethical-robot-behaviour-with-alan-winfield/",
+        "source": "Robohub",
+        "publishedAt": "2026-03-13T13:17:33.000Z"
+      },
+      {
+        "title": "Coding for underwater robotics",
+        "link": "https://robohub.org/coding-for-underwater-robotics/",
+        "source": "Robohub",
+        "publishedAt": "2026-03-12T13:05:24.000Z"
+      },
+      {
+        "title": "Developing an optical tactile sensor for tracking head motion during radiotherapy: an interview with Bhoomika Gandhi",
+        "link": "https://robohub.org/developing-an-optical-tactile-sensor-for-tracking-head-motion-during-radiotherapy-an-interview-with-bhoomika-gandhi/",
+        "source": "Robohub",
+        "publishedAt": "2026-03-05T11:35:06.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 146 – Embodied AI on the ISS, with Jamie Palmer",
+        "link": "https://robohub.org/robot-talk-episode-146-embodied-ai-on-the-iss-with-jamie-palmer/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-27T13:48:57.000Z"
+      },
+      {
+        "title": "I developed an app that uses drone footage to track plastic litter on beaches",
+        "link": "https://robohub.org/i-developed-an-app-that-uses-drone-footage-to-track-plastic-litter-on-beaches/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-26T14:35:31.000Z"
+      },
+      {
+        "title": "Translating music into light and motion with robots",
+        "link": "https://robohub.org/translating-music-into-light-and-motion-with-robots/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-25T16:32:02.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 145 – Robotics and automation in manufacturing, with Agata Suwala",
+        "link": "https://robohub.org/robot-talk-episode-145-robotics-and-automation-in-manufacturing-with-agata-suwala/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-20T13:05:38.000Z"
+      },
+      {
+        "title": "“Robot, make me a chair”",
+        "link": "https://robohub.org/robot-make-me-a-chair/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-17T11:37:20.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 144 – Robot trust in humans, with Samuele Vinanzi",
+        "link": "https://robohub.org/robot-talk-episode-144-robot-trust-in-humans-with-samuele-vinanzi/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-13T13:11:31.000Z"
+      },
+      {
+        "title": "How can robots acquire skills through interactions with the physical world? An interview with Jiaheng Hu",
+        "link": "https://robohub.org/how-can-robots-acquire-skills-through-interactions-with-the-physical-world-an-interview-with-jiaheng-hu/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-12T13:54:12.000Z"
+      },
+      {
+        "title": "Sven Koenig wins the 2026 ACM/SIGAI Autonomous Agents Research Award",
+        "link": "https://robohub.org/sven-koenig-wins-the-2026-acm-sigai-autonomous-agents-research-award/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-10T10:59:41.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 143 – Robots for children, with Elmira Yadollahi",
+        "link": "https://robohub.org/robot-talk-episode-143-robots-for-children-with-elmira-yadollahi/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-06T13:31:22.000Z"
+      },
+      {
+        "title": "New frontiers in robotics at CES 2026",
+        "link": "https://robohub.org/new-frontiers-in-robotics-at-ces-2026/",
+        "source": "Robohub",
+        "publishedAt": "2026-02-03T12:34:16.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 142 – Collaborative robot arms, with Mark Gray",
+        "link": "https://robohub.org/robot-talk-episode-142-collaborative-robot-arms-with-mark-gray/",
+        "source": "Robohub",
+        "publishedAt": "2026-01-30T13:30:12.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 141 – Our relationship with robot swarms, with Razanne Abu-Aisheh",
+        "link": "https://robohub.org/robot-talk-episode-141-our-relationship-with-robot-swarms-with-razanne-abu-aisheh/",
+        "source": "Robohub",
+        "publishedAt": "2026-01-23T13:48:54.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 140 – Robot balance and agility, with Amir Patel",
+        "link": "https://robohub.org/robot-talk-episode-140-robot-balance-and-agility-with-amir-patel/",
+        "source": "Robohub",
+        "publishedAt": "2026-01-16T12:55:31.000Z"
+      },
+      {
+        "title": "Taking humanoid soccer to the next level: An interview with RoboCup trustee Alessandra Rossi",
+        "link": "https://robohub.org/taking-humanoid-soccer-to-the-next-level-an-interview-with-robocup-trustee-alessandra-rossi/",
+        "source": "Robohub",
+        "publishedAt": "2026-01-14T09:07:58.000Z"
+      },
+      {
+        "title": "Robots to navigate hiking trails",
+        "link": "https://robohub.org/robots-to-navigate-hiking-trails/",
+        "source": "Robohub",
+        "publishedAt": "2026-01-12T11:12:16.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 139 – Advanced robot hearing, with Christine Evers",
+        "link": "https://robohub.org/robot-talk-episode-139-advanced-robot-hearing-with-christine-evers/",
+        "source": "Robohub",
+        "publishedAt": "2026-01-09T13:12:04.000Z"
+      }
+    ]
+  },
+  {
     "date": "2026-07-05",
     "trends": [
       "身体性AIおよび人型ロボットの商用展開と、LLM統合による自律行動の標準化が進んでいる。",
