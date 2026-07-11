@@ -1,5 +1,566 @@
 [
   {
+    "date": "2026-07-12",
+    "trends": [
+      "ロボティクスにおけるAIモデルの進化と実世界応用が加速しています。特に、ラベルなし学習の世界モデルや、複雑なタスクを高精度でこなすAIの登場が注目されます。",
+      "物理AIの安全性向上と堅牢な導入に向けた取り組みが進んでおり、仮想シミュレーションや安全プラットフォームの技術開発が活発化しています。",
+      "サービスロボット、産業用オートメーション、自動運転など、多岐にわたる分野でロボティクスへの投資と具体的な社会実装が拡大し、多様な課題解決に貢献しています。"
+    ],
+    "categories": {
+      "論文・技術研究": [
+        {
+          "title": "ロボティクスチームが導入前に「仮想ジム」を必要とする理由",
+          "link": "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-07-11T12:36:16.000Z",
+          "summary": "ロボットのシミュレーションから実世界への移行ギャップを埋めるため、「仮想ジム」の活用が推奨されています。環境やタスクの多様性に対応するロボットの事前訓練に不可欠であり、展開時の効率と安全性を高めます。",
+          "impactScore": 7,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/07/humanoids_softserve-1024x574.png"
+        },
+        {
+          "title": "中国のOrca世界モデル、アクションラベルなしで特殊ロボティクスシステムに匹敵する性能",
+          "link": "https://the-decoder.com/chinas-orca-world-model-matches-specialized-robotics-systems-without-ever-seeing-a-single-action-label/",
+          "source": "The Decoder",
+          "publishedAt": "2026-07-11T09:03:26.000Z",
+          "summary": "北京人工知能学院が、アクションラベルなしで12.5万時間分の動画学習を行った世界モデル「Orca」を発表しました。トークンやピクセルではなく抽象的な世界状態を予測し、5つのロボットタスクで専門システムと同等の性能を発揮、データ不足を解消する可能性を秘めています。",
+          "impactScore": 9,
+          "imageUrl": "http://the-decoder.com/wp-content/uploads/2026/07/orca-world-model-video-en.mp4"
+        },
+        {
+          "title": "WebotsとTIAGoを用いた確定論的ラッパーによるHRI安全性の強化デモ",
+          "link": "https://discourse.openrobotics.org/t/hardening-hri-safety-with-a-deterministic-wrapper-a-webots-demo-using-tiago/56428",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-07-11T09:56:38.000Z",
+          "summary": "人間とロボットのインタラクション（HRI）安全性を強化するため、Webotsシミュレーションで確定的なラッパー「QERRA-HSR v0.1」がテストされました。TIAGoロボットが物理的危険や人間の苦痛を検知し、安全境界内で自律的に速度を落とすか停止することで、衝突や事故を防ぎます。",
+          "impactScore": 7,
+          "imageUrl": "https://emoji.discourse-cdn.com/noto/blush.png?v=15"
+        },
+        {
+          "title": "ソニーがトッププロに勝てる卓球ロボ、快挙の鍵はカメラや制御手法の新機軸",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TZG1oS3pLRlBEQVJxS2YtamcwREh2ZW84b2lhelRlZ1Z0Tm5WcEdSNVFXWk1KQTNPUE9sWkphczk0OUx1WThMd2hocjI5OTZjZUhUSW5hWGlhOXQ2eUczVUJzS2VkLUNxRmtEVEtlRGg2OEE?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-09T20:00:00.000Z",
+          "summary": "ソニーが開発した卓球ロボットがトッププロに勝利できる性能を達成しました。その鍵は、高精度なカメラと革新的な制御手法にあり、AIとロボティクスが身体能力を超える複雑な動作学習と実行を可能にした画期的な成果です。",
+          "impactScore": 8,
+          "imageUrl": ""
+        },
+        {
+          "title": "ホンダ、「別次元」のロボットハンドを開発、自動車部品の組み立ても視野に",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZS1hlU19lUWVDVER1YVRLNFRYNDY1akdwVmNuSEp0UUdma0luRFhSYXpBcEVvYlo1a1QxRVhaOWZ5OXlwdkhWMTBXUkhyalpCNnhIRnR4X1hpdGRaVVFtSUFwMVFzVm8?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-09T20:00:00.000Z",
+          "summary": "ホンダが自動車部品の組み立てにも活用可能な「別次元」のロボットハンドを開発しました。この新技術は、多様な形状の部品を器用に掴み、精密な作業を行うことを可能にし、製造業における自動化の可能性を広げます。",
+          "impactScore": 8,
+          "imageUrl": ""
+        }
+      ],
+      "実用・社会実装": [
+        {
+          "title": "FORT Robotics、Nvidia Halosとの連携で物理AI安全プラットフォームを拡張",
+          "link": "https://roboticsandautomationnews.com/2026/07/10/fort-robotics-extends-physical-ai-safety-platform-with-nvidia-halos/103254/",
+          "source": "Robotics & Automation News",
+          "publishedAt": "2026-07-10T17:38:37.000Z",
+          "summary": "FORT Roboticsは、Nvidia Halos for Roboticsエコシステムに参加し、物理AI安全プラットフォームを拡張しました。オープンソースのNvidia Halos Outside-In Safety Blueprintを活用したエージェント安全アプリケーションを展示し、自律ロボットの安全基準向上に貢献します。",
+          "impactScore": 8,
+          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/07/fort-robotics-nvidia-1.png"
+        },
+        {
+          "title": "AVI-SPLがVolvo Autonomous Solutionsと提携し、ダラス-ヒューストン間で自律型貨物輸送を開始",
+          "link": "https://roboticsandautomationnews.com/2026/07/10/tech-company-avi-spl-launches-autonomous-dallas-houston-freight-operations-with-volvo-autonomous-solutions/103243/",
+          "source": "Robotics & Automation News",
+          "publishedAt": "2026-07-10T16:50:24.000Z",
+          "summary": "AVI-SPLとVolvo Autonomous Solutionsは、ダラスとヒューストン間で商用の自動運転貨物輸送を開始しました。オーロラドライバーを搭載したVolvo VNL Autonomousトラックを使用し、オーディオビジュアル機器などの輸送効率を大幅に向上させます。",
+          "impactScore": 7,
+          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/07/volvo-autonomous-solutions-avi-spl-1.jpg"
+        },
+        {
+          "title": "Richtech Robotics、AIロボットADAMをフィーチャーした24時間インタラクティブライブストリームを開始",
+          "link": "https://roboticsandautomationnews.com/2026/07/10/richtech-robotics-launches-24-7-interactive-livestream-featuring-ai-robot-adam/103234/",
+          "source": "Robotics & Automation News",
+          "publishedAt": "2026-07-10T16:29:33.000Z",
+          "summary": "Richtech Roboticsは、AI搭載ヒューマノイドロボットADAMによる24時間年中無休のインタラクティブなライブストリームプラットフォームを開始しました。これにより、世界中の視聴者がADAMとリアルタイムで直接チャットし、交流できる没入型体験を提供します。",
+          "impactScore": 6,
+          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/07/richtech-adam-serving-coffee-1.jpg"
+        },
+        {
+          "title": "Intrinsicの物理AIビジョン：ソフトウェア定義型工場の構築",
+          "link": "https://roboticsandautomationnews.com/2026/07/09/intrinsics-vision-for-physical-ai-building-the-software-defined-factory/103211/",
+          "source": "Robotics & Automation News",
+          "publishedAt": "2026-07-09T11:53:39.000Z",
+          "summary": "Intrinsicは、物理AIを活用した「ソフトウェア定義型工場」のビジョンを掲げ、産業オートメーションの変革を目指しています。従来の特定タスク向けシステムと異なり、柔軟性とコスト効率の高い生産ラインを実現し、製造業の課題解決に貢献します。",
+          "impactScore": 8,
+          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/07/intrinsic-fanuc-robotic-system-1.png"
+        },
+        {
+          "title": "AI搭載ロボットが初のセラーノハム自動ラベリングを実現",
+          "link": "https://roboticsandautomationnews.com/2026/07/09/ai-powered-robot-automates-serrano-ham-labeling-for-the-first-time/103208/",
+          "source": "Robotics & Automation News",
+          "publishedAt": "2026-07-09T11:45:48.000Z",
+          "summary": "スペインのシステムインテグレーターが、AIベースのロボットシステムを開発し、これまで人手に頼っていたセラーノハムの骨検知とラベリングを初めて自動化しました。これにより、熟成・乾燥プロセスに応じた正確なラベリングが効率的に行えるようになります。",
+          "impactScore": 6,
+          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/07/timpolot-robot-ham-labelling-1.jpeg"
+        },
+        {
+          "title": "NVIDIAの動画生成モデルDreamZeroをコンビニレジ業務向けに検討するTelexistence",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV_5cTFOR2pIVHlPZkJ5dDltdEFrQWFUUjl0aVVqTXFkVHRaOGw2MldETWg0YmZEdE1uWVBUVHpnblNNYUlEcEc1OFo2ZlI4RC05U212SE5BTmZJQ3hfRzlFT3A3UHp2M0ZYN1FOMzVZV094MTZDNDdBd21NV3ZEQ2E4WXd4UTNManpFcWN6YzBucnZTUkw?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-09T20:00:00.000Z",
+          "summary": "TelexistenceがNVIDIAの動画生成モデル「DreamZero」をコンビニのレジ業務に適用する可能性を検討しています。これにより、レジロボットが複雑な状況を理解し、より自然で効率的な顧客対応を実現できると期待されます。",
+          "impactScore": 7,
+          "imageUrl": ""
+        },
+        {
+          "title": "DMG森精機がAI予兆保全とAMRを強化、高度な生産セルの長時間安定稼働へ",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV_5cTFOR2JpSExLcmlfMDA3T0piVjlEOTZaN3RsRlAyZ3B1b05pSW1QQzhZRnZBNVlLZXQ3aUE0eWpQVnY0S25RejNlVExXRnV0MzdqNDhlWXM0LUNBV0p4dVUwbnpYNWNuX3o2eXlfaXQwblB0UXd3Rl9TNDJ2Q3RFYW0yV1Q0akt0RTZocmNhYVg0RDh5OXQzRTBMM3hB?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-09T20:00:00.000Z",
+          "summary": "DMG森精機がAIによる予兆保全とAMR（自律移動ロボット）を強化し、高度な生産セルの長時間安定稼働を目指しています。これにより、製造現場のダウンタイムを削減し、生産効率と信頼性を向上させることが期待されます。",
+          "impactScore": 7,
+          "imageUrl": ""
+        },
+        {
+          "title": "アステモ、日立とE2E基盤で協業し「2ステージAIでNOA」を実現",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SclVwZlNuWExWUk1fdi1pWXlIdE9lLVdCR210OHFLR1BDb3JVNEdwdXNPdHVPTnk0dXJlNzNnRDNZdnJXSUlNTnpBd1FjTGFFM1lnQk1PNXRuQlVmS1ZybXVFZm1pM0U?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-09T20:00:00.000Z",
+          "summary": "アステモは日立と協業し、End-to-End（E2E）基盤を構築し、「2ステージAIによるNOA（Navigate on Autopilot）」を実現します。これにより、自動運転システムがより高精度な状況判断と経路選択を行い、安全でスムーズな運転を可能にします。",
+          "impactScore": 7,
+          "imageUrl": ""
+        }
+      ],
+      "ビジネス・投資・経済": [
+        {
+          "title": "Fieldwork Robotics、ベリー収穫ロボットの規模拡大のためSEED Innovationsから投資を獲得",
+          "link": "https://roboticsandautomationnews.com/2026/07/10/fieldwork-robotics-secures-seed-innovations-investment-to-scale-berry-harvesting-robots/103251/",
+          "source": "Robotics & Automation News",
+          "publishedAt": "2026-07-10T17:29:23.000Z",
+          "summary": "Fieldwork Roboticsは、SEED Innovationsから投資を受け、ベリー収穫ロボットの規模拡大を目指します。この資金調達は総額250万ポンドのシードプラス資金調達の一部であり、選別・適応型・モジュール式収穫ロボットの実用化を加速させます。",
+          "impactScore": 6,
+          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/07/fieldwork-robotics-berry-picking-2.jpg"
+        },
+        {
+          "title": "中国DeepSeekが初の外部資金調達で1兆円超え、ロボット分野への投資も活況",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV_5cTFPdzVIczhqQ3c4YWdzTWdOclhyREFWQlQ3Wk5tVXB6RHRNajBiSUhtVEUwRm1lMGF3NkEtbG5KbE9PMDQ4V29wcnNEbzZibDJaN1NTNGYzdy1LbWRzcWJzWGFYOUdJdFlOd2E4bTdhcmhpVXpFU0Rpa3o2aW9sMmxPU0w1Y0QxdGc1SmxnYlhtclBiUDA3bV9LZS1B?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-09T20:00:00.000Z",
+          "summary": "中国のDeepSeekが1兆円を超える初の外部資金調達を成功させ、ロボット分野への投資も活況を呈しています。この大規模な資金流入は、AIモデルの開発を加速させるとともに、ロボティクス産業全体の成長を促進すると予想されます。",
+          "impactScore": 7,
+          "imageUrl": ""
+        }
+      ]
+    },
+    "otherArticles": [
+      {
+        "title": "Are suppliers ready for new robot safety standards?",
+        "link": "https://www.therobotreport.com/are-suppliers-ready-for-new-robot-safety-standards/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-07-11T13:30:02.000Z"
+      },
+      {
+        "title": "Forget typosquatting; slopsquatting is the software supply chain threat created by AI coding tools",
+        "link": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
+        "source": "VentureBeat",
+        "publishedAt": "2026-07-11T16:00:00.000Z"
+      },
+      {
+        "title": "OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour",
+        "link": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-11T17:38:35.000Z"
+      },
+      {
+        "title": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
+        "link": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-11T17:04:28.000Z"
+      },
+      {
+        "title": "Meta's Muse Spark 1.1 outperforms GLM-5.2 in coding and costs slightly less",
+        "link": "https://the-decoder.com/metas-muse-spark-1-1-outperforms-glm-5-2-in-coding-and-costs-slightly-less/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-11T08:28:12.000Z"
+      },
+      {
+        "title": "OpenAI admits it \"didn't get everything quite right\" with ChatGPT Work launch and scrambles to fix UX and costs",
+        "link": "https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-11T08:01:09.000Z"
+      },
+      {
+        "title": "Apple sues OpenAI for allegedly running a \"coordinated campaign\" to steal trade secrets through poached employees",
+        "link": "https://the-decoder.com/apple-sues-openai-for-allegedly-running-a-coordinated-campaign-to-steal-trade-secrets-through-poached-employees/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-11T06:56:20.000Z"
+      },
+      {
+        "title": "Multi-robot demo showcases new UK’s Plymouth subsea test range",
+        "link": "https://roboticsandautomationnews.com/2026/07/10/multi-robot-demo-showcases-new-uks-plymouth-subsea-test-range/103246/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-10T17:06:21.000Z"
+      },
+      {
+        "title": "RoboDK unveils CAM software that cuts robotic machining deployment time ‘by up to 40 percent’",
+        "link": "https://roboticsandautomationnews.com/2026/07/10/robodk-unveils-cam-software-that-cuts-robotic-machining-deployment-time-by-up-to-40-percent/103239/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-10T16:37:45.000Z"
+      },
+      {
+        "title": "Cognibotics selected for €6.5 million in EU accelerator funding",
+        "link": "https://roboticsandautomationnews.com/2026/07/10/cognibotics-selected-for-e6-5-million-in-eu-accelerator-funding/103230/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-10T16:22:01.000Z"
+      },
+      {
+        "title": "CS2 Skin Marketplace Comparison: Which Platform Offers the Best Prices and Security?",
+        "link": "https://roboticsandautomationnews.com/2026/07/10/cs2-skin-marketplace-comparison-which-platform-offers-the-best-prices-and-security/103224/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-10T13:22:06.000Z"
+      },
+      {
+        "title": "How Automation is Changing Employee Performance Tracking and Recognition",
+        "link": "https://roboticsandautomationnews.com/2026/07/10/how-automation-is-changing-employee-performance-tracking-and-recognition/103221/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-10T11:43:19.000Z"
+      },
+      {
+        "title": "What Can Delay a Car Accident Settlement and How an Attorney Helps",
+        "link": "https://roboticsandautomationnews.com/2026/07/10/what-can-delay-a-car-accident-settlement-and-how-an-attorney-helps/103218/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-10T11:33:09.000Z"
+      },
+      {
+        "title": "How Zero Trust Network Access Eliminates Implicit Trust at Scale",
+        "link": "https://roboticsandautomationnews.com/2026/07/10/how-zero-trust-network-access-eliminates-implicit-trust-at-scale/103215/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-10T11:19:47.000Z"
+      },
+      {
+        "title": "Siemens partners with Databricks and FFT to turn production data into scalable AI-driven insights",
+        "link": "https://roboticsandautomationnews.com/2026/07/09/siemens-partners-with-databricks-and-fft-to-turn-production-data-into-scalable-ai-driven-insights/103203/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-09T11:23:38.000Z"
+      },
+      {
+        "title": "Eclipse Automation unveils immersive factory planning platform at Automate 2026",
+        "link": "https://roboticsandautomationnews.com/2026/07/09/eclipse-automation-unveils-immersive-factory-planning-platform-at-automate-2026/103200/",
+        "source": "Robotics & Automation News",
+        "publishedAt": "2026-07-09T08:49:44.000Z"
+      },
+      {
+        "title": "OpenAI、ChatGPTの新音声モデル「GPT-Live」発表 GPT-5.6も日本を含む世界で提供開始",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RTk5NVnlDbnV2ZC1nLUxWUU81M2V1OEpQRlRIT0tMS1ZaYTRhRWJLWDJFeFdOOXB1TjdOQ1JzOFJOQURfbjV0bTRNV012Z2c0RXZzRUFHMjY2bGpwWTZkNEh5SF9TdjJpMzl0SQ?oc=5",
+        "source": "Ledge.ai",
+        "publishedAt": "2026-07-08T07:00:00.000Z"
+      },
+      {
+        "title": "5〜7MBの軽量埋め込みAIモデル「Ternlight」が登場 訪問者のCPU上でセマンティック検索を実行",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzbFpjY21FRVB1XzBGTXNoTzI4VUJIckstazlqRlQ1SjJGSFNCdHRZdkUzYzk0MlNSMnAtdjBaWFpnczA4VjVaLVg4SGhYMUEySDYwc0k1aGFwMzY1c0JzOG4tV0Z3dUtFTW5Wa09HRjg?oc=5",
+        "source": "Ledge.ai",
+        "publishedAt": "2026-07-10T06:04:24.000Z"
+      },
+      {
+        "title": "Meta、画像生成AI「Muse Image」をMeta AIで提供開始 動画生成AI「Muse Video」も近日公開へ",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05ZTlWbVQydTJocVRoMDh3NkhrRjRSQ3pYaW1mLXVGVG5XeFo0bWlrZnd4d3VocTlkZ2FSZDVKWHJNdjFRaVc4UGMwZGVTSTZvRW9FaTZvcElxRkk?oc=5",
+        "source": "Ledge.ai",
+        "publishedAt": "2026-07-09T00:56:58.000Z"
+      },
+      {
+        "title": "TSMC、AI半導体チップに水流す冷却法 「CoWoS」と統合し信頼性評価",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vaDZvb1M2Q1BrNnFGd0wyWlFhVGlwZHdrTHdYY203TjczcDVEQkRUUFVzd29lWDF5NDFSSUpqSDFCM0t4dkdRYUVzem1WTXdXaGJuSzk1bzlDWF9Odnl5dWduU2JFeUowSWlfMQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "大量退職で戦略転換 職位「飛び級」道筋も",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hSVFHOHdqaE9SaWxON2lxZHJXc3NXSk91UkVxU1k5ZWZ2RkwzOE42Y1Q3WllHd1lDYnNWR19OUXRQS3hSWFotcVRrWTJRRFNINEhfcGVMWUlZclNEc1B2bTZmM1Vrd05KU0dwSTZWbzF3QQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-07T22:03:00.000Z"
+      },
+      {
+        "title": "出光は36億円を損失か、ランサム並みに深刻な「サイバー詐欺」の実態",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HcGtCSU85SUNjY2tDQVItQlBoOVVlcXcyYVN4MWRZVllkd05jbktYTXh5REZrMVR6clRndkpHZ1p6YjU3SlMyNjdNdlY5bldyeWVBcmJzaTRRMFd0QzRBNmRiNERpaVZFdEc5Rw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-08T20:00:00.000Z"
+      },
+      {
+        "title": "政府、NTTデータ・富士通・Preferredの国産AIを「さくらのクラウド」で試用へ",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZZ3hEVGZCeXV6X1dzLWZHWndMTE1vRml1VUd0Q202TXk4NmJ3Y2tTREhLNU9Rd0MtaHpyNXFyR3U2Q1FjQzRkcHZFRDRyRHRkeGptUVlNYjdxNVZp?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-10T07:07:00.000Z"
+      },
+      {
+        "title": "ホンダのEV敗戦、真因と再建策",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcXdNVHRrTkNvQWpjai1QcnhpSUV6OGJBQk1GUzFuN1lxWU4xRnBiUDU1eWNNbTJtZEYzcWJfZEN4MjZON09GNzloRWFZM09MWUZoQlNQOFV0Qk5SZ3ZCUVkzbk9nUmNlTmV1Y1pCSmNSYllnWXI0dlIwUzFzQTVWWEhzdHFqQnNhWjc0Q2ZySU5wNmhpTFQ3ZkROd1pORlBfcE5jV2MtLWwzQmVmNTJrZjlIQU4tbHJaRG5rS3lpT0VxbG5ySGJzZm9xS09YOGgxQmc?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-10T03:41:46.000Z"
+      },
+      {
+        "title": "メモリー高騰に苦慮するFCNT、「arrows We3」など新機種で何を強化したのか（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jN0J5Wks4MXpQQWVseE9xYVFuaG9vNzRGcENWbHlfWC1tTTJZWWZ6RGpBTmRSUlpWRXhYaUlwZUZBSVJQWGtrX1BkNmEyMlhHXzZaYktrZ05FUE5TbGtva2FPRmRIdElteEJuN1RUSVp3dw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "「FIP転」併設で強み生かす、大阪ガスに聞く蓄電池・事業戦略（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tdDhaMUNMQzJWUldSYmRXOXBXeXgzWFVtc3Vvd0NuNTFuN05wY3lZRXdRaDk1eGFIcEN4N3B0X2NzVXJab2N4bnpwcU0waGdFMGU0dXh3T1hqTU1zN3Rob0lDemNtaklEemRJaG5EVTlodw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "新世代PHEV、SiCは200kmの布石（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAweGRkaUhwOUIyTDRXeklzYjdhcERrZUdCSEdnUEZUNWlWbUZHNU5sN0FZeDZyLW9YZmljODFZMnJvLVpleDk2dkV3THlkUWZ1Wi1NdjU5czdDYUJDQWRXbk9ORUdOSWtHSWJoOQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:03:00.000Z"
+      },
+      {
+        "title": "AGIからASIへ─人間レベルを超えるAIへの道筋（2ページ目） | 日経Robotics（日経ロボティクス）",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zb1Njdk0zdko0Z1VnT0p2VkpQTDRadlRETGFQS1JLSjBoUjF0clVxbTlHbG1kMVkyZTlJdHhZV1MwcWQ2ckJFd1J6eXNxYk9lWGpldlJkemVyZnFaWDlMbVV6d0xucW9lQUkxXzJ3?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "万博オランダ館を淡路島移設、パソナグループのオフィスに再構築する斬新さ（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6QnphZ1huTlBlbVoydGFBT2psTGk5Sm4yZ3F5RkNOMTBtRG5yQUlzb080UUxxRGRTcEpsSElEaVpEWGNXV0RYLVBBQXUxd0VETWVDWi1KMDhvdURVQ1Z0QWN6TUVVVEhIaExTaUxHb1g1QQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "デクセリアルズの光電融合、事業の柱に急成長 「混沌の時代でも冷静に」 （2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YUmdxTDUxZ0x1SVd3QTNrdVpIdWZXS3dFU01INGx6LU5oTkpwNTNpQnlLVU5sRkU3SlZmX3JqNmdNZmxhTUxYa2NEblRmV1M5VExXNE1PUDVJbnVNRkdVRDJpODZvZmlRdF9ZTDZyUC10UQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-08T20:00:00.000Z"
+      },
+      {
+        "title": "日経Automotive 2026年8月号",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qOFdIRUx1R0hSYVllTEItWDV6Vm5JMjNXSHRZdTBFU2RYVl9pSndWdFlmeUUyZjRhRkg0TTJtWXV2TDlTQVhsQkZPQklERHh0a3o0aGluUV9XUS1feG9nSk95SXg5VlNqdjRjU0RJV3U0cHM?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "パソコン不調の根本解決に「リセット」、アカウントやデータへの影響を確認（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VSnZ3ajJPbk4yeVBpcFFNQmZyOS1fSEtwWnBwQnBDZzhaNkdGemxhZVVWUndVNGlhMnhFM0NRcXdEQllhVHhNYm0yeEtUcVZOTXJlWjJwU0pXZjQ0el9wU3MzdTR6UjBwLUgzOVVpQmNzdw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "「AI頼み」は危うい、データドリブン経営を左右するリーダーの判断力（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsaHIxSzFYVzA5TE84T0g0aGxRV2JsMzJGRmE5bXEwUnphZTNaWnhxdF9XRnRIanlEQjJ1b3NSNUJkSGFfSzMycnZqdExfdHpQUHFCLUc4aWc5ZHVRQUZUVjJtMmIyZU1yQThSN0JseGNpdw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "木現しを採用しやすくする火熱遮断壁等、設計上の留意点を安井昇氏が解説（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9laW9xQ0VVY3N1UWxEYW00RTFTRUNIZWNJb1d6ZUpzN0ZwVGdTTUpFN3NVOGd1OWxQdWNydVdxMDNpRk5YZ1c1bXZqaWJ2UzNscS1lb0lUOGw2dThMTkZibTI4UTBVT1BTLVhnT3N6WnJ3dw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "車7社の研究開発費、過去最高 トヨタ「投資緩めずやりきる」（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BQU1oQ09VeU8xNjhPbWl0dndHZ0NLSXdoajM2UldsWGZHTl9zMDRFa1lyRklLLWNRbTlGdWtyV0lmUklDM0lKZlRYdHI3QjNGeXFlVi04Vm84bGw1bVFTaVV1clhnU092dEIyZw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "トヨタ3列シートEV「レクサスTZ」、ボディーの随所に静音化設計（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkRIRG5pbjh0blNULWF2d3VNdDZDc3lUNG5SaHdUQmV5TUxtU0NXQVlWYm9SMHRtOUttRHV4VTNtbzBPM3Y3NzhBVTJiRzhnSTNhOW9Wc014Z1hyUk8zMVFzcTRjSlFzazd2enNOSnBTMnEyLTFpRmpDZm1XQ1F2R3dCYTBiMUpOeGVTbEJIUjA5Q2tu?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "「AI時代にも起業家の役割は残る」東大・松尾教授が断言、高専生に期待（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXp3TGF1U2VtYV9xelJWOThDNTU5NTZGUnh4ZmgyNHlPam1rSzQ5cjNzZWZ4U2s2ZFpqN2lxZGFVVGlmREtyd1l1RUhuaGZIdlp3Tnc1aWxCSERISm5CWWFJSHFmRGR3VkFIQ3RMd0tWMlZlZWRlQXhQYTZsV0cyRkR3X3FxLW93M3U5eXFWc3hkcHNheUhiV25R?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "Edgeでも使える「Chromeウェブストア」、信頼できる拡張機能の見極め方（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tbWt0cUtPVmppN01WR2NVZ1hXRzF0Vmk1NXVwQnZDdjlhN0JaUGw5eXJBTFFKM1lNcnVfTmV5YXd3NGJBV0VLLUM4c0JwcHN3R0J1X3FXNXBsakszWUdxVGlNU051djRMbkE3eElCU29TZw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "《日経Robotics》動画生成モデルベースのNVIDIAのDreamZeroをコンビニのレジ業務向けに検討するTelexistence",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXV6azJIYVJvalNuTWlYelo4c09zUVRRbllHWXJFUmppazAzcElMaEVjdjJfS0YxSmNtdmFiNWRfMENmMEFpMDBGazNyeGhlQlhlaXJ5SEdSYWhwR2c1ZHJaelY0dTVfQ0Y0aHNvSndwbWxaTjdEZWxSVGlJSjFGSzVRRTMzbENEZ0RzNGpiVUlYR0wyM2c?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "「連係カメラ」でiPhoneをMacのWebカメラに、高画質でピントも安定（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rQmpxQ3hSZmpsNlhEZ3VHRTJvNHM2OVh1OGYtMzJKNDNma2ZQNU5FeDNGU3p6ejlNVGh1SGF2dV91a1lVenA3aXVaTGZVR0U4QVVpZEhUWnFGV1ZWOUhJVzlnT0ZJNXNZaEdqVkVITTJLUQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-08T20:00:00.000Z"
+      },
+      {
+        "title": "ホンダEV開発中止、部品19社影響 「全量受注で補償請求」（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lRTBxdHdRYUZybkZZOEhoYmhNVnd2R2wwMFVaLXNta0Uwd2VBWmxxSFNFSjN6dkloWjYtYmVDdWhGcnlxRTFUZWEzd2Z6aFQzSXVzRy1aOW1mNm9QRUp2dEpFTjlaell5R2lGVw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "奇瑞・オートバックス連合が軽EV、「テスラFSDと同水準目指す」（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pcVNUV1phYzFRaUtMbnl0aExCbmpFakQ0bXNqbkZ6MWhQbkNlVVhfb0dmaTltOGVyR3JTMDVyaE9MZ2cwUGFKTDBCNjRrTW5mODl6emF6LU5ReWR3UDB3YjBlVDR2R0hVWldVVQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "「N-BOX」が2カ月ぶりに首位に返り咲く、「環境性能割」廃止の影響で登録車が2カ月連続でプラス ほか",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZFdzOWZ2anRwNThmUFdPOXRjbVB1aFFQZVJHUnp6OTlVQ24wYndxeFNXSENEM3lwSHdsaFJ3amNHT2FUdzlCSV9qRm1EN2NtYmZIcE1tTGxuMDJTUHNuSHBubThwSVBTbXFjMkxyQlRjMTdIUUlCaUpoN2pTMm1IWEVpeW1yWkJWencxZWEyOXV3RTd3?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "量子通信、浜松ホトニクスや古河電工も参入 アナログ技術が生きる（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mZEZFNUdYekxSb1hTeWFhY0tMN0NJVkVDNEUtWWFrSWc2U2VCQTNtM1hJM2NxcDhEODNVeWdvblMyMkdLN3Y3UWp6VTVodHA4TUl3dnBmWmFlN3E0UUZkLUt6d0tuUzYwUlBMRTdndG1wQQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "燃料価格の上昇で、米国でもEV購入への関心高まる EVを選ばない理由は充電インフラ不足と高価格 ほか（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14QUZjWmF3V0dmU09MeElTY2JZZzQ0UFBNMkludFk1Y0d0OGtkLVZQMWtKRUVLRFVQRFBGcElvMVJSVElxUXJXSXBiVUdjeDdwQ2g4bmtEMnUyWmN6anBYU1ZKemJFZ25Ed1ptbw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "NVIDIA経済圏、E2Eで広がるか 中国勢はSoC内製で依存解消へ（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHNza3lnRjRyaHJNOWdWSG9JZ1N3a1VDSEljbEs5Vk1DYnBiYTB3Nko3OUoxZ0Nlc1FNV3dtS1owTXcwNm0zYWVWcTU2cXhVZnBWUmJMS0VnYWprMXhXVGJiSV9iUUxOeU9yRFBreUNyc3NiZW4yMms2UVZwT1RqTFlyOHFwcWlrTDNqYWN6OWhZcjk1?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "車の「2大頭脳」SoC統合（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ENXVvcGxiSTRaWTJNOVYxWW5ISGdSX1BIdFNKMTRSWUpUSjRfU2tOR1lWZmF5aEdEbFF5a0VqT0VsbGtQWXFESll3ZGNkTFJaYkNxYlREaERwZ1BZeWR3QXBvcGNzeG5iM1hpZQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "水平Vツインや複リンク式（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lT1NuRnpUMml3YWdmZXNieXFFd2ZFM3V0Y2E3eWs5MUhJcC1KX3J0bElGNF9ZdHhrbWdxOWpuaGswREtmMEJKeGF6TzY3MlZZNEkzUURlZ25jRmVEazVpZ1pvbXlkY0l5N09IWg?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:02:00.000Z"
+      },
+      {
+        "title": "サイバー詐欺で18社が損失を計上 海外拠点で頻発、支払い統制がカギか（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE83bGFRUHNqWlpnbzNoY3puZXhwLXlsbHVreXVhMWlNYm1YdGFJUEZQZlJTVDFmOUhJc0w0akFma2E5Z3lkSzNId1lFQm8xWWNvV1lNVUpIN2NaZ3RwX0RxRFlveTdOdmI4UFJZUnhIcVhvZw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "ダイハツ・マツダ・スズキが前年同月比プラス、国内自動車各社の世界生産（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FdmJmaTc5TG9Gb3ZQYlpOdHJmUzlOS1dKZ09ZQXZzVzhfNmg0YTNXcjk0bFoyNHRxWk8yVVFFc2NwVEJXay1nLVBjREVlVjlwWUVQQU1uTXVQN0JNSXl3cU1iVkxDUllfQTBRdlpqMTNwZw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "中国DeepSeek、初の外部資金調達は1兆円超え ロボット分野の投資も活況（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdzVIczhqQ3c4YWdzTWdOclhyREFWQlQ3Wk5tVXB6RHRNamRiSUhtVEUwRm1lMGF3NkEtbG5KbE9PMDQ4V29wcnNEbzZibDJaN1NTNGYzdy1LbWRzcWJzWGFYOUdJdFlOd2E4bTdhcmhpVXpFU0Rpa3o2aW9sMmxPU0w1Y0QxdGc1SmxnYlhtclBiUDA3bV9LZS1B?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "DMG森がAI予兆保全とAMRを強化、高度な生産セルを長時間安定稼働へ（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONWJpSExLcmlfMDA3T0piVjlEOTZaN3RsRlAyZ3B1b05pSW1QQzhZRnZBNVlLZXQ3aUE0eWpQVnY0S25RejNlVExXRnV0MzdqNDhlWXM0LUNBV0p4dVUwbnpYNWNuX3o2eXlfaXQwblB0UXd3Rl9TNDJ2Q3RFYW0yV1Q0akt0RTZocmNhYVg0RDh5OXQzRTBMM3hB?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "AI文章検出器による「冤罪」は数学的に避けられない？ 6月の注目論文（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YMXg4cnBGRVJsVzNxSmNZUWRTV3VZU1BBc1VSajdxSjZjVlo4NU9pVExWamMxd2J2V1RPQkl5c1R4VUloTF9zX2tuZ3ltNVlhZU81cl9yNGNJMDA0YVNhY0ptNEFRTjZIYW1aWW5Cc3lTdw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "OpenAIが「ChatGPT Work」投入 Anthropic攻勢に危機感、上場へ収益化急ぐ",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU0RoWlF3NHR6Vk9yd21VU3RpY0xBU2poNzRuTEgzbU8tVFljMER4REd0dmcwRVJXd0oxS3pUd25TZTdTV2ZOeFVFNDNKZ2hNdUIzUGZtekZkLWJFXzF3YWpJd3hPeS0wX0dNNDVaT3NZbVBzVjk2ZmlHWFJRTUFaNnZuLWpBbmM4dy1vc1V0Rk1xNWs?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T23:00:00.000Z"
+      },
+      {
+        "title": "韓国で4700兆ウォンのメガプロジェクト、SKやサムスンが3分野に集中投資（2ページ目） | 日経Robotics（日経ロボティクス）",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMEV3VVpJQVBMS3pQcU5lRGViNnJmYWZNdzFFRXo0bHd2Y1VLMlV0LWExNmpRdUlmNmtvZ0lGeDllck1uME5KQzZqcGE0Q3g1dTFGRUd5WHNhN2Q0ZXRPMEc2R0w4bmFiZXRCbnUzdWxVd1RzY1U3aHA3cnhvMDFoOURNX1dLckllRWxZMDVEYllSdjhkUWc?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "マツダ、新型CX-5にMHEV設定 電子プラットフォームを刷新（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpcnRUTW1FOHVTSWhNalhPMFYtYUpBbnI0RnlvdVBZSkpFY3ZKZXpScEJGSXJJSF83MmZ5Wk5NaHM3T0NySWtfeUVzVVd0YXlPX2RSWldjNFpGc3NNT3k5SHlzVVhWR2hmMkFZNA?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "レンジエクステンダーEV急浮上",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52Y0RtcERLUmFnTkRHRlNzRUQwY1EwUnpJTlg4Y2Z2WUxkOXJvc3dNQW5XWkdrQ1ZPdElKWWpDTDF5SHBoVmZPUU92bU00VU5hRWJ5X3o5UWV6REsyRHpJ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "編集室から 2026年8月号",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LcDZWZFBVNzlMVVJCc0s5ZnVqQnhLcnRrak9JWWZFZUdqeHk2U1QzWVdDaTVxVmRpbThuNnlodXBXRU9XdWZRNU9FT2hCbWNIcTgzYVJWci1SWG5HQlJscnVROHRfWXc?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "「メモリー税」に調達人材が右往左往、いずれ安くなると思っていても",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01bGY2bnhBUzIzN3A5ZC1FRlk4Rndmd3lYOFRTWFY3TXoxVXFEcE0zR0laakd4dDRBdVF3Y1czaThTTDBxNzExVHZQR0FYdDJWOU1LQVlWYjJqM0pmUHQ1WVNsYUtHQm8?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "ニューヨークの超高層ビルで鉄骨柱2本が座屈、上部に10層以上を増築中",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5UFNnTHgzY0QwSlFRdFpNR3V4TC1aUGdpNTAzM0MxWVNPTVZzdHl6UUN1SE1uNm5LdG4yam9GSUJLaHRtcmJRelg4TFlQUDdhUC02LUM3LTFEcFlQM1pwVXlPNnZtMzg?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "大和ハウス工業はDC全国展開に意欲、データセンター事業本部長に直撃",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PeERKYS0yUXhqNWU3SmYtN1NTUngxQVpaejZuUWN1Wk9wcDZhUzNsaFVZQ0pqRWZtZjJNTGVSemY1ZlQwVEdGQUV5QUZqS2djQ2JibE9xQmRFdTcwUS1peWJLUC1LOU1Kd0YyeQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "革新的な自動倉庫が船橋で稼働、仕分けも内部で、医療物流のエフエスユニマネジメントが先駆導入",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5VmFHd3luZHFOMjA4cWIxU1NMU21URnE1MkR3NE9Md21abjhnRFR1OHhMTWlZR3pyeURYc0E2bUZyRzk3b2o1ZWVmdE01R1pISHpZOTZZcjRJNl9zZEsxRE1SVEhJRGMx?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "1位は「施工不良で配水幹線350mやり直し、費用2億円 施工者は負担拒否」一般社員層の注目トップ10",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BS05mcG9KRlRwUGgtb2JZUzF5Z1NtTi1uQkJUUHFhNFd3VU5Sczd3b2dXM01XLWJ5S3VpdU9STjVoV1F3d2x1TkdHY0VLeVZ0ZEppajczQmdVQXBBVDYwWG95allqOTR0enNwdw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "LFP電池、進まぬリサイクル 日本も軽EVなどで採用増",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJMDliVTZpVEJRbTFqWTlBcFBVY0luUVlSeXA0a0tjSDNBWGhGSHpQZXdQTTdNSm1mTWRxV1ItZUsyUEhWcnQxaElWWTNnV01tNTlKNXZDTURNaWlCdFFJcnhsSlYyVkE?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "日産エルグランド、音と揺れ低減 27年度にE2E技術を初採用",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sLTJlQ1BXNmM3MkVfZ1ZZSnE2SW9udTl2TVRtOVpwT1lZSXpUOHlGZHNVeWZyNUhkYU42bmFLeU42RG1CZkMyMkdJeDZNckN0eGdMdzhQTUJqM3NQVWQza1F0SVdoX3c?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "「6G商用化、アジア太平洋に無線設備展開の過半集積」など5本",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbGNqSFR5T2JCeXQ5bUJrQWFUUjl0aVVqTXFkVHRaOGw2MldETWg0YmZEdE1uWVBUVHpnblNNYUlEcEc1OFo2ZlI4RC05U212SE5BTmZJQ3hfRzlFT3A3UHp2M0ZYN1FOMzVZV094MTZDNDdBd21NV3ZEQ2E4WXd4UTNManpFcWN6YzBucnZTUkw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "中国DeepSeek、初の外部資金調達は1兆円超え ロボット分野の投資も活況",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BQXJ1OWFncXhlYjhmdW5tVGdacFBYQlZrT0prTzhYSURlUG10STlRdmFmYS0tYXBBT015VU5pdjNCakdWVENLaE1Qckh0YkktQ1M0TGdtMjVQQkpLUWtZczgxVkJtaDhWUGNTZw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "ウーブン、自動運転AI開発に7工程 走行データ選別にAI検索",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PTnlqcWtqSm03aDNvLXJwa1AwcmI5ZXZHUXZueXpPT0U2ZVk5ZFpsRWFwUmhkSFlRTjBJR1J5ZGRXRDV2TVZGVWFtb0xfNVU1ZXE5MGlYY0dZdjlmVkdmTE9tRnpaQ0U?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "trends": [
       "ヒューマノイドロボットの実用化と投資の加速が顕著であり、自動車産業参入や大規模資金調達が相次いでいます。",
