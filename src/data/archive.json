@@ -1,5 +1,545 @@
 [
   {
+    "date": "2026-07-13",
+    "trends": [
+      "AIエージェントの高度化とコスト効率の追求",
+      "物理空間におけるAIの認識・行動能力の強化",
+      "AIを支えるインフラと競争環境の戦略的変化"
+    ],
+    "categories": {
+      "論文・技術研究": [
+        {
+          "title": "AIエージェントが構造化メモリで「Slay the Spire 2」を攻略、トークン消費を抑制",
+          "link": "https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/",
+          "source": "The Decoder",
+          "publishedAt": "2026-07-12T07:45:35.000Z",
+          "summary": "研究者たちはAIエージェントのチャットログを5層の構造化メモリに置き換え、ゲーム「Slay the Spire 2」で高い勝率を達成した。この技術はエージェントのトークン消費を大幅に削減し、より効率的で複雑な推論を可能にし、将来の自律システム開発に貢献する。",
+          "impactScore": 9,
+          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/07/agentsts2-nano-banana-pro.jpg"
+        },
+        {
+          "title": "Anthropic、Claudeの内部に「グローバルワークスペース」類似構造を発見",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Xb2Vyc2FJVlNTb0lKN0t1V1czbXQ3cHVBS0kwVm1zcjZuNWlVMDF5UEM3RmZndENBeDQxbUZENGZSakJwOXNSN0lHeHJOeTBVaDZHRk5NRmF1bW9HcFl5bGZNb0k0aHBuNEdZ?oc=5",
+          "source": "Ledge.ai",
+          "publishedAt": "2026-07-12T00:05:27.000Z",
+          "summary": "Anthropicの研究により、AIモデルClaude内部に意識研究の「グローバルワークスペース」に似た情報統合構造が確認された。これはAIが表に出さない思考プロセスを可視化する手がかりとなり、より深いAI理解と自律的思考能力の発展に寄与する。",
+          "impactScore": 8,
+          "imageUrl": ""
+        },
+        {
+          "title": "エンドツーエンド自動運転の進展",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkbWl2MEtuQWtSVVNLUEFlMm1JTUlpT0h5eXhhOEtBQ3ExSk9XemFra3I5SUh2cHJ0WVFsbGY3dlJMdDctZVBXc1JZdVBTdHdQQVpGbi15Tjl4ZlhFZDlfVTVZQzk2Tl9PdEk0WnNB?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-12T19:58:00.000Z",
+          "summary": "センサー入力から直接車両制御出力を生成するエンドツーエンド自動運転技術は、システム全体の複雑性を低減し、より人間らしい自然な運転挙動を実現する可能性を秘めている。この技術の進化は、未来のモビリティに大きな変革をもたらすだろう。",
+          "impactScore": 8,
+          "imageUrl": ""
+        },
+        {
+          "title": "AI研究における「世界モデル」の動向",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEVFBib0JLZV9ibTAzMjdOTjRhOUVURFJkZ0ducFlHYU5EOUxrWlNjSTBDVmRsUllFSzNsdERaQUhGdlRyRGNzYXJsOWUtQTlIS05udjFRenNjVnI5U1hsWjlqYUlmVEtNYmo5YWRn?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-12T19:52:00.000Z",
+          "summary": "AIが環境をシミュレートし、未来を予測する「世界モデル」に関する研究動向が注目されている。この技術は、ロボットが未知の状況で自律的に行動し、複雑なタスクを効率的に実行するための基盤となり、汎用AIの実現に不可欠だ。",
+          "impactScore": 8,
+          "imageUrl": ""
+        },
+        {
+          "title": "ロボット学習における「VLAモデル」の重要性",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SaEJ4c1hZMGpZOGFfem5tWFZ5cHU5X3B6bzlfY1VCVHo1ODFTSFAxUlEyWHRZMXRCdFFmTzZNQ1cwd0ltVlcxcGE1WUZYT1JhQmw0TjNKZlhtWlByTXpVaVRCRjR4dFp4TmE0Skxn?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-12T19:53:00.000Z",
+          "summary": "「VLA（Vision-Language-Action）モデル」は、ロボットが視覚情報と自然言語の指示を統合し、自律的に行動計画を生成する上で不可欠な技術である。このモデルの発展は、人間とのより直感的なインタラクションを可能にし、汎用ロボットの実現に大きく貢献する。",
+          "impactScore": 8,
+          "imageUrl": ""
+        }
+      ],
+      "実用・社会実装": [
+        {
+          "title": "教室でのSTEM教育に自律型ロボット「BotBall」を導入",
+          "link": "https://www.therobotreport.com/stem-education-classroom-introducing-botball/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-07-12T10:00:26.000Z",
+          "summary": "BotBallプログラムは、学生が自律型ロボットの構築と実際のコーディングを通じてSTEMスキルを学ぶ機会を提供する。これにより、教育現場で実践的なロボット工学の知識が普及し、将来のイノベーター育成に貢献する。",
+          "impactScore": 7,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/07/botball-2023-featured.jpg"
+        },
+        {
+          "title": "Claude Codeに内蔵ブラウザ機能が追加、AIが外部ウェブサイトを操作可能に",
+          "link": "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/",
+          "source": "The Decoder",
+          "publishedAt": "2026-07-12T15:02:06.000Z",
+          "summary": "AnthropicのClaude Codeに内蔵ブラウザ機能が加わり、AIが開発環境内で直接ウェブページを閲覧・操作できるようになった。これはAIエージェントの能力を大きく拡張し、より複雑な情報収集や自動タスク実行の可能性を広げる。",
+          "impactScore": 8,
+          "imageUrl": "http://the-decoder.com/wp-content/uploads/2026/07/claude_code_browser.mp4"
+        },
+        {
+          "title": "日本オラクル、基幹業務へのAIエージェント導入を推進",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXbmF4RG9jV0ZZS0J0cjFoZzRrb0tIcG01c0RpMk54cy0zNXlzbzFOOTJ4WUNoMGVXMzlDeng0d3NHWEY0NW5nQmlub1BXMjNFazJzQS04VWtZek1MTWRiLXBSVUwzaFE?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-12T20:00:00.000Z",
+          "summary": "日本オラクルは基幹業務システム（ERP）にAIエージェントを積極的に導入し、企業の業務効率化と意思決定の高度化を目指す。これは、AIが企業の中核業務に深く浸透し、より自律的なビジネス運営を実現する動きを示している。",
+          "impactScore": 7,
+          "imageUrl": ""
+        },
+        {
+          "title": "ChatGPT時代のAI規制と倫理構築の課題",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdGt6bERIalVTSFhiSl9UMTl3cE1CUktpVnJPeW1XTjMwOV83RFNxWDNMSG15eGpTREs1eDhLby1ObXFXTW14RmdVSFNBT3I2NENmSmxDYmZQMTRvN0pFWkNDYlQ0aGpkZjNlcWNqQ1d6REZCMXNvcEZDUEx6cWhka0lfdDM4elBPWkxuV1hRMm1CZ3UxZ2toMFZFVlZEako1OHpFSGNCWnJfWG9UaVgyTkZUVWxUUDhnY3B4Q1dsd2t5eWxyYS1JS2xhSDIwZmhxaXhDVGpMQ3hWWVJGMWktaE1LWTFMQXlMdnFjanRKRUFkb1VLLWdRUmNn?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-11T04:00:52.000Z",
+          "summary": "生成AIの普及が加速する中、その適切な利用と規制に関する国際的な議論が不可欠となっている。AIの倫理的な設計と透明性の確保は、自律型ロボットや物理AIシステムの社会受容性を高める上で極めて重要な要素である。",
+          "impactScore": 7,
+          "imageUrl": ""
+        }
+      ],
+      "ビジネス・投資・経済": [
+        {
+          "title": "DeepSeekが価格を75%削減も、AIエージェントの「100倍問題」は残る",
+          "link": "https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains",
+          "source": "VentureBeat",
+          "publishedAt": "2026-07-12T16:00:00.000Z",
+          "summary": "DeepSeekがAIモデルの価格を大幅に引き下げたものの、AIエージェントのトークン消費量増加がコスト削減効果を上回り、「100倍問題」が課題として残る。これはAIサービスのビジネスモデルに根本的な変革を迫り、効率的なインフラ管理の重要性を浮き彫りにしている。",
+          "impactScore": 9,
+          "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/QmUB8YbWiRnClnsHXcsEG/4cf95f77c77ebb21b0e9c2e1eec38caa/u7277289442_A_series_of_AI_robots_in_the_vein_of_the_evolutio_72348caa-ec35-4c65-8ab2-1402ecc89f91_2.png?w=300&q=30"
+        },
+        {
+          "title": "AIデータセンターの構造とGPU光接続技術の重要性",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdU9La29Qd3RhVnZBRm1MNEpVdlJYdDBXc3I1QkVQekxoamcwOEZPbjB0dGNrdFZaeThJdi1Ba3ROX2FpTEgxQ2UtOUtrTnFGZnNyVGRNRkVGdHhnT1hlQXpMQ2I0cWtfNklTTnl6TjhJMlg0R1NQT1B6bG5PWmlpS09DanhxS09zb3dCMA?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-12T20:00:00.000Z",
+          "summary": "高性能AIモデルの需要増大に伴い、AIデータセンターにおけるGPU間の光接続（CPO）が極めて重要になっている。この技術は、膨大なデータを高速で処理するAI、特にロボティクス向けAIの性能とスケーラビリティを決定づける要素となる。",
+          "impactScore": 7,
+          "imageUrl": ""
+        },
+        {
+          "title": "AIの投資動向：主戦場は「空間知能」へ",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUFZVUXRMTTdRMks1ZmZUSjJlQlhfMmd1cERzcVA1OWlNUlhXN2xxYnowRFZIb01kck5sckNIaVZESTRvbGNYRGt3MzloLVpJd1NtVEM2amdqSUM2RjNtQnhaTklwUWVxMDc0eHN0Y0VEWTVwaG9FaDhGMFQwbFpGSTYtb2ZWM29DV1hMVmJkV3o0U3Vz?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-12T20:00:00.000Z",
+          "summary": "テクノロジー未来投資指数によると、AI投資の焦点が「空間知能」にシフトし、資金流入が急増している。このトレンドは、自律移動ロボット、スマートシティ、AR/VRなど、物理空間で活動するAIとロボティクス分野の急速な発展を後押しする。",
+          "impactScore": 9,
+          "imageUrl": ""
+        },
+        {
+          "title": "DeepSeekがファーウェイと提携し「脱NVIDIA」へ、米国AI覇権に挑戦",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ2ZPaUUtWllBTTl6UW1rOEM1akNnSUFySEM3SS1McDlpaHA0LU5JZUhwMHRIYkZrRGphbFloQnE5cGo5RVVaTDJ0VzhxSG82X2xOQVh3aW04UDRVVEVVc3IzRHQyY2Vra1dwR2dIMnhlQmtPQzFhajNGcUQ1VDZJY09TVVA?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-12T20:00:00.000Z",
+          "summary": "DeepSeekがファーウェイと提携し、NVIDIAに依存しないAIエコシステム構築を目指す動きが、米国AI覇権への挑戦と見られている。この戦略的提携は、高性能AIチップの競争を激化させ、将来のAIおよびロボティクスハードウェアの多様化を促進する。",
+          "impactScore": 8,
+          "imageUrl": ""
+        },
+        {
+          "title": "物流自動化大手ダイフクの競争力と戦略",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHN2dSRVZFQVhfUnVITXhYd2lQNlRiUmhYM0JCWENHQ1dyM1ZaTjNuSmNVall4ZkpMcFNlS21SZVVTaWN1em1abFY1NWVkdGo2bGNaUXNOZHlvbU9GSDBr?oc=5",
+          "source": "日経クロステック",
+          "publishedAt": "2026-07-12T20:00:00.000Z",
+          "summary": "物流自動化システムの世界的大手であるダイフクの競争力と戦略が分析された。同社の高度な自動倉庫や搬送ロボットシステムは、労働力不足やEC需要増大に対応し、サプライチェーン全体の効率化とレジリエンス強化に不可欠な役割を果たす。",
+          "impactScore": 7,
+          "imageUrl": ""
+        }
+      ]
+    },
+    "otherArticles": [
+      {
+        "title": "折れる前に曲がる――テーブル脚の座屈という見落とし",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/13/news004.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-12T23:00:00.000Z"
+      },
+      {
+        "title": "ADEKAが半導体の全領域カバーを加速、次世代材料の新研究拠点稼働",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/13/news035.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-12T22:30:00.000Z"
+      },
+      {
+        "title": "パナソニックが「エオリア」メイン工場のモノづくりを公開　巨大な実験室も披露",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/13/news039.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-12T22:00:00.000Z"
+      },
+      {
+        "title": "ユーグレナら、次世代バイオ燃料で“荷主主体”の新たな脱炭素物流モデルを開始",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/13/news036.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-12T21:30:00.000Z"
+      },
+      {
+        "title": "伊藤忠とダイキン、業務用空調の水平リサイクルで連携",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/13/news022.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-12T21:15:00.000Z"
+      },
+      {
+        "title": "黄金期到来となるか―国家戦略のフードテック、日本の食産業の歴史的分岐点",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2607/13/news002.html",
+        "source": "MONOist",
+        "publishedAt": "2026-07-12T21:00:00.000Z"
+      },
+      {
+        "title": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms",
+        "link": "https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-12T16:41:47.000Z"
+      },
+      {
+        "title": "S&P Global sees OpenAI as a \"key credit risk\" for Oracle and cuts its credit rating",
+        "link": "https://the-decoder.com/sp-global-sees-openai-as-a-key-credit-risk-for-oracle-and-cuts-its-credit-rating/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-12T11:43:36.000Z"
+      },
+      {
+        "title": "Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent",
+        "link": "https://the-decoder.com/meta-kills-muse-image-feature-that-let-anyone-generate-ai-photos-of-instagram-users-without-consent/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-12T11:20:30.000Z"
+      },
+      {
+        "title": "Claude Cowork's biggest use case is the mundane office work nobody wants to own, Anthropic says",
+        "link": "https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-12T09:36:39.000Z"
+      },
+      {
+        "title": "OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating, which is quite the pivot from predicting mass layoffs",
+        "link": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-12T09:15:49.000Z"
+      },
+      {
+        "title": "Grades dropped from 96 to 48 percent when a Brown professor made students take the exam without AI",
+        "link": "https://the-decoder.com/grades-dropped-from-96-to-48-percent-when-a-brown-professor-made-students-take-the-exam-without-ai/",
+        "source": "The Decoder",
+        "publishedAt": "2026-07-12T08:25:25.000Z"
+      },
+      {
+        "title": "REP-2000 update",
+        "link": "https://discourse.openrobotics.org/t/rep-2000-update/56502",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-07-12T19:27:59.000Z"
+      },
+      {
+        "title": "それは事務所か工場か、データセンター紛争に悩む自治体 規制は地区計画で",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uZW1adWZZZnBPNW53VXlPcnNLLXRlcVNzU0s1THltckRPSl9ETVFnVnEtRkViREllS0ViSVRoaGZYWURGOXZmeVhMNmliOFl0WlU5WG9qQ3htQUNPMVlaaGhDeFluSlZjS0FoTQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "人月商売ベンダーが「ニセFDE」稼業にシフト、常駐技術者に明日はあるか",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUFNJcGg3NnpzaGx0NUpaR0hBV0d3WThOb1RmMXkwRy1hbkNhU3o4MGNtSGJsODg5Uk1pUy0yZ0U5S1otMEN6MG5rUWU0TUlrU2hIa29xMEpFNzR1VmNzN1owUGQ3STh5VnJDN3FySFZYb0xLUjFaRDBuaER4b3RpMXJpT2hxUlV1ek9fM2I0T2I?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "川崎市トンネル工事で危うく導水管損傷、干渉気づかず 開削工法に変更",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9nSFQtUGhCT2NwRTBCbXBZUHZsRUhGbC04c2xVN0p1SEJRZE9lXzlMMklvNTJuYUFTWHVhMXZxMUduOXhMX3N5V2tLLS1mc3JlTDNoUEZOVzREWDg3bjhvdS1jb09zcEk?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "ダークサイドAI",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ic2hZTXVpR2g1Vm9HNHczbE5qbUJkV3FSOHU2cDlma0NFYVhPVHJYYXhneUQwaGVhazBFbWJGclpBbHZpaWZVanFzWnA1b3k4RzlWeEhaTjl3WVBDc3dF?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T23:17:59.000Z"
+      },
+      {
+        "title": "1位は「大林組JVが工費増額巡り発注者を提訴、広島高速5号の二葉山トンネル掘削難航」",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SQ1ZmZjhyU0JFUUhaRWZ6eUhwclBWUjVEYzl5dThacjI4a1JPbEx1aEtXT1pheW04aUplSzZwcUdNZHJrQVA3amltWkdoVTAtdXJyU2k3ZmtJRENCU2M3R1N4UVROQnBtalRZNg?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "触覚センサー",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxSzZlMm5GdW90VFJsYWJQSnFtNEhHSTRwX2dlbjN4ZzlqSnNJN09NblVQZTZPeXhCMFd0LTBXazNrUXBXS3pDYmVyaVBYRURzYXdMLVRXN2w0ekRwbTFPZzFfb1EyVXl3c216MVJ3?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T19:59:00.000Z"
+      },
+      {
+        "title": "AIコーディング",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVUZ1VE1BLWlENXJSQmUxWmNnQ1FyV1V5OGIxUmo0WGo2WGNDZS1NQUExSC1mQ0hPVTVKTm1WR1dMdFctVEVBRmFvcFc0RmJNbUtyMUZKMXRpTkFCR3R0RG5FODNKWk5ldm1VREloZVlETlRrclhjR0FsVWxGNGdzZHVUc3kyZw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T19:50:00.000Z"
+      },
+      {
+        "title": "フリーは「AIが使いやすい」SaaSを目指す、CAIO直下に新組織",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTEZUWU42UFdfblJwYktEVE0tRTJ5Z0lrQS1EMm91bFFNNW5WR0xjUTN3VTNscURrTFdTQXFQNjJ2bjlYVmNkZ0hrU1F2SGQxYnpJN2ozUDJWS1BaOC00bGNXSWFSU2tHRk5GQ0d1NlNWUE9oREg2bVFPdWRYaFdpaTFWZHByMF95RUJPMw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "国内完成車14社、部品の曖昧な品質基準に共通指針 トヨタ「忖度の壁壊す」",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Zc0NkeC1lU3o3RDZGWHRuSFBrTUxVSzFYNXFvaGhyajhfTWg0TVZjYU53dW9Ta1NDX0pId3VhcFFnUDA0T3pzQms4WGN4T25tT0NZcWRYeFFVWi1BU1BzcDdkRkdYMFZzZUI0Rw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "AI活用で進む調達業務の自動化、2026年後半から国内でも対応製品が続々",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObGJWMXV2eXNXTzNqZm01SEFCNEhieEJqVlpnemxKQnBiX3FHUTA3MHNQMWFGNHZ3RFRJR1llZnhCaVZOc3MzNFlUMHlMb3EwYnhvajVsOFFyUFUxMEIwTWJyNnRCZjRUZnFDOG9qZVN4RlBCNU9sa2haRkx0VkE3SS1ueXQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T20:04:12.000Z"
+      },
+      {
+        "title": "施工不良で配水幹線350mやり直し、費用2億円／坂茂氏が設計した海辺の巨大木質空間／建築学会が建築士法改正に「注文」",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lV0JZcmhhM00zX0xVRDhxb2FKWmVBWERrT2pwbXE2ckJ1M2d5ZkRWeGo1WGRhczVxcjk4SENaYm1HdGlERWJPNkU1SDdiYkRINmJpdnFqUDRHTlliSkdZTlU1Y3lreUM0aVE?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "マテリアルズ・インフォマティクス",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wTGxnSTBjN2ZTLWFIczM5UDM3UnBUM3MyeFZ2UlpudWdnSWZsRXFKWEotckF2a1hoTWo1aWVGQWV0Yk9Hc2tmbGg0SFA5NFhVRG5EY0RDc2daRTgwQ1NYZVpQdjZ1UzNIdnRVSUxR?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "万博跡地の開発事業者募集開始、マスタープランに沿う圧倒的な非日常空間",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RDFHTEV2ek15ZkZSdjJ3VXhXRDVXVE84MmI5cFJNWUZvZFhtZ0xXSG5jcFFLYVlNcTdHTV94UExWajlLMTJVSFdiRGpKV18tUkwxQkp1dXR6Z2tGTVNxbEhrRXBjRFE?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "量子誤り訂正",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xUFF0RG4yMkxpaXVWSW9sZkVHTXQ4SDVxX0NYRzAxVXNuU3BNdTNVc1lMNDlZX1doY25wb3lIQXlTWVkzQWVneVUwbDQzdjc1NVVkbUZSdVd4U2ltTkZlMHVsekJkckhfRzhVcWdB?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T19:56:00.000Z"
+      },
+      {
+        "title": "誤審を見える化、明日は我が身か おもしろうてやがて悲しきABSかな",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZnNPUFhCM0JzYWh5X0VIVm9nLXh0WVRMcmUwWHY5LWM3YXhyS3Z3TXpZRUoybTBOVlZ1RjRLWTFxdkRPZVBYWS1jS28wandRR1h1SDUzQWwzMG10OWhEV0J5eXc2ZWpZQmVzRkVEZ29JeTFYTU9va0FqdWt5M3loRDBFaTZwazJvS21OM3puSjM?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "酸化物DRAM",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wTmJTSmNMbk9pZUVDZmVoaDJ5TTZXdFpDUEVPM0p1NWNYNUpTMUtuVjN6NlAtOXl3Yi1XcExpLW4yeGlCeVhWaDRDSEI4QjNUM1Y4b0lvTktPZEZwU3lMc194d1lnUUtXUXUxQ2tR?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T19:57:00.000Z"
+      },
+      {
+        "title": "サイバー攻撃の損失を新たに28社が計上、アサヒらの影響で総額は236億円に",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EMXhfVGdHc2dCWDhJak15aVpXZFpTZnMtVEJkWWVsOExSWEVUcV94a21hRklFZnpFWV9wNFI5ZkdjN2dSZnBwYXpLbXJoNXU5aGh5cTB1Q0Npa2l0Wk1lM0trM2ZUbWFFT29YQQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "生成AIは新規事業の成功率を高めるのか、開発プロセス変革がもたらすもの",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81TGRSRlN6QmUzSEYxOFdXYmIxVFRxQ1VDTWp6TnZhUTE0MUxxc3BmSHZlOHpFVEV2Zk1EelFLNjdFa05jd3h4TmlyaDJiSGlPY3ZSMEtnZE00ek9SUXp6MXRmV1lTc1g1cDAyNQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "15周年を迎えた「LINE」、AIエージェントとLYPプレミアムに次の成長を託す",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS21Xb0tZbjNQLUFEdlJLOEpCQlphMktKMHBSVFhXcFluMUtlWmZsUVUzNkNEMUdsSnFnVkR6YW56d1hfRnNTR1gtRGdENi1pYjNUVmhhdmd1LTBvSER3UmdCVVNuWjlERjNFWkxMVTB2ZC1lUEdyZE5nMDNuN1pJV0VrazZTMk9zVktn?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "超上級コンサルの「業務分析」4つの手順、真の課題をシステム化で解決へ",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wb2dJaWZ6Mkhlb1dTUnM0eHVaVzFxc1JRSlVvZ3Z5Q3FqVmFKQzdFRXpzbmRtQlhLYXJZTTRETEx0ODlUZy1qT2NEQWdJSlRLM3JSSU9KRnE3OXlnbW43Y3ZpQXFwQW9nVHVacA?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "データセンター建設しやすく 蓄電池の数量規制緩和、建基法など見直し答申",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04N1d2Qjg2ZXJtWGZvU1JjZmY3blFyMTdoWXVXZWNpbldwODdjQkNNRGFDLVJjVHYxNGxZdGJlVFdCVzdSZXp6MHhNVWdhR2tIemxCLUMtVTgxQ1YxYlJXd0tZUWpoWGs?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "QST、国内核融合炉の発電実証を30年代に前倒し 2兆円で原型炉建設狙う",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80UDlRMXFHT0xMNWxrV2VIWXhHSWxqbTBHMndkS0M2LTFrU2g2ZHR2NkhvT1hDajNDdlpkb29wclMtZkljV2Q4SndJMzdHSHZxWC1GVnFnQ0g1X0Jab0thajNKZlVqZWM?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "アクセンチュア、「コンサル不要論」への回答 自社変革でAIの破壊に対峙",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00VDdVWHBVQlBXSFBpWVV1ZnozLXhjOXpvaGNHSUUzZktlektPUldCT0RMOTRlSTZCV0txQVZaRmRwYWVzQXNSVHdVM1JBc2ZnZWxsanJMUFIxVzFkdFZGMFdmb2FLa1VuTlRwVw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "プラズマCO2変換",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoV0RsYWFPRkpOcFVaMlZBNTVKYVNSaGI4ak9xN09lbXFiT3BpUVpCeUdoSU41aUtueUZrS1Y2dFg2Z3FxajhzWXY3bVlYZk1oZmRMWGNPd3FrVW54RVR1dG4weDhZU1ZIa2piWWlB?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T19:49:00.000Z"
+      },
+      {
+        "title": "PCやスマホで残せる「デジタル遺言」、民法改正に向け検討進む",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRkZNai1NVVFQaG9JN1lyNlpTN3BrWFNrbXVrUk1OdkI2dDh3OHQzM010cEVYcUxrSjI5RnN3OFhXM3VDXzZKODIyVEowd2F1dnBxeDd6eUJGUlpUOEwxWWVvNENYcG9TVl9HNjl3MFowdFVjSUFCd2xKNkxhWmEyUGg2UHhNMjd5ZnRNeXhQMC0?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "3位は「IPAがロゴなどを変更、4800万円超で調達も『効果はある』『重要な取り組み』」20代以下の注目トップ10",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LYWNRZlF1bTZ6c2d5eHhhZ3F1WjhtZ1RWN0lZaUhUdWJ4aVNaeWJKcGtvTHppMloybGE2ZWl5Wlo5Rk00XzFBYjRIaGswT1VxNmNEdjZ2Y1QzeVNwQ1FtSHd1LXowN3VoVUVENA?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "インドネシアでエビ養殖事業に参入、オリコングローバル",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PcEdiZzhhTXNiMnVQdGFWNVotS3E5LWItSm5qVTlEU0NCR2Q0OWw3VG1VNGhwbVZKS3A4STBPX194ZmU0NFhucGJCLUdPTDNWNWdxUmIyZ0JzWEJfMVRHS2NZSHF6RjQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "無線LANで机まわりのケーブル一掃！",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOdG5DME5aYU1LdEFBVXBFXzRtRkdYUEVrS3ZRSWVFMG0yendJYWxpN2F3MWh5c0p2TUpfM3pLa3NQVWpVYUFBMFJVNl9fYnAzU3RrU0p4YUNwNmxHUXhydUlraU0tUmZVV0t6N3hWaFdqYzVRT0NTTnE3UloxTU1MZ3R4bnZILWRBWTM4eUh6MFczU3g2WHM0R01mZllleXNkZ0d2SUdveWR1R3VvZXhBSWhkb1JjX0VXdEtLREp1d1dYSS16UEc3TGN5Sm5BRHFHalZnSWJuZ1lwZzFReFdLQjhNSThTTlgwcDNaNFBPSktsbHhZeE1zNA?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T01:45:34.000Z"
+      },
+      {
+        "title": "有料会員向け記事 - 有料会員向け記事（4180ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mSVZpZnl5a2I2T3lvcjNZMnNqSVh0R285N2RoUFNmSGx2eU9mQzlvSnlRZEpjQVV3dC14Z1N5aTZVcGF2Q1BmWlVfQl82YzRfU2dIYWUwNmNSNWIxMUZ2MFNZVmE5c2NSNGtJemlVOVBUaGNh?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-10T15:50:48.000Z"
+      },
+      {
+        "title": "フリーソフトでズバッと解決！",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSElfaDVvRXZJcDVpZUNqYlp0TDBfaVE5RUlLTm96NVlOOTRjMV90VzJXYW1ERFNhb2xlWDFvZnJ6Rkg0ZFY2YjFtM1hBUF85V3FaVXNfaTl2WHNvTG1IOFlqVEtFcHhWZVNhYzY4UW9nalpUVHlUSUpQMG5USTBxckpWX2NlNEZEVWtOaGprSTZmMW5LLXdGSVZySWc1LV9ySm1PMGhyc2h4dUtFUEdHZEdGZVdLM0JITEo5RV9BMmREekg5UDV3dmR3RlhVVHZVUDI5WjVn?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T03:47:28.000Z"
+      },
+      {
+        "title": "AIに代替されない超上流コンサルの必須スキル",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONGRVbXRIR2NaZDNGTEVRVmswX1RBLWFPbC1BTXlGdnRVcUhESEQ3cW1fX0hEdWZzS3F5MXIwMGF6NHZ4VHI0WmQxYmozblRxYy1KcEtKd21fWEJ5X2NCYk9tOS1ZYXEwSkxIaVNpb20zNTJ6RzFuOTNJRkNVV3h4Tm81VjlNbEpx?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T20:01:10.000Z"
+      },
+      {
+        "title": "ニューロモルフィック・コンピューティング",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51aGdkZThrQVcxYUVwZzJ5VHRKTFpQMkhnSnAtTHVjeVlBNkdSRVA5V05PODBMbTlDb0JwX196ZWdSbDJONFZEY21pUEg1WDhuQkUyRW5kS2h4eXB4MEZWX1BfVjhweEQ2clB4ZEJn?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T19:51:00.000Z"
+      },
+      {
+        "title": "ニデックのデータセンター冷却、モーター技術が武器",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaW8yU2xyclRFWFdJS3c5OVItOG5NLTF6Zl9SSDF5X1dpcno5aHQ4OTJVbTZRY282WmdRVlB1bFRDNndPWjNZNS1fN1ppNk5zcnZ2VWwzUTV5aXN2UXJWVWhWVkxES2JldmxZaWE2OFhhTC14V1EyaWotSUh2YnpoSjVGaVI?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T20:04:01.000Z"
+      },
+      {
+        "title": "「蓄電池や洋上風力にも本腰」、損保ジャパンに聞く新エネ向け保険の現状（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90M3lPeE55b3diLU85RjQ5X29ISzZSbG9mVkNrZHFNQjFDeDVVYm9uT2N3cFJaUWNGZ0JZUlVvNk9KRzhVRmJ5Ym5adzVBUEFIRXlSSkJ1LUdtdU9QOUJTT1hjRHFSWjg5YVJGbVo4TXJ1Zw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "量子テレポーテーション",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzLUdiUDlwMENrbTZjNlpWTFkybUNjYnVkVHZsRlNhUHk0T2duWVJYcWFiYWZlRGdoVDdZZndQNjR6QjA4dE5RMlVJb0d1ZnVhRzl1OS00d25WS3dzVnNfNWIzMDZMNS1IT2pSSS13?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T19:55:00.000Z"
+      },
+      {
+        "title": "起動不能なパソコンは「回復環境」で修復、USBメモリーは正常時に作成",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hWFRKZzhXRFZCNlY5Nm1tNGVWTmEzZWRTaTdHTUw5Uzl3bHNaWkJPeWJkQjdvc01TNzhsSVAxb0JCaWJQbTh0UGVWb2RIcmF6NWpFbjNfbjNsbFkzRzNRb01BZ1N2dXladkpPMg?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "IT経営 - IT経営（3617ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JamZPdnVDU1JDOExteWV5dUhhVXRESjFhd3dNcG56MzU2aTExZ3dBZmtUQ0h0VkVSRU5LQUlZWXRLallweHRMU2ZEYU5ra3o2cDlhdHlUbnNaVElUM2ZOWTdJb3JvUjJ2WmxpUFNBWQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T20:56:19.000Z"
+      },
+      {
+        "title": "それは事務所か工場か、データセンター紛争に悩む自治体 規制は地区計画で（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbnBOaFB1YTVHdjNTWG9BOHFRZ0xVWVBINWkzQ1c3T3ozLVJCcjRpcGpxaGZXX1hESnpibXFFR1ZnNWotZTBQVUllSWtaLS15cjhfUVAtWW82VXJQNHdTOGNzN2dEbEFhZ2RGTnBwV0czZWVmYk1xYWJEaEVxQTA4ZWVjQmpwRVJGUkVBckFDd0pFVkp0bmlMbEJn?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "ITpro EXPO 2010 出展社ニュース",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ250NGZaTlREdVY1LWFhUnZUMDlnNTBMaU1ONEZpVGx2OVJEc3pjOW9lT2ZlNS1DRlg0dDFIbHZNUW5scEs1Y0V2aFZfaXpkVDNuLU5fUk5fekJRRENXbV85dVB6c0Fxd0Y2bDFqQjR5S1NuMzlUSDdUeFhlSTF2LWJnMjBEal93d2RLal9TZ2lIQkdDUGVZc3VoRi03amU3?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-10T15:44:09.000Z"
+      },
+      {
+        "title": "ダイフク、自動化の波に乗り1兆円企業へ ソリューション提案で加速",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05Ti1vYWNoRXNVMV9UTjBteHZIdFZoTjY2al9QNm1Db21ZUjgwZ2JsU05DeDMtc1hLeEZscmdsS0hJWW5YdDBxUl85ZkI0dGpnSEI0Tm1sU19oWnhYUTNXNVFIMk43Wml5azRFQQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:01:00.000Z"
+      },
+      {
+        "title": "東急がポイント会員システムを刷新、内製化へ一歩／ラピダス、光電融合のけん引役になれるか 注目記事を音声化",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hZC1hUmZpU3FGa1N3NXdseDJ3alFZVGMtcVZ5emE0MWFmV2NTbWp4Ym83dHd3QVAxNnlaRWp4LW0zM2JEdHE5blVfSzlQRXY0RTkwencyV21sODROVk8teUU1WWpjeFczX3c?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "マツダ、新型CX-5にパナオート製コックピット統合ECU 「VirtIO」初採用",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UaGVtWGs5aTZ1NkRSbkNnVHZIUl8zY0Jrc3VVdko2Y3M2OFVtUm5CX2ZkeGs1LVpjcXlQZjkxQzNXR0MxZ3ljM3g1QUtrX0dKMXhoZTdpNEl0OUs3QlJEU0VHVWV0UHJGYUg1WA?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "マツダ、新型CX-5にパナオート製コックピット統合ECU 「VirtIO」初採用（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWWlWYzZhT3U3NWNrWFNCcjVzZ21uWVQ0TFZUWkJUQmFsSHVmaFV3TVdtQXBwdkRRZ05tcTJCTHVqSUE1UWdjd0M0RzUwUjh5aF9zQ1h4amdEQWxXQ296RXlseVFlTWtWNzQxMm1VOWVHRWYwX0FUSGU1aFdwYWRuVGt5VEZTS0ZMV291SHQ1Y2Z5TnFFSmE5Qk5n?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "道路・橋梁メンテナンス、やばい自治体ランキング",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqeTJLTjYzWXRUaFJHVVNxN1VqeGE0ekw0R2FzdEcyUWpkLTdQY0d5elNWOVhtQXpyaTJSY3BsaWxtRlFYTm4wdmM2SzgxamJTY0YyNUhLdDZ4M1JsY3pF?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T23:17:51.000Z"
+      },
+      {
+        "title": "技術士一直線2019",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTmJQVDBwWm1vQ1JWNFFvY1BKaVZiQkw2WmFmalJHem5fakVxYWthaEhfOW1QM2NMT0REX1FQUERGbmJhS2d6UXBybTdRVHB0dWNodE9Wa3FJTmRZSjRYNGRWR0VtT2dmOGVtY3czNEREVGpsMzVUQU9SeExZNFNLVkhuR1NVdkpoZVdDQTFnVFlfOU84TjZLaUhYcWw0RnpIZml1Vi02WGItdGtLZjM4Zm5rc2lSQmh1QW10NmJjRlAwakhJMmJ6el9pZEhtQjQtUTJTNHZHYmpBbW1xSFlkS2R3?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T03:50:47.000Z"
+      },
+      {
+        "title": "洋上風力発電",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iY3NkMXdJYUtYWXZJWkdVdERVZVVaWnQzVk5LckVSX3Q0bjY4VTZpVTFqeHFyY2YyNmVWaHlQZ3l3R2RYbkNqX0Jya3JwUEFxRkY2WG9pZmQ3dTZpODZVem10TkVxd1FTTU1jS3Z3?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-12T19:54:00.000Z"
+      },
+      {
+        "title": "いまさら聞けない疑問",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeG9yZU9RZmxVOEg2NjlXLXdpOVNlRDUzVUFRM0NMcmJhV2c0cS1yYXpEeDRDWHlJZnJlT2hrc3d6UTFWdlM4cTZ4c0ZlM1Qwc1k0cnRJZU9LbFpnS1JZSUJHQ1doMlU3bHFfbEl1NjM1SE5nS3lYVEw2eFBITzB6b25JbjZMNkZKR2JLNjBKaHotSVpQN3E5dExWT0J4dVdPSFp2dWtLdnJ1TmxnWGh6b3lKSE9JN0Ixd2ZNYk5HZEFKNkFPaEZ6OHN3RjJHM3YtU2U3aDNBaV9abEYxTlZoeEFvUFhjMnVaYW5v?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T15:43:33.000Z"
+      },
+      {
+        "title": "「企業のIT力」ランキング2007",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMkxHQ2xDenNaYW9xODRfbk9EbkFseTZnc2lyZTFqdGhfVzVJbHRyTllFRDVTY1JMSTJ3eEs4ZlJDa0w0alhvQ2hsdkduOGdvckVGVWVTZkdtSU9wdTUyX0RPaGpqbjBEb05TbWJkNnFzQmN5dVF4dDBrRjQ0b0JMd1hkbzNabXczYlhORWJxLTBxMHpNcWsxUXFNdXcxZFU4VnVQYjkwZWR1NndYY1FmOWI2TVB6MEtvRVRmcHl1c1h0S1F0OWJBcg?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-10T15:47:00.000Z"
+      },
+      {
+        "title": "日経エレクトロニクス・ニュース（NEニュース）",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1cTExU3pmemxLTkxKM1JlSjBYUzIyLXg3dmNickFRS0V2MXRmckZkNlpwNEJHXzhoUG5xcVNFRHZrNUh2QTdPN2xQclA1WHI3SDVhQWNoUTRLcTl0dC15ak8yU252dw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T17:48:22.000Z"
+      },
+      {
+        "title": "事故は語る",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTndyVjRoZm8xWUpfQlRSSHJzaXBwd2gzZ09TbzdEMzdtXzVNUlVSNUtjY0E1cHlmSHVUbjNLTk5oLWxabXd1QWY0OTRJR3QtcjFmR2xWdFJXb0Y2a3BBMW9lellqWVJacjRET0JBUnE4R2FNUkNxUkV4S29BVkthUXBET2lkc3htZjk4dDFMZFZGREJqMHFCMmVHdnBwUG9fSkNPRXNJZXV4YzlTb0xtTWVXVzhvbVlNamNFSEkxRWpDSXl5cEU2R2tTRTU0NlhnSHpOTWZHM3VJckFvcnhQSVZad2Z4VlN0YXN4cDlOX0hqLWh5RjdUMHY0TG1QVWc?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-11T03:51:24.000Z"
+      },
+      {
+        "title": "「FIP転」併設で強み生かす、大阪ガスに聞く蓄電池・事業戦略（2ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IbHNfSGtOZlkwRUh0SkF6ekFkNEpWSkZJMHBOdGt4Q2ZEa0JEUXlRa2k5eWdYclk1b1FPMk55V2xyWjBXZDZQZ1ViMHJiemlGR0tUQUVpSGVZVG5GMjVuUktJUUhMLXBVejlacnRJTHpvUQ?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "木現しを採用しやすくする火熱遮断壁等、設計上の留意点を安井昇氏が解説（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qdFJXSV9Vbzk5MnlxZ1llM0hkMloxSkpjeVg0Uk4yNVRNbDRUV1hpRWRVVm9aMzRQVEROOUdFbGc5aXVWcEdncnF6UnJrNVZ4MGNJR01GcG42a05tV0hHMFQ2OGdSTXEyS2Z3SnZNZUd1dw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      },
+      {
+        "title": "サイバー詐欺で18社が損失を計上 海外拠点で頻発、支払い統制がカギか（3ページ目）",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1nRVhuVzRfTkcwa0FLRmM0eXBwZ3hURVo5WUVpUmVBa2FHMTlOLXlYVExrRERxbDVtR25ZMUE5LTdZSVJwLWI5M2RDZjRyM21DM08xX0xoNmdiTUlRSGMxREpMODJ6ZDdobWxoTEh1WE0zdw?oc=5",
+        "source": "日経クロステック",
+        "publishedAt": "2026-07-09T20:00:00.000Z"
+      }
+    ]
+  },
+  {
     "date": "2026-07-12",
     "trends": [
       "ロボティクスにおけるAIモデルの進化と実世界応用が加速しています。特に、ラベルなし学習の世界モデルや、複雑なタスクを高精度でこなすAIの登場が注目されます。",
