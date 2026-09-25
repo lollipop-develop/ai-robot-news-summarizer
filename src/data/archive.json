@@ -1,5 +1,557 @@
 [
   {
+    "date": "2026-09-25",
+    "trends": [
+      "フィジカルAIの演算能力と知覚能力が飛躍的に向上し、医療、宇宙、インフラ検査といった高度な実世界タスクへの適用が進展しています。",
+      "協働ロボットの普及を加速させるため、より安全で導入しやすい製品や、それを支える大規模IoT基盤の整備が進んでいます。",
+      "ロボットの自律性と堅牢性を高めるため、ビジョン・言語・アクション（VLA）モデルや世界モデルの安全性・適応性向上、そして多様な環境でのナビゲーション技術が進化しています。"
+    ],
+    "categories": {
+      "論文・技術研究": [
+        {
+          "title": "日本発スタートアップがNVIDIA超えのエッジAIチップを発表、3.36PFLOPSの性能を実現",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news063.html",
+          "source": "MONOist",
+          "publishedAt": "2026-09-24T21:45:00.000Z",
+          "summary": "日本のスタートアップEdgeCortixが、フィジカルAI向けの次世代スケーラブルAIチップレットプラットフォーム「RAIDEN」を発表しました。最大3.36PFLOPSというNVIDIAを凌駕するAI処理性能を持ち、エッジでの高性能AI処理を可能にすることで、ロボティクスや自動運転の進化を加速します。",
+          "impactScore": 9,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2609/25/cover_news063.jpg"
+        },
+        {
+          "title": "PFNとACSL、小型無人機のAI自律制御技術で航路自動生成デモを実現",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news036.html",
+          "source": "MONOist",
+          "publishedAt": "2026-09-24T05:00:00.000Z",
+          "summary": "Preferred Networks (PFN) とACSLは、小型無人機のAI自律制御技術において、航路の自動生成デモが可能になったと発表しました。この技術はNEDOの「K Program」の成果で、ドローンの自律的な運用能力を大幅に向上させ、多様な産業用途への応用が期待されます。",
+          "impactScore": 8,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2609/24/cover_news036.jpg"
+        },
+        {
+          "title": "#AAMAS2026 ブルー・スカイ賞受賞：変化する環境に対応するエージェント向け基盤世界モデル",
+          "link": "https://robohub.org/aamas2026-blue-sky-award-winner-foundation-world-models-for-agents-in-changing-environments/",
+          "source": "Robohub",
+          "publishedAt": "2026-08-21T08:23:06.000Z",
+          "summary": "Florent Delgrange氏がAAMAS 2026のブルー・スカイ賞を受賞しました。これは、変化する環境下でエージェントが信頼性高く学習し、検証し、適応するための基盤となる世界モデルに関する研究です。この進歩は、動的な実世界でのロボットの適応能力を向上させる可能性を秘めています。",
+          "impactScore": 7,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/08/Screenshot-2026-08-03-at-08.57.13-1024x384.png"
+        },
+        {
+          "title": "Black Forest LabsがオープンなロボットAIモデル「FLUX 3 Action」を発表",
+          "link": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/",
+          "source": "The Decoder",
+          "publishedAt": "2026-09-24T17:01:03.000Z",
+          "summary": "Black Forest Labsが、カメラ映像からロボットの次なる行動を予測するオープンなロボットAIモデル「FLUX 3 Action」をリリースしました。このモデルはわずか70億パラメータでRoboLab-120ベンチマークで記録を樹立し、以前のトップモデルより最大3.95倍高速に動作するため、ロボットの自律行動能力を飛躍的に向上させます。",
+          "impactScore": 8,
+          "imageUrl": "http://the-decoder.de/wp-content/uploads/2026/09/BFL_flux_3_action.mp4"
+        },
+        {
+          "title": "TIAGoロボットにおける物理安全リフレックス機能の複合デモ（QERRA-v2 Classical）",
+          "link": "https://discourse.openrobotics.org/t/webots-demo-6-compound-physical-safety-reflex-on-tiago-qerra-v2-classical/58372",
+          "source": "ROS Discourse",
+          "publishedAt": "2026-09-24T12:52:58.000Z",
+          "summary": "Webotsでのシミュレーションで、PAL Robotics TIAGoロボットに実装されたQERRA-v2 Classicalの物理安全リフレックス機能がデモンストレーションされました。このシステムは、緊急時にホイールモーターを即座にクランプし、人間に安全な距離を保ちつつ、タスクを中断せずにリカバリポリシーを適用することで、産業環境でのロボットの安全性を飛躍的に向上させます。",
+          "impactScore": 8,
+          "imageUrl": "https://emoji.discourse-cdn.com/noto/blush.png?v=15"
+        },
+        {
+          "title": "デュアル共分散ガウシアンスプラッティングSLAM：リアルタイムトラッキングにおけるレンダリングと位置合わせの分離",
+          "link": "https://arxiv.org/abs/2609.25746",
+          "source": "arXiv",
+          "publishedAt": "2026-09-24T04:00:00.000Z",
+          "summary": "3DガウシアンスプラッティングSLAMにおいて、レンダリングと位置合わせの要求が衝突する問題を解決するデュアル共分散パラメータ化が提案されました。この手法は、レンダリング用とトラッキング用の二つの共分散を用いることで、ロバストなリアルタイムトラッキングとオドメトリドリフトの低減を両立し、自律ロボットのナビゲーション精度を向上させます。",
+          "impactScore": 8,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "PLAT：特権的潜在遷移学習によるヒューマノイドの疎な時系列キーフレーム追跡制御",
+          "link": "https://arxiv.org/abs/2609.25754",
+          "source": "arXiv",
+          "publishedAt": "2026-09-24T04:00:00.000Z",
+          "summary": "ヒューマノイドロボットが疎な未来のキーフレームと到達時間のみを受け取り、安定した全身運動を実行するPLATフレームワークが発表されました。これは密なモーション追跡と疎な目標条件制御を橋渡しし、訓練時に高密度な目標シーケンスを特権的監視として利用します。この技術はUnitree G1ヒューマノイドロボットで検証され、長期間のコマンド下でも高い精度と安定性を維持し、ヒューマノイドの計画能力を向上させます。",
+          "impactScore": 8,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "MedVLA：医療ロボットの精密操作のための階層型ビジョン・言語・アクションフレームワーク",
+          "link": "https://arxiv.org/abs/2609.25756",
+          "source": "arXiv",
+          "publishedAt": "2026-09-24T04:00:00.000Z",
+          "summary": "精密医療ロボットの安全かつ解釈可能な操作を可能にするため、階層型ビジョン・言語・アクション（VLA）フレームワークMedVLAが提案されました。高レベルのマルチモーダル推論と低レベルの機能制約実行を組み合わせることで、従来のVLAモデルを大幅に上回る95.0%のタスク成功率を達成。この技術は、医療現場でのロボット支援手術の安全性と精度を高める重要な一歩です。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "転倒目標捕獲における安全な自由飛行ロボット宇宙船運用のための制御バリア関数",
+          "link": "https://arxiv.org/abs/2609.25905",
+          "source": "arXiv",
+          "publishedAt": "2026-09-24T04:00:00.000Z",
+          "summary": "転倒する宇宙目標物の捕獲作業において、自由飛行ロボット宇宙船の安全運用を確保するためのモジュール型制御バリア関数（CBF）フレームワークが発表されました。ESAのガイドラインに基づき、安全ゾーンや要件をCBFに変換し、衝突回避、姿勢制御、ロボット関節制限などを軽量なQPで実現。高忠実度シミュレーションで検証され、複雑なオンオービットサービスシナリオでの安全性と効率性を示しています。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "超低コスト壁登りロボットの設計と実装：インフラ亀裂検出用",
+          "link": "https://arxiv.org/abs/2609.26130",
+          "source": "arXiv",
+          "publishedAt": "2026-09-24T04:00:00.000Z",
+          "summary": "インフラの亀裂検出のための超低コスト壁登りロボットが開発されました。CNN、EfficientNet-B0、YOLOv8を統合した深層学習パイプラインで亀裂を効率的に識別。ファンベースの負圧吸着システムと軽量3Dプリントシャーシにより、壁面や天井を走行し、リアルタイムで画像を撮影します。総コスト約25ドルの手頃さで、発展途上国でのインフラ検査に革新をもたらす可能性を秘めています。",
+          "impactScore": 8,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "Shaft-Configuration-Adaptive Catheter Tip Position Estimation via Motor-History Conditioned Residual Learning",
+          "link": "https://arxiv.org/abs/2609.26304",
+          "source": "arXiv",
+          "publishedAt": "2026-09-24T04:00:00.000Z",
+          "summary": "医療用カテーテルにおいて、患者の解剖学的構造や摩擦に起因する不明なシャフト構成下での高精度先端位置推定を実現するため、モーター履歴条件付きGRU残差推定器が提案されました。多方向掃引戦略で幾何学的カテーテルモデルをキャリブレーションし、モーター測定値のみに基づいてタスク空間の残差を予測します。16種類のシャフト構成で平均3.3mmのRMSEを達成し、医療ロボットの精密ナビゲーションを大幅に向上させます。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "SafeLoop：ビジョン・言語・アクション操作のためのリスク認識型ロールバック",
+          "link": "https://arxiv.org/abs/2609.26313",
+          "source": "arXiv",
+          "publishedAt": "2026-09-24T04:00:00.000Z",
+          "summary": "ビジョン・言語・アクション（VLA）モデルの長期間実行における脆弱性を解決するため、ハザード予測とロールバック回復機能を備えたSafeLoopが提案されました。これは、VLAモデルのパラメータを変更せず、リスク予測器が衝突や物体落下などのハザードを事前に察知。危険時に安全なチェックポイントにロールバックすることで、ハザード発生ケースを約70%削減しつつ、タスク成功率と基本ポリシーの制御速度を維持し、汎用ロボット操作の安全性を大幅に向上させます。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        }
+      ],
+      "実用・社会実装": [
+        {
+          "title": "NTTドコモビジネスがフィジカルAI向けIoTサービスを拡充",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news067.html",
+          "source": "MONOist",
+          "publishedAt": "2026-09-24T22:45:00.000Z",
+          "summary": "NTTドコモビジネスは、IoTサービス「docomo business SIGN」でフィジカルAI向け機能を拡充します。2026年12月にはソブリンAI環境を、2027年3月には数万回線規模のIoT運用に対応する新メニュー「Pro」を提供開始。これにより、AIと実世界の連携を強化し、大規模なIoTソリューション展開を支援します。",
+          "impactScore": 7,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2609/25/cover_news067.jpg"
+        },
+        {
+          "title": "堀場製作所、燃料電池触媒の自動・自律実験システム開発を本格化",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news009.html",
+          "source": "MONOist",
+          "publishedAt": "2026-09-24T02:00:00.000Z",
+          "summary": "堀場製作所は、燃料電池用触媒材料の研究開発を効率化するため、自動・自律実験システムの開発を本格化すると発表しました。複数の分析・計測装置とソフトウェアを統合し、実験プロセスを自動化することで、開発期間の大幅な短縮と効率向上を目指します。",
+          "impactScore": 7,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2609/24/cover_news009.jpg"
+        },
+        {
+          "title": "メキシコのIEEEチームがロボットとAIを学べるポータブル教育プラットフォームを開発",
+          "link": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-09-24T18:00:04.000Z",
+          "summary": "メキシコのIEEEチームが、ロボティクスとAIを教室で体験できるポータブル教育プラットフォーム「RoboMeshA」を開発しました。この自己完結型システムは、専門施設がない学校でも実践的な学習機会を提供し、次世代のエンジニア育成に貢献します。",
+          "impactScore": 6,
+          "imageUrl": "https://spectrum.ieee.org/media-library/four-young-adult-students-laugh-together-while-one-of-them-holds-a-robot-shaped-like-a-hexagonal-cylinder.jpg?id=67845427&width=1245&height=700&coordinates=0%2C156%2C0%2C157"
+        },
+        {
+          "title": "エプソンがコンパクトな新型協働ロボット「AX6」を発表、ノーコードプログラミングに対応",
+          "link": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-09-24T14:51:07.000Z",
+          "summary": "エプソンロボットが、コンパクト設計とノーコードプログラミングが特徴の新型6軸協働ロボット「AX6」を発表しました。軽量で力・パワー制限機能を備え、導入と操作の簡素化により、幅広い製造現場での自動化を促進し、生産性向上に貢献します。",
+          "impactScore": 7,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/09/Epson-AX6-Cobot_Product-05.jpg"
+        },
+        {
+          "title": "ANYboticsの四足歩行ロボット「ANYmal」がドア開閉による自律検査を実現",
+          "link": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-09-24T13:27:58.000Z",
+          "summary": "ANYboticsは、四足歩行ロボット「ANYmal」がドアの開閉を通じて建物内へのアクセスを可能にする技術を発表しました。dormakabaおよびLEGIC Identsystemsとの提携により、ロボットは社員のようにバッジで認証し、自律的に検査業務を実行できるようになり、施設管理の効率を大幅に向上させます。",
+          "impactScore": 8,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/09/ANYbotics-Door-Opening-Inspection_02.jpg"
+        }
+      ],
+      "ビジネス・投資・経済": [
+        {
+          "title": "世界の工場で稼働するロボットが500万台に到達、IFRが報告",
+          "link": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-09-24T20:15:51.000Z",
+          "summary": "国際ロボット連盟（IFR）の報告によると、世界の工場で稼働する産業用ロボットの台数が500万台に達しました。中国が依然として設置台数を牽引していますが、米国とドイツも重要な市場であり、産業オートメーションの普及が加速していることを示しています。",
+          "impactScore": 8,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/09/Graphic_World_Robotics_2026_GLOBAL.webp"
+        }
+      ]
+    },
+    "otherArticles": [
+      {
+        "title": "帰納型の「情報の流れ分析法」と演繹型の「ワークデザイン法」",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news018.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T23:00:00.000Z"
+      },
+      {
+        "title": "ソフトPLCがAIの「道具」に、簡単導入のPLCドラレコカメラも",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news058.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T22:15:00.000Z"
+      },
+      {
+        "title": "北海道でのEV長期利用を目指す、帯広日産がバッテリー容量保証を独自に上乗せ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news066.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T22:00:00.000Z"
+      },
+      {
+        "title": "社内論理よりも顧客を第一に考える企業へ　ニデックの「再生」に向けた事業施策",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news036.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T21:30:00.000Z"
+      },
+      {
+        "title": "三菱電機の安全シーケンサーが欧州機械規則に適合、TUVのEU型式認証取得",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news039.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T21:15:00.000Z"
+      },
+      {
+        "title": "AIと人の共創で進化する「G-SHOCK」　デザイナーが語る製品化の舞台裏",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news009.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T21:00:00.000Z"
+      },
+      {
+        "title": "パナソニックの機内エンタメ向け製品群がEyesafe認証取得",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news047.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T07:00:00.000Z"
+      },
+      {
+        "title": "ウエハー研磨時の状態推移など　富士フイルムが圧力変化をリアルタイム可視化",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news031.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "ナフサショックの影響が分かる記事まとめ（Part1）",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news016.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T03:45:00.000Z"
+      },
+      {
+        "title": "テスラの「サイバーキャブ」からガンダムを感じる",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news035.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T03:30:00.000Z"
+      },
+      {
+        "title": "AI対AIなら勝つのはどっち　審判の日は近い？",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news043.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T03:00:00.000Z"
+      },
+      {
+        "title": "AIの部下がAI？　「AIオーケストレーション」って何だろう",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news041.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T02:45:00.000Z"
+      },
+      {
+        "title": "全員が「AIエージェント」の部門は成立するのか、デモを見てきた",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news046.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T02:30:00.000Z"
+      },
+      {
+        "title": "クラレの全社横断型組織「INC」／Japan Mobility Show Bizweek 2026の見どころ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news048.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T01:30:00.000Z"
+      },
+      {
+        "title": "国内の総就業者数は直近10年で7.1％増、特に情報通信業が伸び44.5％増",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/24/news017.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-24T01:00:00.000Z"
+      },
+      {
+        "title": "Why you should look beyond the spec sheet when choosing motion architecture",
+        "link": "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-09-24T16:39:14.000Z"
+      },
+      {
+        "title": "New AI blood test predicts heart disease 15 years early",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260716023603.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-07-19T14:58:00.000Z"
+      },
+      {
+        "title": "What’s coming up at #IROS2026?",
+        "link": "https://robohub.org/whats-coming-up-at-iros2026/",
+        "source": "Robohub",
+        "publishedAt": "2026-09-24T09:50:46.000Z"
+      },
+      {
+        "title": "Top AI experts badly underestimated how fast the field is moving, study finds",
+        "link": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T19:18:33.000Z"
+      },
+      {
+        "title": "Sakana AI hires Jürgen Schmidhuber, inventor of deep learning, world models, and your next ChatGPT update",
+        "link": "https://the-decoder.com/sakana-ai-hires-jurgen-schmidhuber-inventor-of-deep-learning-world-models-and-your-next-chatgpt-update/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T18:06:13.000Z"
+      },
+      {
+        "title": "Google's Suncatcher project aims to put AI data centers in orbit powered by solar energy",
+        "link": "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T17:45:44.000Z"
+      },
+      {
+        "title": "Anthropic says Claude discovered a new enzyme system, but CRISPR researchers call it routine genome mining",
+        "link": "https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T16:04:26.000Z"
+      },
+      {
+        "title": "AI performance costs are falling faster than those of any previous technology",
+        "link": "https://the-decoder.com/ai-performance-costs-are-falling-faster-than-those-of-any-previous-technology/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T16:00:18.000Z"
+      },
+      {
+        "title": "U.S. bill proposes permanent ban on artificial superintelligence and creation of new federal AI agency",
+        "link": "https://the-decoder.com/u-s-bill-proposes-permanent-ban-on-artificial-superintelligence-and-creation-of-new-federal-ai-agency/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T14:42:23.000Z"
+      },
+      {
+        "title": "OpenAI's agents went after government and university sites months before Hugging Face",
+        "link": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T14:01:05.000Z"
+      },
+      {
+        "title": "Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door",
+        "link": "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T13:35:44.000Z"
+      },
+      {
+        "title": "Meta gives its Muse AI agent video avatars, email addresses, and Mac control",
+        "link": "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-24T13:10:54.000Z"
+      },
+      {
+        "title": "Ros2_unbag is now available via the ROS 2 buildfarm 📦",
+        "link": "https://discourse.openrobotics.org/t/ros2-unbag-is-now-available-via-the-ros-2-buildfarm/58367",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-09-24T09:29:39.000Z"
+      },
+      {
+        "title": "Fisheye-VLA: Decoupling Coverage and Acuity for Manipulation with a Single Fisheye Camera",
+        "link": "https://arxiv.org/abs/2609.25750",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation",
+        "link": "https://arxiv.org/abs/2609.25785",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "MOLA LiDAR-Inertial Odometry (MOLA-LIO) on the COMFORT Localization Benchmark",
+        "link": "https://arxiv.org/abs/2609.25813",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Beyond Reconstruction Error: Analytical and Data-Driven Action Tokenization for Autoregressive Vision-Language-Action Models",
+        "link": "https://arxiv.org/abs/2609.25820",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Sometimes You Gotta Run Before You Can Walk: Run-then-Walk Scheduling Strategy for VLM Autonomous Driving",
+        "link": "https://arxiv.org/abs/2609.25831",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "What is the Better Curriculum: Controller-Shaped Grasping Behavior for Contact Force-Sensitive Manipulation",
+        "link": "https://arxiv.org/abs/2609.25887",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Robust Active-Perception Control for Global-State-Free Aerial-Ground Cooperation",
+        "link": "https://arxiv.org/abs/2609.25898",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "You Should Be Properly Scoring Your Odometry",
+        "link": "https://arxiv.org/abs/2609.25900",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Vision-based Underwater Formation Control With Input Saturations via Barrier Lyapunov Functions",
+        "link": "https://arxiv.org/abs/2609.25917",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Unsigned Distance Maps on 2D Point Cloud Registration",
+        "link": "https://arxiv.org/abs/2609.25932",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Destination Support Restoration for Finite-Set Multimodal Trajectory Prediction",
+        "link": "https://arxiv.org/abs/2609.25942",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "An Action Is Worth One Patch: Unified World-Action Modeling with PatchWAM",
+        "link": "https://arxiv.org/abs/2609.25961",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Predict Before You Step: Auditable Occupancy Forecasting for Dynamic Obstacle Avoidance under Sparse Guidance",
+        "link": "https://arxiv.org/abs/2609.25969",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Safety-Constrained Model Predictive Control for an Omnidirectional Walking Assistive Robot Using Control Barrier Function",
+        "link": "https://arxiv.org/abs/2609.25994",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Manipulation with Stability Guarantees: Linear Deformable Objects with Non-negligible Physical Response Grasped at Multiple Location",
+        "link": "https://arxiv.org/abs/2609.26004",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Skytopia: Monocular Drone Navigation with Action-Conditioned Latent World Models",
+        "link": "https://arxiv.org/abs/2609.26007",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Towards Intent-Aware Human-Robot Teaming: A Platform for Search-and-Rescue Operations",
+        "link": "https://arxiv.org/abs/2609.26051",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "StrataVLA: Hierarchical and Efficient 3D Geometric Grounding for Vision-Language-Action Models",
+        "link": "https://arxiv.org/abs/2609.26071",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Situation Aware Locomotion for Dual Mobile Cobots in Shared Environments",
+        "link": "https://arxiv.org/abs/2609.26083",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Vision-Language Models as copilots for Autonomous UAV Navigation: Analysis of Latency and Reliability in Degraded Environments",
+        "link": "https://arxiv.org/abs/2609.26084",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Acoustic Ellipses: Bio-Inspired Omnidirectional Echolocation in Cooperative Multi-Agent Systems using Frequency Sweeps",
+        "link": "https://arxiv.org/abs/2609.26085",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "GDLAM: Group-Disentangled Latent Action Model for Highly Disentangled Embodied Pretraining",
+        "link": "https://arxiv.org/abs/2609.26118",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "StepTrigger: Contact-State-Triggered Backdoor Attacks on VLM-Powered Legged Robots",
+        "link": "https://arxiv.org/abs/2609.26131",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Toward Self-Repairing Ubiquitous Robots Using Goal-Oriented Agentic AI in Human-Robot Interactions",
+        "link": "https://arxiv.org/abs/2609.26155",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Silent Sabotage: Internal State Triggered Backdoor Attacks on LLM-Powered Robotic Systems",
+        "link": "https://arxiv.org/abs/2609.26184",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Manipulation of Deformable Linear Objects Using Model Predictive Path Integral Control with Bidirectional Long Short-Term Memory Learning",
+        "link": "https://arxiv.org/abs/2609.26238",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "High-Bandwidth Biomimetic Finger for Tactile-Transparent Remote Texture Sensing",
+        "link": "https://arxiv.org/abs/2609.26256",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Multi-Axis Selective Decoupling Framework for Free-Floating Space Manipulators",
+        "link": "https://arxiv.org/abs/2609.26267",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World?",
+        "link": "https://arxiv.org/abs/2609.26292",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "TriWorldBench: A Tri-View Consistency Perspective on Embodied World Models",
+        "link": "https://arxiv.org/abs/2609.26314",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "ArborSplat: Online Semantic Gaussian Splatting SLAM for Orchards",
+        "link": "https://arxiv.org/abs/2609.26315",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering",
+        "link": "https://arxiv.org/abs/2609.26360",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "MAVP: Map-Aware Visuomotor Policies for Mobile Manipulation",
+        "link": "https://arxiv.org/abs/2609.26378",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      },
+      {
+        "title": "SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation",
+        "link": "https://arxiv.org/abs/2609.26408",
+        "source": "arXiv",
+        "publishedAt": "2026-09-24T04:00:00.000Z"
+      }
+    ]
+  },
+  {
     "date": "2026-09-24",
     "trends": [
       "具現化AIとヒューマノイドロボットの実用化加速: ファウンデーションモデルのロボットへの応用、ヒューマノイドの実用化議論、中国の国家戦略など、知能を備えた物理ロボットの社会実装への動きが加速しています。",
@@ -15816,549 +16368,6 @@
         "link": "https://roboticsandautomationnews.com/2026/08/24/abacus-ai-complete-guide-chatllm-personal-agents-supercomputer-and-studio-explained/104435/",
         "source": "Robotics & Automation News",
         "publishedAt": "2026-08-24T15:56:34.000Z"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-24",
-    "trends": [
-      "高度なシミュレーションと倫理的AI開発の加速: ロボットの行動ポリシー訓練や人間との協調における倫理的判断を支援するシミュレーション環境やフレームワークの開発が活発化しており、実世界での安全で社会的に受容されるロボットの実現に向けた研究が進んでいる。",
-      "実世界でのフィジカルAIと自動化の浸透: ロボットタクシーの高度なコンピューティングシステム、自律型ロジスティクスパレット、防衛向け無人機技術の応用など、具体的な産業や社会インフラでの物理的なAIおよび自動化ソリューションの実装が加速している。",
-      "ロボット導入の経済的・戦略的価値の向上: ロボットの費用対効果が人間を上回る予測や、ナノロボティクス市場の大幅な成長予測、特定用途ロボットへの戦略的投資など、ロボット技術の経済的合理性と将来性に対する期待が高まっている。"
-    ],
-    "categories": {
-      "論文・技術研究": [
-        {
-          "title": "QERRA-v2：ロボットの社会的・生態学的行動選択のための第3層「THRIVE」を追加",
-          "link": "https://discourse.openrobotics.org/t/update-on-qerra-v2-adding-a-3rd-layer-thrive-for-social-and-ecological-action-choices-in-robotics/57614",
-          "source": "ROS Discourse",
-          "publishedAt": "2026-08-23T16:23:19.000Z",
-          "summary": "QERRA-v2に、衝突回避や倫理違反防止に加え、ロボットの社会的・生態学的行動選択を評価する第3層「THRIVE」が追加された。人間中心および持続可能性の12のベクトルで行動をランク付けし、より人々に受け入れられるロボットの実現を目指す。",
-          "impactScore": 9,
-          "imageUrl": "https://emoji.discourse-cdn.com/noto/slightly_smiling_face.png?v=15"
-        },
-        {
-          "title": "ロボットのポリシー訓練と評価のためのインタラクティブな世界シミュレーター",
-          "link": "https://robohub.org/interactive-world-simulator-for-robot-policy-training-and-evaluation/",
-          "source": "Robohub",
-          "publishedAt": "2026-07-20T08:39:44.000Z",
-          "summary": "ロボット学習において、実機でのデモンストレーション収集とポリシー評価はコストが高い課題。このシミュレーターは、仮想環境でロボットの行動ポリシーを効率的に訓練・評価できるため、開発期間短縮と安全性向上に貢献する。",
-          "impactScore": 8,
-          "imageUrl": "https://aihub.org/wp-content/uploads/2026/07/twitter_1.mp4"
-        },
-        {
-          "title": "人間の信念を無視する世界モデルは行動予測を誤ることを新研究が示す",
-          "link": "https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows/",
-          "source": "The Decoder",
-          "publishedAt": "2026-08-22T09:00:20.000Z",
-          "summary": "新しい「メンタル世界モデリング」フレームワークは、信念や意図をAIの世界モデルに追加し、より正確な人間行動予測を可能にする。物理シミュレーションのみのモデルを上回り、人間と協調するロボット開発に不可欠な技術進展を示す。",
-          "impactScore": 8,
-          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/mental-world-model-nano-banana-pro.jpg"
-        },
-        {
-          "title": "GzSensorMonitor発表：Gazebo Harmonicでリアルタイムのセンサーフィードバックを可視化",
-          "link": "https://discourse.openrobotics.org/t/release-gzsensormonitor-real-time-sensor-feedback-inside-gazebo-harmonic/57613",
-          "source": "ROS Discourse",
-          "publishedAt": "2026-08-23T16:21:49.000Z",
-          "summary": "Gazebo Harmonic向けオープンソースプラグイン「GzSensorMonitor」がリリースされた。シミュレーション環境内でセンサーフィードバックをリアルタイムで直接可視化でき、ロボットの知覚、操作、ナビゲーション開発の効率を大幅に向上させる。",
-          "impactScore": 8,
-          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/optimized/3X/d/2/d2033f1bc7c37668cb3b218b4f4b77ede4712a4e_2_690x350.jpeg"
-        },
-        {
-          "title": "AIエージェントの「スキル」が有効な理由と限界に関する研究",
-          "link": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
-          "source": "The Decoder",
-          "publishedAt": "2026-08-22T12:15:10.000Z",
-          "summary": "プリンストン大学らの研究で、AIエージェントの「スキル」は知識より構造化されたワークフローで効果を発揮すると判明。しかし、スキルライブラリの増加が適切な指示特定を困難にする限界も指摘された。",
-          "impactScore": 7,
-          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/Agent-Skill-Pick.png"
-        }
-      ],
-      "実用・社会実装": [
-        {
-          "title": "Waymo、自社ロボットタクシーのNvidia搭載コンピューティングシステム詳細を公開",
-          "link": "https://roboticsandautomationnews.com/2026/08/21/waymo-reveals-nvidia-powered-compute-system-behind-its-robotaxis/104373/",
-          "source": "Robotics & Automation News",
-          "publishedAt": "2026-08-21T08:48:31.000Z",
-          "summary": "Waymoがロボットタクシー向け5nm ASIC搭載コンピューティングシステムの詳細を公開。1,000 TOPS超の機械学習性能を持ち、振動や極端な温度下でもミリ秒レベルの応答時間を実現し、自動運転の信頼性を向上させる。",
-          "impactScore": 8,
-          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/08/waymo-nvidia-compute-1.png"
-        },
-        {
-          "title": "Logic Robotics、鉄道-道路間輸送向け自律型パレットを発表",
-          "link": "https://roboticsandautomationnews.com/2026/08/21/logic-robotics-launches-autonomous-pallet-for-rail-to-road-transloading/104370/",
-          "source": "Robotics & Automation News",
-          "publishedAt": "2026-08-21T08:37:40.000Z",
-          "summary": "Logic Roboticsは、鉄道から道路への輸送（トランズローディング）を自動化するインテリジェントな自律型パレットソリューションを発表した。デジタルツインOSと連携し、倉庫内外での効率的な貨物移動を実現し、サプライチェーンの自動化を加速させる。",
-          "impactScore": 8,
-          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/08/Logic-Rail-Transloading.png"
-        },
-        {
-          "title": "米アンドゥリル、防衛向け無人機技術をフィジカルAIに応用",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yVmwxeGdGcmlaYXZpZ0xmb1lXWDlCZUhMLVV0b1J3alZTdDRsVlphSkVEQzlZTFpyR0dVcXZzbzk1dGVVM2haa1prbWNYVUhjbnhfS3BPYmFMS0pBQ0ZWd2pmNG5YY3J6Mk05VQ?oc=5",
-          "source": "日経クロステック",
-          "publishedAt": "2026-08-23T20:00:00.000Z",
-          "summary": "米国の防衛技術企業アンドゥリルは、防衛分野で培った無人機技術をフィジカルAIに応用し、その知見をさらに拡大している。これにより、過酷な環境下での自律型システムの性能向上と、新たな防衛ソリューションの開発が期待される。",
-          "impactScore": 8,
-          "imageUrl": ""
-        },
-        {
-          "title": "デジタルツインを活用し、設備投資前に自動化を検討する重要性",
-          "link": "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/",
-          "source": "The Robot Report",
-          "publishedAt": "2026-08-23T12:30:14.000Z",
-          "summary": "RoboDKは、デジタルツインがメーカーにとってロボットの評価やアプリケーション計画に役立つと提言。これにより、多額の設備投資を行う前に自動化の可能性を詳細に検討し、リスクを低減して効率的な導入を支援する。",
-          "impactScore": 7,
-          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/08/TRR-3_02.jpg"
-        },
-        {
-          "title": "ソフトウェア定義型製造が実際の工場運用にどう適合するか",
-          "link": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
-          "source": "The Robot Report",
-          "publishedAt": "2026-08-22T00:48:35.000Z",
-          "summary": "R2 LabsのRoby Lynn氏が、PLC、ロボット、AIを統合するソフトウェア定義型製造の重要性を解説。分断された製造システムを統一することで、工場全体の運用効率と柔軟性を大幅に向上させ、スマートファクトリーの実現を推進する。",
-          "impactScore": 7,
-          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/08/episode-258-featured.jpg"
-        },
-        {
-          "title": "AI上司が初の従業員解雇、人間の介入で自身のルールを再確認",
-          "link": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
-          "source": "The Decoder",
-          "publishedAt": "2026-08-23T12:31:59.000Z",
-          "summary": "Andon LabsのAIエージェント「Luna」が従業員を解雇したが、オペレーターからの明確な指示が必要だった。この事例は、AIが自律的に重要な決定を下す際の倫理的課題と、人間による監視・介入の重要性を浮き彫りにした。",
-          "impactScore": 7,
-          "imageUrl": "https://the-decoder.com/wp-content/uploads/2026/08/andon-labs-luna.png"
-        },
-        {
-          "title": "BrainChip、IBMのワークロード管理ソリューション向けAkidaバンドルをリリース",
-          "link": "https://roboticsandautomationnews.com/2026/08/21/brainchip-launches-symphony-community-akida-bundle-for-ibms-workload-management-solution/104376/",
-          "source": "Robotics & Automation News",
-          "publishedAt": "2026-08-21T09:09:16.000Z",
-          "summary": "BrainChipが、IBM Spectrum Symphony Community Edition上でAkidaニューロモーフィックプロセッサを運用できる無償のオープンソースソフトウェアバンドルを公開。開発者は既存の計算環境で低消費電力AIを効率的に利用できるようになる。",
-          "impactScore": 7,
-          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/08/brainchip-akida-PCIe-Board.png"
-        }
-      ],
-      "ビジネス・投資・経済": [
-        {
-          "title": "ロボットの費用対効果、3年以内に人手を上回る見込み：インテル調査",
-          "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news061.html",
-          "source": "MONOist",
-          "publishedAt": "2026-08-23T21:30:00.000Z",
-          "summary": "インテルの調査によると、回答者の60%が5年以内に多数のロボットを運用すると予測。2030年までに人間とロボットの協働体制が整うと67%が回答しており、ロボット導入の費用対効果が3年以内に人手を上回る可能性が示唆された。",
-          "impactScore": 8,
-          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2608/24/cover_news061.jpg"
-        },
-        {
-          "title": "ナノロボティクス市場、2034年までに314億ドル規模に成長予測",
-          "link": "https://roboticsandautomationnews.com/2026/08/21/nanorobotics-market-forecast-to-grow-to-31-4-billion-by-2034/104380/",
-          "source": "Robotics & Automation News",
-          "publishedAt": "2026-08-21T10:12:59.000Z",
-          "summary": "Polaris Market Researchの新たな調査によると、ナノロボティクス市場は2034年までに314.4億ドルに達する見込み。ターゲットを絞ったドラッグデリバリー、精密医療、再生医療などへの応用拡大が成長を牽引すると予測されている。",
-          "impactScore": 8,
-          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/08/nanorobotics-1.jpeg"
-        },
-        {
-          "title": "NVIDIA注目企業エナクティック、上半身特化ロボットで収益ゼロの戦略",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oQ1ZRdUY3UnlzODlPeHdRWnhJUlVzanA4MjNoUjFPd083b05OU2gwOEZlbk82RkY5cXk3c0RRZ2Ntd0p0LUZhV0tBaE5rR1hGd29oMG9sWk40RmFQRjFyMGpBanQtY09nNU85LQ?oc=5",
-          "source": "日経クロステック",
-          "publishedAt": "2026-08-18T20:00:00.000Z",
-          "summary": "NVIDIAが注目するロボット企業エナクティックは、上半身特化型ロボットの開発に注力し、現時点での収益はゼロながらも将来への布石を打っている。これは、特定のニッチ市場における高度なロボット技術開発への投資が活発化していることを示唆する。",
-          "impactScore": 7,
-          "imageUrl": ""
-        }
-      ]
-    },
-    "otherArticles": [
-      {
-        "title": "富士フイルムグループの先端半導体材料工場に新棟が完成　生産能力が3倍に向上",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news046.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-23T22:15:00.000Z"
-      },
-      {
-        "title": "前工程を知らずに後工程は理解できない～半導体製造全体の流れをつかもう～",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news013.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-23T22:00:00.000Z"
-      },
-      {
-        "title": "CTC、AIを活用した動画解析で品質向上と業務改善を支援する新ソリューションを提供",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news042.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-23T21:15:00.000Z"
-      },
-      {
-        "title": "常識を覆す「ガラス」活用！　300℃でコンデンサーを安定稼働可能な新材料",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news014.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-23T21:00:00.000Z"
-      },
-      {
-        "title": "Robots don’t run themselves: The workforce powering physical AI",
-        "link": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
-        "source": "The Robot Report",
-        "publishedAt": "2026-08-22T14:30:21.000Z"
-      },
-      {
-        "title": "The technology that could bring robot mowers to one in two American lawns",
-        "link": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
-        "source": "The Robot Report",
-        "publishedAt": "2026-08-22T12:30:08.000Z"
-      },
-      {
-        "title": "A hidden “on switch” in human DNA has finally been decoded",
-        "link": "https://www.sciencedaily.com/releases/2026/08/260823014943.htm",
-        "source": "ScienceDaily Robotics",
-        "publishedAt": "2026-08-23T12:14:40.000Z"
-      },
-      {
-        "title": "Enterprises winning with AI agents are limiting how much the agents can do alone",
-        "link": "https://venturebeat.com/orchestration/enterprises-winning-with-ai-agents-are-limiting-how-much-the-agents-can-do-alone",
-        "source": "VentureBeat",
-        "publishedAt": "2026-08-22T21:30:00.000Z"
-      },
-      {
-        "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
-        "link": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-23T10:02:00.000Z"
-      },
-      {
-        "title": "AI could make scientists do more work less well, not less work better, study argues",
-        "link": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-23T09:01:17.000Z"
-      },
-      {
-        "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
-        "link": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-23T08:15:28.000Z"
-      },
-      {
-        "title": "How China's gray market sells Claude tokens at a fraction of the price",
-        "link": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-23T07:48:33.000Z"
-      },
-      {
-        "title": "RayNeo's new AI glasses skip the camera, focus on text overlays",
-        "link": "https://the-decoder.com/rayneos-new-ai-glasses-skip-the-camera-focus-on-text-overlays/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-22T08:00:14.000Z"
-      },
-      {
-        "title": "Netflix tests language model as alternative to hand-built recommendation logic",
-        "link": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-22T07:30:16.000Z"
-      },
-      {
-        "title": "Psychological methods reveal major weaknesses in AI security testing",
-        "link": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-22T07:00:05.000Z"
-      },
-      {
-        "title": "Nvidia jetson debloating guide",
-        "link": "https://discourse.openrobotics.org/t/nvidia-jetson-debloating-guide/57606",
-        "source": "ROS Discourse",
-        "publishedAt": "2026-08-23T05:38:22.000Z"
-      },
-      {
-        "title": "How do I open the connector cap on an Ouster OS0-128 to inspect the internal ethernet connector? (fastener type unknown)",
-        "link": "https://discourse.openrobotics.org/t/how-do-i-open-the-connector-cap-on-an-ouster-os0-128-to-inspect-the-internal-ethernet-connector-fastener-type-unknown/57596",
-        "source": "ROS Discourse",
-        "publishedAt": "2026-08-22T00:45:18.000Z"
-      },
-      {
-        "title": "Travere Therapeutics Turns a Rare Disease Approval into Two Quarters of Accelerating Sales",
-        "link": "https://roboticsandautomationnews.com/2026/08/22/travere-therapeutics-turns-a-rare-disease-approval-into-two-quarters-of-accelerating-sales/104412/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-22T12:48:16.000Z"
-      },
-      {
-        "title": "NFTs vs Traditional Art Sales: Opportunities and Challenges",
-        "link": "https://roboticsandautomationnews.com/2026/08/21/nfts-vs-traditional-art-sales-opportunities-and-challenges/104387/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-21T10:25:31.000Z"
-      },
-      {
-        "title": "Key Reasons Contractors in Saskatchewan Prefer Steel Structures",
-        "link": "https://roboticsandautomationnews.com/2026/08/20/key-reasons-contractors-in-saskatchewan-prefer-steel-structures/104366/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-20T18:21:09.000Z"
-      },
-      {
-        "title": "5 Wholesale Custom Poly Mailer Companies for E-Commerce Brands in 2026",
-        "link": "https://roboticsandautomationnews.com/2026/08/20/5-wholesale-custom-poly-mailer-companies-for-e-commerce-brands-in-2026/104350/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-20T14:36:17.000Z"
-      },
-      {
-        "title": "How Data-Driven Quality Control Prevents Costly Defects in Modern Manufacturing",
-        "link": "https://roboticsandautomationnews.com/2026/08/20/how-data-driven-quality-control-prevents-costly-defects-in-modern-manufacturing/104346/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-20T13:54:24.000Z"
-      },
-      {
-        "title": "Simple Automation for an Older Factory",
-        "link": "https://roboticsandautomationnews.com/2026/08/20/simple-automation-for-an-older-factory/104341/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-20T08:57:40.000Z"
-      },
-      {
-        "title": "Best Managed Detection and Response Services for Enterprises With Industrial Operations",
-        "link": "https://roboticsandautomationnews.com/2026/08/20/best-managed-detection-and-response-services-for-enterprises-with-industrial-operations/104332/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-20T08:30:12.000Z"
-      },
-      {
-        "title": "The 5 Best AI Avatar Generators for Enterprise Teams in 2026",
-        "link": "https://roboticsandautomationnews.com/2026/08/20/the-5-best-ai-avatar-generators-for-enterprise-teams-in-2026/104320/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-20T08:16:50.000Z"
-      },
-      {
-        "title": "The Evidence That Can Start Disappearing After a Truck Accident",
-        "link": "https://roboticsandautomationnews.com/2026/08/19/the-evidence-that-can-start-disappearing-after-a-truck-accident/104313/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-19T17:25:16.000Z"
-      },
-      {
-        "title": "AI and the Future of Character Design: From Concept to Complete Visual Worlds",
-        "link": "https://roboticsandautomationnews.com/2026/08/19/ai-and-the-future-of-character-design-from-concept-to-complete-visual-worlds/104307/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-19T15:02:29.000Z"
-      },
-      {
-        "title": "How Automated T-Shirt Printing Machines Are Transforming Textile Production",
-        "link": "https://roboticsandautomationnews.com/2026/08/19/how-automated-t-shirt-printing-machines-are-transforming-textile-production/104289/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-19T14:14:55.000Z"
-      },
-      {
-        "title": "Claudeの「見えない透かし」、Anthropicが仕組み説明 隠し文字を入れるのではなく「単語の選び方」にパターン",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNU0ZBMlVNNmpJOFlOQ0IydmcwaU43Y1dZeUdpVi0zX2pPNGJqQU1DaDFXUXlsdWItbzBiLV9ZaXBmV3Jfby1Ocy1BcVVod3hvTVhPa0hiSU5ybXgteVJPYUVXWm5GTzA1UUZnU2l6ZVVuZw?oc=5",
-        "source": "Ledge.ai",
-        "publishedAt": "2026-08-18T01:05:17.000Z"
-      },
-      {
-        "title": "SpaceX傘下のCursor、コードホスティング「Origin」提供開始 GitHub同期に対応、AIエージェント時代を想定",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOZ0QxNnV2Q211RkdGRklPSlFXRWxDV2NoOWloQjVIOTl2bTV3bXJ5dVMxT0Z0SkZOMEZ6RFIyM083VklqT2dCV2dIM0JzYWlMTHdwUDZQMHBmeHNMU09ZaGp3?oc=5",
-        "source": "Ledge.ai",
-        "publishedAt": "2026-08-20T00:58:20.000Z"
-      },
-      {
-        "title": "OpenAI、GPT-5.6 Solを最大14倍高速化 Cerebras基盤の「Ultrafast」発表",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nNkZYMG5xS0piYkEwalNUVDY0bi1YWmI4R1R4NTl6dE9uOWhCTzFTVlZNdnBuNzhidmhVR1hhOElORUZscGQ1SjI1amRkQWJnV1Jla0M2RWRfR1NiVndHS0gwWVNvZzRYOGRFWEczUmM?oc=5",
-        "source": "Ledge.ai",
-        "publishedAt": "2026-08-18T06:00:50.000Z"
-      },
-      {
-        "title": "「IT主権」捨てた日本企業と官公庁、丸投げでソブリンAIとは片腹痛い",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YdGtGSHJZR3phTFh0Z1EyR0hSdUljcGJ5dlVHR2pYZlZOY01KbkltOXpVTmFfSC1seGwwQjhGeURNVGIxOHRtbnQ4TWNzdUJFZV8yampCWlVVMml4ZE5SWk1lVWNZVTZmcklPVQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "ルネサス、第3世代MRDIMM用チップセット 次世代AIサーバーへ布石",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45QWZZeFNQMXNUMmhrUnhMaVRab0tSdU9qLW44THUtX2NDckphWUxtek1sS0R3MEhRR0x6NkRqZ1ptNkdnMGpWY09ibzNRNVd4b1BOOWd1YVFlV2ZwcGM4RzFYS1V2Y28?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "トヨタが立ち向かう3つの課題、描く「次の夢」 成長の糧は失敗の場",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50Z3lNLXExSmFlbzVyTVhFRDRBcXJ2M1A0SzV3UW9xdDNJRUtTWWYxVC02aTlwSDdlaGR5M09wSkgyckFFVF9oa0ZoYWlXdjBDTUd0aW9wcmc5QlZTNGJMLWhPSUVKZ3RkWEhqRw?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "様々なファイル形式に対応した要約アプリを作る",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50MW1IU0hnZlJhQjBjR2xqZUMwY3FfdFNZc0xFLVYxeXAwOEpwRjJEOS1GOUZsQ01xc0lZdm5wVzhQekhNS3JmOEFnQVpmVGRMeFF1ZldPU05jRzl0N1NN?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-22T21:31:24.000Z"
-      },
-      {
-        "title": "ニュース",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWJDaUxZMWpuWS1BRkg1N1ZKWDduZkJXM29wd3FNem5qQi1vMGJ5ZE40SHJWOUFSU0d5VDJVRUVfMTBtUUJOYWZabHlJeUUtTmp0QmlIbTc3Q3diWFExVnVOZEJOdjh6NGdUeVAwM2M1QXZUN1JhcXdkQmVfaHR6ZEtvdFY0YmwtY3JVa2FxZm5BdVZsb1lsMg?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-22T00:06:03.000Z"
-      },
-      {
-        "title": "仮想リスクシナリオ2：「顧客の嘘」を勝手に捏造し始めた保険金査定AI？",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtSjRlcE52Y1d5dllHcnROdExhVFN6RTd5QkNFTGVLMFZtMHlST0NLTmp6WXEycXEtX0Q5TjRCVHdQeFoydklVRTNlTHdwOGJzQUFZckFHNkRld01uNHFVaHBmUXFPMDQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "大東建託が涼しい「快適トイレ」導入、熱中症対策費は1億5000万円",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwdkFVckowTHFXei1OV2NMbFJKTUZZalFteXpBRElCUmZIblZrSnh0Rng1c3VpRHR1QU5jcXBTRmJkQUppSEhQQWowRG84S2JFcnlRbnlqRVNnSU1IUTlqWVRFVWFqRzNaV293WQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "瞬時にお湯を沸かして使えるホテルの客室トイレ向け洗浄便座",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb01hQU5raDZOM1hMRXQ5QWIwZHpIVWdDYmcwWTJFT183QU1feGdtZldQLXVrRmRQNmt4SDJZSXN2MjNVS3ZlcnR2NzRzLUc0dWRrdWxMQjBVQnNuN3QxQ0swaFdRSm1MbE1CYUg0VWtBRHVTcWZ6MWtUc0JkUkg5V2x6ZmFlekE?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "国内自動車メーカーの6月生産、マツダとスズキが好調 日産・スバルは減少",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MM0hkWTZXX0MwWkMtbGNPZnpxbGN0RlJIOTVGaklxWjR4eE1OOWpZRVRhYnBGMUlCT3llMVpHRmRaVDV3SUFhMlB2cjd5U0h5eEw2c1duSDhicWhmZVZvdjI1UUZ4M011UjdvZw?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "要約アプリの全体像を押さえる、Gemini APIの利用環境を準備しよう",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zeUN4c2ZmUG4xMDRBNWFfNklydmllMTBMMWZsV19mYVRpQWFXMUZWck9jcUkzUlRmT2k5bTZUYVBxTFhjV0ZWelVqelFnSVo4OHBGbWtOZmpGMTZ6LVdsSnlZVTJfUWYyWklKWg?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "地盤調査報告書816件に不正、大和ハウス子会社で常態化した改ざんの手口",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWG9RSG5FSC04a0hveXNDYnYtWXpyVUdNSmVEaEpTNWl4elRObTdJMlR3cS1PRTUxNVRBeUhYOWRWOHoxQ0UxeHRsbjFRLUVZZlB3RnlSS2NFelNVRThwOTY4MnNubXZLWXByX3V5a2s0R2h1eW15ZnlQbjNRWHdMQ0xHUmpMQk0?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "光電融合の検査技術、CPOで難度増す シフトレフトが鍵",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iTkcwTTFkSU5XMEt1bUp1d0owXzR4YWRGQUIxOXhZbDBNa0wxVjJ3WjRNblRzOThiQVdRbkR1ZjU2dEhHNWZvdjZSbGdJZHpkRVZITS1sYVFXcnRXN1Y4M3FQNXJpang0azBucg?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "通信大手が「コンビニ」に急接近、ソフトバンクもセブン-イレブンと提携",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxdGYzaE1YN3F3bEJWY1RTMWdLY2xkblU0cTcxT2lBNWRQSm5oOTNiay1EeW5nVktUZDY4bTM3MGlHZ185cWU0OU9ZUG5XLVc3MXdONHNacUxQcEpoUjYzRkZWeHZrN0U?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "AWSが新ネットワーク「RNG」を国内に初導入、2026年内稼働の新拠点から",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrSEg1VVN1MnpkaDBmeFZJNWR3VHBzX0VXaHJyRFdFQ0xHSllFMXg1WkxVbkRvMzl5SG40NzVZMndRT1BNNXBCN2tvQ3p5Y1QyNURTR1ZkWW13Zmt3MVVmWGxVb1FpNnc?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-20T20:00:00.000Z"
-      },
-      {
-        "title": "350億円の基幹刷新を完遂した大東建託、社員に面白がってもらうDX目指す",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WdjlyU2Qwei11cWRNbkxlb0dKb1pHYThIbzc0ZnQ5UjJaNFpobjhEekV4THpJaUp4TVBoaGtGVkJKcXlsRHJDOGQ2V3dCZjk1b3JacGlpd3UzZEdGZndwUWhEWTNBd3hOaVRLUw?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "住友ゴム社長、技術とブランドの両輪で欧米開拓 ダンロップ買い戻しが布石",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ydm5pZk9LY1NIQWhYMklxd1BKQVZ5MGVkTXNGZXZwRlRzRC1MV3ZxWmx6d2xQQjhOdThQR1ZRajZ2djlQTTJkZDBIV202SmRvT0c5U290d0YtbGxtdGxhTEJrLVVXNnN4YW93UQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "従量課金で気付けば「AI貧乏」、1カ月で200万円超過の例も 利用禁止は悪手",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vXzRZTWFYYVk3eV9UeTdHZk1Pam92cEZYbVQ1blEwa3BMbHZHcTNqUy03bEp1ODAxUEg3OGQ5TGVDeVVORDQxekVTN3B0elY3NGJ1UGRHZUw2S2x3c2xGQm0xSXVkckJ1ajljMQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-20T20:00:00.000Z"
-      },
-      {
-        "title": "世界のパワートレーンのすみ分けとHEVの開発動向 中国勢の猛追に警戒",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hb2RSVVcwcklRNVdrUkVLWF90VDc0RG8tVVZocl9GTXBVQzBmTklKR2dKY0NMX3M2eWEzbTJoVVROOEhiREtVS0VmUUhKVTlqeTQ0ejBUSTE0OVBTNnhyZ2xvc0lIUHk2U0NxcQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "サイバー攻撃で悪用されるリスク、最先端の汎用モデル「フロンティアAI」",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8za3JBeFpCQzY3QmdFc1d2ZDdsenlRUlRsTm5rUk5ER3RoXzc5STFrTXNKY1FHT2EwX25NQzU5QUVFWXVwMEpRYi1hekZ5LWJBRkYybmM1UWVCUHdGVG5BbGRJaGVMMzFwdHEtOQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "AIパソコン「DGX Spark」試用リポート",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04Ml9fbms2Q241ZEtTT0hMMUdVaUl2ajJ4cUVlbjIwbmJTYUVrbkJCcWpYZDdOakN1b1Y5VURQVlBMUkZaVnl5WXQ5VEhJam9vOHl0YkV3VDB1aHU5TTNv?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "量子の脅威をビジネスチャンスに、迫る「Qデー」と日本企業の技術力",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbzgwaFFRTk54T2k3bGpPOUpYdjlJUFBPYmVNNFo2UTlaUXBiZFJnNGQyNU9ITFM0Skk3NW9xTnFhTVpOTzFXblhpSW5HS1MzcW9ITV9RdzJNY2xTdlhtNnloV3EzQlVndk9xU1JIWFhIUUYtbVpoMm5uT0dWNzNlNElKQURRbE5KTWE1Yk1PTko?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "足りぬAIメモリー、NANDや新型が主役に キオクシア「需要桁違い」／ラピダス、光電融合のけん引役になれるか",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12MmFuT1B2b2lJWWhYellQZlhPZUFVVExNNU5GX0pXQmlMUkxfNFBNWmREODljZFhLd1VXdkVtSXM3VGF0Z2xWTEYyZTBoRGJ6YThhY0RBaG9SbG16MWttWEh4UVg1TGNnTnc?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "炎天下のスマホは操作不能になることも、警告や充電停止は休ませる合図",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IcEJMYUs1UkxWSW13QTZLMzRQcXI1V2QySUJ5ak95NkNrUnl1MW91YU1OekJ2Ymp4Q2NFb2FWM2pCdnJhOC1zQ2pfNXhtR2U2WmNxdEtxY1dhM1MyU3dRaGxwY1NuREpsenJidg?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "なぜ世界の自動車メーカーはEVシフトに傾注したのか",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93Ul8teHNLS25lZ0p4b0hvSGtBMDloN0tRNXVFeWRZQ0FyUGVfakprVGthTkFEazRXdnQtRWQ1Y0ZycXNYeFNWbVJ2S1JRTnExN1FBbEN5N29aandLQVNUMXNLVE53aEd2dWpzSw?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-18T20:00:00.000Z"
-      },
-      {
-        "title": "首都高の荒川湾岸橋、トラス下につり足場 盛り替えながら大規模修繕",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMFp4djlUWnc1LU9RU1RCVmVyanU1LTRPSlVENUdsQmhjS0c4VjY0bnhiMllIUTdzdENnQTNnbW1CR3pvUHNIajNkSGluY19TZFNnRllaeC1NNEljU0psLUFzLWR1YVIwcjZFVWl1Ym5UOGp2Q0FVWHVTNmJpcmFKVTc5Q2x0UTJOcEswY1BqVQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "世界のセキュリティ・ラボから",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOekhlTWVaaE9pTUhHeHgxYVVieC11V1VIRkxRcHVVR0FWUFI4VXR2eldaRUc1NHJiVmRjLUhrMEJmVmVZcmE0bk84OXo5NlRGc1RCNXpsZUh5a0doSVc1T0tpTUpzR2J1Mm94eTNUYWlYV3BGX3hFaFphV2RTN1ktN214emp6bWVnYnk1RDhVV09CQnhCOHNNRWVsaEFiQk1oZWJSWGpXQWVJZERJbU40b1Jpdng2b0N5RTU1Sw?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-21T22:12:39.000Z"
-      },
-      {
-        "title": "米豪のSNS規制、若年層への情報発信に壁 日本企業は広報戦略見直しも（3ページ目）",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTlRaZ1VIN3ViSjhrcGpqdmpWUzF1cGlSbUwtRmFiYkE4RXI2d2pkdDV3Tm5UUWN1NkdxX3ptUU05NWtqSUFpWmd1ZXJXZ0lVNks5TkNsWDFrOVBOWk1wekhjeXhXWDRpUTNsZ0ZuR1dmbEJQLTJwZG9JaVdxWE9rVm5FaGQyNzdnUXc?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-17T20:00:00.000Z"
-      },
-      {
-        "title": "AIパソコンDGX Sparkを使ってみよう、基本は「普通」のLinuxパソコン",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUjdKQlZ5Qm9NN0YxTl9HS3Y3MWNsTzZTWG1wakZ0Slh2LXprWlVLN3pLZnZzVjBJSjJrd2V3QTYwZ29BS0JrclF4SjJDUzhhS3VVYnpzQXdsU2loa2VaYV9yYmZ3a3Z0UGhRQUVaTWJQTmluc0I0YVY3eTgyd2I3QkIxNnViMngwTTZnVXRfeVpfX0hIM0xJMVBn?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "清水建設がデータ管理基盤を5年かけて整備、全国行脚とFDEで活用浸透へ",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HOWJwQng1ZHR5a3BERE50Q0Q4YmNoRG1tSHFVYTh4eFE5SU1abjdlUEZFTl9mWUdDaW50dmRjUkxUa3pVeDMyTVpnOEVmM2x5cHA4Y3ZucEdUNndQSnNMdnhtOF9tSWNKeXFQMg?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "約3万円差の新型Galaxy Z Fold、標準とUltraで変わる使い勝手（2ページ目）",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc2RzVExkeGFpXzl0eF9qZUYzekVkVkRlaUtYcVFEVkREQlZYNWg4OE9aM2k4NjE5U2tXZ2tnVHJDeXFpMXl2SW5ETFVEM2NpQ2NvWjc5SDBOMkVzS3gzOUZuWWczazNwaldINmF0Y1hFVHliY29rRWFPbzRXWktlNFMzcG9tOWpJUjdDTlFMOTBQbGlyekRUZjV3?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T20:00:00.000Z"
-      },
-      {
-        "title": "ネットワーク・コマンド道場",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakU2dklCQkRPQTFHZWhHM3hQaHVyeXQ2NWxXUlBYbktBNEhzcU1BV3RGWXBEal9CcHppMmRWdjRFeWtiLXFlX2puT0g3bDRmYkJGRTQxcUdsemJ5NWFmVmpNRWxTem9RQ2hQTWI4RGduMHVEZVN2NnlfSThEM1ltODdmbmVVMU1za2YzUk8yUldISlZuTDFfNFZTdjF4N0s0REw1OXQwTUxRaGRSSlk0R0R0MDhIREdBUldkOHN3?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-22T00:44:44.000Z"
-      },
-      {
-        "title": "日経SYSTEMSの読みどころ",
-        "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNbFRydGhMaVVpYTV4WkktYzdVcUZ5QzN6SXFFa08wM0NTM0x6RDZ5TTJKUDhhREJKYjNkTWJ6dWRJZWVrMWRGMDBvVFk3enF0ZkkxSjg4ZXZDWkZ0amhENFdTZG51alJmaC05b2VkMGFxSUVaR2UwRmZpdjZUYXNqVmEzb0RZZm5FQTBGdTJLRTUxQi1nMlE3ZkJtYktpMjJ0eHE4Zk9MMUoxRUJHbEstOHd0N0MzNFFzdGI1SDFqdzVycFIyWjJhY2xvMWhqa1BhU0wwbEhyOTJpR242bzlZUmdpMDhfT1psTHFrSEc4dDFXS1V6VEtGYklVZnFha0NEdlBhbHh0WQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-22T04:11:21.000Z"
-      },
-      {
-        "title": "こんなに便利！Python使いこなし術",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSXRVcnoyODUxT1o3bXVNYXRVZDA2aGJTYW50YkU2ei0ybmhYeGdHaTh6aUJGQ3NxVGJLNnJUZFUyRG9CZFNuT1ZWSl9aeWhLNUtsRms0ZHh5YXIwSFpWa0g5aTVsbERKcEFsMkJjS01yWUEzRW5FZzV4Uk1OZ2R3cDVvS1l3UkVGUVpoYXRSMzlLZ3hhd3N4clBqMFB2Y2dlcFp4Y0Qyc2YtRnZZYlZoS1huQU5EbkdiQTVkWktLUktic1BybXRwbW9VNjZxZmZCY0V0MFdhV3VZRnVZTVFnNHFRbGR2M3Z4YWJB?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-22T00:36:37.000Z"
-      },
-      {
-        "title": "日経ものづくり（906ページ目）",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51SGJKYUt2UTBWYm11VGRkaWg1M19qWm93VUpCLXFFYWN6Z29oaUhwTGpQWG5sWXhNSnQ5c0VfMDByQTFzTC04dEVGREpFYWdvRzdtYm9PMFctU1B2ODZuSjNTZTBZY0ZudDFFOHJkVQ?oc=5",
-        "source": "日経クロステック",
-        "publishedAt": "2026-08-23T00:13:42.000Z"
       }
     ]
   }
