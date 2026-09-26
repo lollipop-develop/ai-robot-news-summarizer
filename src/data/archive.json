@@ -1,5 +1,572 @@
 [
   {
+    "date": "2026-09-26",
+    "trends": [
+      "高度なAIを活用したロボットの自律性向上と汎用化が加速しており、特にLLMを用いたタスクプランニングやフィジカルAIフレームワークの進化が顕著です。",
+      "実世界でのロボット展開に向けた技術革新が進展しており、シミュレーションと実環境のギャップを埋めるSim-to-Real転移、高精度なセンサー開発、触覚フィードバックによる制御が注目されています。",
+      "ヒューマノイド、四足歩行、モジュール型など多様なロボット形態が、特定の環境やタスクにおいて専門的な能力を高め、より高度で複雑な作業への適応性を広げています。"
+    ],
+    "categories": {
+      "論文・技術研究": [
+        {
+          "title": "Skydioが自律離着陸アームを備えた固定翼ドローンF10を発表",
+          "link": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-09-25T16:00:04.000Z",
+          "summary": "Skydioがロボットアームで自律的に離着陸を行う、魅力的な非対称デザインの固定翼ドローンF10を公開した。これにより、ドローンの運用効率と展開性が大幅に向上すると期待される。",
+          "impactScore": 7,
+          "imageUrl": "https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
+        },
+        {
+          "title": "MIT CSAILが「フィジカルAI」の概念について議論",
+          "link": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-09-25T16:00:04.000Z",
+          "summary": "MIT CSAILの研究者が「フィジカルAI」について、それは本質的に従来のロボット工学がAIの要素を取り入れたものだと指摘。この概念は、ロボットが物理世界を認識し、推論し、行動するためのシステム構築を目指す。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
+        },
+        {
+          "title": "ヒューマノイド「Digit」開発のAgility Robotics、車輪型ロボットを検討",
+          "link": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-09-25T14:08:27.000Z",
+          "summary": "ヒューマノイドロボット「Digit」を開発するAgility Roboticsが、多様な運用環境と顧客ニーズに対応するため、車輪型ロボットを含む様々なロボット設計を探求していると発表した。これにより、ロボットの適用範囲拡大を目指す。",
+          "impactScore": 7,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot.png"
+        },
+        {
+          "title": "GoogleのIntrinsicが物理AIプラットフォームの一部をオープンソース化",
+          "link": "https://robohub.org/an-open-source-approach-to-physical-ai-from-intrinsic/",
+          "source": "Robohub",
+          "publishedAt": "2026-09-25T08:41:15.000Z",
+          "summary": "GoogleのAIロボティクスグループIntrinsicは、高度なロボットアプリケーション構築のためのROS互換機能「Intrinsic Core™」の一部をオープンソース化すると発表した。これにより、物理AI開発コミュニティの活性化と技術革新を促進する。",
+          "impactScore": 8,
+          "imageUrl": "https://robohub.org/wp-content/uploads/2026/09/DeborahLupton-PopChips-1280x678-1-1024x542.jpg"
+        },
+        {
+          "title": "汎用サービスロボット向けLLM連携型タスクプランニングを開発",
+          "link": "https://arxiv.org/abs/2609.29043",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "RoboCup@Homeのタスクに対応するため、LLM連携アーキテクチャを用いた汎用サービスロボットのタスクプランニングが提案された。これにより、プロンプト長を約45%削減し、従来の単一プロンプト方式よりも一貫したプランニング性能を実現する。",
+          "impactScore": 8,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "進化する「HarnessPAI」：フィジカルAIのための汎用フレームワーク",
+          "link": "https://arxiv.org/abs/2609.29166",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "HarnessPAIは、フィジカルAIの行動モデルを強化する、モデルとエンボディメントに依存しないハーネスフレームワーク。実行フィードバックを利用してプログラムを改訂し、失敗から再利用可能なスキルを抽出することで、ロバストなロボット動作とタスク遂行能力を向上させる。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "注意機構付き動的メモリを備えたLLM誘導型モバイルマニピュレータ計画フレームワーク「ADM-Planner」",
+          "link": "https://arxiv.org/abs/2609.29212",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "LLMを活用し、モバイルマニピュレータの長期計画を実現する「ADM-Planner」が発表された。注意機構付き動的メモリを導入することで、オブジェクトの移動や発見といった環境変化に柔軟に対応し、計画の信頼性とタスク成功率を大幅に向上させる。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "独立可動手根骨を持つヒト模倣型ソフトロボット前腕が適応的剛性変調を実現",
+          "link": "https://arxiv.org/abs/2609.29176",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "独立した8つの手根骨と22の人工筋肉を持つヒト模倣型ソフトロボット前腕が開発された。これにより、人間の手首のような適応的な剛性変調能力を再現し、安定した器用な操作を可能にするロボット手首の設計原則を提供している。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "ヒューマノイドの足裏触覚学習「TactileStep」で接地を安定化",
+          "link": "https://arxiv.org/abs/2609.28959",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "ヒューマノイドロボットの足裏に圧力センサーを統合し、安全な着地と安定した支持を促す触覚学習フレームワーク「TactileStep」が開発された。Unitree G1ヒューマノイドでの実験により、着地時のピーク力を最大48.8%削減し、安定性を向上させた。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "深度ノイズにロバストな四足歩行ロボットのパルクール技術「DAWN」",
+          "link": "https://arxiv.org/abs/2609.29092",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "四足歩行ロボットの深度ノイズ耐性を向上させる「DAWN」フレームワークが開発された。ノイズ混じりの深度画像をエンコーダに入力し、クリーンな深度を再構築目標とすることで、手動調整なしに Unitree Go1 で階段昇降やギャップ越えを可能にする。",
+          "impactScore": 8,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "ドップラーLiDAR-IMU統合測位システム「FMCW-LIO」を発表",
+          "link": "https://arxiv.org/abs/2609.29374",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "新しいFMCWドップラーLiDARの速度測定を活用し、幾何学的特徴に依存しない堅牢なLiDAR-慣性統合測位システム「FMCW-LIO」が提案された。これにより、構造が退化した環境でも正確な自己位置推定と地図作成が可能となる。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "現場作業向けモジュール型再構成可能な空中・地上プラットフォーム「HARP」",
+          "link": "https://arxiv.org/abs/2609.28887",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "独立展開可能な空中ロボットが物理的に再構成して、現場作業用の協調型地上車両を形成するプラットフォーム「HARP」が発表された。偵察、経路計画、空中・地上移動モードの選択を統合し、エネルギー効率の高いペイロード輸送を可能にする。",
+          "impactScore": 9,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "title": "複数ロボットに適用可能な「CrossSafe」潜在安全フィルターを開発",
+          "link": "https://arxiv.org/abs/2609.28984",
+          "source": "arXiv",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "異なるロボット形態間で共通の安全推論を可能にする「CrossSafe」が提案された。ハミルトン・ヤコビ到達可能性解析を潜在空間で直接行い、単一ポリシーで5種類のロボットにおける衝突回避性能を向上させる。",
+          "impactScore": 8,
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        }
+      ],
+      "実用・社会実装": [
+        {
+          "title": "NTNが産業設備向けに軸受状態監視システムを提供",
+          "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news075.html",
+          "source": "MONOist",
+          "publishedAt": "2026-09-25T04:00:00.000Z",
+          "summary": "NTNが工場の産業設備向けに、軸受の状態を常時監視し異常兆候を早期検知するシステムを提供開始。4段階の可視化で設備の停止につながるトラブルを未然に防ぎ、予知保全を強化する。",
+          "impactScore": 7,
+          "imageUrl": "https://image.itmedia.co.jp/mn/articles/2609/25/l_mn_fanews_26091001.jpg"
+        },
+        {
+          "title": "Unitreeが上海世界技能大会で大規模なヒューマノイドロボットパフォーマンスを披露",
+          "link": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-09-25T16:00:04.000Z",
+          "summary": "Unitreeのヒューマノイドロボット19体が上海世界技能大会で120人のダンサーと共にパフォーマンスを披露。これはAI駆動の自律ロボット群による世界最大規模のショーであり、リアルタイムで世界中に配信された。",
+          "impactScore": 8,
+          "imageUrl": "https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
+        },
+        {
+          "title": "Universal Robotsがロボット統合を加速するg-Seriesを発表",
+          "link": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+          "source": "IEEE Spectrum",
+          "publishedAt": "2026-09-25T16:00:04.000Z",
+          "summary": "Universal Robotsは、カメラや高出力EOAT、制御システムとの直接接続を強化し、外部配線を削減したg-Seriesを発表。これにより、ロボットの自動化システムへの統合がよりクリーンかつ迅速になる。",
+          "impactScore": 7,
+          "imageUrl": "https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
+        }
+      ],
+      "ビジネス・投資・経済": [
+        {
+          "title": "Amazonがインディアナ州の新製造施設に1億ドルを投資",
+          "link": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
+          "source": "The Robot Report",
+          "publishedAt": "2026-09-25T18:59:01.000Z",
+          "summary": "Amazonは北米のフルフィルメントおよびロボティクスネットワークを強化するため、インディアナ州に新たな製造施設を建設し、1億ドルを投資すると発表した。これにより、物流の効率化とロボット技術の生産能力向上を目指す。",
+          "impactScore": 8,
+          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/09/amazon-robotics-manufacturing-line-featured.jpg"
+        }
+      ]
+    },
+    "otherArticles": [
+      {
+        "title": "古野電気、実スケール船の旋回運動をCFDで高精度に再現",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news040.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-25T07:00:00.000Z"
+      },
+      {
+        "title": "パナソニックオートが市販カーナビの生産を終了、1993年から30年以上の歴史に幕",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news105.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-25T06:45:00.000Z"
+      },
+      {
+        "title": "患者に合わせて現場でつくる頭蓋骨インプラントが世界初のFDA認可を取得",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news024.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-25T06:00:00.000Z"
+      },
+      {
+        "title": "ダイヤモンドスピン方式量子コンピュータのプロトタイプを開発",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news089.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-25T05:00:00.000Z"
+      },
+      {
+        "title": "ACFの生産能力を1.5倍に引き上げる101号館、建設の背景とは？",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news037.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-25T03:00:00.000Z"
+      },
+      {
+        "title": "遷移金属を含む窒化アルミ系半導体を作製、界面電子密度が3倍超に増加",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news046.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-25T02:00:00.000Z"
+      },
+      {
+        "title": "「G-SHOCK」デザインにAI活用、その狙いとは／ニデックの事業再生に向けた施策",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news071.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-25T01:30:00.000Z"
+      },
+      {
+        "title": "富士通、パランティアとAI活用拡大へ協業強化　安全なAI運用基盤整備へ",
+        "link": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news033.html",
+        "source": "MONOist",
+        "publishedAt": "2026-09-25T01:00:00.000Z"
+      },
+      {
+        "title": "General Robotics is betting on modular intelligence, not one robot brain",
+        "link": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-09-25T18:43:22.000Z"
+      },
+      {
+        "title": "Farmers are facing more pressure; CNH says robotics can help",
+        "link": "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/",
+        "source": "The Robot Report",
+        "publishedAt": "2026-09-25T12:18:36.000Z"
+      },
+      {
+        "title": "A hidden “on switch” in human DNA has finally been decoded",
+        "link": "https://www.sciencedaily.com/releases/2026/08/260823014943.htm",
+        "source": "ScienceDaily Robotics",
+        "publishedAt": "2026-08-23T12:14:40.000Z"
+      },
+      {
+        "title": "Robot Talk Episode 163 – Robots helping people, with Aaron Edsinger",
+        "link": "https://robohub.org/robot-talk-episode-163-robots-helping-people-with-aaron-edsinger/",
+        "source": "Robohub",
+        "publishedAt": "2026-09-25T11:54:14.000Z"
+      },
+      {
+        "title": "Interactive world simulator for robot policy training and evaluation",
+        "link": "https://robohub.org/interactive-world-simulator-for-robot-policy-training-and-evaluation/",
+        "source": "Robohub",
+        "publishedAt": "2026-07-20T08:39:44.000Z"
+      },
+      {
+        "title": "Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says",
+        "link": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T18:40:22.000Z"
+      },
+      {
+        "title": "Another Google Deepmind researcher quits, says building superintelligent AI soon is \"inherently irresponsible\"",
+        "link": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T17:55:51.000Z"
+      },
+      {
+        "title": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
+        "link": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T16:30:57.000Z"
+      },
+      {
+        "title": "Meta's Muse agent gives every user a full cloud computer running Ubuntu Linux",
+        "link": "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T12:22:27.000Z"
+      },
+      {
+        "title": "Intelligence doesn't come cheap as AI drives up costs for the NSA, hospitals, and insurers",
+        "link": "https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T12:03:24.000Z"
+      },
+      {
+        "title": "Google's \"Call for Me\" lets Gemini phone businesses for you",
+        "link": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T11:49:52.000Z"
+      },
+      {
+        "title": "Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year",
+        "link": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T10:43:15.000Z"
+      },
+      {
+        "title": "Ruby on Rails creator DHH says he's done writing code by hand",
+        "link": "https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T09:50:41.000Z"
+      },
+      {
+        "title": "White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers",
+        "link": "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
+        "source": "The Decoder",
+        "publishedAt": "2026-09-25T08:12:14.000Z"
+      },
+      {
+        "title": "Question on local vs. remote inference placement for perception tasks",
+        "link": "https://discourse.openrobotics.org/t/question-on-local-vs-remote-inference-placement-for-perception-tasks/58394",
+        "source": "ROS Discourse",
+        "publishedAt": "2026-09-25T12:50:06.000Z"
+      },
+      {
+        "title": "Know Your Body: A Harness for Direct and Self-Improving Robot Control with VLMs",
+        "link": "https://arxiv.org/abs/2609.28530",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
+        "link": "https://arxiv.org/abs/2609.28660",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "OA-MPPI: Occlusion-Aware Model Predictive Path Integral Control for UAV Flight",
+        "link": "https://arxiv.org/abs/2609.28709",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Temporal Learning for End-Effector Position Estimation under Aerodynamic Disturbances in Aerial Continuum Manipulation",
+        "link": "https://arxiv.org/abs/2609.28716",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "TAPESIM: Efficient Simulation of Adhesive Tape Dispensing for Robotic Manipulation",
+        "link": "https://arxiv.org/abs/2609.28766",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Human-in-the-Loop Geospatial Annotation for Rapid Dataset Construction in Field-Deployed UAV Systems",
+        "link": "https://arxiv.org/abs/2609.28767",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "OCC4M: Object-Centric 4D Memory for Spatiotemporal Reasoning in Long-Horizon Manipulation",
+        "link": "https://arxiv.org/abs/2609.28798",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "An Analysis of Streaming Deep Reinforcement Learning for Adaptive Continual Learning in Robotics",
+        "link": "https://arxiv.org/abs/2609.28807",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "FlyCNS: Connectome-Grounded Information Organization for Communication-Constrained Embodied Control",
+        "link": "https://arxiv.org/abs/2609.28816",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "KeyGen: Unsupervised Keypoint based Object-Centric Representations for Category-Level Policy Generalization",
+        "link": "https://arxiv.org/abs/2609.28818",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Uncertainty-Gated Exploration Noise Suppresses Task Collapse in Online RL Fine-Tuning of a Flow-Matching Vision-Language-Action Policy",
+        "link": "https://arxiv.org/abs/2609.28838",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Online Sim-to-Real Adaptation via Closed-Loop System Modeling",
+        "link": "https://arxiv.org/abs/2609.28878",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Robots That Take Initiative: A Framework for Building and Evaluating Proactive Robots",
+        "link": "https://arxiv.org/abs/2609.28910",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Koopman-Accelerated Model-Based Diffusion for Real-Time Robot Control",
+        "link": "https://arxiv.org/abs/2609.28920",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Streaming-WAM: Action-Conditioned World-Action Model for Asynchronous Robot Manipulation",
+        "link": "https://arxiv.org/abs/2609.28927",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "A Field-Deployable GNSS-based Navigation Stack for Outdoor Mobile Robots",
+        "link": "https://arxiv.org/abs/2609.28933",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "RoboRecover: Benchmarking Robot Policy Recovery under Execution Deviations",
+        "link": "https://arxiv.org/abs/2609.28952",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "ActGaze: Learning Action-Grounded Gaze through Counterfactual Visual Interventions for High-Precision Manipulation",
+        "link": "https://arxiv.org/abs/2609.28955",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory",
+        "link": "https://arxiv.org/abs/2609.28960",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Sim-to-Real Aware End-to-End Learning Environment for Micromobility",
+        "link": "https://arxiv.org/abs/2609.28969",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "AquaMend: Minimal Re-probing and Conditional Rollback for Latent-Belief Failures in Embodied Agents",
+        "link": "https://arxiv.org/abs/2609.28973",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "ReVNM: Learning-Based Visual Navigation from a Remote Camera",
+        "link": "https://arxiv.org/abs/2609.28976",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "CALM: Current Aligned Link Manipulation for Single Arm Oversized Object Lifting",
+        "link": "https://arxiv.org/abs/2609.29017",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Outcome-Sensitive Motion Search for Impact-Aware Dexterous Catching",
+        "link": "https://arxiv.org/abs/2609.29020",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "CAMP: Cooperative Arm-Hand Motion Planning in Constrained Spaces",
+        "link": "https://arxiv.org/abs/2609.29021",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Simple Torque-Observation Alignment for Zero-Shot Sim-to-Real Grasping with a Direct-Drive Gripper",
+        "link": "https://arxiv.org/abs/2609.29031",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "DA-GRD: Decision-Aware Grasp-Relevant Disambiguation for tactile recovery under perception-to-execution mismatches",
+        "link": "https://arxiv.org/abs/2609.29065",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "From Passive Execution to Active Exploration: Agentic Embodied Manipulation in Realistic Environments",
+        "link": "https://arxiv.org/abs/2609.29091",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "A Support-Enhanced Granular-Jamming Gripper for RL-based Grasping with Continuum Manipulators",
+        "link": "https://arxiv.org/abs/2609.29093",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "TRACE: Interactive Bi-Directional Tracing of Monochrome Cables Amid Clutter",
+        "link": "https://arxiv.org/abs/2609.29103",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Modeling Load-, Velocity-, and Temperature-Dependent Transmission Errors of Cycloidal Drives for Industrial Robots Using Fourier Series",
+        "link": "https://arxiv.org/abs/2609.29112",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "A Tendon-Driven Robotic Jellyfish with Constrained Soft Actuation and Depth Control via Reinforcement Learning",
+        "link": "https://arxiv.org/abs/2609.29132",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "OREN-X: Octree Residual Network for Real-Time Multi-Modal Mapping",
+        "link": "https://arxiv.org/abs/2609.29157",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Representation World Model: Learning States, Transition and Executable Plans in Representation",
+        "link": "https://arxiv.org/abs/2609.29171",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Continuous Online Fault Detection for Mobile Robots via Adaptive Edge Models",
+        "link": "https://arxiv.org/abs/2609.29194",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Assessing the Impact of Fleet Size on Crowdsourced Mapping Using a Dissimilarity Measure",
+        "link": "https://arxiv.org/abs/2609.29198",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution",
+        "link": "https://arxiv.org/abs/2609.29204",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Dense-Joint-Based Obstacle-Aided Locomotion with a Joint-Repositionable Snake Robot",
+        "link": "https://arxiv.org/abs/2609.29261",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "EgoSpeedUp: Transferring Human Manipulation Tempo to Robot Policies",
+        "link": "https://arxiv.org/abs/2609.29310",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "A Simple Gripper Interface for Simulator-Agnostic Cloth Manipulation",
+        "link": "https://arxiv.org/abs/2609.29340",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "C-space Analysis using Tropical Geometry",
+        "link": "https://arxiv.org/abs/2609.29355",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Free-Init: Scan-Free, Motion-Free, and Correspondence-Free Initialization for Doppler LiDAR-Inertial Systems",
+        "link": "https://arxiv.org/abs/2609.29375",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      },
+      {
+        "title": "Decoupled Early Exits for Task-Dependent Compute Allocation in Flow-Matching VLAs",
+        "link": "https://arxiv.org/abs/2609.29382",
+        "source": "arXiv",
+        "publishedAt": "2026-09-25T04:00:00.000Z"
+      }
+    ]
+  },
+  {
     "date": "2026-09-25",
     "trends": [
       "フィジカルAIの演算能力と知覚能力が飛躍的に向上し、医療、宇宙、インフラ検査といった高度な実世界タスクへの適用が進展しています。",
@@ -15819,555 +16386,6 @@
         "link": "https://arxiv.org/abs/2608.22067",
         "source": "arXiv",
         "publishedAt": "2026-08-25T04:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-25",
-    "trends": [
-      "人型ロボットと物理AI基盤技術への投資と開発が加速",
-      "自律システムの安全性、堅牢性、効率性を高める技術の進化",
-      "未踏領域（宇宙・医療・建設）や複雑な環境へのロボット適用拡大"
-    ],
-    "categories": {
-      "論文・技術研究": [
-        {
-          "title": "宇宙ロボットによる地球外資源採掘：探査、サンプリング、抽出の包括的レビュー",
-          "link": "https://arxiv.org/abs/2608.21358",
-          "source": "arXiv",
-          "publishedAt": "2026-08-24T04:00:00.000Z",
-          "summary": "宇宙ロボットを用いた地球外資源採掘（宇宙マイニング）に関する包括的な研究レビューが発表された。自律型ロボットシステムが過酷な宇宙環境と通信遅延に対応するために不可欠であり、探査から抽出までの6段階のシステムアーキテクチャが定義されている。これは今後の宇宙経済を支える上で重要な技術であり、主要な課題と研究ロードマップが示された。",
-          "impactScore": 9,
-          "imageUrl": "https://cdn.arxiv.org/html/2608.21358v1/pics/space_mining.png"
-        },
-        {
-          "title": "次世代LeRobotポリシーをROS2/Zenoh SDKで実ロボットへ展開",
-          "link": "https://discourse.openrobotics.org/t/running-next-generation-lerobot-policies-using-lerobot-robot-ros2-zenoh-sdk/57625",
-          "source": "ROS Discourse",
-          "publishedAt": "2026-08-24T08:37:38.000Z",
-          "summary": "Hugging FaceのLeRobotエコシステムの最新ロボット学習モデルを、オープンソースのSDKを通じてROBOTIS製マニピュレーターに適用する手法が示された。この統合により、NVIDIA Isaac GR00T N1.7などの先進VLAモデルを実機で迅速にテストし、ロボット学習の進化を加速させる実践的なフレームワークを提供する。",
-          "impactScore": 8,
-          "imageUrl": "https://emoji.discourse-cdn.com/noto/clapper_board.png?v=15"
-        },
-        {
-          "title": "物理情報に基づく探索でポリシーエージェントのロボット操作を強化する「PhysCaP」",
-          "link": "https://arxiv.org/abs/2608.21031",
-          "source": "arXiv",
-          "publishedAt": "2026-08-24T04:00:00.000Z",
-          "summary": "ロボット操作において、受動的な観察だけでは推測が難しい物理的特性を、物理情報に基づく探索で補完する「PhysCaP」が提案された。訓練不要の物理特性抽出モジュールとデュアルエージェント設計により、少ないインタラクションで隠れた物理特性を効率的に推定し、タスク遂行能力を向上させる。",
-          "impactScore": 8,
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "title": "路側連携型自動運転向けV2XBench：データプラットフォームから視覚言語エンドツーエンド推論まで",
-          "link": "https://arxiv.org/abs/2608.21032",
-          "source": "arXiv",
-          "publishedAt": "2026-08-24T04:00:00.000Z",
-          "summary": "路側センサーと車両センサーを同期させる路側連携型自動運転シミュレーションプラットフォーム「V2XBench」が発表された。視覚言語モデル（VLM）を活用し、複数視点からの情報を統合して推論と経路計画を行う「AURORA」フレームワークは、障害物が多いシナリオで高い走行成功率を達成した。",
-          "impactScore": 8,
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "title": "模倣学習を超えた自己改善型ロボットポリシー：オフポリシーQプランニングによる実現",
-          "link": "https://arxiv.org/abs/2608.21204",
-          "source": "arXiv",
-          "publishedAt": "2026-08-24T04:00:00.000Z",
-          "summary": "ロボットの模倣学習（BC）が抱える自己改善の限界を克服するため、オフポリシーQ関数をBCポリシーと組み合わせる「Qプランニング」が提案された。この手法は、成功と失敗の両方の展開データを学習に活用することで、BCポリシーの重みを変更せずにQ関数のみをオンラインで微調整し、ロボットのタスク成功率と効率を大幅に向上させる。",
-          "impactScore": 8,
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "title": "汎用ロボット基盤モデル「GEN-1.5」が単一事例からの新タスク学習を実現",
-          "link": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
-          "source": "IEEE Spectrum",
-          "publishedAt": "2026-08-21T16:00:01.000Z",
-          "summary": "新しいロボット基盤モデル「GEN-1.5」は、勾配更新やファインチューニングなしに、たった一つの実演から新しい物理タスクを数秒で学習できる。これは、物理世界における汎用知能の構築に向けた重要な一歩であり、ワンショットおよびフューショット学習、さらにはゼロショットの物理的汎化能力を示す。",
-          "impactScore": 8,
-          "imageUrl": "https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
-        },
-        {
-          "title": "音響エネルギーで駆動する極小ドローンを開発",
-          "link": "https://robohub.org/these-tiny-drones-are-powered-by-sound/",
-          "source": "Robohub",
-          "publishedAt": "2026-08-24T09:53:49.000Z",
-          "summary": "EPFLの研究者らが、ヘルムホルツ共鳴現象を利用して音響エネルギーで駆動する極小ドローンを開発した。この画期的な技術は、従来のバッテリーやプロペラに依存しない新たなマイクロ飛行ロボットの可能性を開くもので、超小型ロボットの応用範囲を広げる。",
-          "impactScore": 7,
-          "imageUrl": "https://robohub.org/these-tiny-drones-are-powered-by-sound/"
-        },
-        {
-          "title": "内視鏡双方向制御のための言語曖昧性除去VLAポリシー「EndoLIFT」",
-          "link": "https://arxiv.org/abs/2608.20478",
-          "source": "arXiv",
-          "publishedAt": "2026-08-24T04:00:00.000Z",
-          "summary": "内視鏡の双方向制御における「意図のエイリアシング」問題を解決するため、言語指示と潜在条件付き行動モデルを組み合わせたVLAポリシー「EndoLIFT」が提案された。これにより、視覚シーンが変わらない状況でも、言語指示に基づき正確な軸方向の動作を選択し、内視鏡操作の成功率と信頼性を大幅に向上させる。",
-          "impactScore": 7,
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "title": "ロボット操作学習を加速するコアラグリッパー：柔軟な設計とデータ収集デバイスの共開発",
-          "link": "https://arxiv.org/abs/2608.20546",
-          "source": "arXiv",
-          "publishedAt": "2026-08-24T04:00:00.000Z",
-          "summary": "大規模なロボット操作データセット収集の需要に応えるため、データ収集とロボット実行デバイスを同時に設計する「コアラグリッパー」システムが開発された。この新しいハイブリッド型グリッパーは、高い器用さと把持能力を保ちつつ、スケーラビリティと使いやすさを両立し、多様な物体に対して安定した把持を実現する。",
-          "impactScore": 7,
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "title": "物理的接触なしに触覚センサーを操作する「GhostTac」：電磁干渉による攻撃",
-          "link": "https://arxiv.org/abs/2608.20817",
-          "source": "arXiv",
-          "publishedAt": "2026-08-24T04:00:00.000Z",
-          "summary": "触覚センサーへの物理的接触を伴わない初の攻撃手法「GhostTac」が発表された。電磁干渉（EMI）を利用してセンサー出力を精密に操作し、誤った測定値を誘発する。これにより、ロボットが物体を損傷したり人間を負傷させたりする有害な動作を引き起こす可能性があるため、ロボットシステムにおける物理層セキュリティの重要性が高まる。",
-          "impactScore": 7,
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        }
-      ],
-      "実用・社会実装": [
-        {
-          "title": "J&T Expressが無人配送フリートを1,900台超に拡大、自動仕分けシステムも22基追加",
-          "link": "https://roboticsandautomationnews.com/2026/08/24/jt-express-adds-22-automated-sorting-systems-as-unmanned-delivery-fleet-tops-1900/104432/",
-          "source": "Robotics & Automation News",
-          "publishedAt": "2026-08-24T15:18:58.000Z",
-          "summary": "J&T Global Expressは、2026年上半期に自動仕分けシステムを22基追加し、総数を435基に拡大した。また、無人配送車両の導入も87%増の1,900台超に達し、物流ネットワークの広範な自動化を推進している。",
-          "impactScore": 8,
-          "imageUrl": "https://roboticsandautomationnews.com/wp-content/uploads/2026/08/JT-Express-warehouse-1.jpeg"
-        },
-        {
-          "title": "自律ロボット向けINS「Pollux 3」がROS2統合で高精度ナビゲーションを実現",
-          "link": "https://discourse.openrobotics.org/t/aeron-systems-pollux-3-ins-integration-with-ros2-for-autonomous-robotics/57639",
-          "source": "ROS Discourse",
-          "publishedAt": "2026-08-24T16:17:18.000Z",
-          "summary": "Aeron Systemsは、GNSS支援型慣性ナビゲーションシステム（INS）「Pollux 3」向けにROS2ドライバーを開発した。これにより、UAVやUGV、AMRなどの自律ロボットが、GNSS障害下でも継続的かつ高精度な位置、速度、姿勢データを取得可能となり、堅牢なナビゲーションを実現する。",
-          "impactScore": 7,
-          "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/ros/original/3X/e/2/e2580bc2d1e3398c20399c8735572f973453b1a4.png"
-        },
-        {
-          "title": "既存の重機をロボット化するGravis Roboticsのレトロフィットキット",
-          "link": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
-          "source": "IEEE Spectrum",
-          "publishedAt": "2026-08-21T16:00:01.000Z",
-          "summary": "Gravis Roboticsは、市販の油圧式重機をロボットに変換するレトロフィットキット「Gravis Rack」を発表した。カメラやLiDAR、オンボードコンピューティングにより、重機が周囲を認識・理解し、学習ベースの制御で作業限界に近い動きを可能にし、建設現場の自動化を加速させる。",
-          "impactScore": 7,
-          "imageUrl": "https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1245&height=700&coordinates=0%2C0%2C0%2C0"
-        }
-      ],
-      "ビジネス・投資・経済": [
-        {
-          "title": "小鵬汽車の人型ロボット部門Dogotixが9億ドルを調達",
-          "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
-          "source": "The Robot Report",
-          "publishedAt": "2026-08-24T20:07:09.000Z",
-          "summary": "小鵬汽車の人型ロボット部門Dogotixが9億ドルの資金調達を完了し、企業価値は63億ドルに達した。これにより、大規模な人型ロボットの生産体制を確立し、市場投入を加速させる計画である。",
-          "impactScore": 9,
-          "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2026/08/xpeng-dogotix-humanoid-robot-scaled.jpg"
-        },
-        {
-          "title": "日鉄ソリューションズがiAutoと資本業務提携、SDV・AIDV分野での価値創出へ",
-          "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news030.html",
-          "source": "MONOist",
-          "publishedAt": "2026-08-24T01:00:00.000Z",
-          "summary": "日鉄ソリューションズはiAutoと資本業務提携し、AI・データ活用技術と車載ソフトウェア技術を融合する。これにより、Software Defined Vehicle (SDV) やAI-Driven Vehicle (AIDV) 分野における新たな価値創造と事業拡大を目指す。",
-          "impactScore": 7,
-          "imageUrl": "https://image.itmedia.co.jp/images/logo/1200x630_500x500_mn.gif"
-        }
-      ]
-    },
-    "otherArticles": [
-      {
-        "title": "日本TCSは「IT主権」と「AI主権」の確立を支援　5つの柱で社内外の業務変革を推進",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/25/news042.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T22:15:00.000Z"
-      },
-      {
-        "title": "破過曲線を用いた吸着塔の設計計算",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/25/news009.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T22:00:00.000Z"
-      },
-      {
-        "title": "東レがMIでCFRPリサイクル材料設計を効率化、実験数万件を削減",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/25/news021.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T21:30:00.000Z"
-      },
-      {
-        "title": "スズキが軽EV「e SKY」の先行情報を公開、「Vision e-Sky」と何が違う？",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/25/news032.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T21:15:00.000Z"
-      },
-      {
-        "title": "独自の脳波同調技術で睡眠課題解決に挑む睡眠支援デバイス「Sleepisol＋」とは",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/25/news003.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T21:00:00.000Z"
-      },
-      {
-        "title": "水道水での洗顔をやめると肌が変わる！　弱酸性軟水でバリア機能向上",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news085.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T06:00:00.000Z"
-      },
-      {
-        "title": "BMW採用のUWBソリューション、車内検知とハンズフリー機能を単一システムで展開",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news051.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T05:00:00.000Z"
-      },
-      {
-        "title": "PUDUの搬送ロボット向けけん引ジグ、標準カゴ台車にワンタッチで連結",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news038.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "AI×設計開発ニュースまとめ（2026年5～6月）",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news020.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T03:30:00.000Z"
-      },
-      {
-        "title": "「調達起点でサプライチェーンをデザインする」ということ",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news078.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T03:00:00.000Z"
-      },
-      {
-        "title": "20周年「かるた企画」進行中、良作ぞろいで編集部もうれしい悲鳴",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news060.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T02:30:00.000Z"
-      },
-      {
-        "title": "太陽HDと東北大、次世代基板向けPPE材料の耐溶剤性メカニズム解明",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news031.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T02:00:00.000Z"
-      },
-      {
-        "title": "高温コンデンサー向け誘電材料を開発／インテルがロボット導入の調査結果を発表",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news062.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T01:30:00.000Z"
-      },
-      {
-        "title": "ストラタシス、子ども向け3Dプリント義肢で連携拡大　認定中古3Dプリンタの寄贈も",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news029.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-24T00:00:00.000Z"
-      },
-      {
-        "title": "日本製造業の固定資産はどれだけ多い？　国際比較で見えた“重い構造”",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news021.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-23T23:00:00.000Z"
-      },
-      {
-        "title": "低コストでEV向け次世代LIBの性能向上、不可逆容量の課題を解決する新技術",
-        "link": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news025.html",
-        "source": "MONOist",
-        "publishedAt": "2026-08-23T22:30:00.000Z"
-      },
-      {
-        "title": "Anthropic’s new Claude Tag update lets its Slack agent read the full conversation — and jump in unprompted",
-        "link": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted",
-        "source": "VentureBeat",
-        "publishedAt": "2026-08-24T13:00:00.000Z"
-      },
-      {
-        "title": "IBM’s next-gen mainframe chip is the first to run Arm and Z workloads on the same cores ",
-        "link": "https://venturebeat.com/infrastructure/ibms-next-gen-mainframe-chip-is-the-first-to-run-arm-and-z-workloads-on-the-same-cores",
-        "source": "VentureBeat",
-        "publishedAt": "2026-08-24T11:00:00.000Z"
-      },
-      {
-        "title": "Enterprise AI agents are only as reliable as the messiest documents behind them",
-        "link": "https://venturebeat.com/orchestration/enterprise-ai-agents-are-only-as-reliable-as-the-messiest-documents-behind-them",
-        "source": "VentureBeat",
-        "publishedAt": "2026-08-23T23:00:00.000Z"
-      },
-      {
-        "title": "Pew study confirms sharp rise of AI-written text on the web since ChatGPT's launch",
-        "link": "https://the-decoder.com/pew-study-shows-ai-written-text-has-surged-across-the-web-since-late-2022/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-24T18:22:49.000Z"
-      },
-      {
-        "title": "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents",
-        "link": "https://the-decoder.com/alibabas-wan3-0-generates-ai-videos-up-to-30-seconds-long-from-text-images-and-documents/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-24T15:35:03.000Z"
-      },
-      {
-        "title": "Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project",
-        "link": "https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-24T14:23:55.000Z"
-      },
-      {
-        "title": "Thomson Reuters bets $40M on owning its AI instead of renting from OpenAI or Anthropic",
-        "link": "https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-24T12:59:43.000Z"
-      },
-      {
-        "title": "Cerebras unveils CS-4 with double the performance on the same chip",
-        "link": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-24T10:16:06.000Z"
-      },
-      {
-        "title": "AI chatbots regularly link pregnant users to anti-abortion websites without disclosure",
-        "link": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-24T10:00:51.000Z"
-      },
-      {
-        "title": "Nvidia in talks to invest in Perplexity at $30 billion-plus valuation",
-        "link": "https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/",
-        "source": "The Decoder",
-        "publishedAt": "2026-08-24T08:44:48.000Z"
-      },
-      {
-        "title": "Open Source Mech integrated with ROS Noetic",
-        "link": "https://discourse.openrobotics.org/t/open-source-mech-integrated-with-ros-noetic/57645",
-        "source": "ROS Discourse",
-        "publishedAt": "2026-08-24T22:22:11.000Z"
-      },
-      {
-        "title": "Ros2_pulse: per-topic rates and node liveness, including intra-process, on stock binaries",
-        "link": "https://discourse.openrobotics.org/t/ros2-pulse-per-topic-rates-and-node-liveness-including-intra-process-on-stock-binaries/57637",
-        "source": "ROS Discourse",
-        "publishedAt": "2026-08-24T16:16:29.000Z"
-      },
-      {
-        "title": "About the Filipino Users Group category",
-        "link": "https://discourse.openrobotics.org/t/about-the-filipino-users-group-category/57623",
-        "source": "ROS Discourse",
-        "publishedAt": "2026-08-23T23:46:50.000Z"
-      },
-      {
-        "title": "Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion",
-        "link": "https://arxiv.org/abs/2608.20433",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Logic-VLA: A Temporal Logic Conditioned Vision-Language-Action Model",
-        "link": "https://arxiv.org/abs/2608.20556",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Nonlinear Model Predictive Control for Trajectory Tracking of Differentially Flat Fixed-Wing Aerial Systems",
-        "link": "https://arxiv.org/abs/2608.20655",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Rethinking Demonstration Unlearning in Imitation Learning for Robotics",
-        "link": "https://arxiv.org/abs/2608.20784",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards",
-        "link": "https://arxiv.org/abs/2608.20823",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface",
-        "link": "https://arxiv.org/abs/2608.20852",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "IMU-Free Body-Frame State Estimation with Sparse Scene Flow for Quadcopters",
-        "link": "https://arxiv.org/abs/2608.20891",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Scalable Distributed Simulation-Based Testing for Automated Driving Systems",
-        "link": "https://arxiv.org/abs/2608.20904",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Fast Coordinated Bimanual Motion Planning With Hard Constraints",
-        "link": "https://arxiv.org/abs/2608.20946",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight",
-        "link": "https://arxiv.org/abs/2608.20948",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Hybrid Roller-Jamming Gripper for Object Acquisition and Retention Under Pose Uncertainty",
-        "link": "https://arxiv.org/abs/2608.20962",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "TaPeR: Probabilistic Recovery of Sparse Task Precedence Graphs from a Handful of Demonstrations",
-        "link": "https://arxiv.org/abs/2608.21035",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "FF-MPCC: High-speed Agile Formation Flight with Model Predictive Contouring Control",
-        "link": "https://arxiv.org/abs/2608.21056",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Teaching is a Process: The TOSS Framework for Modeling Human Teaching Decisions in Human-Interactive Robot Learning",
-        "link": "https://arxiv.org/abs/2608.21083",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "SRL-MPC: Shape-Aware Reinforcement Learned Model Predictive Control",
-        "link": "https://arxiv.org/abs/2608.21175",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "The Coastline as a Structural Constraint: Harnessing Scene Geometry for Autonomous Surface Vessel Localization",
-        "link": "https://arxiv.org/abs/2608.21276",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation",
-        "link": "https://arxiv.org/abs/2608.21290",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "NeSAM: Neuro-Symbolic Kinodynamics with Soil Adaptation for Off-Road Mobility",
-        "link": "https://arxiv.org/abs/2608.21330",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations",
-        "link": "https://arxiv.org/abs/2608.21355",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Learning-Based Measurement-Robust Control Barrier Functions for Obstacle Avoidance under State Estimation Error",
-        "link": "https://arxiv.org/abs/2608.20467",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Pneumatic Units for Logic-based Sequential Excitation (PULSE) in Wearable Haptic Devices",
-        "link": "https://arxiv.org/abs/2608.20626",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation",
-        "link": "https://arxiv.org/abs/2608.20735",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Multi-Modal Traffic Sign Detection with Semantic Attributes for Autonomous Driving",
-        "link": "https://arxiv.org/abs/2608.20874",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving",
-        "link": "https://arxiv.org/abs/2608.20890",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "A Safety-Driven Architectural Framework for Fail-Operational Drone Swarms in Critical Missions",
-        "link": "https://arxiv.org/abs/2608.20906",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Decoupling Policy Extraction for Offline Reinforcement Learning",
-        "link": "https://arxiv.org/abs/2608.20909",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Graph-Operator World Models for Morphology-Parameter Generalization in Continuous Control",
-        "link": "https://arxiv.org/abs/2608.20936",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
-        "link": "https://arxiv.org/abs/2608.21247",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Unified Branch-and-Bound Search for the Steiner Traveling Salesman Problem on Graphs of Convex Sets",
-        "link": "https://arxiv.org/abs/2608.21319",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
-        "link": "https://arxiv.org/abs/2608.21332",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Rapid Manufacturing of Lightweight Drone Frames Using Single-Tow Architected Composites",
-        "link": "https://arxiv.org/abs/2509.09024",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Update-Free On-Policy Steering via Verifiers",
-        "link": "https://arxiv.org/abs/2603.10282",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "A Deep Reinforcement Learning Framework for Closed-loop Guidance of Fish Schools via Virtual Agents",
-        "link": "https://arxiv.org/abs/2603.28200",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Flatness-Preserving Residual Learning for Real-Time Tight Quadrotor Formation Flight",
-        "link": "https://arxiv.org/abs/2607.12275",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "Can you see how I learn? Human observers' inferences about Reinforcement Learning agents' learning processes",
-        "link": "https://arxiv.org/abs/2506.13583",
-        "source": "arXiv",
-        "publishedAt": "2026-08-24T04:00:00.000Z"
-      },
-      {
-        "title": "AI Shopping Traffic Surges 1,200% as Ecommerce Moves Toward Agent-Led Discovery",
-        "link": "https://roboticsandautomationnews.com/2026/08/24/ai-shopping-traffic-surges-1200-as-ecommerce-moves-toward-agent-led-discovery/104441/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-24T17:47:02.000Z"
-      },
-      {
-        "title": "Abacus.AI Complete Guide: ChatLLM, Personal Agents, Supercomputer and Studio Explained",
-        "link": "https://roboticsandautomationnews.com/2026/08/24/abacus-ai-complete-guide-chatllm-personal-agents-supercomputer-and-studio-explained/104435/",
-        "source": "Robotics & Automation News",
-        "publishedAt": "2026-08-24T15:56:34.000Z"
       }
     ]
   }
